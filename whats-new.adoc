@@ -18,6 +18,39 @@ Découvrez les nouveautés de Cloud Sync.
 
 
 
+== 5 février 2023
+
+
+
+=== Prise en charge supplémentaire d'Azure Data Lake Storage Gen2, ONTAP S3 Storage et NFS
+
+Cloud Sync prend désormais en charge des relations de synchronisation supplémentaires pour le stockage ONTAP S3 et NFS :
+
+* Stockage ONTAP S3 sur NFS
+* NFS vers le stockage ONTAP S3
+
+
+Cloud Sync peut également prendre en charge Azure Data Lake Gen2 Storage, source et cible pour :
+
+* Serveur NFS
+* Serveur SMB
+* Stockage ONTAP S3
+* StorageGRID
+* IBM Cloud Object Storage
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["En savoir plus sur les relations de synchronisation prises en charge"].
+
+
+
+=== Effectuer la mise à niveau vers le système d'exploitation du courtier de données Amazon Web Services
+
+Le système d'exploitation des courtiers de données AWS a été mis à niveau vers Amazon Linux 2022.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["En savoir plus sur l'instance de courtier de données dans AWS"].
+
+
+
 == 3 janvier 2023
 
 
