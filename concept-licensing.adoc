@@ -16,6 +16,8 @@ summary: Il existe deux façons de payer les relations de synchronisation après
 [role="lead"]
 Il existe deux façons de payer les relations de synchronisation après la fin de votre essai gratuit de 14 jours. La première option consiste à vous abonner à AWS ou Azure pour payer à votre gré ou à payer annuellement. La deuxième option consiste à acheter des licences directement auprès de NetApp.
 
+Les licences doivent être gérées via Cloud Sync ou le site Web applicable et *non* par le biais d'un portefeuille numérique.
+
 
 
 == Abonnement Marketplace

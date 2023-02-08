@@ -13,6 +13,7 @@ summary: 'Il existe deux façons de payer les relations de synchronisation aprè
 :imagesdir: ./media/
 
 
+[role="lead"]
 Il existe deux façons de payer les relations de synchronisation après la fin de votre essai gratuit de 14 jours. La première option consiste à vous abonner à AWS ou Azure pour payer à votre gré ou à payer annuellement. La deuxième option consiste à acheter des licences directement auprès de NetApp.
 
 Vous pouvez vous abonner à AWS Marketplace ou à Azure Marketplace. Vous ne pouvez pas vous abonner des deux.
@@ -21,11 +22,10 @@ Vous avez la possibilité d'utiliser les licences de NetApp avec un abonnement M
 
 link:concept-licensing.html["En savoir plus sur le fonctionnement des licences"].
 
-.Que dois-je payer immédiatement après 8217 la fin de mon essai gratuit ?
-****
-Vous ne pourrez pas créer de relations supplémentaires. Les relations existantes ne sont pas supprimées, mais vous ne pouvez pas y apporter de modifications tant que vous n'êtes pas abonné ou que vous n'avez pas saisi de licence.
+Si vous ne payez pas immédiatement après la fin de votre essai gratuit, vous ne pourrez pas créer de relations supplémentaires. Les relations existantes ne sont pas supprimées, mais vous ne pouvez pas y apporter de modifications tant que vous n'êtes pas abonné ou que vous n'avez pas saisi de licence.
 
-****
+Les licences doivent être gérées via Cloud Sync ou le site Web applicable et *non* par le biais d'un portefeuille numérique.
+
 
 
 == [[aws]]abonnement d'AWS
@@ -106,7 +106,7 @@ Vous devez disposer du numéro de série correspondant à votre licence, ainsi q
 
 == Mise à jour d'une licence
 
-Si vous avez prolongé une licence Cloud Sync que vous avez achetée auprès de NetApp, la nouvelle date d'expiration ne sera pas automatiquement mise à jour dans Cloud Sync. Vous devez ajouter de nouveau la licence pour actualiser la date d'expiration.
+Si vous avez prolongé une licence Cloud Sync que vous avez achetée auprès de NetApp, la nouvelle date d'expiration ne sera pas automatiquement mise à jour dans Cloud Sync. Vous devez ajouter de nouveau la licence pour actualiser la date d'expiration. Les licences doivent être gérées via Cloud Sync ou le site Web applicable et *non* par le biais d'un portefeuille numérique.
 
 .Étapes
 . Dans BlueXP, cliquez sur *Sync > licences*.
