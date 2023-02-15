@@ -85,7 +85,13 @@ Un courtier de données contacte les terminaux suivants :
 | \https://s3._region_.amazonaws.com par exemple : s3.us-east-2.amazonaws.com:443https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region["Consultez la documentation AWS pour obtenir la liste des terminaux S3"^] | Pour contacter Amazon S3 lorsqu'une relation de synchronisation inclut une rubrique S3. 
 
 
-| \https://s3.us-east-1.amazonaws.com | Lorsque vous téléchargez les journaux de courtier de données depuis Cloud Sync, le courtier zippe son répertoire des journaux et télécharge les journaux vers un compartiment S3 prédéfini dans la région US-East-1. 
+| \https://s3.amazonaws.com/ | Lorsque vous téléchargez les journaux de courtier de données depuis Cloud Sync, le courtier zippe son répertoire des journaux et télécharge les journaux vers un compartiment S3 prédéfini dans la région US-East-1. 
+
+
+| \https://storage.googleapis.com/ | Pour contacter Google Cloud lorsqu'une relation de synchronisation utilise un compartiment GCP. 
+
+
+| https://_storage-account_.blob.core.windows.net[]Si vous utilisez Azure Data Lake Gen2 :https://_storage-account_.dfs.core.windows.net[]Où _Storage-account_ est le compte de stockage source de l'utilisateur. | Pour ouvrir le proxy vers l'adresse du compte de stockage Azure d'un utilisateur. 
 
 
 | \https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com | Pour contacter le service Cloud Sync. 
@@ -101,6 +107,12 @@ Un courtier de données contacte les terminaux suivants :
 
 
 | \https://console.bluexp.netapp.com/ \https://netapp-cloud-account.auth0.com | Pour contacter Cloud Data SENSE lorsque vous utilisez Data Sense pour sélectionner les fichiers source d'une nouvelle relation de synchronisation. 
+
+
+| \https://pubsub.googleapis.com | Si vous créez une relation de synchronisation continue à partir d'un compte de stockage Google. 
+
+
+| https://_storage-account_.queue.core.windows.net[]\https://management.azure.com/subscriptions/${_subscriptionId_} /resourceGroups/${_ResourceGroup_}/providers/Microsoft.EventGrid/* où _Storage-account_ est le compte de stockage source de l'utilisateur, _abeptionID_ est l'ID d'abonnement source et _ResourceGroup_ est le groupe de ressources source. | Si vous créez une relation de synchronisation continue à partir d'un compte de stockage Azure. 
 |===
 
 
