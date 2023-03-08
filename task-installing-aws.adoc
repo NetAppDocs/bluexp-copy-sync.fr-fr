@@ -93,12 +93,12 @@ Si vous préférez ne pas fournir de touches d'accès, cliquez sur le lien en ba
 
 +
 video::video_cloud_sync.mp4[width=848,height=480]
-. Si vous avez saisi une clé d'accès AWS, sélectionnez un emplacement pour l'instance, sélectionnez une paire de clés, choisissez d'activer ou non une adresse IP publique, puis sélectionnez un rôle IAM existant, ou laissez le champ vide afin que Cloud Sync crée le rôle pour vous.
+. Si vous avez saisi une clé d'accès AWS, sélectionnez un emplacement pour l'instance, sélectionnez une paire de clés, choisissez d'activer une adresse IP publique et sélectionnez un rôle IAM existant ou laissez le champ vide pour que Cloud Sync crée le rôle pour vous. Vous avez également la possibilité de chiffrer votre courtier de données à l'aide d'une clé KMS.
 +
 Si vous choisissez votre propre rôle IAM, <<iam,vous devrez fournir les autorisations requises>>.
 
 +
-image:screenshot_aws_data_broker.gif["Capture d'écran des informations dont vous avez besoin pour déployer un courtier de données dans AWS."]
+image:screenshot_aws_data_broker.png["Capture d'écran des informations dont vous avez besoin pour déployer un courtier de données dans AWS."]
 
 . Spécifiez une configuration proxy, si un proxy est requis pour l'accès Internet dans le VPC.
 . Une fois le courtier de données disponible, cliquez sur *Continuer* dans Cloud Sync.

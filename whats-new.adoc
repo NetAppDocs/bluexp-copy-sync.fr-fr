@@ -18,6 +18,18 @@ Découvrez les nouveautés de Cloud Sync.
 
 
 
+== 7 mars 2023
+
+
+
+=== Cryptage EBS pour les courtiers de données AWS
+
+Vous pouvez désormais chiffrer les volumes des courtiers de données AWS à l'aide d'une clé KMS installée sur votre compte.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["En savoir plus sur la création d'un courtier en données dans AWS"].
+
+
+
 == 5 février 2023
 
 
