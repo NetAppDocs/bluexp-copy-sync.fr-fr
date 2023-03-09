@@ -729,9 +729,7 @@
   <block id="e9b07c7994659b124430d0e4daaeabba" category="paragraph">Lorsque vous créez un nouveau groupe de courtiers de données, choisissez l'option courtier de données sur site pour installer le logiciel de courtier de données sur un hôte Linux sur site ou sur un hôte Linux existant dans le cloud. Cloud Sync vous guide tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à vous préparer à l'installation.</block>
   <block id="ace028fe1c5dc8fb39091440d89fd9fd" category="section-title">Configuration requise pour l'hôte Linux</block>
   <block id="17308c76959fcb971603b7274a57c128" category="list-text">*Système d'exploitation* :</block>
-  <block id="1a2698aea8c50e468148bb22c28bf853" category="list-text">CentOS 7.0, 7.7 et 8.0</block>
   <block id="735736a0904d4dd4641f1c0b6e93ac7a" category="paragraph">CentOS Stream n'est pas pris en charge.</block>
-  <block id="438c134de8e5d04ae91ce2fc1f48f114" category="list-text">Red Hat Enterprise Linux 7.7 et 8.0</block>
   <block id="083265255bba92c059791cd3a9803274" category="list-text">Ubuntu Server 20.04 LTS</block>
   <block id="473733802c02f67f489689f787461e62" category="list-text">SUSE Linux Enterprise Server 15 SP1</block>
   <block id="a855786065eb842829e76727ee601d59" category="paragraph">La commande<block ref="bcb2c9ba3070afceaf76b8ceb5e4a15b" prefix=" " category="inline-code"></block> doit être exécuté sur l'hôte avant d'installer le courtier de données.</block>
@@ -1785,4 +1783,7 @@
   <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">Il s'agit d'un ID généré par le système qui correspond à votre courrier électronique. Sur la page *NSS Management*, vous pouvez afficher votre courriel à partir du <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
   <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *mettre à jour les informations d'identification* dans le <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Cette option vous invite à vous reconnecter. Notez que le jeton de ces comptes expire après 90 jours. Une notification sera publiée pour vous en informer.</block>
+  <block id="deb96f2e04c20206372a663fc1e22a63" category="list-text">CentOS 8.0 et 8.5</block>
+  <block id="baefe41a5ed4db05fd518fa49dfbd17d" category="list-text">Red Hat Enterprise Linux 8.0 et 8.5</block>
+  <block id="cf76271f717860ca93c6825568b0690d" category="list-text">Rocky Linux 9</block>
 </blocks>

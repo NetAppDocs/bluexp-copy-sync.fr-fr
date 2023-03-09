@@ -22,11 +22,12 @@ Lorsque vous créez un nouveau groupe de courtiers de données, choisissez l'opt
 
 * *Système d'exploitation* :
 +
-** CentOS 7.0, 7.7 et 8.0
+** CentOS 8.0 et 8.5
 +
 CentOS Stream n'est pas pris en charge.
 
-** Red Hat Enterprise Linux 7.7 et 8.0
+** Red Hat Enterprise Linux 8.0 et 8.5
+** Rocky Linux 9
 ** Ubuntu Server 20.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
 +
