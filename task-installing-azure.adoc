@@ -99,6 +99,8 @@ Assurez-vous que le compte utilisateur Azure que vous utilisez pour déployer le
                     "Microsoft.EventGrid/systemTopics/delete",
                     "Microsoft.EventGrid/eventSubscriptions/write",
                     "Microsoft.Storage/storageAccounts/write"
+                    "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read"
+                    "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write"
 ----
 ....
     ],

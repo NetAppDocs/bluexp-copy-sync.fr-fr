@@ -66,9 +66,9 @@ Les frais de ressources sont liés aux coûts de calcul et de stockage pour l'ex
 
 
 
-=== Comment le service Cloud Sync est-il facturé ?
+=== Comment Cloud Sync est-il facturé et comment gérer mon abonnement ?
 
-Il existe deux façons de payer les relations de synchronisation après la fin de votre essai gratuit de 14 jours. La première option consiste à vous abonner à AWS ou Azure, ce qui vous permet de payer à votre gré ou de payer chaque année. La deuxième option consiste à acheter des licences directement auprès de NetApp.
+Il existe deux façons de payer les relations de synchronisation après la fin de votre essai gratuit de 14 jours. La première option consiste à vous abonner à AWS ou Azure, ce qui vous permet de payer à votre gré ou de payer chaque année. La deuxième option consiste à acheter des licences directement auprès de NetApp. Dans chaque cas, votre abonnement sera géré via votre Marketplace fournisseur et *NOT* via l'interface utilisateur de Cloud Sync.
 
 
 
