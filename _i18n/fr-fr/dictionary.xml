@@ -1686,8 +1686,6 @@
   <block id="6f03cbd3fc922dc5d183fbe3d74efdce" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> Créez votre première relation de synchronisation</block>
   <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">Cinq</block>
   <block id="157e0bfc3909da4f9907f6377e70c5d2" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> Payez vos relations de synchronisation après la fin de votre essai gratuit</block>
-  <block id="f8fb6587a32dba313e626666cb0364a8" category="list-text">Exclure les noms de répertoire</block>
-  <block id="baf659a0894b31eff8d9e87af59af9e5" category="list-text">Spécifiez un maximum de 15 répertoires à exclure de la synchronisation en saisissant leur nom et en appuyant sur *entrée*. Les répertoires .copy-Offload, .snapshot, ~snapshot sont exclus par défaut. Si vous souhaitez les inclure dans votre synchronisation, veuillez nous contacter.</block>
   <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">Un nouveau paramètre *exclure les noms de répertoire* est maintenant disponible pour les relations de synchronisation. Les utilisateurs peuvent filtrer un maximum de 15 noms de répertoire depuis leur synchronisation. Les répertoires .copy-Offload, .snapshot, ~snapshot sont exclus par défaut.</block>
   <block id="109c4a4872ddbe9910e974f2b3dd0211" category="admonition">Si vous utilisez un compte de messagerie personnel sans ID client, vous pouvez utiliser l’ID client par défaut « QC3AgHk6qdbmC7Yyr82ApBwaaJLwRrNO ».</block>
   <block id="003d136e5089a4f9ae0f1df3f6fc37fa" category="list-text">Rocky Linux 9.0</block>
@@ -1708,7 +1706,6 @@
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service pour Google Cloud</block>
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
-  <block id="0129054e0108c57f3077a26c197cd09b" category="list-text">Amazon Linux 2022</block>
   <block id="55157331e0485d25f0d603400a66335e" category="section-title">5 février 2023</block>
   <block id="761cba7c96f916f975634bfd465401cb" category="section-title">Prise en charge supplémentaire d'Azure Data Lake Storage Gen2, ONTAP S3 Storage et NFS</block>
   <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">Cloud Sync prend désormais en charge des relations de synchronisation supplémentaires pour le stockage ONTAP S3 et NFS :</block>
@@ -1762,7 +1759,6 @@
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Icône avec trois points qui apparaît dans la dernière colonne du tableau</block>
   <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">Pour gérer un dossier de demande de support existant, cliquez sur <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> et en sélectionnant l'une des options disponibles :</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Voir cas*: Afficher tous les détails sur un cas spécifique.</block>
-  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">*Mettre à jour les notes de cas* : fournir des détails supplémentaires sur votre problème.</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Fermer le cas* : fournissez des détails sur la raison pour laquelle vous fermez le cas et cliquez sur *Fermer le cas*.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Capture d'écran qui montre les actions que vous pouvez effectuer après avoir sélectionné le menu dans la dernière colonne du tableau.</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
@@ -1786,4 +1782,19 @@
   <block id="cf76271f717860ca93c6825568b0690d" category="list-text">Rocky Linux 9</block>
   <block id="596076690835c26754302829a7e9d63a" category="section-title">Comment Cloud Sync est-il facturé et comment gérer mon abonnement ?</block>
   <block id="0e7db6545d4c588d1ef20cc2f2744070" category="paragraph">Il existe deux façons de payer les relations de synchronisation après la fin de votre essai gratuit de 14 jours. La première option consiste à vous abonner à AWS ou Azure, ce qui vous permet de payer à votre gré ou de payer chaque année. La deuxième option consiste à acheter des licences directement auprès de NetApp. Dans chaque cas, votre abonnement sera géré via votre Marketplace fournisseur et *NOT* via l'interface utilisateur de Cloud Sync.</block>
+  <block id="f2eca1a3494c7396a49a597072cc600d" category="list-text">Amazon Linux 2023</block>
+  <block id="36df1b975561708b246ef1801ea416e5" category="list-text">FSX pour ONTAP</block>
+  <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">ONTAP sur site</block>
+  <block id="9e1b606dc521567131be8e8f6b621511" category="list-text">Exclure les répertoires</block>
+  <block id="303de3e45b2f15b7f37aa50b2824f981" category="list-text">Spécifiez un maximum de 15 répertoires à exclure de la synchronisation en saisissant leur nom ou leur chemin complet de répertoire et en appuyant sur *entrée*. Les répertoires .copy-Offload, .snapshot, ~snapshot sont exclus par défaut. Si vous souhaitez les inclure dans votre synchronisation, veuillez nous contacter.</block>
+  <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2 avril 2023</block>
+  <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Prise en charge supplémentaire des relations Azure Data Lake Storage Gen2</block>
+  <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">Vous pouvez désormais créer des relations de synchronisation avec Azure Data Lake Storage Gen2 en tant que source et cible avec les éléments suivants :</block>
+  <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">Filtrer les répertoires par chemin complet</block>
+  <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">En plus de filtrer les répertoires par nom, vous pouvez maintenant filtrer les répertoires par leur chemin complet.</block>
+  <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">En savoir plus sur le paramètre exclure les répertoires</block>
+  <block id="c73e2e476b1a94d1d032f8e0828dcd20" category="paragraph"><block ref="f4b5f7467e10befa1f2855925c118fa5" category="inline-link-rx"></block>.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Pièce jointe (facultatif)* : téléchargez jusqu'à cinq pièces jointes, une à la fois.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Les pièces jointes sont limitées à 25 Mo par fichier. Les extensions de fichier suivantes sont prises en charge : txt, log, PDF, jpg/JPEG, rtf, doc/docx, xls/xlsx et csv.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Mettre à jour les notes de cas* : fournir des détails supplémentaires sur votre problème ou sélectionner *Télécharger les fichiers* pour joindre jusqu'à cinq fichiers.</block>
 </blocks>

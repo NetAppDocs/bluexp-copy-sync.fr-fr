@@ -18,6 +18,32 @@ Découvrez les nouveautés de Cloud Sync.
 
 
 
+== 2 avril 2023
+
+
+
+=== Prise en charge supplémentaire des relations Azure Data Lake Storage Gen2
+
+Vous pouvez désormais créer des relations de synchronisation avec Azure Data Lake Storage Gen2 en tant que source et cible avec les éléments suivants :
+
+* Azure NetApp Files
+* Amazon FSX pour ONTAP
+* Cloud Volumes ONTAP
+* ONTAP sur site
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["En savoir plus sur les relations de synchronisation prises en charge"].
+
+
+
+=== Filtrer les répertoires par chemin complet
+
+En plus de filtrer les répertoires par nom, vous pouvez maintenant filtrer les répertoires par leur chemin complet.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["En savoir plus sur le paramètre exclure les répertoires"].
+
+
+
 == 7 mars 2023
 
 

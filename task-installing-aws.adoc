@@ -123,6 +123,6 @@ Cloud Sync crée un courtier en données dans AWS à l'aide de la configuration 
 Type d'instance:: m5n.xlarge lorsque disponible dans la région, sinon m5.xlarge
 VCPU:: 4
 RAM:: 16 GO
-Système d'exploitation:: Amazon Linux 2022
+Système d'exploitation:: Amazon Linux 2023
 Taille et type de disque:: SSD GP2 10 GO
 
