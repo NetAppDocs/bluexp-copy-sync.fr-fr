@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: api-sync.html 
 keywords: api, apis, rest, restful, authorization, getting started, body, header, token, reference, expired token, expires, expired, token expired, list apis, 202, https status code 202, status code 202, id, id field, box 
-summary: 'Les fonctionnalités Cloud Sync disponibles via l"interface utilisateur Web sont également disponibles via les API RESTful.' 
+summary: 'Les fonctionnalités de copie et de synchronisation BlueXP disponibles via l"interface utilisateur web sont également disponibles via les API RESTful.' 
 ---
-= API Cloud Sync
+= API de copie et de synchronisation BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: 'Les fonctionnalités Cloud Sync disponibles via l"interface utilisateu
 
 
 [role="lead"]
-Les fonctionnalités de Cloud Sync disponibles via l'interface utilisateur web sont également disponibles via l'API RESTful.
+Les fonctionnalités de copie et de synchronisation BlueXP disponibles via l'interface utilisateur web sont également disponibles via l'API RESTful.
 
 
 
 == Pour commencer
 
-Pour commencer à utiliser l'API Cloud Sync, vous devez obtenir un jeton utilisateur et votre identifiant de compte BlueXP. Vous devrez ajouter le jeton et l'ID de compte à l'en-tête autorisation lorsque vous passez des appels API.
+Pour commencer à utiliser la copie et l'API de synchronisation BlueXP, vous devez obtenir un jeton utilisateur et votre identifiant de compte BlueXP. Vous devrez ajouter le jeton et l'ID de compte à l'en-tête autorisation lorsque vous passez des appels API.
 
 .Étapes
 . Obtenez un jeton utilisateur auprès de NetApp BlueXP.
@@ -94,7 +94,7 @@ La réponse de l'API inclut un champ " expire_in " qui indique la date d'expirat
 
 == Référence API
 
-La documentation de chaque API Cloud Sync est disponible à partir de https://api.cloudsync.netapp.com/docs[].
+Vous trouverez la documentation de chaque copie BlueXP et de chaque API de synchronisation dans https://api.cloudsync.netapp.com/docs[].
 
 
 

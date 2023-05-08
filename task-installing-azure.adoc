@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-azure.html 
 keywords: data broker, install, azure, networking, permissions, regions, install data broker in azure, install in azure, deploy in azure, deploy data broker in azure, networking requirements, port, ports, 443, port 443, ntp, network time protocol, azure data broker 
-summary: 'Lorsque vous créez un nouveau courtier en données, choisissez l"option Azure Data Broker pour déployer le logiciel de courtier en données sur une nouvelle machine virtuelle dans un vnet. Cloud Sync vous guide tout au long du processus d"installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à vous préparer à l"installation.' 
+summary: 'Lorsque vous créez un nouveau courtier en données, choisissez l"option Azure Data Broker pour déployer le logiciel de courtier en données sur une nouvelle machine virtuelle dans un vnet. La copie et la synchronisation BlueXP vous guident tout au long du processus d"installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l"installation.' 
 ---
 = Création d'un nouveau courtier en données dans Azure
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Lorsque vous créez un nouveau courtier en données, choisissez l"opti
 
 
 [role="lead"]
-Lorsque vous créez un nouveau groupe de courtiers de données, choisissez Microsoft Azure pour déployer le logiciel de courtier de données sur une nouvelle machine virtuelle dans un vnet. Cloud Sync vous guide tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à vous préparer à l'installation.
+Lorsque vous créez un nouveau groupe de courtiers de données, choisissez Microsoft Azure pour déployer le logiciel de courtier de données sur une nouvelle machine virtuelle dans un vnet. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l'installation.
 
 Vous avez également la possibilité d'installer le courtier de données sur un hôte Linux existant dans le cloud ou sur votre site. link:task-installing-linux.html["En savoir plus >>"].
 
@@ -34,9 +34,9 @@ Le logiciel de courtier de données s'exécute automatiquement en tant que root 
 
 == Configuration réseau requise
 
-* Le courtier de données a besoin d'une connexion Internet sortante pour pouvoir interroger le service Cloud Sync sur le port 443.
+* Le courtier en données a besoin d'une connexion Internet sortante afin que le service de copie et de synchronisation BlueXP puisse effectuer les tâches sur le port 443.
 +
-Lorsque Cloud Sync déploie le courtier de données dans Azure, il crée un groupe de sécurité qui active la communication sortante requise.
+Lorsque la copie et la synchronisation BlueXP déploient le courtier en données dans Azure, il crée un groupe de sécurité pour permettre la communication sortante requise.
 
 +
 Si vous devez limiter la connectivité sortante, reportez-vous à la section link:reference-networking.html["liste des noeuds finaux que le courtier de données contacte"].
@@ -176,7 +176,7 @@ NOTE: Si vous prévoyez d'implémenter une relation de synchronisation continue,
 +
 Ce processus peut prendre jusqu'à 7 minutes.
 
-. Dans Cloud Sync, cliquez sur *Continuer* une fois le courtier de données disponible.
+. Dans la copie et la synchronisation BlueXP, cliquez sur *Continuer* une fois le courtier en données disponible.
 . Complétez les pages de l'assistant pour créer la nouvelle relation de synchronisation.
 
 
@@ -185,7 +185,7 @@ Vous avez déployé un courtier en données dans Azure et créé une nouvelle re
 
 .Vous obtenez un message sur le besoin d'un consentement de l'administrateur ?
 ****
-Si Microsoft vous informe que l'administrateur doit être approuvé, car Cloud Sync doit disposer d'une autorisation d'accès aux ressources de votre entreprise pour votre compte, vous disposez de deux options :
+Si Microsoft vous informe que l'approbation de l'administrateur est requise car la copie et la synchronisation BlueXP doivent être autorisées à accéder aux ressources de votre entreprise en votre nom, deux options sont disponibles :
 
 . Demandez à votre administrateur AD de vous fournir l'autorisation suivante :
 +
@@ -205,7 +205,7 @@ Comme indiqué dans l'URL, notre URL d'application est \https://cloudsync.netapp
 
 == Détails sur la machine virtuelle du courtier de données
 
-Cloud Sync crée un courtier de données dans Azure à l'aide de la configuration suivante.
+La copie et la synchronisation BlueXP créent un courtier en données dans Azure à l'aide de la configuration suivante.
 
 Type de VM:: Standard DS4 v2
 VCPU:: 8

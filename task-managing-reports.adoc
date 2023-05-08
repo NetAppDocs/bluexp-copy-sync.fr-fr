@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-managing-reports.html 
-keywords: reports, sync reports, cloud sync reports, report errors, path reports 
+keywords: reports, sync reports, BlueXP copy and sync reports, report errors, path reports 
 summary: 'Créez et consultez des rapports pour obtenir des informations utiles avec l"aide du personnel NetApp afin de régler la configuration d"un courtier de données et d"améliorer les performances.' 
 ---
 = Création et affichage de rapports pour ajuster votre configuration
@@ -25,7 +25,7 @@ Chaque rapport fournit des détails détaillés sur un chemin dans une relation 
 
 == Création de rapports
 
-Chaque fois que vous créez un rapport, Cloud Sync analyse le chemin, puis compile les informations dans un rapport.
+Chaque fois que vous créez un rapport, la copie et la synchronisation BlueXP analysent le chemin d'accès, puis compile les détails dans un rapport.
 
 .Étapes
 . Cliquez sur *Sync > Rapports*.
@@ -67,9 +67,9 @@ image:screenshot-sync-download-report.png["Capture d'écran de l'option Téléch
 
 == Affichage des erreurs de rapport
 
-Le tableau chemins identifie si des erreurs sont présentes dans le rapport le plus récent. Une erreur identifie un problème rencontré par Cloud Sync lors de la numérisation du chemin.
+Le tableau chemins identifie si des erreurs sont présentes dans le rapport le plus récent. Une erreur identifie un problème auquel la copie et la synchronisation BlueXP étaient confrontées lors de l'analyse du chemin.
 
-Par exemple, un rapport peut contenir des erreurs d'autorisation refusée. Ce type d'erreur peut affecter la capacité de Cloud Sync à analyser l'ensemble des fichiers et des répertoires.
+Par exemple, un rapport peut contenir des erreurs d'autorisation refusée. Ce type d'erreur peut affecter la capacité de copie et de synchronisation BlueXP à analyser l'ensemble des fichiers et des répertoires.
 
 Après avoir vu la liste des erreurs, vous pouvez résoudre les problèmes et exécuter à nouveau le rapport.
 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-supported-relationships.html 
 keywords: supported sync relationships, support, supported target, supported source 
-summary: 'Cloud Sync vous permet de synchroniser les données d"une source vers une cible. Il s"agit d"une relation de synchronisation. Vous devez comprendre les relations prises en charge avant de commencer.' 
+summary: 'La copie et la synchronisation BlueXP vous permettent de synchroniser des données entre une source et une cible. Il s"agit d"une relation de synchronisation. Vous devez comprendre les relations prises en charge avant de commencer.' 
 ---
 = Relations de synchronisation prises en charge
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Cloud Sync vous permet de synchroniser les données d"une source vers 
 
 
 [role="lead"]
-Cloud Sync vous permet de synchroniser les données d'une source vers une cible. Il s'agit d'une relation de synchronisation. Vous devez comprendre les relations prises en charge avant de commencer.
+La copie et la synchronisation BlueXP vous permettent de synchroniser des données entre une source et une cible. Il s'agit d'une relation de synchronisation. Vous devez comprendre les relations prises en charge avant de commencer.
 
 [cols="20,25"]
 |===
@@ -325,7 +325,7 @@ Cloud Sync vous permet de synchroniser les données d'une source vers une cible.
 Remarques :
 
 . La prise en charge de Box est disponible sous forme d'aperçu.
-. Les relations de synchronisation avec cette source/cible sont prises en charge via l'API Cloud Sync uniquement.
+. Les relations de synchronisation avec cette source/cible sont prises en charge uniquement à l'aide de l'API de copie et de synchronisation BlueXP.
 . Vous pouvez choisir un niveau de stockage spécifique à Azure Blob lorsqu'un conteneur Blob est la cible :
 +
 ** Stockage à chaud

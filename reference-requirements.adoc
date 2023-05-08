@@ -31,13 +31,13 @@ Par exemple, si un serveur NFS se trouve dans votre data Center et qu'un courtie
 
 == Répertoire cible
 
-Lorsque vous créez une relation de synchronisation, Cloud Sync vous permet de sélectionner un répertoire cible existant, puis de créer éventuellement un nouveau dossier dans ce répertoire. Assurez-vous que votre répertoire cible préféré existe déjà.
+Lorsque vous créez une relation de synchronisation, la copie et la synchronisation BlueXP vous permettent de sélectionner un répertoire cible existant, puis de créer un nouveau dossier dans ce répertoire. Assurez-vous que votre répertoire cible préféré existe déjà.
 
 
 
 == Autorisations de lecture des répertoires
 
-Pour afficher tous les répertoires ou dossiers d'une source ou d'une cible, Cloud Sync a besoin d'autorisations de lecture sur le répertoire ou le dossier.
+Pour afficher chaque répertoire ou dossier d'une source ou d'une cible, la copie et la synchronisation BlueXP doivent disposer d'autorisations de lecture sur le répertoire ou le dossier.
 
 NFS:: Les autorisations doivent être définies sur la source/cible avec uid/gid sur les fichiers et les répertoires.
 Stockage objet::
@@ -64,7 +64,7 @@ Vérifiez que votre compartiment Amazon S3 répond aux exigences suivantes.
 
 === Emplacements des courtiers de données pris en charge pour Amazon S3
 
-Les relations de synchronisation qui incluent le stockage S3 nécessitent un data broker déployé dans AWS ou sur votre site. Dans les deux cas, Cloud Sync vous invite à associer le courtier de données à un compte AWS lors de l'installation.
+Les relations de synchronisation qui incluent le stockage S3 nécessitent un data broker déployé dans AWS ou sur votre site. Dans les deux cas, la copie et la synchronisation BlueXP vous invitent à associer le courtier en données à un compte AWS lors de l'installation.
 
 * link:task-installing-aws.html["Découvrez comment déployer le courtier de données AWS"]
 * link:task-installing-linux.html["Découvrez comment installer le courtier de données sur un hôte Linux"]
@@ -123,7 +123,7 @@ Toutes les régions sont prises en charge à l'exception des régions China, US 
 
 === Chaîne de connexion pour les relations qui incluent Azure Blob et NFS/SMB
 
-Lors de la création d'une relation synchrone entre un conteneur Azure Blob et un serveur NFS ou SMB, vous devez fournir à Cloud Sync la chaîne de connexion du compte de stockage :
+Lors de la création d'une relation de synchronisation entre un conteneur Azure Blob et un serveur NFS ou SMB, vous devez fournir une copie BlueXP et la synchroniser avec la chaîne de connexion du compte de stockage :
 
 image:screenshot_connection_string.gif["Affiche une chaîne de connexion, disponible sur le portail Azure en sélectionnant un compte de stockage, puis en cliquant sur touches d'accès."]
 
@@ -144,7 +144,7 @@ NOTE: Si vous choisissez d'implémenter une relation de synchronisation continue
 
 == Azure Data Lake Storage Gen2
 
-Lors de la création d'une relation de synchronisation incluant Azure Data Lake, vous devez fournir à Cloud Sync la chaîne de connexion du compte de stockage. Il doit s'agir d'une chaîne de connexion standard et non d'une signature d'accès partagée (SAS).
+Lors de la création d'une relation de synchronisation incluant Azure Data Lake, vous devez fournir une copie BlueXP et la synchroniser avec la chaîne de connexion du compte de stockage. Il doit s'agir d'une chaîne de connexion standard et non d'une signature d'accès partagée (SAS).
 
 
 
@@ -194,7 +194,7 @@ Assurez-vous que votre rayon de stockage Google Cloud Storage répond aux exigen
 
 === Emplacements des courtiers de données pris en charge pour Google Cloud Storage
 
-Avec les relations de synchronisation qui incluent Google Cloud Storage, un courtier en données déployé dans Google Cloud ou sur site est nécessaire. Cloud Sync vous guide tout au long du processus d'installation du courtier de données lorsque vous créez une relation de synchronisation.
+Avec les relations de synchronisation qui incluent Google Cloud Storage, un courtier en données déployé dans Google Cloud ou sur site est nécessaire. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation du courtier de données lorsque vous créez une relation de synchronisation.
 
 * link:task-installing-gcp.html["Découvrez comment déployer le courtier en données Google Cloud"]
 * link:task-installing-linux.html["Découvrez comment installer le courtier de données sur un hôte Linux"]
@@ -285,7 +285,7 @@ Lorsque vous configurez une relation de synchronisation incluant https://docs.ne
 == Configuration requise pour le serveur SMB
 
 * Le serveur SMB peut être un système NetApp ou un système non NetApp.
-* Vous devez fournir à Cloud Sync des identifiants disposant d'autorisations sur le serveur SMB.
+* Vous devez fournir une copie et une synchronisation BlueXP avec des identifiants qui disposent d'autorisations sur le serveur SMB.
 +
 ** Pour un serveur SMB source, les autorisations suivantes sont requises : list et read.
 +
@@ -320,8 +320,8 @@ Une limitation SMB affecte les répertoires et les fichiers masqués lors de la 
 
 Le protocole SMB n'est pas sensible à la casse, ce qui signifie que les lettres majuscules et minuscules sont traitées comme étant les mêmes. Ce comportement peut entraîner un écrasement des fichiers et des erreurs de copie de répertoire si une relation de synchronisation inclut un serveur SMB et que des données existent déjà sur la cible.
 
-Par exemple, disons qu'il y a un fichier nommé « a » sur la source et un fichier nommé « A » sur la cible. Lorsque Cloud Sync copie le fichier nommé « a » sur la cible, le fichier « A » est remplacé par le fichier « a » de la source.
+Par exemple, disons qu'il y a un fichier nommé « a » sur la source et un fichier nommé « A » sur la cible. Lorsque la copie et la synchronisation BlueXP copie le fichier nommé « a » vers la cible, le fichier « A » est remplacé par le fichier « a » de la source.
 
-Dans le cas des répertoires, disons qu'il y a un répertoire nommé "b" sur la source et un répertoire nommé "B" sur la cible. Lorsque Cloud Sync tente de copier le répertoire nommé « b » vers la cible, Cloud Sync reçoit une erreur indiquant que le répertoire existe déjà. Par conséquent, Cloud Sync ne parvient toujours pas à copier le répertoire nommé “b.”
+Dans le cas des répertoires, disons qu'il y a un répertoire nommé "b" sur la source et un répertoire nommé "B" sur la cible. Lorsque la copie et la synchronisation BlueXP tentent de copier le répertoire nommé « b » vers la cible, la copie et la synchronisation BlueXP reçoivent une erreur indiquant que le répertoire existe déjà. Par conséquent, la copie et la synchronisation BlueXP ne parviennent toujours pas à copier le répertoire nommé « b. »
 
 La meilleure façon d'éviter cette limitation est de garantir la synchronisation des données vers un répertoire vide.

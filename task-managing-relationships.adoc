@@ -31,7 +31,7 @@ Au lieu d'attendre la synchronisation planifiée suivante, vous pouvez appuyer s
 
 
 .Résultat
-Cloud Sync démarre le processus de synchronisation des données pour la relation.
+La copie et la synchronisation BlueXP démarrent le processus de synchronisation des données pour la relation.
 
 
 
@@ -59,7 +59,7 @@ Vous voulez accélérer les performances de la relation 1 pour ajouter un nouvea
 
 
 .Résultat
-Cloud Sync ajoute le nouveau courtier de données au groupe. Les performances de la prochaine synchronisation des données doivent être accélérées.
+La copie et la synchronisation BlueXP ajoutent le nouveau courtier en données au groupe. Les performances de la prochaine synchronisation des données doivent être accélérées.
 
 
 
@@ -67,7 +67,7 @@ Cloud Sync ajoute le nouveau courtier de données au groupe. Les performances de
 
 Vous pouvez mettre à jour le courtier de données avec les informations d'identification les plus récentes de la source ou de la cible dans une relation de synchronisation existante. La mise à jour des informations d'identification peut vous aider si vos stratégies de sécurité vous obligent à mettre à jour les informations d'identification de manière périodique.
 
-La mise à jour des identifiants est prise en charge avec toute source ou cible pour laquelle Cloud Sync nécessite des identifiants pour : Azure Blob, Box, IBM Cloud Object Storage, StorageGRID, ONTAP S3 Storage, SFTP et les serveurs SMB.
+La mise à jour des identifiants est prise en charge avec toute source ou cible qui copie et synchronise BlueXP nécessite des identifiants pour les serveurs Azure Blob, Box, IBM Cloud Object Storage, StorageGRID, ONTAP S3 Storage, SFTP et SMB.
 
 .Étapes
 . Dans le tableau de bord *Sync*, accédez à une relation de synchronisation qui nécessite des informations d'identification, puis cliquez sur *mettre à jour les informations d'identification*.
@@ -79,18 +79,18 @@ image:screenshot_sync_update_credentials.png["Capture d'écran affichant l'optio
 Remarque sur les serveurs SMB : si le domaine est nouveau, vous devez le spécifier lors de la mise à jour des informations d'identification. Si le domaine n'a pas changé, vous n'avez pas besoin de le saisir à nouveau.
 
 +
-Si vous avez entré un domaine lors de la création de la relation de synchronisation, mais que vous n'entrez pas de nouveau domaine lorsque vous mettez à jour les informations d'identification, Cloud Sync utilisera alors le domaine d'origine que vous avez fourni.
+Si vous avez saisi un domaine lors de la création de la relation de synchronisation, mais que vous n'entrez pas de nouveau domaine lors de la mise à jour des informations d'identification, la copie et la synchronisation BlueXP conservent le domaine d'origine que vous avez fourni.
 
 
 
 .Résultat
-Cloud Sync met à jour les identifiants du courtier en données. Le 10 courtier en données peut prendre jusqu'à ce que ses identifiants soient utilisés pour la synchronisation des données.
+La copie et la synchronisation BlueXP mettent à jour les identifiants du courtier de données. Le 10 courtier en données peut prendre jusqu'à ce que ses identifiants soient utilisés pour la synchronisation des données.
 
 
 
 == Configuration des notifications
 
-Un paramètre *Notifications* pour chaque relation de synchronisation vous permet de choisir de recevoir ou non des notifications Cloud Sync dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.
+Un paramètre *Notifications* pour chaque relation de synchronisation vous permet de choisir de recevoir ou non des notifications de copie et de synchronisation BlueXP dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["Capture d'écran qui montre le Centre de notification dans BlueXP."]
 
@@ -115,7 +115,7 @@ Vous pouvez également recevoir des notifications par e-mail.
 
 
 .Résultat
-Vous recevrez maintenant des notifications Cloud Sync dans le Centre de notification de BlueXP, avec quelques notifications envoyées par e-mail, si vous avez configuré cette option.
+Si vous avez configuré cette option, vous recevrez désormais des notifications de copie et de synchronisation BlueXP dans le Centre de notification de BlueXP, avec l'envoi de quelques notifications par e-mail.
 
 
 
@@ -134,20 +134,20 @@ image:screenshot_sync_settings.png["Capture d'écran affichant les paramètres d
 
 +
 Planification:: Choisissez un programme récurrent pour les synchronisations ultérieures ou désactivez la planification de synchronisation. Vous pouvez planifier une relation pour synchroniser les données aussi souvent que toutes les 1 minute.
-Délai d'expiration de la synchronisation:: Définissez si Cloud Sync doit annuler une synchronisation de données si la synchronisation n'a pas été effectuée dans le nombre d'heures ou de jours spécifié.
-Notifications:: Vous permet de choisir de recevoir ou non des notifications Cloud Sync dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.
+Délai d'expiration de la synchronisation:: Déterminez si la copie et la synchronisation BlueXP doivent annuler une synchronisation des données si la synchronisation n'a pas eu lieu au cours du nombre spécifié d'heures ou de jours.
+Notifications:: Vous permet de choisir de recevoir ou non les notifications de copie et de synchronisation BlueXP dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.
 +
 --
 Si vous souhaitez recevoir des notifications pour
 
 --
-Tentatives:: Définissez le nombre de tentatives de synchronisation d'un fichier par Cloud Sync avant de l'ignorer.
-Comparer par:: Choisissez si Cloud Sync doit comparer certains attributs lorsqu'il détermine si un fichier ou un répertoire a été modifié et doit être à nouveau synchronisé.
+Tentatives:: Définissez le nombre de tentatives de copie et de synchronisation BlueXP pour synchroniser un fichier avant de le sauter.
+Comparer par:: Indiquez si la copie et la synchronisation BlueXP doivent comparer certains attributs pour déterminer si un fichier ou un répertoire a changé et doit être à nouveau synchronisé.
 +
 --
-Même si vous décochez ces attributs, Cloud Sync compare toujours la source à la cible en cochant les chemins, la taille des fichiers et les noms des fichiers. En cas de modifications, il synchronise ces fichiers et répertoires.
+Même si vous désactivez ces attributs, la copie et la synchronisation BlueXP comparent toujours la source et la cible en vérifiant les chemins, la taille des fichiers et les noms des fichiers. En cas de modifications, il synchronise ces fichiers et répertoires.
 
-Vous pouvez choisir d'activer ou de désactiver Cloud Sync pour comparer les attributs suivants :
+Vous pouvez activer ou désactiver la copie et la synchronisation BlueXP en comparant les attributs suivants :
 
 ** *Mtime* : dernière heure modifiée pour un fichier. Cet attribut n'est pas valide pour les répertoires.
 ** *Uid*, *gid* et *mode* : indicateurs d'autorisation pour Linux.
@@ -156,7 +156,7 @@ Vous pouvez choisir d'activer ou de désactiver Cloud Sync pour comparer les att
 --
 Copier pour objets:: Vous ne pouvez pas modifier cette option après avoir créé la relation.
 Fichiers récemment modifiés:: Choisissez d'exclure les fichiers récemment modifiés avant la synchronisation planifiée.
-Supprimer des fichiers sur la source:: Choisissez de supprimer des fichiers de l'emplacement source une fois que Cloud Sync a copier les fichiers vers l'emplacement cible. Cette option inclut le risque de perte de données car les fichiers source sont supprimés après leur copie.
+Supprimer des fichiers sur la source:: Choisissez de supprimer des fichiers de l'emplacement source après la copie et la synchronisation BlueXP copie les fichiers vers l'emplacement cible. Cette option inclut le risque de perte de données car les fichiers source sont supprimés après leur copie.
 +
 --
 Si vous activez cette option, vous devez également modifier un paramètre dans le fichier local.json du courtier de données. Ouvrez le fichier et mettez-le à jour comme suit :
@@ -173,7 +173,13 @@ Si vous activez cette option, vous devez également modifier un paramètre dans 
 ----
 --
 Supprimer des fichiers sur la cible:: Choisissez de supprimer des fichiers de l'emplacement cible, s'ils ont été supprimés de la source. La valeur par défaut est de ne jamais supprimer de fichiers de l'emplacement cible.
-Types de fichiers:: Définissez les types de fichiers à inclure dans chaque synchronisation : fichiers, répertoires et liens symboliques.
+Types de fichiers:: Définissez les types de fichiers à inclure dans chaque synchronisation : fichiers, répertoires, liens symboliques et liens physiques.
++
+--
+
+NOTE: Les liens physiques ne sont disponibles que pour les relations NFS à NFS non sécurisées. Les utilisateurs seront limités à un seul processus de scanner et à une seule simultanéité de scanner, et les analyses doivent être exécutées à partir d'un répertoire racine.
+
+--
 Exclure les extensions de fichier:: Spécifiez les extensions de fichier à exclure de la synchronisation en tapant l'extension de fichier et en appuyant sur *entrée*. Par exemple, tapez _log_ ou _.log_ pour exclure les fichiers *.log. Un séparateur n'est pas nécessaire pour les extensions multiples. La vidéo suivante présente une courte démonstration :
 +
 --
@@ -190,7 +196,7 @@ ACL - liste de contrôle d'accès:: Copiez les ACL depuis un serveur SMB en acti
 
 
 .Résultat
-Cloud Sync modifie la relation de synchronisation avec les nouveaux paramètres.
+La copie et la synchronisation BlueXP modifient la relation de synchronisation avec les nouveaux paramètres.
 
 
 
@@ -204,4 +210,4 @@ Vous pouvez supprimer une relation de synchronisation si vous n'avez plus besoin
 
 
 .Résultat
-Cloud Sync supprime la relation de synchronisation.
+La copie et la synchronisation BlueXP suppriment la relation de synchronisation.

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
-summary: Découvrez les nouveautés de Cloud Sync. 
+summary: Découvrez les nouveautés de la copie et de la synchronisation BlueXP. 
 ---
-= Quelles sont les nouveautés de Cloud Sync
+= Nouveautés de la copie et de la synchronisation BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,43 @@ summary: Découvrez les nouveautés de Cloud Sync.
 
 
 [role="lead"]
-Découvrez les nouveautés de Cloud Sync.
+Découvrez les nouveautés de la copie et de la synchronisation BlueXP.
+
+
+
+== 8 mai 2023
+
+
+
+=== Capacités de liaison rigide
+
+Les utilisateurs peuvent désormais inclure des liens physiques pour les synchronisations impliquant des relations NFS à NFS non sécurisées.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["En savoir plus sur le paramètre types de fichiers"].
+
+
+
+=== Possibilité d'ajouter un certificat utilisateur pour les courtiers de données dans le cadre de relations NFS sécurisées
+
+Les utilisateurs peuvent désormais définir leur propre certificat pour le courtier de données cible lors de la création d'une relation NFS sécurisée. Ils doivent définir un nom de serveur et fournir une clé privée et un ID de certificat lorsqu'ils le font. Cette fonctionnalité est disponible pour tous les courtiers de données.
+
+
+
+=== Période d'exclusion étendue pour les fichiers récemment modifiés
+
+Les utilisateurs peuvent désormais exclure les fichiers modifiés jusqu'à 365 jours avant la synchronisation planifiée.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["En savoir plus sur le paramètre fichiers récemment modifiés"].
+
+
+
+=== Filtrer les relations dans l'interface utilisateur par ID de relation
+
+Ceux qui utilisent l'API RESTful peuvent désormais filtrer les relations à l'aide d'ID de relation.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["En savoir plus sur l'utilisation de l'API RESTful avec la copie et la synchronisation BlueXP"].
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["En savoir plus sur le paramètre exclure les répertoires"].
 
 
 

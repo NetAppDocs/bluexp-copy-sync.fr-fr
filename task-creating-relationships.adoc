@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-creating-relationships.html 
 keywords: sync, relationship, create, tags, settings, create a relationship, creating relationships, bucket setup, tags 
-summary: Lorsque vous créez une relation de synchronisation, le service Cloud Sync copie les fichiers de la source vers la cible. Après la copie initiale, le service synchronise les données modifiées toutes les 24 heures. 
+summary: Lorsque vous créez une relation de synchronisation, le service de copie et de synchronisation BlueXP copie les fichiers de la source vers la cible. Après la copie initiale, le service synchronise les données modifiées toutes les 24 heures. 
 ---
 = Création de relations synchronisées
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Lorsque vous créez une relation de synchronisation, le service Cloud S
 
 
 [role="lead"]
-Lorsque vous créez une relation de synchronisation, le service Cloud Sync copie les fichiers de la source vers la cible. Après la copie initiale, le service synchronise les données modifiées toutes les 24 heures.
+Lorsque vous créez une relation de synchronisation, le service de copie et de synchronisation BlueXP copie les fichiers de la source vers la cible. Après la copie initiale, le service synchronise les données modifiées toutes les 24 heures.
 
 Avant de pouvoir créer certains types de relations de synchronisation, vous devez d'abord créer un environnement de travail dans BlueXP.
 
@@ -83,7 +83,7 @@ image:screenshot-data-broker-group.png["Cette capture d'écran montre une instan
 
 . [[filter]]sur la page *répertoires*, sélectionnez un répertoire ou un sous-répertoire de niveau supérieur.
 +
-Si Cloud Sync ne parvient pas à récupérer les exportations, cliquez sur *Ajouter une exportation manuelle* et entrez le nom d'une exportation NFS.
+Si la copie et la synchronisation BlueXP ne peuvent pas récupérer les exportations, cliquez sur *Ajouter une exportation manuelle* et entrez le nom d'une exportation NFS.
 
 +
 
@@ -107,10 +107,10 @@ image:screenshot_bucket_setup.gif["Cette capture d'écran présente la page de c
 . [[settings]]dans la page *Settings*, définissez comment les fichiers et dossiers source sont synchronisés et conservés à l'emplacement cible :
 +
 Planification:: Choisissez un programme récurrent pour les synchronisations ultérieures ou désactivez la planification de synchronisation. Vous pouvez planifier une relation pour synchroniser les données aussi souvent que toutes les 1 minute.
-Délai d'expiration de la synchronisation:: Définissez si Cloud Sync doit annuler une synchronisation de données si la synchronisation n'a pas été effectuée dans le nombre d'heures ou de jours spécifié.
-Notifications:: Vous permet de choisir de recevoir ou non des notifications Cloud Sync dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.
-Tentatives:: Définissez le nombre de tentatives de synchronisation d'un fichier par Cloud Sync avant de l'ignorer.
-Synchronisation continue:: Après la synchronisation initiale des données, Cloud Sync écoute les modifications apportées au compartiment S3 source ou au compartiment Google Cloud Storage, et synchronise en continu les modifications apportées à la cible au fur et à mesure de leur apparition. Il n'est pas nécessaire d'effectuer une nouvelle analyse de la source à intervalles réguliers.
+Délai d'expiration de la synchronisation:: Déterminez si la copie et la synchronisation BlueXP doivent annuler une synchronisation des données si la synchronisation n'a pas eu lieu au cours du nombre spécifié d'heures ou de jours.
+Notifications:: Vous permet de choisir de recevoir ou non les notifications de copie et de synchronisation BlueXP dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.
+Tentatives:: Définissez le nombre de tentatives de copie et de synchronisation BlueXP pour synchroniser un fichier avant de le sauter.
+Synchronisation continue:: Une fois la synchronisation initiale des données effectuée, la copie et la synchronisation BlueXP sont à l'écoute des modifications apportées au compartiment S3 source ou au compartiment Google Cloud Storage et elles synchronisent en continu toutes les modifications apportées à la cible au fur et à mesure qu'elles se produisent. Il n'est pas nécessaire d'effectuer une nouvelle analyse de la source à intervalles réguliers.
 +
 --
 Ce paramètre est disponible uniquement lors de la création d'une relation de synchronisation et lors de la synchronisation des données à partir d'un compartiment S3 ou de Google Cloud Storage vers le stockage Azure Blob, CIFS, Google Cloud Storage, IBM Cloud Object Storage, NFS, S3, Et StorageGRID * ou* à partir d'Azure Blob Storage vers le stockage Azure Blob, CIFS, Google Cloud Storage, IBM Cloud Object Storage, NFS et StorageGRID.
@@ -124,19 +124,19 @@ Si vous activez ce paramètre, il affecte d'autres fonctions comme suit :
 
 
 --
-Comparer par:: Choisissez si Cloud Sync doit comparer certains attributs lorsqu'il détermine si un fichier ou un répertoire a été modifié et doit être à nouveau synchronisé.
+Comparer par:: Indiquez si la copie et la synchronisation BlueXP doivent comparer certains attributs pour déterminer si un fichier ou un répertoire a changé et doit être à nouveau synchronisé.
 +
 --
-Même si vous décochez ces attributs, Cloud Sync compare toujours la source à la cible en cochant les chemins, la taille des fichiers et les noms des fichiers. En cas de modifications, il synchronise ces fichiers et répertoires.
+Même si vous désactivez ces attributs, la copie et la synchronisation BlueXP comparent toujours la source et la cible en vérifiant les chemins, la taille des fichiers et les noms des fichiers. En cas de modifications, il synchronise ces fichiers et répertoires.
 
-Vous pouvez choisir d'activer ou de désactiver Cloud Sync pour comparer les attributs suivants :
+Vous pouvez activer ou désactiver la copie et la synchronisation BlueXP en comparant les attributs suivants :
 
 ** *Mtime* : dernière heure modifiée pour un fichier. Cet attribut n'est pas valide pour les répertoires.
 ** *Uid*, *gid* et *mode* : indicateurs d'autorisation pour Linux.
 
 
 --
-Copier pour objets:: Activez cette option pour copier les métadonnées et les balises de stockage objet. Si un utilisateur modifie les métadonnées sur la source, Cloud Sync copie cet objet dans la prochaine synchronisation, mais si un utilisateur modifie les balises de la source (et non les données en soi), Cloud Sync ne copie pas l'objet dans la prochaine synchronisation.
+Copier pour objets:: Activez cette option pour copier les métadonnées et les balises de stockage objet. Si un utilisateur modifie les métadonnées sur la source, la copie et la synchronisation BlueXP copie cet objet lors de la prochaine synchronisation. Toutefois, si un utilisateur modifie les balises sur la source (et non les données elles-mêmes), la copie et la synchronisation BlueXP ne copie pas l'objet lors de la prochaine synchronisation.
 +
 --
 Vous ne pouvez pas modifier cette option après avoir créé la relation.
@@ -154,7 +154,7 @@ La copie de métadonnées est prise en charge avec des relations « cloud à clo
 
 --
 Fichiers récemment modifiés:: Choisissez d'exclure les fichiers récemment modifiés avant la synchronisation planifiée.
-Supprimer des fichiers sur la source:: Choisissez de supprimer des fichiers de l'emplacement source une fois que Cloud Sync a copier les fichiers vers l'emplacement cible. Cette option inclut le risque de perte de données car les fichiers source sont supprimés après leur copie.
+Supprimer des fichiers sur la source:: Choisissez de supprimer des fichiers de l'emplacement source après la copie et la synchronisation BlueXP copie les fichiers vers l'emplacement cible. Cette option inclut le risque de perte de données car les fichiers source sont supprimés après leur copie.
 +
 --
 Si vous activez cette option, vous devez également modifier un paramètre dans le fichier local.json du courtier de données. Ouvrez le fichier et mettez-le à jour comme suit :
@@ -171,7 +171,13 @@ Si vous activez cette option, vous devez également modifier un paramètre dans 
 ----
 --
 Supprimer des fichiers sur la cible:: Choisissez de supprimer des fichiers de l'emplacement cible, s'ils ont été supprimés de la source. La valeur par défaut est de ne jamais supprimer de fichiers de l'emplacement cible.
-Types de fichiers:: Définissez les types de fichiers à inclure dans chaque synchronisation : fichiers, répertoires et liens symboliques.
+Types de fichiers:: Définissez les types de fichiers à inclure dans chaque synchronisation : fichiers, répertoires, liens symboliques et liens physiques.
++
+--
+
+NOTE: Les liens physiques ne sont disponibles que pour les relations NFS à NFS non sécurisées. Les utilisateurs seront limités à un seul processus de scanner et à une seule simultanéité de scanner, et les analyses doivent être exécutées à partir d'un répertoire racine.
+
+--
 Exclure les extensions de fichier:: Spécifiez les extensions de fichier à exclure de la synchronisation en tapant l'extension de fichier et en appuyant sur *entrée*. Par exemple, tapez _log_ ou _.log_ pour exclure les fichiers *.log. Un séparateur n'est pas nécessaire pour les extensions multiples. La vidéo suivante présente une courte démonstration :
 +
 --
@@ -197,13 +203,13 @@ TIP: Cette même fonctionnalité est disponible lors de la synchronisation de do
 
 *Résultat*
 
-Cloud Sync démarre la synchronisation des données entre la source et la cible.
+La copie et la synchronisation BlueXP démarrent la synchronisation des données entre la source et la cible.
 
 
 
 == Créez des relations synchronisées à partir du cloud Data Sense
 
-Cloud Sync est intégré au sens des données dans le cloud. Dans Data Sense, vous pouvez sélectionner les fichiers source à synchroniser vers un emplacement cible à l'aide de Cloud Sync.
+La copie et la synchronisation BlueXP sont intégrées avec Cloud Data Sense. Dans Data Sense, vous pouvez sélectionner les fichiers source que vous souhaitez synchroniser vers un emplacement cible à l'aide de la copie et de la synchronisation BlueXP.
 
 Une fois la synchronisation des données effectuée à partir du cloud Data SENSE, toutes les informations source le sont en une seule étape et vous devez saisir quelques informations clés. Choisissez ensuite l'emplacement cible de la nouvelle relation de synchronisation.
 

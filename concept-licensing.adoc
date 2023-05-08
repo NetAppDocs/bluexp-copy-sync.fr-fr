@@ -16,13 +16,13 @@ summary: Il existe deux façons de payer les relations de synchronisation après
 [role="lead"]
 Il existe deux façons de payer les relations de synchronisation après la fin de votre essai gratuit de 14 jours. La première option consiste à vous abonner à AWS ou Azure pour payer à votre gré ou à payer annuellement. La deuxième option consiste à acheter des licences directement auprès de NetApp.
 
-Les licences doivent être gérées via Cloud Sync ou le site Web applicable et *non* par le biais d'un portefeuille numérique.
+Les licences doivent être gérées par le biais de la copie et de la synchronisation BlueXP ou du site web concerné et *non* par le biais d'un portefeuille digital.
 
 
 
 == Abonnement Marketplace
 
-L'abonnement au service Cloud Sync d'AWS ou d'Azure vous permet de payer à un tarif horaire ou de payer annuellement. link:task-licensing.html["Vous pouvez vous abonner via AWS ou Azure"], selon l'endroit où vous voulez être facturé.
+L'abonnement au service de copie et de synchronisation BlueXP depuis AWS ou Azure vous permet de payer à l'heure ou à l'année. link:task-licensing.html["Vous pouvez vous abonner via AWS ou Azure"], selon l'endroit où vous voulez être facturé.
 
 
 
@@ -50,13 +50,13 @@ L'achat de licences directement auprès de NetApp constitue une autre façon de 
 
 Vous pouvez utiliser ces licences avec un abonnement AWS ou Azure. Par exemple, si vous disposez de 25 relations de synchronisation, vous pouvez payer les 20 premières relations de synchronisation à l'aide d'une licence, puis effectuer des opérations de paiement à la demande à partir d'AWS ou d'Azure avec les 5 autres relations de synchronisation.
 
-link:task-licensing.html["Découvrez comment acheter des licences et les ajouter à Cloud Sync"].
+link:task-licensing.html["Découvrez comment acheter des licences et les ajouter à la copie et à la synchronisation BlueXP"].
 
 
 
 === Termes de la licence
 
-Les clients qui achètent une licence BYOL (Bring Your Own License) au service Cloud Sync doivent être conscients des limites associées au droit de licence.
+Les clients qui achètent une licence BYOL (Bring Your Own License) pour le service de copie et de synchronisation BlueXP doivent connaître les limites associées au droit de licence.
 
 * Les clients ont le droit de tirer parti de la licence BYOL pour une durée maximale d'un an à compter de la date de livraison.
 * Les clients ont le droit de tirer parti de la licence BYOL pour établir et ne pas dépasser un total de 20 connexions individuelles entre une source et une cible (chaque " relation de synchronisation ").

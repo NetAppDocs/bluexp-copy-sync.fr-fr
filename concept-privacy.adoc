@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-privacy.html 
 keywords: privacy, data privacy, credentials, access to credentials, hashicorp vault 
-summary: 'NetApp n"a pas accès aux identifiants que vous indiquez lors de l"utilisation du service Cloud Sync. Les informations d"identification sont stockées directement sur l"ordinateur du courtier de données, qui réside dans votre réseau.' 
+summary: 'NetApp ne dispose d"aucun identifiant que vous fournissez lors de l"utilisation du service de copie et de synchronisation BlueXP. Les informations d"identification sont stockées directement sur l"ordinateur du courtier de données, qui réside dans votre réseau.' 
 ---
 = Confidentialité des données
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: 'NetApp n"a pas accès aux identifiants que vous indiquez lors de l"uti
 
 
 [role="lead"]
-NetApp n'a pas accès aux identifiants que vous indiquez lors de l'utilisation du service Cloud Sync. Les informations d'identification sont stockées directement sur l'ordinateur du courtier de données, qui réside dans votre réseau.
+NetApp ne dispose d'aucun identifiant que vous fournissez lors de l'utilisation du service de copie et de synchronisation BlueXP. Les informations d'identification sont stockées directement sur l'ordinateur du courtier de données, qui réside dans votre réseau.
 
-Selon la configuration choisie, Cloud Sync peut vous demander des informations d'identification lorsque vous créez une nouvelle relation. Par exemple, lors de la configuration d'une relation qui inclut un serveur SMB, ou lors du déploiement du courtier en données dans AWS.
+Selon la configuration que vous choisissez, la copie et la synchronisation BlueXP peuvent vous demander des informations d'identification lorsque vous créez une relation. Par exemple, lors de la configuration d'une relation qui inclut un serveur SMB, ou lors du déploiement du courtier en données dans AWS.
 
 Ces informations d'identification sont toujours enregistrées directement dans le data broker lui-même. Le courtier en données réside sur une machine de votre réseau, qu'elle soit hébergée sur site ou dans votre compte cloud. Les informations d'identification ne sont jamais mises à la disposition de NetApp.
 

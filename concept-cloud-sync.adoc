@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concept-cloud-sync.html 
-keywords: cloud sync, overview, conceptual, how, data broker, service, cloudsync 
-summary: 'Le service NetApp Cloud Sync offre un moyen simple, sécurisé et automatisé de migrer vos données vers n"importe quelle cible, dans le cloud ou sur votre site.' 
+keywords: BlueXP copy and sync, overview, conceptual, how, data broker, service, cloudsync 
+summary: 'Le service de copie et de synchronisation NetApp BlueXP offre un moyen simple, sécurisé et automatisé de migrer vos données vers n"importe quelle cible, dans le cloud ou sur site.' 
 ---
-= Présentation de Cloud Sync
+= Présentation de la copie et de la synchronisation BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,26 +14,26 @@ summary: 'Le service NetApp Cloud Sync offre un moyen simple, sécurisé et auto
 
 
 [role="lead"]
-Le service NetApp Cloud Sync offre un moyen simple, sécurisé et automatisé de migrer vos données vers n'importe quelle cible, dans le cloud ou sur votre site. Qu'il s'agisse d'un dataset NAS basé sur fichiers (NFS ou SMB), d'un format d'objet Amazon simple Storage Service (S3), d'une appliance NetApp StorageGRID® ou de tout magasin d'objets d'un autre fournisseur cloud, Cloud Sync peut la convertir et la déplacer pour vous.
+Le service de copie et de synchronisation NetApp BlueXP offre un moyen simple, sécurisé et automatisé de migrer vos données vers n'importe quelle cible, dans le cloud ou sur site. Qu'il s'agisse d'un dataset NAS basé sur des fichiers (NFS ou SMB), d'un format d'objet Amazon simple Storage Service (S3), d'une appliance NetApp StorageGRID® ou de tout magasin d'objets d'un autre fournisseur cloud, la copie et la synchronisation BlueXP peuvent être converties et déplacées pour vous.
 
 
 
 == Caractéristiques
 
-Regardez la vidéo suivante pour une présentation de Cloud Sync :
+Découvrez dans cette vidéo un aperçu de la copie et de la synchronisation BlueXP :
 
 video::oZNJtLvgNfQ[youtube,width=848,height=480]
 
 
-== Fonctionnement de Cloud Sync
+== Fonctionnement de la copie et de la synchronisation BlueXP
 
-Cloud Sync est une plateforme SaaS (Software-as-a-Service) qui regroupe un groupe de courtiers de données, une interface cloud disponible via BlueXP, et une source et une cible.
+La copie et la synchronisation BlueXP est une plateforme SaaS qui se compose d'un groupe de courtiers en données, d'une interface cloud disponible via BlueXP, ainsi que d'une source et d'une cible.
 
-L'image suivante montre la relation entre les composants Cloud Sync :
+L'image suivante montre la relation entre les composants de copie BlueXP et de synchronisation :
 
-image:diagram_cloud_sync_overview.gif["Image conceptuelle qui montre les données qui circulent d'une source à une cible. Le logiciel Data Broker agit en tant que médiateur et interroge le service Cloud Sync pour effectuer des tâches."]
+image:diagram_cloud_sync_overview.png["Image conceptuelle qui montre les données qui circulent d'une source à une cible. Le logiciel de courtier en données agit comme un médiateur et interroge le service de copie et de synchronisation BlueXP pour y rechercher des tâches."]
 
-Le logiciel de courtier de données NetApp synchronise les données d'une source vers une cible (appelée « relation synchrone »). Vous pouvez exécuter le data broker dans AWS, Azure, Google Cloud Platform ou sur votre site. Un groupe de courtiers de données, qui comprend un ou plusieurs courtiers de données, a besoin d'une connexion Internet sortante sur le port 443 afin que le service IT puisse communiquer avec le service Cloud Sync et contacter quelques autres services et référentiels. link:reference-networking.html["Afficher la liste des noeuds finaux"].
+Le logiciel de courtier de données NetApp synchronise les données d'une source vers une cible (appelée « relation synchrone »). Vous pouvez exécuter le data broker dans AWS, Azure, Google Cloud Platform ou sur votre site. Un groupe de courtiers en données, composé d'un ou plusieurs courtiers en données, doit disposer d'une connexion Internet sortante sur le port 443 pour communiquer avec le service de copie et de synchronisation BlueXP et contacter quelques autres services et référentiels. link:reference-networking.html["Afficher la liste des noeuds finaux"].
 
 Après la copie initiale, le service synchronise toutes les données modifiées en fonction de la planification que vous avez définie.
 
@@ -41,7 +41,7 @@ Après la copie initiale, le service synchronise toutes les données modifiées 
 
 == Types de stockage pris en charge
 
-Cloud Sync prend en charge les types de stockage suivants :
+La copie et la synchronisation BlueXP prennent en charge les types de stockage suivants :
 
 * Tout serveur NFS
 * Tout serveur SMB
@@ -69,7 +69,7 @@ link:reference-supported-relationships.html["Affichez les relations de synchroni
 
 == Coûts
 
-Il existe deux types de coûts associés à l'utilisation de Cloud Sync : les frais de ressources et les frais de service.
+La copie et la synchronisation BlueXP sont associées à deux types de coûts : les frais de ressources et les frais de service.
 
 Frais de ressources:: Les coûts en ressources sont liés aux coûts de calcul et de stockage pour l'exécution d'un ou plusieurs courtiers de données dans le cloud.
 Frais de service:: Il existe deux façons de payer les relations de synchronisation après la fin de votre essai gratuit de 14 jours. La première option consiste à vous abonner à AWS ou à Azure, ce qui vous permet de payer une heure ou une année. La deuxième option consiste à acheter des licences directement auprès de NetApp.

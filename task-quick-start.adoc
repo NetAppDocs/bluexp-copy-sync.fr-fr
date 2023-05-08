@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: quick start, overview, deploying, getting started, get started, signing up, free trial 
-summary: La mise en route du service Cloud Sync comprend quelques étapes. 
+summary: La mise en route du service de copie et de synchronisation BlueXP se fait en quelques étapes. 
 ---
-= Démarrage rapide de Cloud Sync
+= Démarrage rapide de la copie et de la synchronisation BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -13,7 +13,7 @@ summary: La mise en route du service Cloud Sync comprend quelques étapes.
 :imagesdir: ./media/
 
 
-La mise en route du service Cloud Sync comprend quelques étapes.
+La mise en route du service de copie et de synchronisation BlueXP se fait en quelques étapes.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Une seule"] Connectez-vous et configurez BlueXP
 [role="quick-margin-para"]
@@ -48,10 +48,10 @@ Vérifiez que la source et la cible sont prises en charge et configurées. L'exi
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Trois"] Préparez un emplacement pour le data broker NetApp
 [role="quick-margin-para"]
-Le logiciel de courtier de données NetApp synchronise les données d'une source vers une cible (appelée « relation synchrone »). Vous pouvez exécuter le data broker dans AWS, Azure, Google Cloud Platform ou sur votre site. Un groupe de courtiers de données, qui comprend un ou plusieurs courtiers de données, a besoin d'une connexion Internet sortante sur le port 443 afin que le service IT puisse communiquer avec le service Cloud Sync et contacter quelques autres services et référentiels. link:reference-networking.html#networking-endpoints["Afficher la liste des noeuds finaux"].
+Le logiciel de courtier de données NetApp synchronise les données d'une source vers une cible (appelée « relation synchrone »). Vous pouvez exécuter le data broker dans AWS, Azure, Google Cloud Platform ou sur votre site. Un groupe de courtiers en données, composé d'un ou plusieurs courtiers en données, doit disposer d'une connexion Internet sortante sur le port 443 pour communiquer avec le service de copie et de synchronisation BlueXP et contacter quelques autres services et référentiels. link:reference-networking.html#networking-endpoints["Afficher la liste des noeuds finaux"].
 
 [role="quick-margin-para"]
-Cloud Sync vous guide tout au long du processus d'installation lorsque vous créez une relation de synchronisation, à partir de laquelle vous pouvez déployer un courtier de données dans le Cloud ou télécharger un script d'installation pour votre propre hôte Linux.
+La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation lorsque vous créez une relation de synchronisation. À ce stade, vous pouvez déployer un courtier en données dans le cloud ou télécharger un script d'installation pour votre propre hôte Linux.
 
 [role="quick-margin-list"]
 * link:task-installing-aws.html["Consultez l'installation d'AWS"]
@@ -66,4 +66,4 @@ Connectez-vous à https://console.bluexp.netapp.com/["BlueXP"^], Cliquez sur *Sy
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["Cinq"] Payez vos relations de synchronisation après la fin de votre essai gratuit
 [role="quick-margin-para"]
-Abonnez-vous à AWS ou Azure pour payer à votre gré ou pour payer chaque année. Ou achetez des licences directement auprès de NetApp. Il vous suffit d'aller à la page Paramètres de licence de Cloud Sync pour la configurer. link:task-licensing.html["En savoir plus >>"].
+Abonnez-vous à AWS ou Azure pour payer à votre gré ou pour payer chaque année. Ou achetez des licences directement auprès de NetApp. Pour configurer le système, il vous suffit d'accéder à la page Paramètres de licence dans la copie et la synchronisation BlueXP. link:task-licensing.html["En savoir plus >>"].

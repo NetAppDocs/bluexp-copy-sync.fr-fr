@@ -133,7 +133,7 @@ image:screenshot_sync_group_edit.gif["Capture d'écran du menu d'action disponib
 
 
 .Résultat
-Cloud Sync met à jour le nom du groupe de courtiers de données.
+La copie et la synchronisation BlueXP mettent à jour le nom du groupe de courtiers de données.
 
 
 
@@ -156,8 +156,8 @@ Notez ce qui suit :
 +
 ** Vous pouvez choisir les paramètres à modifier, mais vous n'avez pas besoin de les modifier simultanément.
 ** Une fois qu'une nouvelle configuration est envoyée à un courtier de données, le courtier redémarre automatiquement et utilise la nouvelle configuration.
-** Un délai peut s'effectuer jusqu'à ce que cette modification soit visible dans l'interface de Cloud Sync.
-** Si un courtier de données n'est pas en cours d'exécution, sa configuration ne change pas, car Cloud Sync ne peut pas communiquer avec lui. La configuration change après le redémarrage du courtier de données.
+** Cette modification peut prendre jusqu'à une minute et être visible dans l'interface de copie et de synchronisation BlueXP.
+** Si un courtier en données n'est pas en cours d'exécution, la configuration ne changera pas, car la copie et la synchronisation BlueXP ne peuvent pas communiquer avec lui. La configuration change après le redémarrage du courtier de données.
 ** Une fois la configuration unifiée définie, tous les nouveaux courtiers de données utilisent automatiquement la nouvelle configuration.
 
 
@@ -189,7 +189,7 @@ image:screenshot_sync_group_remove.png["Capture d'écran du menu d'action dispon
 
 
 .Résultat
-Cloud Sync déplace le courtier en données vers un groupe de courtiers de données nouveau ou existant. S'il n'y a pas d'autres courtiers de données dans le groupe précédent, Cloud Sync le supprime.
+La copie et la synchronisation BlueXP déplacent le courtier en données vers un groupe de courtiers de données nouveau ou existant. S'il n'existe aucun autre courtier en données dans le groupe précédent, la copie et la synchronisation BlueXP les suppriment.
 
 
 
@@ -206,7 +206,7 @@ Mettez à jour la configuration du proxy pour un courtier de données en ajoutan
 
 
 .Résultat
-Cloud Sync met à jour le courtier de données pour utiliser la configuration proxy pour l'accès à Internet.
+La copie et la synchronisation BlueXP mettent à jour le courtier de données pour utiliser la configuration proxy pour l'accès Internet.
 
 
 
@@ -214,7 +214,7 @@ Cloud Sync met à jour le courtier de données pour utiliser la configuration pr
 
 Vous pouvez consulter des détails sur un courtier de données pour identifier des éléments tels que son nom d'hôte, son adresse IP, son CPU et sa mémoire vive disponibles, etc.
 
-Cloud Sync fournit les informations suivantes concernant un courtier en données :
+La copie et la synchronisation BlueXP fournissent les informations suivantes sur un courtier de données :
 
 * Informations de base : ID d'instance, nom d'hôte, etc
 * Réseau : région, réseau, sous-réseau, IP privée, etc
@@ -240,12 +240,12 @@ image:screenshot_sync_data_broker_details.gif["Capture d'écran des informations
 
 == Résoudre les problèmes avec un courtier de données
 
-Cloud Sync affiche un statut pour chaque courtier de données qui peut vous aider à résoudre les problèmes.
+La copie et la synchronisation BlueXP affichent l'état de chaque courtier de données qui peut vous aider à résoudre les problèmes.
 
 .Étapes
 . Identifiez tous les courtiers de données dont l'état est « Inconnu » ou « en échec ».
 +
-image:screenshot_sync_broker_status.gif["Une capture d'écran de l'état de Cloud Sync affiche l'état « inconnu » d'un courtier de données."]
+image:screenshot_sync_broker_status.gif["Une capture d'écran de l'état de la copie et de la synchronisation BlueXP s'affiche lorsqu'un courtier de données a l'état « inconnu »."]
 
 . Placez le pointeur de la souris sur le image:screenshot_sync_status_icon.gif["Une icône « info »."] pour voir la raison de l'échec.
 . Corrigez le problème.
@@ -258,10 +258,10 @@ Par exemple, vous devrez peut-être redémarrer le courtier en données si celui
 
 == Supprimer un courtier de données d'un groupe
 
-Vous pouvez supprimer un courtier de données d'un groupe s'il n'est plus nécessaire ou si le déploiement initial a échoué. Cette action supprime uniquement le courtier en données des enregistrements de Cloud Sync. Vous devrez supprimer manuellement le courtier en données et toutes les ressources cloud supplémentaires.
+Vous pouvez supprimer un courtier de données d'un groupe s'il n'est plus nécessaire ou si le déploiement initial a échoué. Cette action supprime uniquement le courtier en données des enregistrements de la copie et de la synchronisation BlueXP. Vous devrez supprimer manuellement le courtier en données et toutes les ressources cloud supplémentaires.
 
 .Ce que vous devez savoir
-* Cloud Sync supprime un groupe lorsque vous supprimez le dernier courtier de données du groupe.
+* La copie et la synchronisation BlueXP suppriment un groupe lorsque vous supprimez le dernier courtier en données du groupe.
 * Vous ne pouvez pas supprimer le dernier courtier de données d'un groupe s'il existe une relation utilisant ce groupe.
 
 
@@ -276,15 +276,15 @@ image:screenshot_sync_group_remove.gif["Capture d'écran du menu d'action dispon
 
 
 .Résultat
-Cloud Sync supprime le courtier de données du groupe.
+La copie et la synchronisation BlueXP suppriment le courtier en données du groupe.
 
 
 
 == Supprimer un groupe de courtier de données
 
-Si un groupe de courtiers de données ne gère plus de relations de synchronisation, vous pouvez supprimer le groupe, qui supprime tous les courtiers de données de Cloud Sync.
+Si un groupe de courtiers de données ne gère plus de relations de synchronisation, vous pouvez supprimer le groupe, ce qui supprime tous les courtiers de données de la copie et de la synchronisation BlueXP.
 
-Les courtiers de données supprimés par Cloud Sync ne sont supprimés que des enregistrements de Cloud Sync. Vous devrez supprimer manuellement l'instance de courtier en données de votre fournisseur de cloud, ainsi que toutes les ressources cloud supplémentaires.
+Les courtiers de données que les fonctions de copie et de synchronisation BlueXP suppriment uniquement des enregistrements de la copie et de la synchronisation BlueXP. Vous devrez supprimer manuellement l'instance de courtier en données de votre fournisseur de cloud, ainsi que toutes les ressources cloud supplémentaires.
 
 .Étapes
 . Cliquez sur *Sync > gérer les courtiers de données*.
@@ -296,4 +296,4 @@ image:screenshot_sync_group_add.png["Capture d'écran du menu d'action disponibl
 
 
 .Résultat
-Cloud Sync supprime les courtiers de données et supprime le groupe.
+La copie et la synchronisation BlueXP suppriment les courtiers de données et le groupe.

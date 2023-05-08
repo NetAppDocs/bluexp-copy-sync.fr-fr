@@ -16,7 +16,7 @@ summary: Les limitations connues identifient les plateformes, les périphérique
 [role="lead"]
 Les limitations connues identifient les plateformes, les périphériques ou les fonctions qui ne sont pas pris en charge par cette version du produit, ou qui ne fonctionnent pas correctement avec elle. Examinez attentivement ces limites.
 
-Cloud Sync n'est pas pris en charge dans les régions suivantes :
+La copie et la synchronisation BlueXP ne sont pas prises en charge dans les régions suivantes :
 
 * Régions du gouvernement AWS
 * Régions du gouvernement Azure

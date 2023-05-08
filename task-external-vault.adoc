@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-external-vault.html 
 keywords: hashicorp, vault, credentials, secrets, API 
-summary: 'Lorsque vous créez une relation de synchronisation qui requiert des identifiants Amazon S3, Azure ou Google Cloud, vous devez spécifier ces identifiants via l"interface ou l"API utilisateur de Cloud Sync. Une alternative consiste à configurer le courtier de données pour accéder aux informations d"identification directement à partir d"un coffre-fort externe HashiCorp.' 
+summary: 'Lorsque vous créez une relation de synchronisation qui nécessite des informations d"identification Amazon S3, Azure ou Google Cloud, vous devez spécifier ces informations d"identification au moyen de l"interface utilisateur ou de l"API de copie et de synchronisation BlueXP. Une alternative consiste à configurer le courtier de données pour accéder aux informations d"identification directement à partir d"un coffre-fort externe HashiCorp.' 
 ---
 = Configuration d'un groupe de courtier de données pour utiliser un coffre-fort externe HashiCorp
 :hardbreaks:
@@ -13,9 +13,9 @@ summary: 'Lorsque vous créez une relation de synchronisation qui requiert des i
 :imagesdir: ./media/
 
 
-Lorsque vous créez une relation de synchronisation qui requiert des identifiants Amazon S3, Azure ou Google Cloud, vous devez spécifier ces identifiants via l'interface ou l'API utilisateur de Cloud Sync. Une alternative consiste à configurer le groupe de courtiers de données pour accéder aux informations d'identification (ou _secrets_) directement à partir d'un coffre-fort externe HashiCorp.
+Lorsque vous créez une relation de synchronisation qui nécessite des informations d'identification Amazon S3, Azure ou Google Cloud, vous devez spécifier ces informations d'identification au moyen de l'interface utilisateur ou de l'API de copie et de synchronisation BlueXP. Une alternative consiste à configurer le groupe de courtiers de données pour accéder aux informations d'identification (ou _secrets_) directement à partir d'un coffre-fort externe HashiCorp.
 
-Cette fonctionnalité est prise en charge par le biais de l'API Cloud Sync avec des relations synchronisées qui requièrent des identifiants Amazon S3, Azure ou Google Cloud.
+Cette fonctionnalité est prise en charge via l'API de copie et de synchronisation BlueXP avec des relations de synchronisation qui nécessitent des identifiants Amazon S3, Azure ou Google Cloud.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Une seule"] Préparez le coffre-fort
 [role="quick-margin-para"]
@@ -33,7 +33,7 @@ Maintenant que tout est configuré, vous pouvez envoyer un appel API pour créer
 
 == Préparation du coffre-fort
 
-Vous devrez fournir à Cloud Sync l'URL des secrets de votre coffre-fort. Préparez le coffre-fort en configurant ces URL. Vous devez configurer des URL pour les identifiants de chaque source et cible dans les relations de synchronisation que vous prévoyez de créer.
+Vous devrez fournir une copie et une synchronisation BlueXP avec l'URL des secrets de votre coffre-fort. Préparez le coffre-fort en configurant ces URL. Vous devez configurer des URL pour les identifiants de chaque source et cible dans les relations de synchronisation que vous prévoyez de créer.
 
 L'URL doit être configurée comme suit :
 
@@ -217,7 +217,7 @@ link:task-installing-gcp.html#permissions-required-for-the-service-account["En s
 
 Maintenant que tout est configuré, vous pouvez envoyer un appel API pour créer une relation de synchronisation qui utilise votre coffre-fort pour obtenir les secrets.
 
-Publiez la relation à l'aide de l'API REST de Cloud Sync.
+Publiez la relation avec la copie BlueXP et l'API REST de synchronisation.
 
 ....
 Headers:

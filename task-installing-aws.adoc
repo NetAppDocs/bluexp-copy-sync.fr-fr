@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-aws.html 
 keywords: data broker, install, aws, networking, permissions, regions, install data broker in aws, install in aws, deploy in aws, deploy data broker in aws, cft, template, iam role, use your own iam role, regions, supported regions, networking requirements, port, ports, 443, port 443, ntp, network time protocol, permissions, iam role, iam permissions, aws data broker 
-summary: 'Lorsque vous créez un nouveau courtier en données, choisissez l"option AWS Data Broker pour déployer le logiciel de courtier en données sur une nouvelle instance EC2 dans un VPC. Cloud Sync vous guide tout au long du processus d"installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à vous préparer à l"installation.' 
+summary: 'Lorsque vous créez un nouveau courtier en données, choisissez l"option AWS Data Broker pour déployer le logiciel de courtier en données sur une nouvelle instance EC2 dans un VPC. La copie et la synchronisation BlueXP vous guident tout au long du processus d"installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l"installation.' 
 ---
 = Création d'un nouveau courtier en données dans AWS
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Lorsque vous créez un nouveau courtier en données, choisissez l"opti
 
 
 [role="lead"]
-Lorsque vous créez un nouveau groupe de courtiers de données, choisissez Amazon Web Services pour déployer le logiciel de courtier de données sur une nouvelle instance EC2 dans un VPC. Cloud Sync vous guide tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à vous préparer à l'installation.
+Lorsque vous créez un nouveau groupe de courtiers de données, choisissez Amazon Web Services pour déployer le logiciel de courtier de données sur une nouvelle instance EC2 dans un VPC. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l'installation.
 
 Vous avez également la possibilité d'installer le courtier de données sur un hôte Linux existant dans le cloud ou sur votre site. link:task-installing-linux.html["En savoir plus >>"].
 
@@ -34,9 +34,9 @@ Le logiciel de courtier de données s'exécute automatiquement en tant que root 
 
 == Configuration réseau requise
 
-* Le courtier de données a besoin d'une connexion Internet sortante pour pouvoir interroger le service Cloud Sync sur le port 443.
+* Le courtier en données a besoin d'une connexion Internet sortante afin que le service de copie et de synchronisation BlueXP puisse effectuer les tâches sur le port 443.
 +
-Lorsque Cloud Sync déploie le courtier de données dans AWS, il crée un groupe de sécurité qui active la communication sortante requise. Notez que vous pouvez configurer le courtier de données pour qu'il utilise un serveur proxy pendant le processus d'installation.
+Lorsque la copie et la synchronisation BlueXP déploient le courtier en données dans AWS, il crée un groupe de sécurité pour activer les communications sortantes requises. Notez que vous pouvez configurer le courtier de données pour qu'il utilise un serveur proxy pendant le processus d'installation.
 
 +
 Si vous devez limiter la connectivité sortante, reportez-vous à la section link:reference-networking.html["liste des noeuds finaux que le courtier de données contacte"].
@@ -54,7 +54,7 @@ Le compte utilisateur AWS que vous utilisez pour déployer le courtier de donné
 
 == [[iam]]pour utiliser votre propre rôle IAM avec le courtier de données AWS
 
-Lorsque Cloud Sync déploie le data broker, il crée un rôle IAM pour l'instance du data broker. Si vous le souhaitez, vous pouvez déployer le data broker à l'aide de votre propre rôle IAM. Vous pouvez utiliser cette option si votre entreprise dispose de règles de sécurité strictes.
+Lorsque la copie et la synchronisation BlueXP déploient le courtier de données, il crée un rôle IAM pour l'instance de courtier de données. Si vous le souhaitez, vous pouvez déployer le data broker à l'aide de votre propre rôle IAM. Vous pouvez utiliser cette option si votre entreprise dispose de règles de sécurité strictes.
 
 Le rôle IAM doit répondre aux exigences suivantes :
 
@@ -81,7 +81,7 @@ Suivez les étapes jusqu'à ce que vous atteiez la page *Groupe de courtiers de 
 image:screenshot-aws.png["Capture d'écran de la page Data Broker qui vous permet de choisir entre AWS, Azure, Google Cloud et un courtier en données sur site."]
 
 . Entrez un nom pour le courtier de données et cliquez sur *Continuer*.
-. Entrez une clé d'accès AWS pour que Cloud Sync crée le courtier en données dans AWS.
+. Entrez une clé d'accès AWS pour que la copie et la synchronisation BlueXP puissent créer le courtier en données dans AWS en votre nom.
 +
 Les touches ne sont pas enregistrées ou utilisées à d'autres fins.
 
@@ -93,7 +93,7 @@ Si vous préférez ne pas fournir de touches d'accès, cliquez sur le lien en ba
 
 +
 video::video_cloud_sync.mp4[width=848,height=480]
-. Si vous avez saisi une clé d'accès AWS, sélectionnez un emplacement pour l'instance, sélectionnez une paire de clés, choisissez d'activer une adresse IP publique et sélectionnez un rôle IAM existant ou laissez le champ vide pour que Cloud Sync crée le rôle pour vous. Vous avez également la possibilité de chiffrer votre courtier de données à l'aide d'une clé KMS.
+. Si vous avez saisi une clé d'accès AWS, sélectionnez un emplacement pour l'instance, sélectionnez une paire de clés, activez ou non une adresse IP publique, puis sélectionnez un rôle IAM existant ou laissez le champ vide pour que la copie et la synchronisation BlueXP crée le rôle pour vous. Vous avez également la possibilité de chiffrer votre courtier de données à l'aide d'une clé KMS.
 +
 Si vous choisissez votre propre rôle IAM, <<iam,vous devrez fournir les autorisations requises>>.
 
@@ -101,7 +101,7 @@ Si vous choisissez votre propre rôle IAM, <<iam,vous devrez fournir les autoris
 image:screenshot_aws_data_broker.png["Capture d'écran des informations dont vous avez besoin pour déployer un courtier de données dans AWS."]
 
 . Spécifiez une configuration proxy, si un proxy est requis pour l'accès Internet dans le VPC.
-. Une fois le courtier de données disponible, cliquez sur *Continuer* dans Cloud Sync.
+. Une fois le courtier en données disponible, cliquez sur *Continuer* dans la copie et la synchronisation BlueXP.
 +
 L'image suivante montre une instance déployée avec succès dans AWS :
 
@@ -118,7 +118,7 @@ Vous avez déployé un courtier de données dans AWS et créé une nouvelle rela
 
 == Détails sur l'instance du courtier de données
 
-Cloud Sync crée un courtier en données dans AWS à l'aide de la configuration suivante.
+La copie et la synchronisation BlueXP créent un courtier en données dans AWS avec la configuration suivante.
 
 Type d'instance:: m5n.xlarge lorsque disponible dans la région, sinon m5.xlarge
 VCPU:: 4

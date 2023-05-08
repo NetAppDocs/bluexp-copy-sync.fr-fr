@@ -102,7 +102,7 @@ Notez ce qui suit :
 +
 *** Si vous souhaitez utiliser un groupe de courtiers de données existant, le groupe ne doit avoir qu'un seul courtier de données. Plusieurs courtiers de données d'un groupe ne sont pas pris en charge avec des relations de synchronisation chiffrées.
 *** Si le courtier de données source agit en tant qu'auditeur, il doit alors être un nouveau courtier de données.
-*** Si vous avez besoin d'un nouveau courtier de données, Cloud Sync vous invite à suivre les instructions d'installation. Vous pouvez déployer le data broker dans le cloud ou télécharger un script d'installation pour votre propre hôte Linux.
+*** Si vous avez besoin d'un nouveau courtier en données, la copie et la synchronisation BlueXP vous invitent à fournir les instructions d'installation. Vous pouvez déployer le data broker dans le cloud ou télécharger un script d'installation pour votre propre hôte Linux.
 
 
 .. *Répertoires* : Choisissez les répertoires que vous souhaitez synchroniser en sélectionnant tous les répertoires ou en descendant et en sélectionnant un sous-répertoire.
@@ -134,4 +134,4 @@ image:screenshot_nfs_encryption_review.gif["Capture d'écran affichant l'écran 
 
 
 .Résultat
-Cloud Sync commence à créer la nouvelle relation de synchronisation. Lorsque vous avez terminé, cliquez sur *Afficher dans le tableau de bord* pour afficher les détails de la nouvelle relation.
+La copie et la synchronisation BlueXP commencent à créer la nouvelle relation de synchronisation. Lorsque vous avez terminé, cliquez sur *Afficher dans le tableau de bord* pour afficher les détails de la nouvelle relation.
