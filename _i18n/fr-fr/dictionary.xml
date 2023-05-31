@@ -11,19 +11,12 @@
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Étapes</block>
   <block id="47cc50f1917c802fe0b945a2e3e68960" category="list-text">Créer ou découvrir l'environnement de travail.</block>
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link">Créez un environnement de travail Amazon FSX pour ONTAP</block>
-  <block id="6cd346b36825d1f1cef046571571fce0" category="list-text"><block ref="6cd346b36825d1f1cef046571571fce0" category="inline-link-rx"></block></block>
   <block id="173d8ca39ff0874de6e21496394efa69" category="inline-link">Configuration et détection d'Azure NetApp Files</block>
-  <block id="0b837906043da8fb03cf0aac3c6c00fc" category="list-text"><block ref="0b837906043da8fb03cf0aac3c6c00fc" category="inline-link-rx"></block></block>
   <block id="6602afb860a6cca23c3b75bf601365eb" category="inline-link">Lancement d'Cloud Volumes ONTAP dans AWS</block>
-  <block id="3e33b81f05bb640dee79c5aa4e351c91" category="list-text"><block ref="3e33b81f05bb640dee79c5aa4e351c91" category="inline-link-rx"></block></block>
   <block id="7ca1af679f0ba86814f2ad58a578cb7c" category="inline-link">Lancement d'Cloud Volumes ONTAP dans Azure</block>
-  <block id="0be0836bc69799b792b188dfc8c7fe7e" category="list-text"><block ref="0be0836bc69799b792b188dfc8c7fe7e" category="inline-link-rx"></block></block>
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">Lancement d'Cloud Volumes ONTAP dans Google Cloud</block>
-  <block id="22113986c035dbadc96db01d006caa97" category="list-text"><block ref="22113986c035dbadc96db01d006caa97" category="inline-link-rx"></block></block>
   <block id="366f7e58814bef5e88fbb6881239ff46" category="inline-link">Ajout de systèmes Cloud Volumes ONTAP existants</block>
-  <block id="706ad6686a3515c8f86d104e92c0f00b" category="list-text"><block ref="706ad6686a3515c8f86d104e92c0f00b" category="inline-link-rx"></block></block>
   <block id="e845620e391b62ad3163cdb0e100a862" category="inline-link">Découverte des clusters ONTAP</block>
-  <block id="46816df637a2079d76bf65c2b90e42d2" category="list-text"><block ref="46816df637a2079d76bf65c2b90e42d2" category="inline-link-rx"></block></block>
   <block id="e17d9d52c8208dfce3fde1af20447264" category="list-text">Cliquez sur *Canvas*.</block>
   <block id="b5f4d0a91c515f4bd54cae36d52f1af7" category="list-text">Sélectionnez un environnement de travail correspondant à l'un des types répertoriés ci-dessus.</block>
   <block id="1cffa027f06c83c15096bfe069d63282" category="list-text">Sélectionnez le menu d'action en regard de Synchroniser.</block>
@@ -116,14 +109,11 @@
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">Capture d'écran affichant la page intégration de détection de données qui s'affiche après le démarrage d'une nouvelle synchronisation directement à partir de Cloud Data Sense.</block>
   <block id="c52509e09917e0e29ac603ef598d3f69" category="paragraph"><block ref="c52509e09917e0e29ac603ef598d3f69" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20718255a13eb2f29be8b068228e69bc" category="inline-link">Découvrez comment établir une relation synchrone à partir du Cloud Data SENSE</block>
-  <block id="0f091e70c984324fefd750bc86f06c98" category="paragraph"><block ref="92384a764db045ca9031e6f4bfce712d" category="inline-link-rx"></block>.</block>
   <block id="881a6a2a0c1e8d7bd1c4b11d9498ff12" category="paragraph">Vous devriez avoir commencé avec BlueXP, qui inclut la connexion, la configuration d'un compte, et éventuellement le déploiement d'un connecteur et la création d'environnements de travail.</block>
   <block id="8867d44df7bbafbfb314d97a7c0cfb4c" category="paragraph">Si vous souhaitez créer des relations de synchronisation pour l'un des éléments suivants, vous devez d'abord créer ou découvrir un environnement de travail :</block>
   <block id="0a7604db31d8e78d96c9d8af2118d464" category="paragraph">Un connecteur est requis pour Cloud Volumes ONTAP, les clusters ONTAP sur site et Amazon FSX pour ONTAP.</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">Apprenez à vous lancer avec BlueXP</block>
-  <block id="69c4d579a506c05e94d3e4986ec536a3" category="list-text"><block ref="69c4d579a506c05e94d3e4986ec536a3" category="inline-link-rx"></block></block>
   <block id="649d75c6283da2a4b802839db32a41af" category="inline-link">En savoir plus sur les connecteurs</block>
-  <block id="e5813d2f22fb6e846a6024e6cb8a0b9b" category="list-text"><block ref="e5813d2f22fb6e846a6024e6cb8a0b9b" category="inline-link-rx"></block></block>
   <block id="64801dbe8238ec80e4b5c9666a5fd9fa" category="paragraph">Vérifiez que la source et la cible sont prises en charge et configurées. L'exigence la plus importante consiste à vérifier la connectivité entre le groupe de courtiers de données et les emplacements source et cible.</block>
   <block id="36362f6308040767241de0a9acf9350a" category="inline-link-macro">Afficher les relations prises en charge</block>
   <block id="415a88dd0bb9358dd0869346d7b40e5d" category="list-text"><block ref="415a88dd0bb9358dd0869346d7b40e5d" category="inline-link-macro-rx"></block></block>
@@ -309,7 +299,6 @@
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si vous avez un compte au niveau du client, vous pouvez ajouter un ou plusieurs comptes NSS.</block>
   <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône aide et sélectionnez *support*.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Capture d'écran du menu aide où support est la première option répertoriée</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Cliquez sur *NSS Management &gt; Ajouter un compte NSS*.</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Lorsque vous y êtes invité, cliquez sur *Continuer* pour être redirigé vers une page de connexion Microsoft.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utilise Microsoft Azure Active Directory comme fournisseur d'identités pour les services d'authentification spécifiques au support et aux licences.</block>
@@ -324,7 +313,6 @@
   <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">Si ce n'est déjà fait, ajoutez votre compte NSS à BlueXP.</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Sur la page *Ressources*, cliquez sur *s'inscrire au support*.</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">Capture d'écran indiquant le numéro de série d'un compte et l'option Register pour le support</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Client existant mais aucun compte NSS</block>
   <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">Si vous êtes déjà client NetApp avec des licences et des numéros de série existants mais que _no_ NSS, il vous suffit de créer un compte NSS.</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Formulaire d'inscription de l'utilisateur du site de support NetApp</block>
@@ -333,7 +321,6 @@
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Veillez à copier le numéro de série du compte BlueXP (960xxxx) utilisé ci-dessus pour le champ Numéro de série. Le traitement du compte sera ainsi accéléré.</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Découvrez la toute nouvelle gamme NetApp</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Si vous êtes nouveau chez NetApp et que vous ne disposez pas d'un compte NSS, effectuez chacune des étapes ci-dessous.</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Site d'inscription au support NetApp</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Accédez à<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> Et sélectionnez *je ne suis pas un client NetApp enregistré*.</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Remplissez les champs obligatoires (ceux avec des astérisques rouges).</block>
@@ -371,7 +358,6 @@
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Description du problème* : fournir une description détaillée de votre problème, y compris les messages d'erreur ou les étapes de dépannage applicables que vous avez effectués.</block>
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Adresses e-mail supplémentaires*: Entrez des adresses e-mail supplémentaires si vous souhaitez informer quelqu'un d'autre de ce problème.</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Capture d'écran du formulaire Créer un dossier qui vous permet de créer un dossier auprès du support NetApp.</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Une fenêtre contextuelle contenant votre numéro de dossier de support s'affiche. Un spécialiste du support NetApp va étudier votre dossier et vous recontacterons très rapidement.</block>
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Pour consulter l'historique de vos dossiers d'assistance, vous pouvez cliquer sur *Paramètres &gt; Chronologie* et rechercher les actions nommées "Créer un dossier de support". Un bouton à l'extrême droite vous permet de développer l'action pour voir les détails.</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Il est possible que vous rencontriez le message d'erreur suivant lors de la création d'un dossier :</block>
@@ -977,7 +963,6 @@
   <block id="9bd6154bf12080a49ba17173b3687c8b" category="list-text">« Microsoft.Storage/storageAccounts/write »</block>
   <block id="d82cf82578b9d3bf0fccf57fba5f00c6" category="paragraph">En outre, le périmètre attribuable doit être défini sur étendue de l'abonnement et *pas* étendue du groupe de ressources si vous prévoyez d'implémenter la synchronisation continue dans Azure.</block>
   <block id="f23841b65ba519d2dd6a63a2a3e4de83" category="inline-link">En savoir plus sur le paramètre de synchronisation continue</block>
-  <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>.</block>
   <block id="38354aeafcfd5993a9d65d97514a8e3d" category="section-title">METHODE d'authentification</block>
   <block id="e507d0455db379d4826dabce8ecb97ed" category="paragraph">Lorsque vous déployez le courtier de données, vous devrez choisir une méthode d'authentification pour la machine virtuelle : un mot de passe ou une paire de clés publiques-privées SSH.</block>
   <block id="0be7700ba4689baa197ac3c2b94928a5" category="inline-link">Documentation Azure : créez et utilisez une paire de clés publiques-privées SSH pour les machines virtuelles Linux dans Azure</block>
@@ -1145,7 +1130,6 @@
   <block id="023dd20b31e9240e9be755e28a211310" category="paragraph">Remarque sur les serveurs SMB : si le domaine est nouveau, vous devez le spécifier lors de la mise à jour des informations d'identification. Si le domaine n'a pas changé, vous n'avez pas besoin de le saisir à nouveau.</block>
   <block id="0120982bf6587a582d7ad3aa6f491005" category="section-title">Configuration des notifications</block>
   <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">Capture d'écran qui montre le Centre de notification dans BlueXP.</block>
-  <block id="ccb8fdc540464dfa9a7726927f2c33c6" category="paragraph"><block ref="ccb8fdc540464dfa9a7726927f2c33c6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="55d9f99a73d4f287de3573ba4a2c149b" category="paragraph">Vous pouvez également recevoir des notifications par e-mail.</block>
   <block id="50685346648f799f564787da3aeaa3df" category="list-text">Modifiez les paramètres d'une relation de synchronisation :</block>
   <block id="e265f7dc29349c5c09e52af073ae2fdf" category="list-text">Activez *Notifications*.</block>
@@ -1176,7 +1160,6 @@
   <block id="44191e60b1503eaf657847a1915cafeb" category="list-text">Google Drive vers les serveurs SMB</block>
   <block id="1483ec65b58ea8f21aa486ac67f98497" category="list-text">Vous pouvez également générer des rapports pour les relations de synchronisation incluant Google Drive.</block>
   <block id="b8573b8d6cb0195fa946927c3aa36397" category="inline-link">En savoir plus sur les rapports</block>
-  <block id="913d3279d6ca39c6bd290fac85314961" category="paragraph"><block ref="9ba5aa88e2b271505b32ed12efb1883e" category="inline-link-rx"></block>.</block>
   <block id="6a8d3c04a6ef359c72722da014b3e2a0" category="section-title">Amélioration de la synchronisation continue</block>
   <block id="700604b36a9bc9c763c84403ff4fc2a1" category="paragraph">Vous pouvez maintenant activer le paramètre de synchronisation continue sur les types de relations de synchronisation suivants :</block>
   <block id="16a4f69cf5e478434d66f741eb65609e" category="list-text">Un compartiment S3 vers un serveur NFS</block>
@@ -1185,13 +1168,10 @@
   <block id="2a6aa0e8585b387718e871db90f1a32e" category="paragraph">Vous pouvez désormais recevoir des notifications Cloud Sync par e-mail.</block>
   <block id="beee0e2c828d5d7a17dcb84704a1dd82" category="paragraph">Pour recevoir les notifications par e-mail, vous devez activer le paramètre *Notifications* sur la relation de synchronisation, puis configurer les paramètres alertes et notification dans BlueXP.</block>
   <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">Apprenez à configurer les notifications</block>
-  <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">31 juillet 2022</block>
   <block id="173bb19c121e8b179d4baa317b637722" category="paragraph">Vous pouvez désormais synchroniser les données d'un serveur NFS ou SMB vers Google Drive. « Mon lecteur » et « lecteurs partagés » sont pris en charge en tant que cibles.</block>
   <block id="edb5ab0783f7fd41d24fc8a5ae44aef6" category="inline-link">En savoir plus sur les exigences de Google Drive</block>
-  <block id="bcc0f3bd91fbadb8c521e47f25f76843" category="paragraph">Avant de créer une relation de synchronisation incluant Google Drive, vous devez configurer un compte de service disposant des autorisations requises et d'une clé privée.<block ref="556946ce0efd88231506c545597e8d31" category="inline-link-rx"></block>.</block>
   <block id="557b7fbb966ab34b32484f8c806869ae" category="inline-link">Affichez la liste des relations de synchronisation prises en charge</block>
-  <block id="470d6fa86215393cc3b918331e6ca824" category="paragraph"><block ref="4191451a3c972228fe86dca53f50e67d" category="inline-link-rx"></block>.</block>
   <block id="d6a24c2feaa9a899592c4cd5cf4a5011" category="section-title">Prise en charge supplémentaire d'Azure Data Lake</block>
   <block id="ac7f6cb7e466c5bda81009406ce9c28c" category="paragraph">Cloud Sync prend désormais en charge des relations de synchronisation supplémentaires pour Azure Data Lake Storage Gen2 :</block>
   <block id="291356d9de6df3e4cba63e5478b2bc01" category="list-text">Amazon S3 vers Azure Data Lake Storage Gen2</block>
@@ -1201,10 +1181,8 @@
   <block id="75a84cecb34ecabf76f44935f66b67eb" category="paragraph">Nous avons ajouté des moyens supplémentaires pour configurer les relations de synchronisation directement à partir de BlueXP Canvas.</block>
   <block id="1bc09668b27b6867ae7fc05d1c02faa8" category="section-title">Glisser-déposer</block>
   <block id="bb444099cdb375196c5bb6444eabdc45" category="paragraph">Vous pouvez maintenant configurer une relation de synchronisation à partir du Canvas en faisant glisser et en déposant un environnement de travail sur un autre.</block>
-  <block id="05d87278ff5c6195179e1954eecb9a4f" category="paragraph"><block ref="05d87278ff5c6195179e1954eecb9a4f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">Configuration du panneau droit</block>
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">Vous pouvez maintenant configurer une relation de synchronisation pour le stockage Azure Blob ou pour Google Cloud Storage en sélectionnant l'environnement de travail dans Canvas, puis en sélectionnant l'option de synchronisation dans le panneau de droite.</block>
-  <block id="779ddd312a3a36e145a7bb3229e99a4a" category="paragraph"><block ref="779ddd312a3a36e145a7bb3229e99a4a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">3 juillet 2022</block>
   <block id="59db2d8d08645826b1c034be277c61d2" category="section-title">Prise en charge d'Azure Data Lake Storage Gen2</block>
   <block id="c7b46a2bde58e21272436d4c94238e15" category="paragraph">Vous pouvez désormais synchroniser les données d'un serveur NFS ou SMB vers Azure Data Lake Storage Gen2.</block>
@@ -1239,7 +1217,6 @@
   <block id="5cccebf55aa4da23124f776528630bf3" category="section-title">Délai d'expiration de la synchronisation</block>
   <block id="5e4a50a7111ce8bba22cd01d07f86a3b" category="paragraph">Un nouveau paramètre *délai de synchronisation* est maintenant disponible pour les relations de synchronisation. Ce paramètre vous permet de définir si Cloud Sync doit annuler une synchronisation de données si la synchronisation n'a pas été effectuée dans le nombre d'heures ou de jours spécifié.</block>
   <block id="21a5968447686d2d79ece94fc6ab0653" category="inline-link">En savoir plus sur la modification des paramètres d'une relation de synchronisation</block>
-  <block id="5f03ed55634cfe3f169d94549e45f06c" category="paragraph"><block ref="050cf03a98debb532006e420507b54cf" category="inline-link-rx"></block>.</block>
   <block id="c2c0cee3ff43b2b22931517d0aff1423" category="paragraph">Un nouveau paramètre *Notifications* est désormais disponible pour les relations de synchronisation. Ce paramètre vous permet de choisir de recevoir ou non des notifications Cloud Sync dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.</block>
   <block id="5e16db4c47abe8cb1c5bd746df2fd94a" category="section-title">3 avril 2022</block>
   <block id="33c34b75ae4154295ed3cdeeccb3fd6a" category="section-title">Améliorations des groupes de courtiers de données</block>
@@ -1248,28 +1225,22 @@
   <block id="1a89df8c409f135e6e7efd8c0600dba6" category="list-text">Vous pouvez maintenant mettre à jour la configuration du proxy pour un courtier de données.</block>
   <block id="71dba184b83141e962cb89e88563baf3" category="list-text">Enfin, vous pouvez également supprimer des groupes de courtiers de données.</block>
   <block id="fe914f8d9b65e6214843cbd5f42cddc8" category="inline-link">Découvrez comment gérer les groupes de courtiers de données</block>
-  <block id="ced18d468e2bb63d56f45d8b16575d02" category="paragraph"><block ref="f6641f935ea9b46efe2ca72364b0bc1e" category="inline-link-rx"></block>.</block>
   <block id="16f353b4ac76ea7e1a66509c3863e0f9" category="section-title">Filtre du tableau de bord</block>
   <block id="c81f80b5e3a2c8dfe8c2f908cbbfc2fa" category="paragraph">Vous pouvez désormais filtrer le contenu du tableau de bord de synchronisation afin de trouver plus facilement les relations de synchronisation qui correspondent à un certain état. Par exemple, vous pouvez filtrer les relations de synchronisation dont l'état a échoué</block>
   <block id="ab31e38babe6f59fc89d1a7f8d3ea2c9" category="inline-image-macro">Capture d'écran affichant l'option d'état filtre par synchronisation en haut du tableau de bord.</block>
-  <block id="9a086a6121a0ffa4e8986b7ce540eece" category="paragraph"><block ref="9a086a6121a0ffa4e8986b7ce540eece" category="inline-image-macro-rx" type="image"></block></block>
   <block id="983a4e7f5913304ec713a249baf7be47" category="section-title">3 mars 2022</block>
   <block id="d8247e494d1e03bac9b29cc7ea4c0eca" category="section-title">Tri dans le tableau de bord</block>
   <block id="32ee2f2004d5d2f19f46a8909b1df5a6" category="paragraph">Vous triez le tableau de bord par nom de relation de synchronisation.</block>
   <block id="c964823b8160043978055759ce39dd87" category="inline-image-macro">Capture d'écran affichant l'option Trier par nom disponible dans le tableau de bord.</block>
-  <block id="ce7541e1d7efdf7278fdc4d1fc9736b1" category="paragraph"><block ref="ce7541e1d7efdf7278fdc4d1fc9736b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aabbe3d8eb6db922cc7867bbc1068867" category="section-title">Amélioration de l'intégration de Data Sense</block>
   <block id="2931385a1afec19638d47ebab7744410" category="paragraph">Dans la version précédente, nous avons introduit l'intégration de Cloud Sync avec Cloud Data Sense. Dans cette mise à jour, nous avons amélioré l'intégration en facilitant la création de la relation de synchronisation. Une fois la synchronisation des données effectuée à partir du cloud Data SENSE, toutes les informations source le sont en une seule étape et vous devez saisir quelques informations clés.</block>
-  <block id="b7415479c879eb3f5804ebd25ea733e7" category="paragraph"><block ref="b7415479c879eb3f5804ebd25ea733e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5c46bd67ae4b5c23f9c243b5f396c088" category="section-title">6 février 2022</block>
   <block id="b173d47e232436d0170127aec6c62d25" category="section-title">Amélioration des groupes de courtiers de données</block>
   <block id="2362e2192964b2a1132ee3c33127e6ec" category="paragraph">Nous avons modifié votre manière d'interagir avec les courtiers de données en mettant l'accent sur le courtier de données _groups_.</block>
   <block id="009030a7e855d0f36e42bdac812520b4" category="paragraph">Par exemple, lorsque vous créez une nouvelle relation de synchronisation, vous sélectionnez le courtier de données _group_ à utiliser avec la relation, plutôt qu'un courtier de données spécifique.</block>
   <block id="435847457b00dd1f91120adf3d0e24aa" category="inline-image-macro">Capture d'écran de l'assistant de synchronisation des relations affichant la sélection du groupe de courtier de données.</block>
-  <block id="1010f6ebb8a63e17d664e622c2299691" category="paragraph"><block ref="1010f6ebb8a63e17d664e622c2299691" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9eb0238485945ad5d6512b69445e72c6" category="paragraph">Dans l'onglet *Manage Data Brokers*, nous avons également indiqué le nombre de relations de synchronisation gérées par un groupe de courtiers de données.</block>
   <block id="4f1d2e29d6b816360bccc567294cac53" category="inline-image-macro">Capture d'écran de la page gérer les courtiers de données qui présente un groupe de courtiers de données et des détails sur ce groupe, y compris le nombre de relations qu'il gère.</block>
-  <block id="b5012dcabc22fc10384141ed3b715897" category="paragraph"><block ref="b5012dcabc22fc10384141ed3b715897" category="inline-image-macro-rx" type="image"></block></block>
   <block id="81a424c5c67f920d35d770215956f31f" category="section-title">Télécharger les rapports au format PDF</block>
   <block id="983eab96e054cfaaef2e1cc070a5ac0d" category="paragraph">Vous pouvez à présent télécharger un PDF d'un rapport.</block>
   <block id="586301717819197e24001cac47efdaaa" category="section-title">2 janvier 2022</block>
@@ -1337,7 +1308,6 @@
   <block id="0c69dd608d3bb18f6d88caa7ab56df36" category="section-title">Prise en charge de FSX pour ONTAP</block>
   <block id="548eba8d98d9c7383a12d30e135e8723" category="paragraph">Vous pouvez désormais synchroniser des données vers ou depuis un système de fichiers Amazon FSX pour ONTAP.</block>
   <block id="43ece0944414298a29b4d72bc56373f1" category="inline-link">En savoir plus sur Amazon FSX pour ONTAP</block>
-  <block id="554cf5ea441207629c5c302e09e591e4" category="list-text"><block ref="554cf5ea441207629c5c302e09e591e4" category="inline-link-rx"></block></block>
   <block id="3d9c61bbb0656b8a470cbe7bd67859f7" category="inline-link-macro">Afficher les relations de synchronisation prises en charge</block>
   <block id="6b816f21b0dbce67e44499fa4246a4b1" category="list-text"><block ref="6b816f21b0dbce67e44499fa4246a4b1" category="inline-link-macro-rx"></block></block>
   <block id="de0f377f70e8f82779d4f2819fe79524" category="inline-link-macro">Découvrez comment créer une relation de synchronisation pour Amazon FSX pour ONTAP</block>
@@ -1475,13 +1445,11 @@
   <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">11 décembre 2022</block>
   <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">Filtrez les répertoires par nom</block>
   <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">En savoir plus sur le paramètre exclure les noms de répertoire</block>
-  <block id="8391e3aac2d2f8dd1b8e38350d072463" category="paragraph"><block ref="018123db357961d73398ef3066f74a1b" category="inline-link-rx"></block>.</block>
   <block id="211e17aac7e6f53a17024d84713e8c34" category="section-title">Prise en charge supplémentaire d'Amazon S3 et de ONTAP S3 Storage</block>
   <block id="9c0b9eb5c4fc9353fd2021e992f68e22" category="paragraph">Cloud Sync prend désormais en charge des relations de synchronisation supplémentaires pour AWS S3 et ONTAP S3 Storage :</block>
   <block id="9952f86a1aa7c6f33a76413df4560b41" category="list-text">AWS S3 vers le stockage ONTAP S3</block>
   <block id="dfe6b806f7dd136ec5c5baaaae335c21" category="list-text">Stockage ONTAP S3 vers AWS S3</block>
   <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">En savoir plus sur les relations de synchronisation prises en charge</block>
-  <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>.</block>
   <block id="5e096b7a2c33e654f884053c567f3013" category="paragraph-title">Comment cela fonctionne</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Une fois que vous avez terminé</block>
   <block id="21cc794803c81d0a3e2d1759b572da7d" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Connectez-vous et configurez BlueXP</block>
@@ -1498,19 +1466,13 @@
   <block id="2ce75b34222d130ea74078b75eb79cc0" category="section-title">Affiche la configuration locale du courtier de données dans l'interface utilisateur</block>
   <block id="88dcb8d0dd987f4f5606df5981050a8d" category="paragraph">Il existe maintenant une option *Afficher la configuration* qui permet aux utilisateurs d'afficher la configuration locale de chaque courtier de données dans l'interface utilisateur.</block>
   <block id="44580ec91e2012543452f790258e1ccf" category="inline-link">En savoir plus sur la gestion des groupes de courtiers de données</block>
-  <block id="1bc15ec9e137e3d7653e9f04a08b840b" category="paragraph"><block ref="cbafc7311a6970273ad5a1c3b2c0b656" category="inline-link-rx"></block>.</block>
   <block id="02840b44154535342dd4cf6739d2c77d" category="section-title">Effectuer la mise à niveau vers Azure et le système d'exploitation des courtiers de données Google Cloud</block>
   <block id="69e30db11dbff8b5efd6091166af232f" category="paragraph">Le système d'exploitation des courtiers de données d'Azure et de Google Cloud a été mis à niveau vers Rocky Linux 9.0.</block>
   <block id="1c01c907ca0a713df58ba8f4b21fd39c" category="inline-link">En savoir plus sur l'instance de courtier de données dans Azure</block>
-  <block id="696fb1a24aae70782cbc2deebfd01ec3" category="paragraph"><block ref="721924a927b7206a5d8775fe840ddbcd" category="inline-link-rx"></block>.</block>
   <block id="648e059d69339d82d82738abf0bd4016" category="inline-link">En savoir plus sur l'instance de courtier en données dans Google Cloud</block>
-  <block id="6619068f4ac101fa3e8003ee6618d9da" category="paragraph"><block ref="fa611f614e55d9a2ca38028d5a5ab5b7" category="inline-link-rx"></block>.</block>
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">Prise en charge des solutions des fournisseurs cloud</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">Pour obtenir une assistance technique sur les solutions de fournisseurs de services cloud suivantes que vous avez intégrées à BlueXP, reportez-vous à la section « obtention d'aide » de la documentation BlueXP de ce produit.</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service pour Google Cloud</block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="55157331e0485d25f0d603400a66335e" category="section-title">5 février 2023</block>
   <block id="761cba7c96f916f975634bfd465401cb" category="section-title">Prise en charge supplémentaire d'Azure Data Lake Storage Gen2, ONTAP S3 Storage et NFS</block>
   <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">Cloud Sync prend désormais en charge des relations de synchronisation supplémentaires pour le stockage ONTAP S3 et NFS :</block>
@@ -1520,7 +1482,6 @@
   <block id="b3c6595e164d585a18699d6b36cab08a" category="section-title">Effectuer la mise à niveau vers le système d'exploitation du courtier de données Amazon Web Services</block>
   <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">Le système d'exploitation des courtiers de données AWS a été mis à niveau vers Amazon Linux 2022.</block>
   <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">En savoir plus sur l'instance de courtier de données dans AWS</block>
-  <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>.</block>
   <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">Si vous ne payez pas immédiatement après la fin de votre essai gratuit, vous ne pourrez pas créer de relations supplémentaires. Les relations existantes ne sont pas supprimées, mais vous ne pouvez pas y apporter de modifications tant que vous n'êtes pas abonné ou que vous n'avez pas saisi de licence.</block>
   <block id="e46ce6b98b1f39550f722c298fdb33a7" category="cell">\https://s3.amazonaws.com/</block>
   <block id="410854d72f81ddbce62fd5e69e47d7ca" category="cell">\https://storage.googleapis.com/</block>
@@ -1551,33 +1512,24 @@
   <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">Sous *cas de l'organisation*, cliquez sur *Afficher* pour afficher tous les cas associés à votre société.</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">Modifiez la plage de dates en choisissant une plage de dates exacte ou en choisissant une autre période.</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Capture d'écran de l'option au-dessus du tableau de la page gestion des cas qui vous permet de choisir une plage de dates exacte ou les 7 derniers jours, 30 derniers jours ou 3 derniers mois.</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtrez le contenu des colonnes.</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Capture d'écran de l'option de filtre dans la colonne État qui vous permet de filtrer les dossiers correspondant à un état spécifique, comme actif ou fermé.</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">Icône plus qui apparaît dans le tableau</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">Modifiez les colonnes qui apparaissent dans le tableau en cliquant sur <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> puis choisissez les colonnes que vous souhaitez afficher.</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Capture d'écran affichant les colonnes que vous pouvez afficher dans le tableau.</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Icône avec trois points qui apparaît dans la dernière colonne du tableau</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">Pour gérer un dossier de demande de support existant, cliquez sur <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> et en sélectionnant l'une des options disponibles :</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Voir cas*: Afficher tous les détails sur un cas spécifique.</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Fermer le cas* : fournissez des détails sur la raison pour laquelle vous fermez le cas et cliquez sur *Fermer le cas*.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Capture d'écran qui montre les actions que vous pouvez effectuer après avoir sélectionné le menu dans la dernière colonne du tableau.</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c8420e741e74236d475d7e500b73f774" category="paragraph"><block ref="c8420e741e74236d475d7e500b73f774" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">7 mars 2023</block>
   <block id="a19f14c281dd654ce355a7e0b63146b5" category="section-title">Cryptage EBS pour les courtiers de données AWS</block>
   <block id="8663378959352a24f27c3d250a37cf3d" category="paragraph">Vous pouvez désormais chiffrer les volumes des courtiers de données AWS à l'aide d'une clé KMS installée sur votre compte.</block>
   <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">En savoir plus sur la création d'un courtier en données dans AWS</block>
-  <block id="d44d7e95c5eca613daa8fef0c12530ae" category="paragraph"><block ref="0c0a23f9985774f63451c32bdf4cbdeb" category="inline-link-rx"></block>.</block>
   <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">Le compte NSS doit être un compte de niveau client (pas un compte invité ou temporaire). Vous pouvez avoir plusieurs comptes NSS de niveau client.</block>
   <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Il ne peut y avoir qu'un seul compte NSS si ce compte est un compte de niveau partenaire. Si vous essayez d'ajouter des comptes NSS de niveau client et qu'un compte de niveau partenaire existe, le message d'erreur suivant s'affiche :</block>
   <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"Le type de client NSS n'est pas autorisé pour ce compte car il existe déjà des utilisateurs NSS de type différent."</block>
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Il en va de même si vous possédez des comptes NSS client préexistants et que vous essayez d'ajouter un compte de niveau partenaire.</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Une fois la connexion établie, NetApp stockera le nom d'utilisateur NSS.</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">Il s'agit d'un ID généré par le système qui correspond à votre courrier électronique. Sur la page *NSS Management*, vous pouvez afficher votre courriel à partir du <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *mettre à jour les informations d'identification* dans le <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Cette option vous invite à vous reconnecter. Notez que le jeton de ces comptes expire après 90 jours. Une notification sera publiée pour vous en informer.</block>
   <block id="deb96f2e04c20206372a663fc1e22a63" category="list-text">CentOS 8.0 et 8.5</block>
   <block id="baefe41a5ed4db05fd518fa49dfbd17d" category="list-text">Red Hat Enterprise Linux 8.0 et 8.5</block>
@@ -1593,7 +1545,6 @@
   <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">Filtrer les répertoires par chemin complet</block>
   <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">En plus de filtrer les répertoires par nom, vous pouvez maintenant filtrer les répertoires par leur chemin complet.</block>
   <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">En savoir plus sur le paramètre exclure les répertoires</block>
-  <block id="c73e2e476b1a94d1d032f8e0828dcd20" category="paragraph"><block ref="f4b5f7467e10befa1f2855925c118fa5" category="inline-link-rx"></block>.</block>
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Pièce jointe (facultatif)* : téléchargez jusqu'à cinq pièces jointes, une à la fois.</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Les pièces jointes sont limitées à 25 Mo par fichier. Les extensions de fichier suivantes sont prises en charge : txt, log, PDF, jpg/JPEG, rtf, doc/docx, xls/xlsx et csv.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Mettre à jour les notes de cas* : fournir des détails supplémentaires sur votre problème ou sélectionner *Télécharger les fichiers* pour joindre jusqu'à cinq fichiers.</block>
@@ -1658,17 +1609,14 @@
   <block id="2652537da62e22a06b22374119e6c40f" category="section-title">Capacités de liaison rigide</block>
   <block id="74b59acd161d1704c8c78879dc8fba01" category="paragraph">Les utilisateurs peuvent désormais inclure des liens physiques pour les synchronisations impliquant des relations NFS à NFS non sécurisées.</block>
   <block id="689dbd8363b6599ce07ff94a27510e99" category="inline-link">En savoir plus sur le paramètre types de fichiers</block>
-  <block id="c2c4f3224fc131a75284695269fdeb1e" category="paragraph"><block ref="b8337b36588af87bdf82aa24c2fb92dc" category="inline-link-rx"></block>.</block>
   <block id="b37e1d04fbc8f3ac1aa4b71252cc4d4b" category="section-title">Possibilité d'ajouter un certificat utilisateur pour les courtiers de données dans le cadre de relations NFS sécurisées</block>
   <block id="fad605010f8f29a3a10f7062fe2cd4e9" category="paragraph">Les utilisateurs peuvent désormais définir leur propre certificat pour le courtier de données cible lors de la création d'une relation NFS sécurisée. Ils doivent définir un nom de serveur et fournir une clé privée et un ID de certificat lorsqu'ils le font. Cette fonctionnalité est disponible pour tous les courtiers de données.</block>
   <block id="3bf0932004501be46156880cfe858e8f" category="section-title">Période d'exclusion étendue pour les fichiers récemment modifiés</block>
   <block id="72293cd7eff96e1e45510dc52f4ef25e" category="paragraph">Les utilisateurs peuvent désormais exclure les fichiers modifiés jusqu'à 365 jours avant la synchronisation planifiée.</block>
   <block id="87ca8046e9c8a782bd5c06267e7f93f7" category="inline-link">En savoir plus sur le paramètre fichiers récemment modifiés</block>
-  <block id="deca82fda63a32d6ff9637b293af8d58" category="paragraph"><block ref="721635a0a6bd58b504914b6d4beb3e0e" category="inline-link-rx"></block>.</block>
   <block id="e03b4aafcead6edb397ccbf7e180255f" category="section-title">Filtrer les relations dans l'interface utilisateur par ID de relation</block>
   <block id="aca73b993cefdbe81afe166bf8692c50" category="paragraph">Ceux qui utilisent l'API RESTful peuvent désormais filtrer les relations à l'aide d'ID de relation.</block>
   <block id="37a616e16a0f4d18ac25d57ddb913bf8" category="inline-link">En savoir plus sur l'utilisation de l'API RESTful avec la copie et la synchronisation BlueXP</block>
-  <block id="30033019c9002410c1dee9e19900cb24" category="paragraph"><block ref="e9b17dee7c6de8c1de2830a91fd1865f" category="inline-link-rx"></block>.</block>
   <block id="e34ab50cbd0b1822634102ed78ca99d6" category="summary">La copie et la synchronisation BlueXP vous permettent de synchroniser des données entre une source et une cible. Il s'agit d'une relation de synchronisation. Vous devez comprendre les relations prises en charge avant de commencer.</block>
   <block id="fafec3da88dda2aaace57da0275aa418" category="list-text">Les relations de synchronisation avec cette source/cible sont prises en charge uniquement à l'aide de l'API de copie et de synchronisation BlueXP.</block>
   <block id="9884de3e76b128738e9b044e854c59b2" category="summary">Lorsque vous créez une relation de synchronisation, le service de copie et de synchronisation BlueXP copie les fichiers de la source vers la cible. Après la copie initiale, le service synchronise les données modifiées toutes les 24 heures.</block>
@@ -1815,4 +1763,56 @@
   <block id="04bde9824fe76c12bc97fc0154e2017a" category="sidebar">Copie et synchronisation BlueXP</block>
   <block id="165b6b1b3c4b5d4ec47cae74f2de4deb" category="sidebar">Découvrez la copie et la synchronisation BlueXP</block>
   <block id="106c2bd3e07db354c45924d6acfb06d3" category="sidebar">Utilisez la copie et la synchronisation BlueXP</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Il s'agit d'un ID généré par le système qui correspond à votre courrier électronique. Sur la page *NSS Management*, vous pouvez afficher votre courriel à partir du <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *mettre à jour les informations d'identification* dans le <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="1bb5620ed3998fd776980cad36e22c9a" category="paragraph"><block ref="1bb5620ed3998fd776980cad36e22c9a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0377f2dd7cfc90832cf86e4cdea18b27" category="list-text"><block ref="0377f2dd7cfc90832cf86e4cdea18b27" category="inline-link-rx"></block></block>
+  <block id="dfe0add539943e53dd2a136d10c9015c" category="list-text"><block ref="dfe0add539943e53dd2a136d10c9015c" category="inline-link-rx"></block></block>
+  <block id="291432ab9bec0a4d90809cc1c0dc6ae8" category="paragraph"><block ref="e08f2c77270cb4c5f93a805de7e3f4f9" category="inline-link-rx"></block>.</block>
+  <block id="1a7214a3217999e62943b6eb9a186e66" category="paragraph"><block ref="9bf8313a7db211679a844402f240b32a" category="inline-link-rx"></block>.</block>
+  <block id="5b1faa5c627185bd8774ba759dbbcf1d" category="paragraph"><block ref="528a28b28e8f5d9df665a229e7a7fa63" category="inline-link-rx"></block>.</block>
+  <block id="ce907128271b3f13161731af69efdb83" category="paragraph"><block ref="7d45213b584f83e1010772ef58d497ad" category="inline-link-rx"></block>.</block>
+  <block id="791d072486b9f4524702996962f5cb1d" category="paragraph"><block ref="525fcee9e0cdf0ea236cb2377cb58f7b" category="inline-link-rx"></block>.</block>
+  <block id="4e0e0be812e0732ff08c371803f4157c" category="paragraph"><block ref="aabef2d7a8f8ee536d1fe9fe0f22b561" category="inline-link-rx"></block>.</block>
+  <block id="48938ec2ae208dc89827f9e55c8f1c41" category="paragraph"><block ref="42f00e873b388cac01d84d3ba1605497" category="inline-link-rx"></block>.</block>
+  <block id="d786e3b5ab2a71e9b31bb3c75bcb0452" category="paragraph"><block ref="1376c929ae27c36845bc62cdb2b6b62a" category="inline-link-rx"></block>.</block>
+  <block id="d807456e8468d752fb5361947436e3bd" category="paragraph"><block ref="723b00e575aff83ac7e0778c753fed66" category="inline-link-rx"></block>.</block>
+  <block id="4d84ad5ddcd264a388fd3480b2b4a17e" category="paragraph"><block ref="07d42fc5dd04c400562bade15003675b" category="inline-link-rx"></block>.</block>
+  <block id="dfadf2e7b0d2a2847ef49e99054e0be5" category="paragraph"><block ref="d6f79fef3005c7a4f730cae0fe26b406" category="inline-link-rx"></block>.</block>
+  <block id="45b389095d33e2a92c84384a49acfdc1" category="paragraph"><block ref="93f91291d1ddc2977d3002c648b0d96f" category="inline-link-rx"></block>.</block>
+  <block id="f1d7d04c211126ab6988362528a55683" category="paragraph"><block ref="eaec3ca4454704b4654f3f02ffb524a7" category="inline-link-rx"></block>.</block>
+  <block id="a1acc74baa1e9877287951908082ffa4" category="paragraph"><block ref="bfc8c00ba2697817e49164164bcf6590" category="inline-link-rx"></block>.</block>
+  <block id="cb15cc9f58b868baf5d6fde1acf150c9" category="paragraph">Avant de créer une relation de synchronisation incluant Google Drive, vous devez configurer un compte de service disposant des autorisations requises et d'une clé privée.<block ref="145332dcba67127d0037c659951fe4ed" category="inline-link-rx"></block>.</block>
+  <block id="01523e5fc16052f503921585b0698ab3" category="paragraph"><block ref="ee9222b07587eb2c3ffe563d1a2c6106" category="inline-link-rx"></block>.</block>
+  <block id="5272ee17dd9d75e3474f45c3e2ce72c0" category="paragraph"><block ref="5272ee17dd9d75e3474f45c3e2ce72c0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="404965498641a1a56cc0fa3373515d7a" category="paragraph"><block ref="404965498641a1a56cc0fa3373515d7a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="246b0e9609672cddcf038daaa946671b" category="paragraph"><block ref="bbd18c81f756c2aa65d18a49f39abc0e" category="inline-link-rx"></block>.</block>
+  <block id="b4e33a0f7ed5ccdaa3ecce4c47daf31f" category="paragraph"><block ref="b4e33a0f7ed5ccdaa3ecce4c47daf31f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="858b6b26381ac0e28fd0ab2919dbe947" category="paragraph"><block ref="0e57eb14c04befe90ef141b40df96648" category="inline-link-rx"></block>.</block>
+  <block id="607c524b181fcf51f1c3bf2bd8544f62" category="paragraph"><block ref="607c524b181fcf51f1c3bf2bd8544f62" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b5ef56ad55e434fdc2e601398d2944d1" category="paragraph"><block ref="b5ef56ad55e434fdc2e601398d2944d1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a69f17c43aef6869d3c198c9e9ea2e32" category="paragraph"><block ref="a69f17c43aef6869d3c198c9e9ea2e32" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="448a2d91b78bc791fe1001a6af9e8290" category="paragraph"><block ref="448a2d91b78bc791fe1001a6af9e8290" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="43681663bc0450a9a5879dd236d40b3e" category="paragraph"><block ref="43681663bc0450a9a5879dd236d40b3e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33f0129a1bbda48d580d8b7e1e727bd5" category="list-text"><block ref="33f0129a1bbda48d580d8b7e1e727bd5" category="inline-link-rx"></block></block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">Modifiez les colonnes qui apparaissent dans le tableau en cliquant sur <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> puis choisissez les colonnes que vous souhaitez afficher.</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">Pour gérer un dossier de demande de support existant, cliquez sur <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> et en sélectionnant l'une des options disponibles :</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
+  <block id="e6e1607e58cd001b7c781a8f8bfa813a" category="list-text"><block ref="e6e1607e58cd001b7c781a8f8bfa813a" category="inline-link-rx"></block></block>
+  <block id="6cfeb8c907e4b67e454993b95d8b4c8b" category="list-text"><block ref="6cfeb8c907e4b67e454993b95d8b4c8b" category="inline-link-rx"></block></block>
+  <block id="27a3e4e8b80492209761738784b770d5" category="list-text"><block ref="27a3e4e8b80492209761738784b770d5" category="inline-link-rx"></block></block>
+  <block id="f8c7ce78aaf937671ef25c9c931e368e" category="list-text"><block ref="f8c7ce78aaf937671ef25c9c931e368e" category="inline-link-rx"></block></block>
+  <block id="5bef0b78e6ec321bf21d727ac503470d" category="list-text"><block ref="5bef0b78e6ec321bf21d727ac503470d" category="inline-link-rx"></block></block>
+  <block id="85cd31980dc6fca292186015e6569783" category="list-text"><block ref="85cd31980dc6fca292186015e6569783" category="inline-link-rx"></block></block>
+  <block id="8e430579de892a93405f336e319e0650" category="paragraph"><block ref="40f48ef5ea0de0b0c1e5b47df6f8470c" category="inline-link-rx"></block>.</block>
 </blocks>

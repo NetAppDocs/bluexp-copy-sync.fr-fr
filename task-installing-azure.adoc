@@ -132,7 +132,7 @@ En outre, le périmètre attribuable doit être défini sur étendue de l'abonne
 
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["En savoir plus sur le paramètre de synchronisation continue"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["En savoir plus sur le paramètre de synchronisation continue"].
 
 
 

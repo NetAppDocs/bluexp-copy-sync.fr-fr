@@ -92,7 +92,7 @@ La copie et la synchronisation BlueXP mettent à jour les identifiants du courti
 
 Un paramètre *Notifications* pour chaque relation de synchronisation vous permet de choisir de recevoir ou non des notifications de copie et de synchronisation BlueXP dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["Capture d'écran qui montre le Centre de notification dans BlueXP."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["Capture d'écran qui montre le Centre de notification dans BlueXP."]
 
 Vous pouvez également recevoir des notifications par e-mail.
 
