@@ -134,7 +134,7 @@ image:screenshot_sync_settings.png["Capture d'écran affichant les paramètres d
 
 +
 Planification:: Choisissez un programme récurrent pour les synchronisations ultérieures ou désactivez la planification de synchronisation. Vous pouvez planifier une relation pour synchroniser les données aussi souvent que toutes les 1 minute.
-Délai d'expiration de la synchronisation:: Déterminez si la copie et la synchronisation BlueXP doivent annuler une synchronisation des données si la synchronisation n'a pas eu lieu au cours du nombre spécifié d'heures ou de jours.
+Délai d'expiration de la synchronisation:: Déterminez si la copie et la synchronisation BlueXP doivent annuler une synchronisation des données si la synchronisation n'a pas eu lieu au cours du nombre spécifié de minutes, d'heures ou de jours.
 Notifications:: Vous permet de choisir de recevoir ou non les notifications de copie et de synchronisation BlueXP dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.
 +
 --

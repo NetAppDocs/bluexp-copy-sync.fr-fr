@@ -18,6 +18,26 @@ Découvrez les nouveautés de la copie et de la synchronisation BlueXP.
 
 
 
+== 11 juin 2023
+
+
+
+=== Prend en charge l'abandon automatique en minutes
+
+Les synchronisations actives qui ne sont pas terminées peuvent maintenant être abandonnées après quinze minutes à l'aide de la fonction *Sync Timeout*.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["En savoir plus sur le paramètre délai de synchronisation"].
+
+
+
+=== Métadonnées de la durée d'accès à la copie
+
+Dans les relations incluant un système de fichiers, la fonction *Copy for Objects* copie désormais les métadonnées du temps d'accès.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["En savoir plus sur le paramètre Copier pour objets"].
+
+
+
 == 8 mai 2023
 
 
