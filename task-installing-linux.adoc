@@ -139,6 +139,10 @@ La page d'instructions se charge sous peu. Vous devez suivre ces instructions --
 +
 .. Indiquez si vous souhaitez activer l'accès à *AWS*, *Google Cloud* ou aux deux.
 .. Sélectionnez une option d'installation : *pas de proxy*, *utilisez le serveur proxy* ou *utilisez le serveur proxy avec authentification*.
++
+
+NOTE: L'utilisateur doit être un utilisateur local. Les utilisateurs du domaine ne sont pas pris en charge.
+
 .. Utilisez les commandes pour télécharger et installer le courtier de données.
 +
 Les étapes suivantes fournissent des détails sur chaque option d'installation possible. Suivez la page d'instructions pour obtenir la commande exacte en fonction de votre option d'installation.

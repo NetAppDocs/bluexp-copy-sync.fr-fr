@@ -1827,4 +1827,5 @@
   <block id="a706d4045e92e504f4aa9e79191d81f5" category="paragraph">Dans les relations incluant un système de fichiers, la fonction *Copy for Objects* copie désormais les métadonnées du temps d'accès.</block>
   <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">En savoir plus sur le paramètre Copier pour objets</block>
   <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>.</block>
+  <block id="b9a11b90960ff803269429887ab4cff3" category="admonition">L'utilisateur doit être un utilisateur local. Les utilisateurs du domaine ne sont pas pris en charge.</block>
 </blocks>
