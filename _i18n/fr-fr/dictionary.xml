@@ -97,7 +97,6 @@
   <block id="ba989292c988a2d8cc2131b51e13de72" category="list-text">Date de création</block>
   <block id="cb19fb587c8b8441e4715d093c6ff8a9" category="list-text">Lorsqu'un serveur SMB est source, ce paramètre vous permet de synchroniser les fichiers créés après une date spécifique, avant une date spécifique ou entre une plage horaire spécifique.</block>
   <block id="b92f5c644d05d58f54475c2fe1234f54" category="list-text">ACL - liste de contrôle d'accès</block>
-  <block id="f0b2b375230c7994fae3ffa2ea1c641e" category="list-text">Copiez les ACL depuis un serveur SMB en activant un paramètre lors de la création d'une relation ou après la création d'une relation.</block>
   <block id="5cf4f5ebbbfbb213dc901510fbf08a80" category="list-text">Sur la page *Tags/Metadata*, choisissez d'enregistrer une paire clé-valeur en tant qu'étiquette sur tous les fichiers transférés dans le compartiment S3 ou d'attribuer une paire clé-valeur de métadonnées sur tous les fichiers.</block>
   <block id="96eb50fa77567b33546d85a4d6adc2f4" category="inline-image-macro">Capture d'écran affichant la page balises/métadonnées lors de la création d'une relation de synchronisation avec Amazon S3.</block>
   <block id="72786dbf28b6222cb6b90ef1853e64d5" category="paragraph"><block ref="72786dbf28b6222cb6b90ef1853e64d5" category="inline-image-macro-rx" type="image"></block></block>
@@ -538,22 +537,16 @@
   <block id="38ab7ff3062aba8e3cff5bda4cd76234" category="list-title">Étapes d'une nouvelle relation</block>
   <block id="4eb7f5a2c981906a3398b40af3279ff4" category="list-text">Faites glisser un serveur SMB ou un stockage objet en tant que source et un serveur SMB ou un stockage objet en tant que cible, puis cliquez sur *Continuer*.</block>
   <block id="078c5213fa0cb4e4d041374224a30418" category="list-text">Sur la page *SMB Server* :</block>
-  <block id="cd6a06ca56665938800223e22f7a2e1a" category="list-text">Entrez un nouveau serveur SMB ou sélectionnez un serveur existant et cliquez sur *Continuer*.</block>
   <block id="446dd08d6403fc4cd86bff2687c49fac" category="list-text">Saisissez les informations d'identification du serveur SMB.</block>
-  <block id="e4a32528a4b54e0550c293e3b333a91b" category="list-text">Sélectionnez *Copier les listes de contrôle d'accès vers la cible* et cliquez sur *Continuer*.</block>
   <block id="fb45eb06d7031a4458942ff295e2b322" category="inline-image-macro">Capture d'écran montrant l'option permettant d'activer les listes de contrôle d'accès de copie sur la cible.</block>
-  <block id="8430cacad015ab20dbfdfe2a52e66c25" category="paragraph"><block ref="8430cacad015ab20dbfdfe2a52e66c25" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e6a4d248486a16fb2ddfb3e73fae457" category="list-text">Suivez les autres invites pour créer la relation de synchronisation.</block>
   <block id="da63a18d0db73de768c761794d778825" category="paragraph">Lorsque vous copiez des listes de contrôle d'accès depuis SMB vers le stockage objet, vous pouvez choisir de copier ces listes de contrôle d'accès vers les balises de l'objet ou sur les métadonnées de l'objet, en fonction de la cible. Pour Azure et Google Cloud Storage, seule l'option de métadonnées est disponible.</block>
   <block id="3bfa4a2697c3b4f6c66ec5e91be02be6" category="paragraph">La capture d'écran suivante montre un exemple de l'étape où vous pouvez faire ce choix.</block>
   <block id="70ebe11ca97b687790441cba3fee58d1" category="inline-image-macro">Capture d'écran de la sixième étape de l'assistant de synchronisation lors de la copie vers le stockage objet. Vous pouvez choisir d'enregistrer les ACL avec les balises ou les métadonnées de l'objet.</block>
   <block id="c5b5f241a9177e265d584f0d7e7eb47f" category="paragraph"><block ref="c5b5f241a9177e265d584f0d7e7eb47f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="713b689d8504ac385f256ca9887e16b1" category="list-title">Étapes d'une relation existante</block>
-  <block id="0c31a291f95e633da467dc857cc5e520" category="list-text">Survolez la relation de synchronisation et cliquez sur le menu d'action.</block>
   <block id="bdcd619e6df173b859ed2a1a86e17328" category="list-text">Cliquez sur *Paramètres*.</block>
-  <block id="c8976ecf7db6e203ae29ff9831475dab" category="list-text">Sélectionnez *Copier les listes de contrôle d'accès vers la cible*.</block>
   <block id="14242c99845a0bf338d45c648e061643" category="list-text">Cliquez sur *Enregistrer les paramètres*.</block>
-  <block id="670e838489cdd7c7044571ff2bb8b3be" category="section-title">Copie manuelle des listes de contrôle d'accès entre partages SMB</block>
   <block id="d7acee2f148a20ab4d4e346ddcb75a00" category="paragraph">Vous pouvez conserver manuellement les listes de contrôle d'accès entre les partages SMB à l'aide de la commande Windows robocopy.</block>
   <block id="41c1f5322f48eb3e6207394ffc0589d0" category="list-text">Identifiez un hôte Windows qui dispose d'un accès complet aux deux partages SMB.</block>
   <block id="df2a188ed56fd7a6dc654c44c2bf4472" category="list-text">Si l'un des noeuds finaux nécessite une authentification, utilisez la commande *net use* pour vous connecter aux noeuds finaux à partir de l'hôte Windows.</block>
@@ -1091,20 +1084,17 @@
   <block id="0f5f1ed19e5f92c9f1aad34019c5c065" category="inline-image-macro">Capture d'écran du bouton qui vous permet d'effectuer des actions sur une relation de synchronisation</block>
   <block id="781a4e1aefac4f9409210de2df0f2992" category="list-text">Dans *Dashboard*, naviguez jusqu'à la relation de synchronisation et cliquez sur <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="90881819e96a317a0b9cbd8a17bea734" category="list-text">Cliquez sur *Synchroniser maintenant*, puis sur *Sync* pour confirmer.</block>
-  <block id="0577fc2a0170ddd124f45dc5bb44f0da" category="section-title">Accélération des performances de synchronisation</block>
   <block id="9011e4e296b23e35e2729606b1923581" category="paragraph">Accélérez les performances d'une relation de synchronisation en ajoutant un courtier de données supplémentaire au groupe qui gère la relation. Le courtier de données supplémentaire doit être un _New_ Data broker.</block>
   <block id="30da1c6cc964eebe723aacff25362055" category="paragraph">Si le groupe du courtier gère d'autres relations de synchronisation, le nouveau courtier de données que vous ajoutez au groupe accélère également les performances de ces relations de synchronisation.</block>
   <block id="77835e3bdea4c9060a1ddb296840c2f2" category="list-text">Assurez-vous qu'au moins un des courtiers de données existants dans la relation est en ligne.</block>
   <block id="f0f405cf23a3551636665b7b031e8fac" category="list-text">Cliquez sur *accélérer*.</block>
   <block id="bef7c0526a136d74698b8d535b65bafd" category="list-text">Suivez les invites pour créer un nouveau courtier de données.</block>
-  <block id="a28c4492bc6f10da847edad58fb33acc" category="section-title">Mise à jour des identifiants</block>
   <block id="b9d30d436a8a56d3713a2ec699c1b4b4" category="paragraph">Vous pouvez mettre à jour le courtier de données avec les informations d'identification les plus récentes de la source ou de la cible dans une relation de synchronisation existante. La mise à jour des informations d'identification peut vous aider si vos stratégies de sécurité vous obligent à mettre à jour les informations d'identification de manière périodique.</block>
   <block id="bd815be6d32df77592fb5fe811a33258" category="list-text">Dans le tableau de bord *Sync*, accédez à une relation de synchronisation qui nécessite des informations d'identification, puis cliquez sur *mettre à jour les informations d'identification*.</block>
   <block id="1c92b262b640f4dcb403b78b346e9f7b" category="inline-image-macro">Capture d'écran affichant l'option mettre à jour les informations d'identification sur la page Synchroniser les relations juste sous le nom de la source ou de la cible.</block>
   <block id="72b0391bb04b72b58541516235c5cb94" category="paragraph"><block ref="72b0391bb04b72b58541516235c5cb94" category="inline-image-macro-rx" type="image"></block></block>
   <block id="78529df6bbf68e1bc56a7c5921101ba9" category="list-text">Entrez les informations d'identification et cliquez sur *Update*.</block>
   <block id="023dd20b31e9240e9be755e28a211310" category="paragraph">Remarque sur les serveurs SMB : si le domaine est nouveau, vous devez le spécifier lors de la mise à jour des informations d'identification. Si le domaine n'a pas changé, vous n'avez pas besoin de le saisir à nouveau.</block>
-  <block id="0120982bf6587a582d7ad3aa6f491005" category="section-title">Configuration des notifications</block>
   <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">Capture d'écran qui montre le Centre de notification dans BlueXP.</block>
   <block id="55d9f99a73d4f287de3573ba4a2c149b" category="paragraph">Vous pouvez également recevoir des notifications par e-mail.</block>
   <block id="50685346648f799f564787da3aeaa3df" category="list-text">Modifiez les paramètres d'une relation de synchronisation :</block>
@@ -1113,7 +1103,6 @@
   <block id="2c97c497a9405e946d3eb1dd6266fe96" category="list-text">Cliquez sur *Paramètres &gt; Paramètres d'alertes et de notifications*.</block>
   <block id="0f3cd015c1ca0bfb4d2fbb852b3d6a5e" category="list-text">Sélectionnez un ou plusieurs utilisateurs et choisissez le type de notification *Info*.</block>
   <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">Cliquez sur *appliquer*.</block>
-  <block id="aa34fbc2c40679419a7f1063c5c292ff" category="section-title">Modification des paramètres d'une relation de synchronisation</block>
   <block id="374e9d4e51accd7075f4287b4b793c1b" category="paragraph">Modifiez les paramètres qui définissent la façon dont les fichiers et dossiers source sont synchronisés et gérés à l'emplacement cible.</block>
   <block id="822ae51936517f095a62c2446cee4c00" category="list-text">Modifiez l'un des paramètres.</block>
   <block id="81619d38a88bd76ccf0c4ffa8f70f298" category="inline-image-macro">Capture d'écran affichant les paramètres d'une relation de synchronisation.</block>
@@ -1121,7 +1110,6 @@
   <block id="b849337d97139a6f11fd0de2bdfe63ed" category="paragraph">[[deleteonsource]] Voici une brève description de chaque paramètre :</block>
   <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">Si vous souhaitez recevoir des notifications pour</block>
   <block id="358b02ae4c5737f45e3823c255aeb87e" category="list-text">Choisissez de supprimer des fichiers de l'emplacement cible, s'ils ont été supprimés de la source. La valeur par défaut est de ne jamais supprimer de fichiers de l'emplacement cible.</block>
-  <block id="4df1b0120e33fda011d371e1ed722bab" category="section-title">Suppression de relations</block>
   <block id="f493e490805f4eb86f124bae3d9da833" category="paragraph">Vous pouvez supprimer une relation de synchronisation si vous n'avez plus besoin de synchroniser les données entre la source et la cible. Cette action ne supprime pas le groupe du courtier de données (ou les instances individuelles du courtier de données) et ne supprime pas les données de la cible.</block>
   <block id="68771d6d7b1536e9127a6d046d30c825" category="list-text">Cliquez sur *Supprimer*, puis cliquez à nouveau sur *Supprimer* pour confirmer.</block>
   <block id="f3630c1c94e3e51aaea5bdd037dc03c9" category="section-title">30 octobre 2022</block>
@@ -1637,8 +1625,6 @@
   <block id="d4dc0f2ea6e5e1538c8a19c6a4577fd8" category="summary">La copie et la synchronisation BlueXP peuvent copier des listes de contrôle d'accès (ACL) entre des partages SMB et entre un partage SMB et un stockage objet (à l'exception de ONTAP S3). Si nécessaire, vous avez également la possibilité de conserver manuellement des listes de contrôle d'accès entre les partages SMB à l'aide de robocopy.</block>
   <block id="81a977665d31d193ae870e9766c60880" category="inline-xref">Configurez la copie et la synchronisation BlueXP pour copier automatiquement les listes de contrôle d'accès</block>
   <block id="d19dc7040ab8dc466773d35695363957" category="list-text"><block ref="55b2d1445c700d9bab1004cc9ff792c1" category="inline-xref-macro-rx"></block></block>
-  <block id="6a116de9e052c93f29f42d9666818738" category="section-title">Configuration de la copie et de la synchronisation BlueXP pour copier les listes de contrôle d'accès</block>
-  <block id="2381032f482f5821359a7ffbccf4f954" category="list-text">Depuis la copie et la synchronisation BlueXP, cliquez sur *Créer une nouvelle synchronisation*.</block>
   <block id="25aad67dfa80ebe55925aa72bc94b583" category="paragraph">Lors de la synchronisation des données, la copie et la synchronisation BlueXP préservent les ACL entre la source et la cible.</block>
   <block id="40074d699c28eac9b0a231e26a10dbb8" category="list-text">À partir de la copie et de la synchronisation BlueXP, créez une nouvelle relation entre les partages SMB source et cible ou synchronisez une relation existante.</block>
   <block id="1c21a7ebb7b558a51c4ebb47b152cbeb" category="paragraph">La copie et la synchronisation BlueXP démarrent le processus de synchronisation des données pour la relation.</block>
@@ -1828,4 +1814,40 @@
   <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">En savoir plus sur le paramètre Copier pour objets</block>
   <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>.</block>
   <block id="b9a11b90960ff803269429887ab4cff3" category="admonition">L'utilisateur doit être un utilisateur local. Les utilisateurs du domaine ne sont pas pris en charge.</block>
+  <block id="c6d95123ce00e1d2940e9547ed9e800e" category="list-text">*Compatibilité Node.js* : v20</block>
+  <block id="029bf19b5ab4e2409feefba3e8d94200" category="section-title">Configurez la copie et la synchronisation BlueXP pour copier les listes de contrôle d'accès</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Avant de commencer</block>
+  <block id="31bea9e85b096361bd5e056000e559fa" category="list-text">Depuis la copie et la synchronisation BlueXP, sélectionnez *Créer une nouvelle synchronisation*.</block>
+  <block id="89cab273ace7f7269851855f5cdc34fc" category="list-text">Entrez un nouveau serveur SMB ou sélectionnez un serveur existant et sélectionnez *Continuer*.</block>
+  <block id="c1b935a2ef742234b2508a64b5365143" category="list-text">Choisissez *Copier uniquement les fichiers*, *Copier uniquement la liste de contrôle d’accès* ou *Copier les fichiers et la liste de contrôle d’accès* et sélectionnez *Continuer*.</block>
+  <block id="250b3114498e09ced4030535104567ac" category="paragraph"><block ref="250b3114498e09ced4030535104567ac" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1450c5e5e899afa2e29bb6d30ee4476c" category="list-text">Passez le curseur sur la relation de synchronisation et sélectionnez le menu d'action.</block>
+  <block id="376ec8b3e51e6597fb939c31a3fe0e59" category="list-text">Sélectionnez *Paramètres*.</block>
+  <block id="dae7935789376601d4e78847bef7e33e" category="list-text">Sélectionnez *Enregistrer les paramètres*.</block>
+  <block id="7c2e6ea8a3aea68b51b8b85907eabea5" category="section-title">Copie manuelle des listes de contrôle d'accès entre partages SMB</block>
+  <block id="59e767a49496d7be5777e4cf48d4105c" category="list-text">Copiez les listes de contrôle d’accès uniquement, les fichiers uniquement ou les listes de contrôle d’accès et les fichiers à partir d’un serveur SMB en activant un paramètre lors de la création d’une relation ou après la création d’une relation.</block>
+  <block id="e0c7c4832f74beb01a9b0b7f4ceb62b9" category="list-text">Compatibilité Node.js</block>
+  <block id="8286e09aa759584d6fd8292ccdc241cc" category="list-text">v20</block>
+  <block id="e0536b4ae9bb49a9633b77ce78d68e0a" category="section-title">Accélérez les performances de synchronisation</block>
+  <block id="baf8ddab0e1f4d03b84d74129178e3e2" category="section-title">Mises à jour</block>
+  <block id="11d4a32f12cfcb43ae53ae70017809c1" category="section-title">Configurez les notifications</block>
+  <block id="b74bf8e34d66bdbffc7544ea6e132661" category="section-title">Modifier les paramètres d'une relation de synchronisation</block>
+  <block id="76db6b34fbbc30a6bf267e7b8d4ded4b" category="section-title">Supprimer les relations</block>
+  <block id="7b2063588e90afd3b3af31717ccca767" category="section-title">Option 1 : supprimer une seule relation de synchronisation</block>
+  <block id="fe59670d5deda9cb753645f774a47c00" category="list-text">Dans le *Tableau de bord*, naviguez jusqu'à la relation de synchronisation et sélectionnez <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b838fb1a6e3a063ff847ead6c680b63b" category="section-title">Option 2 : supprimez plusieurs relations synchronisées</block>
+  <block id="e228b5490db647150a658ff97a26549c" category="list-text">Dans le *Tableau de bord*, naviguez jusqu'au bouton « Créer une nouvelle synchronisation » et sélectionnez <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="17ae36fbbd79b2ff16d4f9f68caeb794" category="list-text">Sélectionnez les relations de synchronisation que vous souhaitez supprimer, cliquez sur *Supprimer*, puis cliquez de nouveau sur *Supprimer* pour confirmer.</block>
+  <block id="8c2d829bea49e9a2588d62f78f366000" category="paragraph">La copie et la synchronisation BlueXP suppriment les relations synchronisées.</block>
+  <block id="744c3e2d9eefd2af0d741a4bdf013531" category="section-title">9 juillet 2023</block>
+  <block id="0d31f76acc0f0585c0ce6603aae95bf9" category="section-title">Supprimez plusieurs relations de synchronisation à la fois</block>
+  <block id="86f4ab992201dfe7e7a91d9236676ea1" category="paragraph">Les utilisateurs peuvent désormais supprimer plusieurs relations de synchronisation à la fois dans l'interface utilisateur.</block>
+  <block id="f56872f7cec9149a7ac802d7a22773f7" category="inline-link">En savoir plus sur la suppression des relelationsSync.</block>
+  <block id="8841a5cc4fff05bb6e2a277bb234a5e9" category="paragraph"><block ref="8841a5cc4fff05bb6e2a277bb234a5e9" category="inline-link-rx"></block></block>
+  <block id="0bf8da16e84dc021192c3cce07860470" category="section-title">Liste de contrôle d'accès pour copie uniquement</block>
+  <block id="dda93ca03de99accfa039adc8007a91c" category="paragraph">Les utilisateurs disposent désormais d'options supplémentaires pour copier les informations ACL dans les relations CIF et NFS. Lors de la création ou de la gestion d'une relation de synchronisation, vous pouvez uniquement copier des fichiers, copier uniquement des informations ACL ou copier des fichiers et des informations ACL.</block>
+  <block id="75188372815d8c81aa145bb6bd881697" category="inline-link">En savoir plus sur la copie des listes de contrôle d'accès.</block>
+  <block id="f14be32be1b0e46b478529e782afc130" category="paragraph"><block ref="f14be32be1b0e46b478529e782afc130" category="inline-link-rx"></block></block>
+  <block id="c3605c10e6753f736b31bbe56975b312" category="section-title">Mise à jour vers Node.js 20</block>
+  <block id="62ace2991e0846010d9d30c14cb37645" category="paragraph">La copie et la synchronisation ont été mises à jour vers Node.js 20. Tous les courtiers de données disponibles seront mis à jour. Les systèmes d'exploitation incompatibles avec cette mise à jour ne peuvent pas être installés et les systèmes existants incompatibles peuvent rencontrer des problèmes de performances.</block>
 </blocks>

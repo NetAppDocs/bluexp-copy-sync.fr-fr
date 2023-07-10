@@ -35,7 +35,7 @@ La copie et la synchronisation BlueXP démarrent le processus de synchronisation
 
 
 
-== Accélération des performances de synchronisation
+== Accélérez les performances de synchronisation
 
 Accélérez les performances d'une relation de synchronisation en ajoutant un courtier de données supplémentaire au groupe qui gère la relation. Le courtier de données supplémentaire doit être un _New_ Data broker.
 
@@ -63,7 +63,7 @@ La copie et la synchronisation BlueXP ajoutent le nouveau courtier en données a
 
 
 
-== Mise à jour des identifiants
+== Mises à jour
 
 Vous pouvez mettre à jour le courtier de données avec les informations d'identification les plus récentes de la source ou de la cible dans une relation de synchronisation existante. La mise à jour des informations d'identification peut vous aider si vos stratégies de sécurité vous obligent à mettre à jour les informations d'identification de manière périodique.
 
@@ -88,7 +88,7 @@ La copie et la synchronisation BlueXP mettent à jour les identifiants du courti
 
 
 
-== Configuration des notifications
+== Configurez les notifications
 
 Un paramètre *Notifications* pour chaque relation de synchronisation vous permet de choisir de recevoir ou non des notifications de copie et de synchronisation BlueXP dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.
 
@@ -119,7 +119,7 @@ Si vous avez configuré cette option, vous recevrez désormais des notifications
 
 
 
-== Modification des paramètres d'une relation de synchronisation
+== Modifier les paramètres d'une relation de synchronisation
 
 Modifiez les paramètres qui définissent la façon dont les fichiers et dossiers source sont synchronisés et gérés à l'emplacement cible.
 
@@ -189,7 +189,7 @@ Exclure les répertoires:: Spécifiez un maximum de 15 répertoires à exclure d
 Taille du fichier:: Choisissez de synchroniser tous les fichiers, quelle que soit leur taille ou uniquement les fichiers qui se trouvent dans une plage de taille spécifique.
 Date de modification:: Choisissez tous les fichiers quelle que soit leur date de dernière modification, les fichiers modifiés après une date spécifique, avant une date spécifique ou entre une plage de temps.
 Date de création:: Lorsqu'un serveur SMB est source, ce paramètre vous permet de synchroniser les fichiers créés après une date spécifique, avant une date spécifique ou entre une plage horaire spécifique.
-ACL - liste de contrôle d'accès:: Copiez les ACL depuis un serveur SMB en activant un paramètre lors de la création d'une relation ou après la création d'une relation.
+ACL - liste de contrôle d'accès:: Copiez les listes de contrôle d’accès uniquement, les fichiers uniquement ou les listes de contrôle d’accès et les fichiers à partir d’un serveur SMB en activant un paramètre lors de la création d’une relation ou après la création d’une relation.
 
 
 . Cliquez sur *Enregistrer les paramètres*.
@@ -200,14 +200,30 @@ La copie et la synchronisation BlueXP modifient la relation de synchronisation a
 
 
 
-== Suppression de relations
+== Supprimer les relations
 
 Vous pouvez supprimer une relation de synchronisation si vous n'avez plus besoin de synchroniser les données entre la source et la cible. Cette action ne supprime pas le groupe du courtier de données (ou les instances individuelles du courtier de données) et ne supprime pas les données de la cible.
 
+
+
+=== Option 1 : supprimer une seule relation de synchronisation
+
 .Étapes
-. Dans *Dashboard*, naviguez jusqu'à la relation de synchronisation et cliquez sur image:icon-sync-action.png["Capture d'écran du bouton qui vous permet d'effectuer des actions sur une relation de synchronisation"]
+. Dans le *Tableau de bord*, naviguez jusqu'à la relation de synchronisation et sélectionnez image:icon-sync-action.png["Capture d'écran du bouton qui vous permet d'effectuer des actions sur une relation de synchronisation"]
 . Cliquez sur *Supprimer*, puis cliquez à nouveau sur *Supprimer* pour confirmer.
 
 
 .Résultat
 La copie et la synchronisation BlueXP suppriment la relation de synchronisation.
+
+
+
+=== Option 2 : supprimez plusieurs relations synchronisées
+
+.Étapes
+. Dans le *Tableau de bord*, naviguez jusqu'au bouton « Créer une nouvelle synchronisation » et sélectionnez image:icon-sync-action.png["Capture d'écran du bouton qui vous permet d'effectuer des actions sur une relation de synchronisation"]
+. Sélectionnez les relations de synchronisation que vous souhaitez supprimer, cliquez sur *Supprimer*, puis cliquez de nouveau sur *Supprimer* pour confirmer.
+
+
+.Résultat
+La copie et la synchronisation BlueXP suppriment les relations synchronisées.

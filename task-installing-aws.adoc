@@ -120,6 +120,7 @@ Vous avez déployé un courtier de données dans AWS et créé une nouvelle rela
 
 La copie et la synchronisation BlueXP créent un courtier en données dans AWS avec la configuration suivante.
 
+Compatibilité Node.js:: v20
 Type d'instance:: m5n.xlarge lorsque disponible dans la région, sinon m5.xlarge
 VCPU:: 4
 RAM:: 16 GO

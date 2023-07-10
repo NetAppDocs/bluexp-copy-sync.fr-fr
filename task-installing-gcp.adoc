@@ -163,6 +163,7 @@ Lorsque vous configurez une relation de synchronisation, vous pouvez désormais 
 
 La copie et la synchronisation BlueXP créent un courtier en données dans Google Cloud à l'aide de la configuration suivante.
 
+Compatibilité Node.js:: v20
 Type de machine:: n2-standard-4
 VCPU:: 4
 RAM:: 15 GO

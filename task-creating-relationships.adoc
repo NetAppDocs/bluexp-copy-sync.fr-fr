@@ -187,7 +187,7 @@ Exclure les répertoires:: Spécifiez un maximum de 15 répertoires à exclure d
 Taille du fichier:: Choisissez de synchroniser tous les fichiers, quelle que soit leur taille ou uniquement les fichiers qui se trouvent dans une plage de taille spécifique.
 Date de modification:: Choisissez tous les fichiers quelle que soit leur date de dernière modification, les fichiers modifiés après une date spécifique, avant une date spécifique ou entre une plage de temps.
 Date de création:: Lorsqu'un serveur SMB est source, ce paramètre vous permet de synchroniser les fichiers créés après une date spécifique, avant une date spécifique ou entre une plage horaire spécifique.
-ACL - liste de contrôle d'accès:: Copiez les ACL depuis un serveur SMB en activant un paramètre lors de la création d'une relation ou après la création d'une relation.
+ACL - liste de contrôle d'accès:: Copiez les listes de contrôle d’accès uniquement, les fichiers uniquement ou les listes de contrôle d’accès et les fichiers à partir d’un serveur SMB en activant un paramètre lors de la création d’une relation ou après la création d’une relation.
 
 
 . Sur la page *Tags/Metadata*, choisissez d'enregistrer une paire clé-valeur en tant qu'étiquette sur tous les fichiers transférés dans le compartiment S3 ou d'attribuer une paire clé-valeur de métadonnées sur tous les fichiers.

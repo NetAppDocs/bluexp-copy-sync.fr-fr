@@ -18,6 +18,32 @@ Découvrez les nouveautés de la copie et de la synchronisation BlueXP.
 
 
 
+== 9 juillet 2023
+
+
+
+=== Supprimez plusieurs relations de synchronisation à la fois
+
+Les utilisateurs peuvent désormais supprimer plusieurs relations de synchronisation à la fois dans l'interface utilisateur.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#deleting-relationships["En savoir plus sur la suppression des relelationsSync."]
+
+
+
+=== Liste de contrôle d'accès pour copie uniquement
+
+Les utilisateurs disposent désormais d'options supplémentaires pour copier les informations ACL dans les relations CIF et NFS. Lors de la création ou de la gestion d'une relation de synchronisation, vous pouvez uniquement copier des fichiers, copier uniquement des informations ACL ou copier des fichiers et des informations ACL.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-copying-acls.html["En savoir plus sur la copie des listes de contrôle d'accès."]
+
+
+
+=== Mise à jour vers Node.js 20
+
+La copie et la synchronisation ont été mises à jour vers Node.js 20. Tous les courtiers de données disponibles seront mis à jour. Les systèmes d'exploitation incompatibles avec cette mise à jour ne peuvent pas être installés et les systèmes existants incompatibles peuvent rencontrer des problèmes de performances.
+
+
+
 == 11 juin 2023
 
 

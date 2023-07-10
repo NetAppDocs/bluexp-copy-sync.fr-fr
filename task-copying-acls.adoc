@@ -18,28 +18,28 @@ La copie et la synchronisation BlueXP peuvent copier des listes de contrôle d'a
 
 .Choix
 * <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,Configurez la copie et la synchronisation BlueXP pour copier automatiquement les listes de contrôle d'accès>>
-* <<Copie manuelle des listes de contrôle d'accès entre partages SMB,Copiez manuellement les listes de contrôle d'accès entre les partages SMB>>
+* <<Manually copying ACLs between SMB shares,Copiez manuellement les listes de contrôle d'accès entre les partages SMB>>
 
 
 
 
-== Configuration de la copie et de la synchronisation BlueXP pour copier les listes de contrôle d'accès
+== Configurez la copie et la synchronisation BlueXP pour copier les listes de contrôle d'accès
 
 Copie de listes de contrôle d'accès entre les partages SMB et entre les partages SMB et le stockage objet en activant un paramètre lors de la création d'une relation ou après la création d'une relation.
 
-.Ce dont vous avez besoin
+.Avant de commencer
 Cette fonctionnalité fonctionne avec _tout_ type de courtier en données : AWS, Azure, Google Cloud Platform ou comme courtier en données sur site. Le courtier en données sur site peut être exécuté link:task-installing-linux.html["tout système d'exploitation pris en charge"].
 
 .Étapes d'une nouvelle relation
-. Depuis la copie et la synchronisation BlueXP, cliquez sur *Créer une nouvelle synchronisation*.
+. Depuis la copie et la synchronisation BlueXP, sélectionnez *Créer une nouvelle synchronisation*.
 . Faites glisser un serveur SMB ou un stockage objet en tant que source et un serveur SMB ou un stockage objet en tant que cible, puis cliquez sur *Continuer*.
 . Sur la page *SMB Server* :
 +
-.. Entrez un nouveau serveur SMB ou sélectionnez un serveur existant et cliquez sur *Continuer*.
+.. Entrez un nouveau serveur SMB ou sélectionnez un serveur existant et sélectionnez *Continuer*.
 .. Saisissez les informations d'identification du serveur SMB.
-.. Sélectionnez *Copier les listes de contrôle d'accès vers la cible* et cliquez sur *Continuer*.
+.. Choisissez *Copier uniquement les fichiers*, *Copier uniquement la liste de contrôle d’accès* ou *Copier les fichiers et la liste de contrôle d’accès* et sélectionnez *Continuer*.
 +
-image:screenshot_acl_support.gif["Capture d'écran montrant l'option permettant d'activer les listes de contrôle d'accès de copie sur la cible."]
+image:screenshot_acl_support.png["Capture d'écran montrant l'option permettant d'activer les listes de contrôle d'accès de copie sur la cible."]
 
 
 
@@ -56,10 +56,10 @@ image:screenshot-sync-tags-metadata.png["Capture d'écran de la sixième étape 
 
 
 .Étapes d'une relation existante
-. Survolez la relation de synchronisation et cliquez sur le menu d'action.
-. Cliquez sur *Paramètres*.
-. Sélectionnez *Copier les listes de contrôle d'accès vers la cible*.
-. Cliquez sur *Enregistrer les paramètres*.
+. Passez le curseur sur la relation de synchronisation et sélectionnez le menu d'action.
+. Sélectionnez *Paramètres*.
+. Choisissez *Copier uniquement les fichiers*, *Copier uniquement la liste de contrôle d’accès* ou *Copier les fichiers et la liste de contrôle d’accès* et sélectionnez *Continuer*.
+. Sélectionnez *Enregistrer les paramètres*.
 
 
 .Résultat
