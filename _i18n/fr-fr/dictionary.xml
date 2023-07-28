@@ -17,7 +17,6 @@
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">Lancement d'Cloud Volumes ONTAP dans Google Cloud</block>
   <block id="366f7e58814bef5e88fbb6881239ff46" category="inline-link">Ajout de systèmes Cloud Volumes ONTAP existants</block>
   <block id="e845620e391b62ad3163cdb0e100a862" category="inline-link">Découverte des clusters ONTAP</block>
-  <block id="e17d9d52c8208dfce3fde1af20447264" category="list-text">Cliquez sur *Canvas*.</block>
   <block id="b5f4d0a91c515f4bd54cae36d52f1af7" category="list-text">Sélectionnez un environnement de travail correspondant à l'un des types répertoriés ci-dessus.</block>
   <block id="1cffa027f06c83c15096bfe069d63282" category="list-text">Sélectionnez le menu d'action en regard de Synchroniser.</block>
   <block id="ab116a076c96e5657e8e3c778ee684b2" category="inline-image-macro">Capture d'écran présentant les actions disponibles dans le menu Sync après la sélection d'un environnement de travail.</block>
@@ -25,7 +24,6 @@
   <block id="710868057fb37c917b26175735e419f5" category="list-text">Sélectionnez *Synchroniser les données de cet emplacement* ou *Synchroniser les données à cet emplacement* et suivez les invites pour configurer la relation de synchronisation.</block>
   <block id="42fb01b3b779aa7e6922ba7286f27d90" category="section-title">Créez d'autres types de relations de synchronisation</block>
   <block id="04c2658f3d0148a82630128082746ff3" category="paragraph">Procédez comme suit pour synchroniser des données depuis ou vers un type de stockage pris en charge autre que Amazon FSX pour les clusters ONTAP, Azure NetApp Files, Cloud Volumes ONTAP ou ONTAP sur site. Les étapes ci-dessous fournissent un exemple de configuration d'une relation de synchronisation à partir d'un serveur NFS vers un compartiment S3.</block>
-  <block id="f08beb9a11a66834f5e08f2bd7436fb0" category="list-text">Dans BlueXP, cliquez sur *Sync*.</block>
   <block id="5c9e2eb8a0b6e7b55897a6605105e10a" category="list-text">Sur la page *Define Sync Relationship*, choisissez une source et une cible.</block>
   <block id="ec4f668b0fb93e0352d369b9536e8835" category="paragraph">Les étapes suivantes fournissent un exemple de création d'une relation de synchronisation entre un serveur NFS et un compartiment S3.</block>
   <block id="abd3c3afefe991ee73c5762fa2129b96" category="inline-image-macro">Capture d'écran montrant NFS comme source et S3 comme cible dans une nouvelle relation de synchronisation.</block>
@@ -41,7 +39,6 @@
   <block id="0b5ebe6e7ba2362051c090a3dcc223bc" category="list-text"><block ref="0b5ebe6e7ba2362051c090a3dcc223bc" category="inline-link-macro-rx"></block></block>
   <block id="85e5ddcb30088cd6cfefc0e824599627" category="inline-link-macro">Installation du data broker sur un hôte Linux</block>
   <block id="5fc5be02ef143289af0e6a031decff5d" category="list-text"><block ref="5fc5be02ef143289af0e6a031decff5d" category="inline-link-macro-rx"></block></block>
-  <block id="8ee76d81cd3bca0a06766cada54e9900" category="list-text">Après avoir installé le courtier de données, cliquez sur *Continuer*.</block>
   <block id="78f8e06b33ffb5e1a53c6685b329afd5" category="inline-image-macro">Cette capture d'écran montre une instance déployée avec succès. L'interface affiche des informations détaillées sur l'instance, y compris la mise en réseau AWS.</block>
   <block id="460dd7003c9711e5459ed0a96f7c8281" category="paragraph"><block ref="460dd7003c9711e5459ed0a96f7c8281" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a271de5321e2a04796460ebc14e59eb4" category="list-text">[[filter]]sur la page *répertoires*, sélectionnez un répertoire ou un sous-répertoire de niveau supérieur.</block>
@@ -49,7 +46,6 @@
   <block id="daae3c3e845ae4c3697e01616f4f7b93" category="list-text">Sur la page *AWS S3 Bucket*, sélectionnez un compartiment :</block>
   <block id="8e32410b962702f10a4b3b0600f973c1" category="list-text">Allez vers le bas pour sélectionner un dossier existant dans la rubrique ou pour sélectionner un nouveau dossier que vous créez dans la rubrique.</block>
   <block id="c0e557736b1b4c22df8edfd8d06214ca" category="inline-link-macro">Des autorisations spécifiques doivent être appliquées au compartiment S3</block>
-  <block id="2ad4a0a772b07953e8d882b7fe21cf11" category="list-text">Cliquez sur *Ajouter à la liste* pour sélectionner un compartiment S3 qui n'est pas associé à votre compte AWS. <block ref="772fe08f8ccc4de2babce33261957aed" category="inline-link-macro-rx"></block>.</block>
   <block id="c04f4488434ced226bcb0be4d5ecf0e6" category="list-text">Sur la page *Configuration godet*, configurez le compartiment :</block>
   <block id="d0108dd861797c657c5b430a731cd0d9" category="list-text">Optez pour l'activation du chiffrement des compartiments S3, puis sélectionnez une clé KMS AWS, saisissez l'ARN d'une clé KMS ou sélectionnez le chiffrement AES-256.</block>
   <block id="90970afda72d4e681afa2bb416cbd684" category="inline-link-macro">Afficher les classes de stockage prises en charge</block>
@@ -101,13 +97,8 @@
   <block id="96eb50fa77567b33546d85a4d6adc2f4" category="inline-image-macro">Capture d'écran affichant la page balises/métadonnées lors de la création d'une relation de synchronisation avec Amazon S3.</block>
   <block id="72786dbf28b6222cb6b90ef1853e64d5" category="paragraph"><block ref="72786dbf28b6222cb6b90ef1853e64d5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3b2c91269ae0c67c26fe59bbb10eb6a2" category="admonition">Cette même fonctionnalité est disponible lors de la synchronisation de données sur StorageGRID et IBM Cloud Object Storage. Pour Azure et Google Cloud Storage, seule l'option de métadonnées est disponible.</block>
-  <block id="abf843ce80b23a0209755d1e397c8333" category="list-text">Vérifiez les détails de la relation de synchronisation, puis cliquez sur *Créer une relation*.</block>
   <block id="600901e70afccc50e18676048766ba78" category="paragraph">*Résultat*</block>
-  <block id="991900a0204b24a05efe45e0b0b3bb96" category="section-title">Créez des relations synchronisées à partir du cloud Data Sense</block>
-  <block id="0a3762f065e87e761291235c3f42e8d4" category="paragraph">Une fois la synchronisation des données effectuée à partir du cloud Data SENSE, toutes les informations source le sont en une seule étape et vous devez saisir quelques informations clés. Choisissez ensuite l'emplacement cible de la nouvelle relation de synchronisation.</block>
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">Capture d'écran affichant la page intégration de détection de données qui s'affiche après le démarrage d'une nouvelle synchronisation directement à partir de Cloud Data Sense.</block>
-  <block id="c52509e09917e0e29ac603ef598d3f69" category="paragraph"><block ref="c52509e09917e0e29ac603ef598d3f69" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="20718255a13eb2f29be8b068228e69bc" category="inline-link">Découvrez comment établir une relation synchrone à partir du Cloud Data SENSE</block>
   <block id="881a6a2a0c1e8d7bd1c4b11d9498ff12" category="paragraph">Vous devriez avoir commencé avec BlueXP, qui inclut la connexion, la configuration d'un compte, et éventuellement le déploiement d'un connecteur et la création d'environnements de travail.</block>
   <block id="8867d44df7bbafbfb314d97a7c0cfb4c" category="paragraph">Si vous souhaitez créer des relations de synchronisation pour l'un des éléments suivants, vous devez d'abord créer ou découvrir un environnement de travail :</block>
   <block id="0a7604db31d8e78d96c9d8af2118d464" category="paragraph">Un connecteur est requis pour Cloud Volumes ONTAP, les clusters ONTAP sur site et Amazon FSX pour ONTAP.</block>
@@ -284,10 +275,7 @@
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Enregistrement des numéros de série Cloud Volumes ONTAP associés à un abonnement sur le marché de votre fournisseur cloud (numéros de série à 20 chiffres 909201xxxxxxxx).</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Ces numéros de série sont généralement appelés _PAYGO - numéros de série_ et sont générés par BlueXP au moment du déploiement de Cloud Volumes ONTAP.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si vous avez un compte au niveau du client, vous pouvez ajouter un ou plusieurs comptes NSS.</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône aide et sélectionnez *support*.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Capture d'écran du menu aide où support est la première option répertoriée</block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Cliquez sur *NSS Management &gt; Ajouter un compte NSS*.</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Lorsque vous y êtes invité, cliquez sur *Continuer* pour être redirigé vers une page de connexion Microsoft.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utilise Microsoft Azure Active Directory comme fournisseur d'identités pour les services d'authentification spécifiques au support et aux licences.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Sur la page de connexion, indiquez l'adresse e-mail et le mot de passe que vous avez enregistrés sur le site de support NetApp pour réaliser le processus d'authentification.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Ces actions permettent à BlueXP d'utiliser votre compte NSS pour des opérations telles que le téléchargement de licences, la vérification de la mise à niveau logicielle et les inscriptions de support futures.</block>
@@ -324,8 +312,6 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Courrier électronique :ng-cloudmanager-feedback@netapp.com[E-mail de commentaires]</block>
   <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Nous accordons une grande importance à vos commentaires. Envoyez vos commentaires pour nous aider à améliorer BlueXP.</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Outre les options d'auto-support mentionnées ci-dessus, vous pouvez travailler avec un spécialiste du support NetApp pour résoudre tous les problèmes après avoir activé le service de support.</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">Dans BlueXP, cliquez sur *aide &gt; support*.</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">Cliquez sur *appelez-nous* si vous souhaitez parler avec quelqu'un au téléphone. Vous serez dirigé vers une page netapp.com qui répertorie les numéros de téléphone que vous pouvez appeler.</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service* : sélectionnez le service auquel le problème est associé. Par exemple, BlueXP lorsqu'il est spécifique à un problème de support technique avec des flux de travail ou des fonctionnalités au sein du service.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Environnement de travail* : si applicable au stockage, sélectionnez *Cloud Volumes ONTAP* ou *sur site*, puis l'environnement de travail associé.</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">La liste des environnements de travail est comprise dans le cadre du compte, de l'espace de travail et du connecteur BlueXP que vous avez sélectionnés dans la bannière supérieure du service.</block>
@@ -335,7 +321,6 @@
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Adresses e-mail supplémentaires*: Entrez des adresses e-mail supplémentaires si vous souhaitez informer quelqu'un d'autre de ce problème.</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Capture d'écran du formulaire Créer un dossier qui vous permet de créer un dossier auprès du support NetApp.</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Une fenêtre contextuelle contenant votre numéro de dossier de support s'affiche. Un spécialiste du support NetApp va étudier votre dossier et vous recontacterons très rapidement.</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Pour consulter l'historique de vos dossiers d'assistance, vous pouvez cliquer sur *Paramètres &gt; Chronologie* et rechercher les actions nommées "Créer un dossier de support". Un bouton à l'extrême droite vous permet de développer l'action pour voir les détails.</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Il est possible que vous rencontriez le message d'erreur suivant lors de la création d'un dossier :</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">« Vous n'êtes pas autorisé à créer un dossier pour le service sélectionné »</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Utilisez le chat du produit</block>
@@ -372,7 +357,6 @@
   <block id="ebd974875888e4cb1567f55e3466cda1" category="cell">Pour installer 7z sur la machine virtuelle du courtier de données pendant l'installation et les mises à jour. 7z est nécessaire pour envoyer des messages AutoSupport au support technique NetApp.</block>
   <block id="6af6c652626660023ec712f6c15bbc0a" category="cell">\https://sts.amazonaws.com</block>
   <block id="89100474e7faee0c34727c4b2b471007" category="cell">Pour vérifier les identifiants AWS lorsque le courtier est déployé dans AWS ou lorsqu'il est déployé sur vos sites et que les identifiants AWS sont fournis. Le courtier de données contacte ce point final pendant le déploiement, lorsqu'il est mis à jour et lorsqu'il est redémarré.</block>
-  <block id="7f13eefefc02d429e3f594cb6d48d10e" category="cell">Pour contacter Cloud Data SENSE lorsque vous utilisez Data Sense pour sélectionner les fichiers source d'une nouvelle relation de synchronisation.</block>
   <block id="6a3cdc9a7bccf7b319d4cd575bb3b01f" category="section-title">Terminaux de navigateur Web</block>
   <block id="fd0cb271f0ac093ecb033a2bfea34fbd" category="paragraph">Votre navigateur Web doit accéder au point final suivant pour télécharger les journaux à des fins de dépannage :</block>
   <block id="c964e3aec545a38db906e6bb0b6a705f" category="paragraph">logs.cloudsync.netapp.com:443</block>
@@ -414,13 +398,9 @@
   <block id="3fb0e4028062069b21887e1408a76464" category="list-text">Les autorisations « pubsub.* » et « Storage.seaux.update » sont uniquement requises si vous prévoyez d'activer le paramètre de synchronisation continue sur une relation de synchronisation depuis Google Cloud Storage vers un autre emplacement de stockage cloud. <block ref="5354423db3737fe63814ca7ea57f2c4c" category="inline-link-macro-rx"></block>.</block>
   <block id="9727c41167b4d3a89168d9e2a6bf1fbe" category="section-title">Création du courtier de données</block>
   <block id="0fbb3a69ab0abf1cabee38002a3846f3" category="paragraph">Il existe plusieurs façons de créer un nouveau courtier de données. Lors de la création d'une relation de synchronisation, procédez comme suit pour installer un courtier de données dans Google Cloud.</block>
-  <block id="05b03110970a5e69bee8654fc24ccf0b" category="list-text">Cliquez sur *Créer une nouvelle synchronisation*.</block>
-  <block id="699986c3a8b1dd3a3143973b450c229d" category="list-text">Sur la page *Define Sync Relationship*, choisissez une source et une cible et cliquez sur *Continuer*.</block>
   <block id="f0fff4676c779987735fc7ee633da03c" category="paragraph">Suivez les étapes jusqu'à ce que vous atteiez la page *Groupe de courtiers de données*.</block>
-  <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">Sur la page *Groupe de courtiers de données*, cliquez sur *Créer courtier de données*, puis sélectionnez *Google Cloud Platform*.</block>
   <block id="0fc6ea2f37f8948c8630ffb60d5e0265" category="inline-image-macro">Capture d'écran de la page Data Broker qui vous permet de choisir entre AWS, Azure, Google Cloud et un courtier en données sur site.</block>
   <block id="3a22f44ed11b974b3666e987fe41b909" category="paragraph"><block ref="3a22f44ed11b974b3666e987fe41b909" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8d5f3c11505e061fa1ae30de2766106b" category="list-text">Entrez un nom pour le courtier de données et cliquez sur *Continuer*.</block>
   <block id="dc35ce1752664930f658f7059d7b8f9c" category="list-text">Si vous y êtes invité, connectez-vous à l'aide de votre compte Google.</block>
   <block id="29b28ad1793cec26548948fbe79ebfd5" category="paragraph">Le formulaire est détenu et hébergé par Google. Vos identifiants ne sont pas fournis à NetApp.</block>
   <block id="6a1b17968bb626f25ede549dffaa13e2" category="list-text">Sélectionnez un compte de projet et de service, puis choisissez un emplacement pour le courtier de données, y compris si vous souhaitez activer ou désactiver une adresse IP publique.</block>
@@ -433,13 +413,9 @@
   <block id="ed7160396fcfefca3c1997b02ccbe37c" category="paragraph">Vous avez déployé un courtier en données dans Google Cloud et créé une nouvelle relation synchrone. Vous pouvez utiliser ce data broker avec des relations de synchronisation supplémentaires.</block>
   <block id="8743cf4fd5bd75723f626be1d4af6bb5" category="section-title">Fourniture d'autorisations d'utilisation de compartiments dans d'autres projets Google Cloud</block>
   <block id="6ab8649cc222312c90daa98ef292a592" category="list-text">Ouvrez la console Google Cloud Platform et chargez le service Cloud Storage.</block>
-  <block id="a0f456d59c57c1111f650c11ad24fa5d" category="list-text">Cliquez sur le nom du compartiment à utiliser en tant que source ou cible dans une relation de synchronisation.</block>
-  <block id="715460ccdde6385d4b2f9b34475e2704" category="list-text">Cliquez sur *autorisations*.</block>
-  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">Cliquez sur *Ajouter*.</block>
   <block id="75d2935b39ceeb13d10ba4ced792a75b" category="list-text">Entrez le nom du compte de service du courtier de données.</block>
   <block id="bee41d170929fb7fc4e79dde87e71a86" category="inline-xref">les mêmes autorisations que celles indiquées ci-dessus</block>
   <block id="babe42abe7decc70b98a517bfcc466aa" category="list-text">Sélectionnez un rôle <block ref="bcb4c6e7b3e58289927e5f4cf9be10af" category="inline-xref-macro-rx"></block>.</block>
-  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">Cliquez sur *Enregistrer*.</block>
   <block id="18e32f4b46f7365779a3d1fe9eb08721" category="paragraph">Lorsque vous configurez une relation de synchronisation, vous pouvez désormais choisir ce compartiment en tant que source ou cible dans la relation de synchronisation.</block>
   <block id="9177317d32a41a0982be70109425240b" category="section-title">Détails sur l'instance de VM du courtier de données</block>
   <block id="3ea4bf9da7622edeeae1bf80e9c5cded" category="list-text">Type de machine</block>
@@ -463,10 +439,8 @@
   <block id="8e4350880011b411db7b27aa380a60d0" category="list-text"><block ref="1a8d8995001884ca8ca83a93f0897f4a" category="inline-link-macro-rx"></block> Doit être attaché au rôle IAM pour que le courtier de données puisse fonctionner correctement.</block>
   <block id="63430717bb1e3b33a858e3661c1627a0" category="paragraph">Suivez les étapes ci-dessous pour spécifier le rôle IAM lors du déploiement du courtier de données.</block>
   <block id="c371ecc54445590f3e356493638d02db" category="paragraph">Il existe plusieurs façons de créer un nouveau courtier de données. Décrivez comment installer un courtier de données dans AWS lors de la création d'une relation de synchronisation.</block>
-  <block id="c26c6fab489734aee5276f7e590f8b18" category="list-text">Sur la page *Groupe de courtiers de données*, cliquez sur *Créer courtier de données*, puis sélectionnez *Amazon Web Services*.</block>
   <block id="7af53fb4b55f3887a3b7d59e2a119aa2" category="paragraph"><block ref="7af53fb4b55f3887a3b7d59e2a119aa2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5c06da7ffcfe27fbe1ca6a288b6d46c8" category="paragraph">Les touches ne sont pas enregistrées ou utilisées à d'autres fins.</block>
-  <block id="ea274abab109d43436d6d4dd8e13bab8" category="paragraph">Si vous préférez ne pas fournir de touches d'accès, cliquez sur le lien en bas de la page pour utiliser un modèle CloudFormation. Lorsque vous utilisez cette option, vous n'avez pas besoin de fournir des identifiants, car vous vous connectez directement à AWS.</block>
   <block id="fac489f42d32a183751d7250d0d6ddf8" category="paragraph">[[cft]]la vidéo suivante montre comment lancer l'instance de courtier de données à l'aide d'un modèle CloudFormation :</block>
   <block id="17cc78aee78be2a54a8cc1a5a2172559" category="inline-xref">vous devrez fournir les autorisations requises</block>
   <block id="115b5af8cfd138d39f5b56bb5b1b53d7" category="paragraph">Si vous choisissez votre propre rôle IAM, <block ref="1faadad7a4ef01b0a8464fdda070fd6f" category="inline-xref-macro-rx"></block>.</block>
@@ -499,10 +473,7 @@
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">Créez et consultez des rapports pour obtenir des informations utiles avec l'aide du personnel NetApp afin de régler la configuration d'un courtier de données et d'améliorer les performances.</block>
   <block id="d065612e0b27393ca9ed8b8e18bc869f" category="paragraph">Chaque rapport fournit des détails détaillés sur un chemin dans une relation de synchronisation. Par exemple, le rapport d'un système de fichiers indique le nombre de répertoires et de fichiers qu'il y a, la répartition de la taille du fichier, la profondeur et la largeur des répertoires, et plus encore.</block>
   <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">Création de rapports</block>
-  <block id="f538684aa236fdad4b93e1b71f94526f" category="list-text">Cliquez sur *Sync &gt; Rapports*.</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">Les chemins (source ou cible) de chacune de vos relations de synchronisation s'affichent dans une table.</block>
-  <block id="1c64df2a4dcd75c3fa3f6d99a5843437" category="list-text">Dans la colonne *Rapports actions*, allez à un chemin spécifique et cliquez sur *Créer*, ou cliquez sur le menu d'action et sélectionnez *Créer nouveau*.</block>
-  <block id="575833de1768effbb8d15904d2822d68" category="list-text">Lorsque le rapport est prêt, cliquez sur le menu d'action et sélectionnez *Affichage*.</block>
   <block id="94954fba60bab7206fb4f66c4a7750cb" category="paragraph">Voici un exemple de rapport pour un chemin de système de fichiers.</block>
   <block id="3cd71212de067629b841a10ceaf4f32f" category="inline-image-macro">Un rapport indiquant la quantité d'éléments synchronisés, la taille du fichier, les valeurs maximales, le temps d'accès, le temps de modification, et modifier l'heure.</block>
   <block id="a95d57514b72e95aeaca84b9f5d7e43a" category="paragraph"><block ref="a95d57514b72e95aeaca84b9f5d7e43a" category="inline-image-macro-rx" type="image"></block></block>
@@ -511,21 +482,15 @@
   <block id="a9c50da4c27210dd95cbf6916b6c3b34" category="paragraph"><block ref="a9c50da4c27210dd95cbf6916b6c3b34" category="inline-image-macro-rx" type="image"></block></block>
   <block id="03901baec19e5e2a784f13acaa06127a" category="section-title">Téléchargement de rapports</block>
   <block id="f0d2e62b1c7572c743aab0d7c9b969c5" category="paragraph">Vous pouvez télécharger un rapport au format PDF pour le visualiser hors ligne ou le partager.</block>
-  <block id="4f1a7b585eef080503c8e5f586b7673e" category="list-text">Dans la colonne *Rapports actions*, cliquez sur le menu d'action et sélectionnez *Affichage*.</block>
-  <block id="17b8d7c4db9e21e8c01f1b793f8bf325" category="list-text">Dans le coin supérieur droit du rapport, cliquez sur le menu d'action et sélectionnez *Télécharger PDF*.</block>
-  <block id="e45fcd91afd8b29019f92fa0f919f6d2" category="inline-image-macro">Capture d'écran de l'option Télécharger PDF qui s'affiche après avoir cliqué sur le menu d'action dans un rapport.</block>
-  <block id="ef3e79a56ff208de546ac0714ccae4eb" category="paragraph"><block ref="ef3e79a56ff208de546ac0714ccae4eb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="90e1319509db72baceccb5d8f4c2c472" category="section-title">Affichage des erreurs de rapport</block>
   <block id="d86cb2fe66402168c1c894043151d228" category="paragraph">Après avoir vu la liste des erreurs, vous pouvez résoudre les problèmes et exécuter à nouveau le rapport.</block>
   <block id="57ba4added426d6aea423b1e70f1b94c" category="list-text">Dans la colonne *erreurs*, identifiez si des erreurs sont présentes dans un rapport.</block>
-  <block id="10a0d9a4ad96880fef72d02fd9dcd2c5" category="list-text">Si des erreurs sont présentes, cliquez sur la flèche en regard du nombre d'erreurs.</block>
   <block id="d029ebc8f7b2e2aa789dc0e27797846f" category="inline-image-macro">Capture d'écran de la table Paths indiquant le nombre d'erreurs et une petite flèche cliquable dans la colonne Errors.</block>
   <block id="e01f862fe61f1c44179e61c69a18938d" category="paragraph"><block ref="e01f862fe61f1c44179e61c69a18938d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="591d860278697b4e6dbce26639961630" category="list-text">Utilisez les informations de l'erreur pour corriger le problème.</block>
   <block id="aa8765cc437da97ac36fcf5b9e8bd67c" category="paragraph">Après avoir résolu le problème, l'erreur ne devrait pas apparaître lors de la prochaine exécution du rapport.</block>
   <block id="1b3463b3026822e4c8d6ad54c16a507a" category="section-title">Suppression de rapports</block>
   <block id="37100a26242d4deb28feac7db8d366de" category="paragraph">Vous pouvez supprimer un rapport contenant une erreur que vous avez corrigée ou si le rapport est associé à une relation de synchronisation que vous avez supprimée.</block>
-  <block id="6d084eaa09a94fecc5582a104b0053da" category="list-text">Dans la colonne *Rapports actions*, cliquez sur le menu d'action d'un chemin et sélectionnez *Supprimer le dernier rapport* ou *Supprimer tous les rapports*.</block>
   <block id="4051a60e091a5882a67c28985f8c22c7" category="list-text">Confirmez que vous souhaitez supprimer le ou les rapports.</block>
   <block id="64d7746bed65d4dc86191fc514e7ebbf" category="doc">Copie des listes de contrôle d'accès à partir des partages SMB</block>
   <block id="6ef697f11922be2e4de0971f7d70997f" category="list-title">Choix</block>
@@ -535,7 +500,6 @@
   <block id="e9e23d944b5ba04f7bd10800f3536393" category="inline-link-macro">tout système d'exploitation pris en charge</block>
   <block id="b82aab2ce8ba96a1adcef93a4d0f2e7a" category="paragraph">Cette fonctionnalité fonctionne avec _tout_ type de courtier en données : AWS, Azure, Google Cloud Platform ou comme courtier en données sur site. Le courtier en données sur site peut être exécuté <block ref="21c422ddfc59d696be9e90956009904f" category="inline-link-macro-rx"></block>.</block>
   <block id="38ab7ff3062aba8e3cff5bda4cd76234" category="list-title">Étapes d'une nouvelle relation</block>
-  <block id="4eb7f5a2c981906a3398b40af3279ff4" category="list-text">Faites glisser un serveur SMB ou un stockage objet en tant que source et un serveur SMB ou un stockage objet en tant que cible, puis cliquez sur *Continuer*.</block>
   <block id="078c5213fa0cb4e4d041374224a30418" category="list-text">Sur la page *SMB Server* :</block>
   <block id="446dd08d6403fc4cd86bff2687c49fac" category="list-text">Saisissez les informations d'identification du serveur SMB.</block>
   <block id="fb45eb06d7031a4458942ff295e2b322" category="inline-image-macro">Capture d'écran montrant l'option permettant d'activer les listes de contrôle d'accès de copie sur la cible.</block>
@@ -545,8 +509,6 @@
   <block id="70ebe11ca97b687790441cba3fee58d1" category="inline-image-macro">Capture d'écran de la sixième étape de l'assistant de synchronisation lors de la copie vers le stockage objet. Vous pouvez choisir d'enregistrer les ACL avec les balises ou les métadonnées de l'objet.</block>
   <block id="c5b5f241a9177e265d584f0d7e7eb47f" category="paragraph"><block ref="c5b5f241a9177e265d584f0d7e7eb47f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="713b689d8504ac385f256ca9887e16b1" category="list-title">Étapes d'une relation existante</block>
-  <block id="bdcd619e6df173b859ed2a1a86e17328" category="list-text">Cliquez sur *Paramètres*.</block>
-  <block id="14242c99845a0bf338d45c648e061643" category="list-text">Cliquez sur *Enregistrer les paramètres*.</block>
   <block id="d7acee2f148a20ab4d4e346ddcb75a00" category="paragraph">Vous pouvez conserver manuellement les listes de contrôle d'accès entre les partages SMB à l'aide de la commande Windows robocopy.</block>
   <block id="41c1f5322f48eb3e6207394ffc0589d0" category="list-text">Identifiez un hôte Windows qui dispose d'un accès complet aux deux partages SMB.</block>
   <block id="df2a188ed56fd7a6dc654c44c2bf4472" category="list-text">Si l'un des noeuds finaux nécessite une authentification, utilisez la commande *net use* pour vous connecter aux noeuds finaux à partir de l'hôte Windows.</block>
@@ -590,7 +552,6 @@
   <block id="7af7eb8440af6bb7f9ffd64569367b5b" category="paragraph">L'accès à Azure est défini par relation en fournissant un compte de stockage et une chaîne de connexion dans l'assistant de synchronisation.</block>
   <block id="b6e5e048443785c8f424048cf1b9e40e" category="section-title">Installation du data broker</block>
   <block id="1944006c73d02c718c69408861e1307c" category="paragraph">Vous pouvez installer un courtier de données sur un hôte Linux lorsque vous créez une relation de synchronisation.</block>
-  <block id="20bdbeece7707eb8c81d92234512a38d" category="list-text">Sur la page *Groupe de courtiers de données*, cliquez sur *Créer courtier de données*, puis sélectionnez *Agent de données sur site*.</block>
   <block id="df89dda1d1c7ea3cd71a127402ea04d7" category="paragraph"><block ref="df89dda1d1c7ea3cd71a127402ea04d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8020038698547625e7abf1eda36c8877" category="admonition">Bien que cette option soit *_sur site_ Data Broker*, elle s'applique à un hôte Linux sur site ou dans le cloud.</block>
   <block id="023c2e07bedf559d5fb81f1e623f1b6f" category="paragraph">La page d'instructions se charge sous peu. Vous devez suivre ces instructions --elles comprennent un lien unique pour télécharger le programme d'installation.</block>
@@ -709,29 +670,20 @@
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>.</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS vous permet de payer à votre gré ou de payer chaque année.</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">Les étapes à payer en tant que vous-même</block>
-  <block id="f4e86f9d0f6800384c773bd03834297d" category="list-text">Cliquez sur *Sync &gt; licences*.</block>
   <block id="af3298973678fbb2b80974a8030f07ac" category="list-text">Sélectionnez *AWS*</block>
-  <block id="01849158eeeec12ef2f893c8efd6c0e3" category="list-text">Cliquez sur *s'abonner*, puis sur *Continuer*.</block>
   <block id="03909f0465e674709c33e446a2657166" category="paragraph">La vidéo suivante montre le processus :</block>
   <block id="d95d2545b9702aaa44811f90fd798b70" category="list-title">Étapes à payer annuellement</block>
   <block id="b857da0ad28712a25e73c0907a2b3740" category="inline-link">Accédez à la page AWS Marketplace</block>
   <block id="b84483eacee20411f642e9b32a1532d3" category="list-text"><block ref="9a55e6c904391172078e71a0186ef751" category="inline-link-rx"></block>.</block>
-  <block id="6ce481dcdc8134b6b4c81db0911f0267" category="list-text">Cliquez sur *Continuer pour s'inscrire*.</block>
-  <block id="1ee9033888539de2e81ddb29d255c405" category="list-text">Sélectionnez vos options de contrat et cliquez sur *Créer contrat*.</block>
   <block id="5b708f827f75588e652438e8d2977fb4" category="paragraph">Azure vous permet de payer à votre gré ou de payer chaque année.</block>
   <block id="251910634a1b47d0359b6171382f3f9a" category="paragraph">Un compte utilisateur Azure disposant des autorisations Contributeur ou Propriétaire dans l'abonnement correspondant.</block>
   <block id="2164db8f01d0c0a0dc250abc3b9556f5" category="list-text">Sélectionnez *Azure*.</block>
-  <block id="e70ccb5a825dd2a0a3daf679b5f23567" category="list-text">Dans le portail Azure, cliquez sur *Créer*, sélectionnez vos options et cliquez sur *s'abonner*.</block>
   <block id="981e7253aa8df6872dfd3d544c12ef23" category="paragraph">Sélectionnez *mensuel* pour payer par heure, ou *annuel* pour payer une année avant.</block>
-  <block id="23a902dd0c4b97b70f0c79f7c46ed483" category="list-text">Une fois le déploiement terminé, cliquez sur le nom de la ressource SaaS dans le menu contextuel de notification.</block>
   <block id="97e3031ee8bcd0a19765ddc808e71590" category="paragraph">Vous devez disposer du numéro de série correspondant à votre licence, ainsi que du nom d'utilisateur et du mot de passe du compte sur le site de support NetApp auquel la licence est associée.</block>
   <block id="0f5161c9e18f97b653442fef34de1024" category="list-text">Achetez une licence par mailto:ng-cloudsync-contact@netapp.com?subject=Cloud%20Sync%20Service%20-%20BYOL%20License%20Purchase%20Request[contacter NetApp].</block>
-  <block id="e8b441efabe30a472bc01ae49f99e1c5" category="list-text">Dans BlueXP, cliquez sur *Sync &gt; licences*.</block>
-  <block id="c705d1b4b3b9a5ab7a62cfb882e27612" category="list-text">Cliquez sur *Ajouter une licence* et ajoutez les informations requises :</block>
   <block id="a7a65c558a31a52f3a2570581f5170c2" category="list-text">Saisissez le numéro de série.</block>
   <block id="441eaafe617acae90fac942cbac1d2a0" category="list-text">Sélectionnez le compte sur le site de support NetApp associé à la licence que vous ajoutez :</block>
   <block id="8d91fda63040409e75bebd4d14b9a825" category="list-text">Si votre compte a déjà été ajouté à BlueXP, sélectionnez-le dans la liste déroulante.</block>
-  <block id="93bad0f0398a452d035b9d52ba2724f5" category="list-text">Si votre compte n'a pas encore été ajouté, cliquez sur *Ajouter des informations d'identification NSS*, entrez le nom d'utilisateur et le mot de passe, cliquez sur *Enregistrer*, puis sélectionnez-le dans la liste déroulante.</block>
   <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">Mise à jour d'une licence</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">Sélectionnez le compte du site de support NetApp associé à la licence que vous ajoutez.</block>
   <block id="71904eaffc2ec470e49ce1a710f5e878" category="summary">Si votre entreprise dispose de règles de sécurité strictes, synchronisez les données entre les serveurs NFS de différents réseaux à l'aide du chiffrement des données en vol.</block>
@@ -774,7 +726,6 @@
   <block id="2470150bd9a4e04a2e189d3ae6e56fe0" category="list-text">*Data Broker* : suivez les invites pour ajouter un nouveau courtier de données source ou sélectionner un courtier de données existant.</block>
   <block id="39a513eb21ebe3c708dcaa6942b6d31d" category="list-text">Si le courtier de données source agit en tant qu'auditeur, il doit alors être un nouveau courtier de données.</block>
   <block id="cdba25c9167c61c57652be77cd6bc4e2" category="list-text">*Répertoires* : Choisissez les répertoires que vous souhaitez synchroniser en sélectionnant tous les répertoires ou en descendant et en sélectionnant un sous-répertoire.</block>
-  <block id="de6d5031bb824b97bc739136ed0ca12f" category="paragraph">Cliquez sur *Filtrer les objets source* pour modifier les paramètres qui définissent la synchronisation et la gestion des fichiers et dossiers source à l'emplacement cible.</block>
   <block id="17cc825827711a2fbb35f034caf806fc" category="inline-image-macro">Capture d'écran montrant l'option de sélection d'un répertoire de premier niveau, recherche de détails et sélection de l'option Filtrer les objets source.</block>
   <block id="ec512e2862c8dda2563d8ba47436b65b" category="paragraph"><block ref="ec512e2862c8dda2563d8ba47436b65b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="60af823ef7e6a707f1ea0d358c745e23" category="list-text">*Serveur NFS cible*/*Azure NetApp Files cible* : Choisissez la version NFS, puis entrez une nouvelle cible NFS ou sélectionnez un serveur existant.</block>
@@ -785,7 +736,6 @@
   <block id="d7d921b770410daba11fa5b08364a9b2" category="paragraph"><block ref="d7d921b770410daba11fa5b08364a9b2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d745b7ea2fe3a1dffe9d30c5f25e422b" category="list-text">*Répertoires cibles* : sélectionnez un répertoire de niveau supérieur ou accédez à la recherche pour sélectionner un sous-répertoire existant ou créer un nouveau dossier à l'intérieur d'une exportation.</block>
   <block id="b1574b82988204b1ea2b4391bc2b62cc" category="list-text">*Paramètres* : définissez comment les fichiers et dossiers source sont synchronisés et gérés à l'emplacement cible.</block>
-  <block id="376588358d7683b8caa450f37e1678c1" category="list-text">*Revue* : consultez les détails de la relation de synchronisation, puis cliquez sur *Créer une relation*.</block>
   <block id="31b876010e591a7e8b00068dcabd80b7" category="inline-image-macro">Capture d'écran affichant l'écran de révision. Il présente les serveurs NFS, les courtiers de données et les informations de mise en réseau sur chacun d'entre eux.</block>
   <block id="39cd9e3fa50eeb2b66a750a04c154460" category="paragraph"><block ref="39cd9e3fa50eeb2b66a750a04c154460" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b53e2cff9f1417fcc84365e2d567011e" category="list-text">Obtenez un jeton utilisateur auprès de NetApp BlueXP.</block>
@@ -837,34 +787,25 @@
   <block id="3a3d1b7e5044442dcfbd5cd464cc3e74" category="list-text">Lors de la création d'une nouvelle relation de synchronisation</block>
   <block id="d55c5ae4dbd0da4961b63d579f9712fd" category="inline-link-macro">Découvrez comment créer un nouveau courtier de données lors de la création d'une relation de synchronisation</block>
   <block id="c7b4e71c7182550e433faac117c2ecfb" category="paragraph"><block ref="331eae664c6d6049ca8cf9db41aef0e1" category="inline-link-macro-rx"></block>.</block>
-  <block id="6dac2c23bc94d633506738bd36101caa" category="list-text">Dans la page *gérer les courtiers de données* en cliquant sur *Ajouter un nouveau courtier de données* qui crée le courtier de données dans un nouveau groupe</block>
   <block id="33356a7534e9c58e7ebf9c0a2a815a6a" category="list-text">À partir de la page *gérer les courtiers de données* en créant un nouveau courtier de données dans un groupe existant</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">Avant de commencer</block>
   <block id="035ddc07f088acce2ce7b9f5f3adbf75" category="list-text">Vous ne pouvez pas ajouter de courtiers de données à un groupe qui gère une relation de synchronisation chiffrée.</block>
   <block id="bd7c77e0797aa0ace4fe53476f5bd1eb" category="list-text">Si vous souhaitez créer un courtier en données au sein d'un groupe existant, le courtier en données doit être un courtier en données sur site ou le même type de courtier.</block>
   <block id="cdb42fff9480ae666d8bc83254c6669c" category="paragraph">Par exemple, si un groupe inclut un courtier en données AWS, vous pouvez créer un courtier en données AWS ou un courtier en données sur site dans ce groupe. Vous ne pouvez pas créer de courtier en données Azure ou de courtier en données Google Cloud, car ils ne sont pas le même type de courtier.</block>
   <block id="df41669b003a060e8aaf939d172dabdc" category="list-title">Étapes pour créer un courtier de données dans un nouveau groupe</block>
-  <block id="01139d234037ac0c0218e33f45274355" category="list-text">Cliquez sur *Sync &gt; gérer les courtiers de données*.</block>
-  <block id="ce4433b25c45524977fc8fe7cbdf459c" category="list-text">Cliquez sur *Ajouter un nouveau courtier de données*.</block>
   <block id="802f803fcc1e47690eb3743e68b82a33" category="list-text">Suivez les invites pour créer le courtier de données.</block>
   <block id="8eb912b10c5a70a32cb5864415b764bb" category="paragraph">Pour obtenir de l'aide, reportez-vous aux pages suivantes :</block>
   <block id="b20c8730a010d433fedb7241d0a0335a" category="list-title">Étapes pour créer un courtier de données dans un groupe existant</block>
-  <block id="9c129f9a970d427b507541a4c3a7e53a" category="list-text">Cliquez sur le menu d'action et sélectionnez *Ajouter un courtier de données*.</block>
   <block id="b65b4c1a581a43f257ad99ae84281816" category="inline-image-macro">Capture d'écran du menu d'action disponible pour chaque courtier de données individuel d'un groupe.</block>
   <block id="2de4e7eeead88f538b8cd1733c76e3a6" category="paragraph"><block ref="2de4e7eeead88f538b8cd1733c76e3a6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b86abc18838bbcc96f4aba5f9e7400b2" category="list-text">Suivez les invites pour créer le courtier de données dans le groupe.</block>
   <block id="d673b528f864db55fcb67876966355b2" category="paragraph">Modifier le nom d'un groupe de courtiers de données à tout moment.</block>
-  <block id="6101d898adb1b689572ae10844666fb9" category="list-text">Cliquez sur le menu d'action et sélectionnez *Modifier le nom du groupe*.</block>
   <block id="81a916358892fc8fbd08a770c2e50715" category="paragraph"><block ref="81a916358892fc8fbd08a770c2e50715" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="155ba6c2c0d0fdfa0760ba73549d665c" category="list-text">Entrez un nouveau nom et cliquez sur *Enregistrer*.</block>
   <block id="895f6ee3fb48280aa9fdce9f1c30aa6d" category="section-title">Configurez une configuration unifiée</block>
   <block id="b913043c4767c72e8bbb3ed88c33dd15" category="paragraph">Si une relation de synchronisation rencontre des erreurs lors du processus de synchronisation, l'unification de la simultanéité du groupe de courtiers de données peut aider à diminuer le nombre d'erreurs de synchronisation. Notez que les modifications apportées à la configuration du groupe peuvent affecter les performances en ralentissant le transfert.</block>
   <block id="e0341128a5853714165581951816b70b" category="paragraph">Nous ne recommandons pas de modifier par vous-même la configuration. Consultez NetApp pour savoir quand modifier la configuration et comment la modifier.</block>
-  <block id="6fea4f8d81c041ddb786f1edf604f6b0" category="list-text">Cliquez sur *gérer les courtiers de données*.</block>
-  <block id="947dda123a9676ba06895d96ee598405" category="list-text">Cliquez sur l'icône Paramètres d'un groupe de courtiers de données.</block>
   <block id="270f82e457e8fa76d7c5a3cc51be200a" category="inline-image-macro">Capture d'écran affichant l'icône Paramètres d'un groupe de courtiers de données.</block>
   <block id="e7670e4280933a11f42bb2080cc42f84" category="paragraph"><block ref="e7670e4280933a11f42bb2080cc42f84" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="28d40eeab8fd28bbdf5b092f4784b274" category="list-text">Modifiez les paramètres selon vos besoins, puis cliquez sur *Unify Configuration*.</block>
   <block id="63c7b65895eb2fbd662e3ab0e4de3d12" category="list-text">Vous pouvez choisir les paramètres à modifier, mais vous n'avez pas besoin de les modifier simultanément.</block>
   <block id="ee04adf201931e953bab143cd61c5e34" category="list-text">Une fois qu'une nouvelle configuration est envoyée à un courtier de données, le courtier redémarre automatiquement et utilise la nouvelle configuration.</block>
   <block id="5a9a104c07412a4762c5c9f6a499a905" category="list-text">Une fois la configuration unifiée définie, tous les nouveaux courtiers de données utilisent automatiquement la nouvelle configuration.</block>
@@ -875,17 +816,12 @@
   <block id="3e0e9fccf9e35eb1a06e1c36bf885a2f" category="list-text">Vous ne pouvez pas déplacer un courtier de données vers ou depuis un groupe qui gère les relations de synchronisation chiffrées.</block>
   <block id="db90b652da494a61a1c01e5e5aef4315" category="list-text">Vous ne pouvez pas déplacer un courtier en données actuellement déployé.</block>
   <block id="40c73a255636bb999d6831cf4ac7e7a1" category="inline-image-macro">Capture d'écran du bouton qui vous permet de développer la liste des courtiers de données d'un groupe.</block>
-  <block id="447de7a1cac78a70d6df20a5b1ee66aa" category="list-text">Cliquez sur <block ref="787db84ec9404328cdc4a6264b9959c1" category="inline-image-macro-rx" type="image"></block> pour développer la liste des courtiers de données d'un groupe.</block>
-  <block id="dda0c1f183c1fccf92fffcd171b23e21" category="list-text">Cliquez sur le menu d'action d'un courtier de données et sélectionnez *déplacer le courtier de données*.</block>
   <block id="fa09436a4bdfebc03ee36943e6a1b450" category="inline-image-macro">Capture d'écran du menu d'action disponible pour chaque groupe de courtiers de données.</block>
   <block id="89c00533408de9d6ad1e44640394b315" category="paragraph"><block ref="89c00533408de9d6ad1e44640394b315" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cfd516ad37b4df608c16efb09914e1fc" category="list-text">Créez un nouveau groupe de courtiers de données ou sélectionnez un groupe de courtiers de données existant.</block>
-  <block id="55d7c27d3127f4494c358b638f4fc6ff" category="list-text">Cliquez sur *déplacer*.</block>
   <block id="dbe6fde8cda66c70d52ac330a93b530e" category="section-title">Mettre à jour la configuration du proxy</block>
   <block id="f646f203e1dead2c4f220dc5943aa058" category="paragraph">Mettez à jour la configuration du proxy pour un courtier de données en ajoutant des détails sur une nouvelle configuration de proxy ou en modifiant la configuration de proxy existante.</block>
-  <block id="550a2db189a4eb50771eeb91357d19cd" category="list-text">Cliquez sur le menu d'action d'un courtier de données et sélectionnez *Modifier la configuration du proxy*.</block>
   <block id="85a4803f127edd3390d65e41d8aaad98" category="list-text">Spécifiez des détails sur le proxy : nom d'hôte, numéro de port, nom d'utilisateur et mot de passe.</block>
-  <block id="04252e4e5460971d7f33943bd841f366" category="list-text">Cliquez sur *mettre à jour*.</block>
   <block id="8113db3adc828428b3180d7dd38311d0" category="paragraph">Vous pouvez consulter des détails sur un courtier de données pour identifier des éléments tels que son nom d'hôte, son adresse IP, son CPU et sa mémoire vive disponibles, etc.</block>
   <block id="3befe2b2c4ef318e03d79b36ca8de404" category="list-text">Informations de base : ID d'instance, nom d'hôte, etc</block>
   <block id="875bceffa72cf978fcc97a21a5208076" category="list-text">Réseau : région, réseau, sous-réseau, IP privée, etc</block>
@@ -894,7 +830,6 @@
   <block id="594a0b982812cc261e0948d091016333" category="list-text">Configuration : détails sur les deux types de processus principaux du courtier de données : scanner et transfert</block>
   <block id="11a83e6b96c9efdc97f63abd9c00ad55" category="admonition">Le scanner numérise la source et la cible et décide de ce qui doit être copié. Le transfert effectue la copie réelle. L'équipe NetApp peut utiliser ces détails de configuration pour suggérer des actions permettant d'optimiser les performances.</block>
   <block id="4e2a058312f76a6733fa5f04b09d0b12" category="inline-image-macro">Capture d'écran du bouton qui vous permet de développer les détails d'un courtier de données.</block>
-  <block id="d9428db3891df0c6837599d9004dc84b" category="list-text">Cliquez sur <block ref="470bfce73839324984be8a7b9dbc97eb" category="inline-image-macro-rx" type="image"></block> pour afficher les détails d'un courtier de données.</block>
   <block id="b3f5b024c925d18f1fad38e34f6adeb7" category="inline-image-macro">Capture d'écran des informations relatives à un courtier de données.</block>
   <block id="2aca713208ede5e338187d8acfc59e45" category="paragraph"><block ref="2aca713208ede5e338187d8acfc59e45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d84b9ff2a26165aea44e08c53ac24735" category="section-title">Résoudre les problèmes avec un courtier de données</block>
@@ -906,12 +841,8 @@
   <block id="cd001e84be2b1eb58fae93119764a424" category="section-title">Supprimer un courtier de données d'un groupe</block>
   <block id="3eabf8e614efa513058a3d3dbb1a59e1" category="list-title">Ce que vous devez savoir</block>
   <block id="86809a552db6628d8c5fdff212824259" category="list-text">Vous ne pouvez pas supprimer le dernier courtier de données d'un groupe s'il existe une relation utilisant ce groupe.</block>
-  <block id="9b1ed3beff3574463addd20120a54d9d" category="list-text">Cliquez sur le menu d'action d'un courtier de données et sélectionnez *Supprimer le courtier de données*.</block>
   <block id="72d8c1c0fb68d009ccb1cae8adc51597" category="paragraph"><block ref="72d8c1c0fb68d009ccb1cae8adc51597" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c3bab48341baf2f6368e3f474352dfef" category="list-text">Cliquez sur *Supprimer le courtier de données*.</block>
   <block id="2bbd7c4d9d525b0e8675bf3663179545" category="section-title">Supprimer un groupe de courtier de données</block>
-  <block id="4caa7a774039d94c9779b6e68946536b" category="list-text">Cliquez sur le menu d'action et sélectionnez *Supprimer le groupe*.</block>
-  <block id="a6f5a3bf619c49f582460d312e4f123a" category="list-text">Pour confirmer, entrez le nom du groupe et cliquez sur *Supprimer le groupe*.</block>
   <block id="540d36f51d945cde427519036203dde6" category="doc">Création d'un nouveau courtier en données dans Azure</block>
   <block id="455aadf3bd22f71973763b3cdc7db550" category="section-title">Régions Azure prises en charge</block>
   <block id="df8514e24a07bfd81c667163f17fbec0" category="paragraph">Toutes les régions sont prises en charge à l'exception des régions China, US Gov et US DoD.</block>
@@ -937,16 +868,13 @@
   <block id="0be7700ba4689baa197ac3c2b94928a5" category="inline-link">Documentation Azure : créez et utilisez une paire de clés publiques-privées SSH pour les machines virtuelles Linux dans Azure</block>
   <block id="4e2153a19cb9d86adf7b5ba332e78a45" category="paragraph">Pour obtenir de l'aide sur la création d'une paire de clés, reportez-vous à la section<block ref="3bfff4aa3d3a3eae965cce9b3b615a4a" category="inline-link-rx"></block>.</block>
   <block id="896293b91a375c72889dc16e1c816e72" category="paragraph">Il existe plusieurs façons de créer un nouveau courtier de données. Lors de la création d'une relation de synchronisation, procédez comme suit pour installer un courtier de données dans Azure.</block>
-  <block id="01341420bc02ccee78de02f8a53bc10d" category="list-text">Sur la page *Groupe de courtiers de données*, cliquez sur *Créer courtier de données*, puis sélectionnez *Microsoft Azure*.</block>
   <block id="ff7156dc72b8081c2a9c6e0150647ace" category="paragraph"><block ref="ff7156dc72b8081c2a9c6e0150647ace" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="75dce0fc68d0351230bf9f9d8de2431c" category="list-text">Si vous y êtes invité, connectez-vous à votre compte Microsoft. Si vous n'êtes pas invité, cliquez sur *connexion à Azure*.</block>
   <block id="e0f74d06e87b3ad6fc9f3b3cfc573c38" category="paragraph">Ce formulaire est détenu et hébergé par Microsoft. Vos identifiants ne sont pas fournis à NetApp.</block>
   <block id="eb326e1f884a5d84e7b70887f7874b42" category="list-text">Choisissez un emplacement pour le courtier de données et entrez les informations de base sur la machine virtuelle.</block>
   <block id="4e150fdd87e97e0d1398184219062d41" category="inline-image-macro">Capture d'écran de la page de déploiement Azure présentant les champs suivants : abonnement, région Azure, vnet, sous-réseau, nom de machine virtuelle, Nom d'utilisateur, méthode d'authentification et groupe de ressources.</block>
   <block id="f38f2fdb5d5d38ec31dd9074ee28e224" category="paragraph"><block ref="f38f2fdb5d5d38ec31dd9074ee28e224" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c8ca1d8358e87cff0b7449f10193445" category="admonition">Si vous prévoyez d'implémenter une relation de synchronisation continue, vous devez attribuer un rôle personnalisé à votre courtier de données. Cela peut également être effectué manuellement après la création du courtier.</block>
   <block id="2eabf7b67b6c5e6d78b08dd754db7951" category="list-text">Spécifiez une configuration proxy, si un proxy est requis pour l'accès Internet dans le vnet.</block>
-  <block id="9a7c0eeeaa34923c384afd6768155386" category="list-text">Cliquez sur *Continuer* et maintenez la page ouverte jusqu'à ce que le déploiement soit terminé.</block>
   <block id="d053334dcf5dac4968bf6d994e4ed7ec" category="paragraph">Ce processus peut prendre jusqu'à 7 minutes.</block>
   <block id="affdd8fc6be1e86de36efaee713f54e2" category="paragraph">Vous avez déployé un courtier en données dans Azure et créé une nouvelle relation de synchronisation. Vous pouvez utiliser ce data broker avec des relations de synchronisation supplémentaires.</block>
   <block id="3ce174ce4b84d9bb24dbad7ede08fc56" category="sidebar-title">Vous obtenez un message sur le besoin d'un consentement de l'administrateur ?</block>
@@ -988,22 +916,17 @@
   <block id="2feeb126323f3368d5b67555099e8c26" category="list-text">_&lt;RoleARN&gt;_ doit être remplacé par l'un des éléments suivants :</block>
   <block id="64382286854eaefaa762d894a81fc3ff" category="list-text">Si un courtier de données a été installé manuellement sur un hôte Linux, _RoleARN_ doit être l'ARN de l'utilisateur AWS pour lequel vous avez fourni des informations d'identification AWS lors du déploiement d'un courtier de données.</block>
   <block id="e2fd71d5e0089aec445e3585846600a5" category="list-text">Si un courtier de données a été déployé dans AWS à l'aide du modèle CloudFormation, _RoleARN_ doit être l'ARN du rôle IAM créé par le modèle.</block>
-  <block id="e12f2cb93ea8b0df53b39ccf052346cd" category="paragraph">Vous pouvez trouver le nom ARN du rôle en accédant à la console EC2, en sélectionnant l'instance du courtier de données et en cliquant sur le rôle IAM dans l'onglet Description. La page Résumé de la console IAM qui contient le numéro de référence du rôle doit apparaître.</block>
   <block id="27b29b1148f0a8d10712b93a6b2f07c0" category="inline-image-macro">Capture d'écran de la console AWS IAM affichant un numéro d'identification de rôle.</block>
   <block id="5413d4eaee8e3ec886af67b45688f61a" category="paragraph"><block ref="5413d4eaee8e3ec886af67b45688f61a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7e2fc8b47c3caa089d5e9782e7d982d2" category="paragraph">Assurez-vous que votre stockage Azure Blob répond aux exigences suivantes.</block>
   <block id="47a68bd0994db3020f105c7c17c88fc6" category="section-title">Emplacements des courtiers de données pris en charge pour Azure Blob</block>
   <block id="8ae4a8919ff640cac901c5170789725b" category="paragraph">Un courtier en données peut résider en tout lieu lorsqu'une relation de synchronisation inclut le stockage Azure Blob.</block>
   <block id="cd0559cbb36e8ae61712a5e3085023f0" category="section-title">Chaîne de connexion pour les relations qui incluent Azure Blob et NFS/SMB</block>
-  <block id="1e9af9bf420c920c526a831d6d40e038" category="inline-image-macro">Affiche une chaîne de connexion, disponible sur le portail Azure en sélectionnant un compte de stockage, puis en cliquant sur touches d'accès.</block>
-  <block id="0898c993025b0ff5f0e5ec87ebf5842d" category="paragraph"><block ref="0898c993025b0ff5f0e5ec87ebf5842d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b353a92f9cd802272f6be2754b692e1" category="inline-link">signature d'accès partagé</block>
   <block id="4910e65af2eedc6fa7ed53c1aebddd87" category="paragraph">Pour synchroniser les données entre deux conteneurs Azure Blob, la chaîne de connexion doit inclure une<block ref="1b83926908223c09ad8189ca7e78f06a" category="inline-link-rx"></block> (SAS). Vous avez également la possibilité d'utiliser un SAS lors de la synchronisation entre un conteneur Blob et un serveur NFS ou SMB.</block>
   <block id="f59a16e82b8115f2b51037c416a69a67" category="paragraph">Le SAS doit autoriser l'accès au service Blob et à tous les types de ressources (Service, Conteneur et Objet). Le SAS doit également inclure les autorisations suivantes :</block>
   <block id="eca1274468926e041a10a4b1a84c2e53" category="list-text">Pour le conteneur Blob source : Lecture et liste</block>
   <block id="4f3d02d4ca2c2acd501754f1c7f092b8" category="list-text">Pour le conteneur Blob cible : lecture, écriture, liste, ajout et création</block>
-  <block id="6d984d40359970bc3ca298e54c9c10ee" category="inline-image-macro">Affiche une signature d'accès partagé, disponible sur le portail Azure en sélectionnant un compte de stockage, puis en cliquant sur signature d'accès partagé.</block>
-  <block id="9e1406ab3768b6fdb53c46936555e01f" category="paragraph"><block ref="9e1406ab3768b6fdb53c46936555e01f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9885ac123b78188871df5097c105004e" category="admonition">Si vous choisissez d'implémenter une relation de synchronisation continue qui inclut un conteneur Azure Blob, vous pouvez utiliser une chaîne de connexion standard ou une chaîne de connexion SAS. Si vous utilisez une chaîne de connexion SAS, elle ne doit pas être définie pour expirer dans un futur proche.</block>
   <block id="20a2ab980685308347c082aec3253ed9" category="paragraph">Lors de la création d'une relation de synchronisation incluant Azure Data Lake, vous devez fournir à Cloud Sync la chaîne de connexion du compte de stockage. Il doit s'agir d'une chaîne de connexion standard et non d'une signature d'accès partagée (SAS).</block>
   <block id="93751358816dca5a6ae146bcd1bed8e1" category="section-title">Condition Azure NetApp Files</block>
@@ -1082,27 +1005,20 @@
   <block id="3751024f8814dd0f9cc7022c63dd219d" category="section-title">Synchronisez immédiatement les données</block>
   <block id="01db9e7829acc4899b2e0742925feea9" category="paragraph">Au lieu d'attendre la synchronisation planifiée suivante, vous pouvez appuyer sur un bouton pour synchroniser immédiatement les données entre la source et la cible.</block>
   <block id="0f5f1ed19e5f92c9f1aad34019c5c065" category="inline-image-macro">Capture d'écran du bouton qui vous permet d'effectuer des actions sur une relation de synchronisation</block>
-  <block id="781a4e1aefac4f9409210de2df0f2992" category="list-text">Dans *Dashboard*, naviguez jusqu'à la relation de synchronisation et cliquez sur <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="90881819e96a317a0b9cbd8a17bea734" category="list-text">Cliquez sur *Synchroniser maintenant*, puis sur *Sync* pour confirmer.</block>
   <block id="9011e4e296b23e35e2729606b1923581" category="paragraph">Accélérez les performances d'une relation de synchronisation en ajoutant un courtier de données supplémentaire au groupe qui gère la relation. Le courtier de données supplémentaire doit être un _New_ Data broker.</block>
   <block id="30da1c6cc964eebe723aacff25362055" category="paragraph">Si le groupe du courtier gère d'autres relations de synchronisation, le nouveau courtier de données que vous ajoutez au groupe accélère également les performances de ces relations de synchronisation.</block>
   <block id="77835e3bdea4c9060a1ddb296840c2f2" category="list-text">Assurez-vous qu'au moins un des courtiers de données existants dans la relation est en ligne.</block>
-  <block id="f0f405cf23a3551636665b7b031e8fac" category="list-text">Cliquez sur *accélérer*.</block>
   <block id="bef7c0526a136d74698b8d535b65bafd" category="list-text">Suivez les invites pour créer un nouveau courtier de données.</block>
   <block id="b9d30d436a8a56d3713a2ec699c1b4b4" category="paragraph">Vous pouvez mettre à jour le courtier de données avec les informations d'identification les plus récentes de la source ou de la cible dans une relation de synchronisation existante. La mise à jour des informations d'identification peut vous aider si vos stratégies de sécurité vous obligent à mettre à jour les informations d'identification de manière périodique.</block>
-  <block id="bd815be6d32df77592fb5fe811a33258" category="list-text">Dans le tableau de bord *Sync*, accédez à une relation de synchronisation qui nécessite des informations d'identification, puis cliquez sur *mettre à jour les informations d'identification*.</block>
   <block id="1c92b262b640f4dcb403b78b346e9f7b" category="inline-image-macro">Capture d'écran affichant l'option mettre à jour les informations d'identification sur la page Synchroniser les relations juste sous le nom de la source ou de la cible.</block>
   <block id="72b0391bb04b72b58541516235c5cb94" category="paragraph"><block ref="72b0391bb04b72b58541516235c5cb94" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="78529df6bbf68e1bc56a7c5921101ba9" category="list-text">Entrez les informations d'identification et cliquez sur *Update*.</block>
   <block id="023dd20b31e9240e9be755e28a211310" category="paragraph">Remarque sur les serveurs SMB : si le domaine est nouveau, vous devez le spécifier lors de la mise à jour des informations d'identification. Si le domaine n'a pas changé, vous n'avez pas besoin de le saisir à nouveau.</block>
   <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">Capture d'écran qui montre le Centre de notification dans BlueXP.</block>
   <block id="55d9f99a73d4f287de3573ba4a2c149b" category="paragraph">Vous pouvez également recevoir des notifications par e-mail.</block>
   <block id="50685346648f799f564787da3aeaa3df" category="list-text">Modifiez les paramètres d'une relation de synchronisation :</block>
   <block id="e265f7dc29349c5c09e52af073ae2fdf" category="list-text">Activez *Notifications*.</block>
   <block id="f9d4f53357700da18c4c21765dd9a257" category="list-text">Si vous souhaitez recevoir des notifications par e-mail, configurez les paramètres d'alerte et de notification :</block>
-  <block id="2c97c497a9405e946d3eb1dd6266fe96" category="list-text">Cliquez sur *Paramètres &gt; Paramètres d'alertes et de notifications*.</block>
   <block id="0f3cd015c1ca0bfb4d2fbb852b3d6a5e" category="list-text">Sélectionnez un ou plusieurs utilisateurs et choisissez le type de notification *Info*.</block>
-  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">Cliquez sur *appliquer*.</block>
   <block id="374e9d4e51accd7075f4287b4b793c1b" category="paragraph">Modifiez les paramètres qui définissent la façon dont les fichiers et dossiers source sont synchronisés et gérés à l'emplacement cible.</block>
   <block id="822ae51936517f095a62c2446cee4c00" category="list-text">Modifiez l'un des paramètres.</block>
   <block id="81619d38a88bd76ccf0c4ffa8f70f298" category="inline-image-macro">Capture d'écran affichant les paramètres d'une relation de synchronisation.</block>
@@ -1111,7 +1027,6 @@
   <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">Si vous souhaitez recevoir des notifications pour</block>
   <block id="358b02ae4c5737f45e3823c255aeb87e" category="list-text">Choisissez de supprimer des fichiers de l'emplacement cible, s'ils ont été supprimés de la source. La valeur par défaut est de ne jamais supprimer de fichiers de l'emplacement cible.</block>
   <block id="f493e490805f4eb86f124bae3d9da833" category="paragraph">Vous pouvez supprimer une relation de synchronisation si vous n'avez plus besoin de synchroniser les données entre la source et la cible. Cette action ne supprime pas le groupe du courtier de données (ou les instances individuelles du courtier de données) et ne supprime pas les données de la cible.</block>
-  <block id="68771d6d7b1536e9127a6d046d30c825" category="list-text">Cliquez sur *Supprimer*, puis cliquez à nouveau sur *Supprimer* pour confirmer.</block>
   <block id="f3630c1c94e3e51aaea5bdd037dc03c9" category="section-title">30 octobre 2022</block>
   <block id="5c7d084f950ad8af7d03c171b38bbaba" category="section-title">Synchronisation continue de Microsoft Azure</block>
   <block id="e4c664e7de05c9b6f33c4dc4c5e8c120" category="paragraph">Le paramètre Continuous Sync est désormais pris en charge depuis un compartiment de stockage Azure source vers un stockage cloud via un courtier de données Azure.</block>
@@ -1227,7 +1142,6 @@
   <block id="b0ca823b10873e7a925ef5adac883c88" category="section-title">SFTP à S3</block>
   <block id="cc7323173039fb96b345cbcfd28877b6" category="paragraph">La création d'une relation de synchronisation entre SFTP et Amazon S3 est désormais prise en charge dans l'interface utilisateur. Cette relation de synchronisation était auparavant prise en charge avec l'API uniquement.</block>
   <block id="5eafde1d0f1c17904e2751e719da1538" category="section-title">Amélioration de la vue de tableau</block>
-  <block id="dae101521243289c0a713ed367646615" category="paragraph">Pour plus de facilité d'utilisation, nous avons repensé la vue des tableaux de bord. Si vous cliquez sur *plus d'info*, Cloud Sync filtre le tableau de bord pour afficher plus d'informations sur cette relation spécifique.</block>
   <block id="90395f713f122ec567368986af441ba7" category="inline-image-macro">Copie d'écran de la vue de tableau dans le Tableau de bord.</block>
   <block id="464bce8418108e11fbc67663fc64376a" category="paragraph"><block ref="464bce8418108e11fbc67663fc64376a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="55692a3e08e518d1aa7c38db6b703907" category="section-title">Soutien pour la région de Jarkarta</block>
@@ -1381,7 +1295,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toute la documentation BlueXP</block>
   <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">\https://console.bluexp.netapp.com/ \https://netapp-cloud-account.auth0.com</block>
-  <block id="5a6f95f0d3a768c4ec5fabda878a438c" category="paragraph">Connectez-vous à<block ref="a52ee1b87e73428b189d0907dc7fe59b" category="inline-link-rx"></block>, Cliquez sur *Sync*, puis faites glisser et déposez vos sélections pour la source et la cible. Suivez les invites pour terminer la configuration. <block ref="484d4f19cf4f8d33cb3a1a91aa23f363" category="inline-link-macro-rx"></block>.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si vous avez un compte partenaire ou revendeur, vous pouvez ajouter un ou plusieurs comptes NSS, mais ils ne peuvent pas être ajoutés en même temps que les comptes au niveau du client.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Recherchez le numéro de série de l'ID de compte sur la page d'inscription au support.</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copiez le numéro de série de votre compte à l'étape 2 ci-dessus, vérifiez sa sécurité, puis lisez la Déclaration de confidentialité des données NetApp.</block>
@@ -1457,7 +1370,6 @@
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Utilisation d'options de support en libre-service</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Créez un dossier de demande de support auprès du support NetApp</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">Sur la page *Ressources*, choisissez l'une des options disponibles sous support technique :</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">Cliquez sur *Créer un dossier* pour ouvrir un dossier auprès d'un spécialiste du support NetApp :</block>
   <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">Gestion de vos dossiers de demande de support (aperçu)</block>
   <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">Vous pouvez afficher et gérer les dossiers de support actifs et résolus directement à partir de BlueXP. Vous pouvez gérer les dossiers associés à votre compte NSS et à votre entreprise.</block>
   <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">La gestion des dossiers est disponible en tant qu'aperçu. Nous prévoyons d'affiner cette expérience et d'ajouter des améliorations dans les prochaines versions. Envoyez-nous vos commentaires à l'aide de l'outil de chat In-Product.</block>
@@ -1468,10 +1380,8 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Vous pouvez ajouter ou supprimer des colonnes d'intérêt et filtrer le contenu des colonnes telles que priorité et Statut. D'autres colonnes offrent uniquement des fonctions de tri.</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Pour plus d'informations, consultez les étapes ci-dessous.</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">Au niveau de chaque dossier, nous offrons la possibilité de mettre à jour les notes de dossier ou de fermer un dossier qui n'est pas déjà à l'état fermé ou en attente fermée.</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Cliquez sur *case Management* et si vous y êtes invité, ajoutez votre compte NSS à BlueXP.</block>
   <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">La page *gestion des cas* affiche les cas ouverts associés au compte NSS associé à votre compte utilisateur BlueXP. Il s'agit du même compte NSS qui apparaît en haut de la page *gestion NSS*.</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Modifiez éventuellement les informations qui s'affichent dans le tableau :</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">Sous *cas de l'organisation*, cliquez sur *Afficher* pour afficher tous les cas associés à votre société.</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">Modifiez la plage de dates en choisissant une plage de dates exacte ou en choisissant une autre période.</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Capture d'écran de l'option au-dessus du tableau de la page gestion des cas qui vous permet de choisir une plage de dates exacte ou les 7 derniers jours, 30 derniers jours ou 3 derniers mois.</block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtrez le contenu des colonnes.</block>
@@ -1480,7 +1390,6 @@
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Capture d'écran affichant les colonnes que vous pouvez afficher dans le tableau.</block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Icône avec trois points qui apparaît dans la dernière colonne du tableau</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Voir cas*: Afficher tous les détails sur un cas spécifique.</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Fermer le cas* : fournissez des détails sur la raison pour laquelle vous fermez le cas et cliquez sur *Fermer le cas*.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Capture d'écran qui montre les actions que vous pouvez effectuer après avoir sélectionné le menu dans la dernière colonne du tableau.</block>
   <block id="c8420e741e74236d475d7e500b73f774" category="paragraph"><block ref="c8420e741e74236d475d7e500b73f774" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">7 mars 2023</block>
@@ -1582,7 +1491,6 @@
   <block id="e34ab50cbd0b1822634102ed78ca99d6" category="summary">La copie et la synchronisation BlueXP vous permettent de synchroniser des données entre une source et une cible. Il s'agit d'une relation de synchronisation. Vous devez comprendre les relations prises en charge avant de commencer.</block>
   <block id="fafec3da88dda2aaace57da0275aa418" category="list-text">Les relations de synchronisation avec cette source/cible sont prises en charge uniquement à l'aide de l'API de copie et de synchronisation BlueXP.</block>
   <block id="9884de3e76b128738e9b044e854c59b2" category="summary">Lorsque vous créez une relation de synchronisation, le service de copie et de synchronisation BlueXP copie les fichiers de la source vers la cible. Après la copie initiale, le service synchronise les données modifiées toutes les 24 heures.</block>
-  <block id="17a22599667444c8ead2e620d24daa16" category="paragraph">Si la copie et la synchronisation BlueXP ne peuvent pas récupérer les exportations, cliquez sur *Ajouter une exportation manuelle* et entrez le nom d'une exportation NFS.</block>
   <block id="bd171db960b7fb2897e98bf00be4815f" category="list-text">Vous permet de choisir de recevoir ou non les notifications de copie et de synchronisation BlueXP dans le Centre de notification de BlueXP. Vous pouvez activer des notifications pour la synchronisation des données avec succès, les échecs de synchronisation et les synchronisations de données annulées.</block>
   <block id="667141ecdc736f3d7ccf9a5f6e74cc7b" category="list-text">Définissez le nombre de tentatives de copie et de synchronisation BlueXP pour synchroniser un fichier avant de le sauter.</block>
   <block id="c7153d054eed1ef19444b255974772ee" category="list-text">Une fois la synchronisation initiale des données effectuée, la copie et la synchronisation BlueXP sont à l'écoute des modifications apportées au compartiment S3 source ou au compartiment Google Cloud Storage et elles synchronisent en continu toutes les modifications apportées à la cible au fur et à mesure qu'elles se produisent. Il n'est pas nécessaire d'effectuer une nouvelle analyse de la source à intervalles réguliers.</block>
@@ -1594,14 +1502,12 @@
   <block id="d00f5267d50bd8fc291109206d3ad858" category="list-text">Définissez les types de fichiers à inclure dans chaque synchronisation : fichiers, répertoires, liens symboliques et liens physiques.</block>
   <block id="e6bb715f6ce6607fa13566339effdb48" category="admonition">Les liens physiques ne sont disponibles que pour les relations NFS à NFS non sécurisées. Les utilisateurs seront limités à un seul processus de scanner et à une seule simultanéité de scanner, et les analyses doivent être exécutées à partir d'un répertoire racine.</block>
   <block id="c81b15466cc89faa99024d734f63d070" category="paragraph">La copie et la synchronisation BlueXP démarrent la synchronisation des données entre la source et la cible.</block>
-  <block id="ff3ea06fc0c8f759394b8942315d071f" category="paragraph">La copie et la synchronisation BlueXP sont intégrées avec Cloud Data Sense. Dans Data Sense, vous pouvez sélectionner les fichiers source que vous souhaitez synchroniser vers un emplacement cible à l'aide de la copie et de la synchronisation BlueXP.</block>
   <block id="4a8110d7baed5bb188d9ea48ab78e0e6" category="summary">NetApp ne dispose d'aucun identifiant que vous fournissez lors de l'utilisation du service de copie et de synchronisation BlueXP. Les informations d'identification sont stockées directement sur l'ordinateur du courtier de données, qui réside dans votre réseau.</block>
   <block id="bad5b485fd3620e21ec885f8037708e8" category="paragraph">Selon la configuration que vous choisissez, la copie et la synchronisation BlueXP peuvent vous demander des informations d'identification lorsque vous créez une relation. Par exemple, lors de la configuration d'une relation qui inclut un serveur SMB, ou lors du déploiement du courtier en données dans AWS.</block>
   <block id="48fdd045e3712fe8b8bf348baef2a5e3" category="summary">Lorsque vous créez un nouveau courtier en données, choisissez l'option Google Cloud Data Broker pour déployer le logiciel de courtier en données sur une nouvelle instance de machine virtuelle dans un VPC. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l'installation.</block>
   <block id="ff0ab6e5cc918d0f34784d6b8fd73746" category="paragraph">Lorsque vous créez un nouveau groupe de courtiers de données, choisissez Google Cloud Platform pour déployer le logiciel de courtier de données sur une nouvelle instance de machine virtuelle dans un VPC Google Cloud. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l'installation.</block>
   <block id="760e513e4804bf2cda72ba5b6d5b7a6a" category="list-text">Le courtier en données a besoin d'une connexion Internet sortante afin que le service de copie et de synchronisation BlueXP puisse effectuer les tâches sur le port 443.</block>
   <block id="617fa6ca8941919927e9677f8acb97f8" category="paragraph">Lorsque la copie et la synchronisation BlueXP déploient le courtier en données dans Google Cloud, il crée un groupe de sécurité pour activer les communications sortantes requises.</block>
-  <block id="7ba9b4e54874f0450b8869bc6d72ee86" category="list-text">Une fois le courtier en données disponible, cliquez sur *Continuer* dans la copie et la synchronisation BlueXP.</block>
   <block id="d18db3d9c5f8587fa64b4e04218dc914" category="paragraph">Le déploiement de l'instance dure environ 5 à 10 minutes. Vous pouvez surveiller la progression à partir du service de copie et de synchronisation BlueXP, qui se met automatiquement à jour lorsque l'instance est disponible.</block>
   <block id="33969e378e95c52b40733d56432c09ea" category="paragraph">Lorsque vous créez une relation de synchronisation et que vous choisissez Google Cloud Storage comme source ou cible, la copie et la synchronisation BlueXP vous permettent de choisir parmi les compartiments auxquels le compte de service du courtier de données est autorisé à utiliser. Par défaut, cela inclut les rubriques qui se trouvent dans le _same_ projet comme le compte de service du courtier de données. Mais vous pouvez choisir des compartiments dans _Other_ projets si vous fournissez les autorisations requises.</block>
   <block id="6ea6212f5be2cc7885ac1f6d832f818a" category="paragraph">La copie et la synchronisation BlueXP créent un courtier en données dans Google Cloud à l'aide de la configuration suivante.</block>
@@ -1616,7 +1522,6 @@
   <block id="eeec209b7367b324b78b8504507cca43" category="paragraph">Lorsque la copie et la synchronisation BlueXP déploient le courtier de données, il crée un rôle IAM pour l'instance de courtier de données. Si vous le souhaitez, vous pouvez déployer le data broker à l'aide de votre propre rôle IAM. Vous pouvez utiliser cette option si votre entreprise dispose de règles de sécurité strictes.</block>
   <block id="4aeed94a6e997eb99e2ee56acf52c9d9" category="list-text">Entrez une clé d'accès AWS pour que la copie et la synchronisation BlueXP puissent créer le courtier en données dans AWS en votre nom.</block>
   <block id="9b9c7cf2519d51f6dbe3acb1138a5125" category="list-text">Si vous avez saisi une clé d'accès AWS, sélectionnez un emplacement pour l'instance, sélectionnez une paire de clés, activez ou non une adresse IP publique, puis sélectionnez un rôle IAM existant ou laissez le champ vide pour que la copie et la synchronisation BlueXP crée le rôle pour vous. Vous avez également la possibilité de chiffrer votre courtier de données à l'aide d'une clé KMS.</block>
-  <block id="cf01363cb3b3aefee32677428a86d1df" category="list-text">Une fois le courtier en données disponible, cliquez sur *Continuer* dans la copie et la synchronisation BlueXP.</block>
   <block id="6f6b78ed59ff96087b1c87e91e648bc4" category="paragraph">La copie et la synchronisation BlueXP créent un courtier en données dans AWS avec la configuration suivante.</block>
   <block id="52c793499d4fd02f2f2330b970f6162b" category="summary">Lorsque vous créez un nouveau courtier en données, choisissez l'option courtier en données sur site pour installer le logiciel de courtier en données sur un hôte Linux sur site ou sur un hôte Linux existant dans le cloud. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l'installation.</block>
   <block id="890130d57677e99876dfa01749264d4d" category="paragraph">Lorsque vous créez un nouveau groupe de courtiers de données, choisissez l'option courtier de données sur site pour installer le logiciel de courtier de données sur un hôte Linux sur site ou sur un hôte Linux existant dans le cloud. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l'installation.</block>
@@ -1637,7 +1542,6 @@
   <block id="2f30d04a17f7f45ef1c41f6e15ccc628" category="paragraph">La copie et la synchronisation BlueXP modifient la relation de synchronisation avec les nouveaux paramètres.</block>
   <block id="d62aff038a63962fec73b4d2639d3ad3" category="paragraph">La copie et la synchronisation BlueXP suppriment la relation de synchronisation.</block>
   <block id="8da3b5473f99b37e0a7e71a701f5a400" category="list-text">Si vous avez besoin d'un nouveau courtier en données, la copie et la synchronisation BlueXP vous invitent à fournir les instructions d'installation. Vous pouvez déployer le data broker dans le cloud ou télécharger un script d'installation pour votre propre hôte Linux.</block>
-  <block id="2eda214e743322a19face3c28269f0fc" category="paragraph">La copie et la synchronisation BlueXP commencent à créer la nouvelle relation de synchronisation. Lorsque vous avez terminé, cliquez sur *Afficher dans le tableau de bord* pour afficher les détails de la nouvelle relation.</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="b5db50639891fb34043604a5e3173a5e" category="summary">La mise en route du service de copie et de synchronisation BlueXP se fait en quelques étapes.</block>
   <block id="6228befad91ffaa829b465dfedb27a74" category="doc">Démarrage rapide de la copie et de la synchronisation BlueXP</block>
@@ -1652,7 +1556,6 @@
   <block id="957b35928b8a0bf847c922e00243690d" category="summary">Lorsque vous créez un nouveau courtier en données, choisissez l'option Azure Data Broker pour déployer le logiciel de courtier en données sur une nouvelle machine virtuelle dans un vnet. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l'installation.</block>
   <block id="a151aef665e52178b0d84244ecf2215e" category="paragraph">Lorsque vous créez un nouveau groupe de courtiers de données, choisissez Microsoft Azure pour déployer le logiciel de courtier de données sur une nouvelle machine virtuelle dans un vnet. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l'installation.</block>
   <block id="07eb137be0de3d4ec4faeb42baa5f82c" category="paragraph">Lorsque la copie et la synchronisation BlueXP déploient le courtier en données dans Azure, il crée un groupe de sécurité pour permettre la communication sortante requise.</block>
-  <block id="77be4f1e4f287772c97ec1d404c65d79" category="list-text">Dans la copie et la synchronisation BlueXP, cliquez sur *Continuer* une fois le courtier en données disponible.</block>
   <block id="709a77b53428394651e5702dc1d6cb78" category="paragraph">Si Microsoft vous informe que l'approbation de l'administrateur est requise car la copie et la synchronisation BlueXP doivent être autorisées à accéder aux ressources de votre entreprise en votre nom, deux options sont disponibles :</block>
   <block id="7979374874e6c5c531b205d7a738fac7" category="paragraph">La copie et la synchronisation BlueXP créent un courtier en données dans Azure à l'aide de la configuration suivante.</block>
   <block id="c8f499f4661300d7b6cc58f37d33cdfe" category="summary">Le service de copie et de synchronisation NetApp BlueXP offre un moyen simple, sécurisé et automatisé de migrer vos données vers n'importe quelle cible, dans le cloud ou sur site.</block>
@@ -1668,7 +1571,6 @@
   <block id="f34b6d76110ab7661039d45200f420f5" category="paragraph">La copie et la synchronisation BlueXP prennent en charge les types de stockage suivants :</block>
   <block id="a9645f9fd5c738babcb0a0b7564fafa8" category="paragraph">La copie et la synchronisation BlueXP sont associées à deux types de coûts : les frais de ressources et les frais de service.</block>
   <block id="6169c8d461dd7f9996b17fcf210180a3" category="list-text">Abonnez-vous à AWS Marketplace, puis reconnectez-vous au service de copie et de synchronisation BlueXP pour terminer l'enregistrement.</block>
-  <block id="d6555e6f7172ab3b02bb7b9388844450" category="list-text">Cliquez sur *configurer le compte* pour revenir à la copie et à la synchronisation BlueXP.</block>
   <block id="b5ee50058b36eec1b9d5e452251d8123" category="section-title">[[licences]]achat de licences NetApp et ajout de licences à la copie et à la synchronisation BlueXP</block>
   <block id="a1c678174ddff43ed8cf229a96c7a003" category="paragraph">Pour payer vos relations de synchronisation au préalable, vous devez acheter une ou plusieurs licences et les ajouter au service de copie et de synchronisation BlueXP.</block>
   <block id="b69b60c6eae94cb020b628bd40e1db2a" category="paragraph">Si vous avez étendu une licence de copie et de synchronisation BlueXP que vous avez achetée auprès de NetApp, la nouvelle date d'expiration ne se mettra pas à jour automatiquement dans la copie et la synchronisation BlueXP. Vous devez ajouter de nouveau la licence pour actualiser la date d'expiration. Les licences doivent être gérées par le biais de la copie et de la synchronisation BlueXP ou du site web concerné et *non* par le biais d'un portefeuille digital.</block>
@@ -1761,9 +1663,7 @@
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">Modifiez les colonnes qui apparaissent dans le tableau en cliquant sur <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> puis choisissez les colonnes que vous souhaitez afficher.</block>
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">Pour gérer un dossier de demande de support existant, cliquez sur <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> et en sélectionnant l'une des options disponibles :</block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
   <block id="e6e1607e58cd001b7c781a8f8bfa813a" category="list-text"><block ref="e6e1607e58cd001b7c781a8f8bfa813a" category="inline-link-rx"></block></block>
@@ -1772,7 +1672,6 @@
   <block id="f8c7ce78aaf937671ef25c9c931e368e" category="list-text"><block ref="f8c7ce78aaf937671ef25c9c931e368e" category="inline-link-rx"></block></block>
   <block id="5bef0b78e6ec321bf21d727ac503470d" category="list-text"><block ref="5bef0b78e6ec321bf21d727ac503470d" category="inline-link-rx"></block></block>
   <block id="85cd31980dc6fca292186015e6569783" category="list-text"><block ref="85cd31980dc6fca292186015e6569783" category="inline-link-rx"></block></block>
-  <block id="8e430579de892a93405f336e319e0650" category="paragraph"><block ref="40f48ef5ea0de0b0c1e5b47df6f8470c" category="inline-link-rx"></block>.</block>
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">Découvrez comment gérer les identifiants associés à votre connexion BlueXP</block>
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">Pour utiliser la fonctionnalité *Créer un cas*, vous devez d'abord associer vos informations d'identification du site de support NetApp à votre connexion BlueXP.<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>.</block>
   <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">Si vous ouvrez un dossier pour un système ONTAP doté d'un numéro de série, votre compte NSS doit être associé au numéro de série de ce système.</block>
@@ -1782,10 +1681,7 @@
   <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">Pour obtenir un support technique sur les solutions des fournisseurs cloud suivants, consultez la section « obtention d'aide » dans la documentation BlueXP pour ce produit.</block>
   <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">Enregistrez votre compte BlueXP pour bénéficier de la prise en charge NetApp</block>
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">Pour vous inscrire au support et activer les droits de support, un utilisateur de votre compte BlueXP doit associer un compte sur le site de support NetApp à sa connexion BlueXP. Le fait de vous inscrire au support NetApp dépend de la présence ou non d'un compte sur le site de support NetApp (NSS).</block>
-  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône Paramètres et sélectionnez *informations d'identification*.</block>
-  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">Cliquez sur *informations d'identification de l'utilisateur*.</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">Sélectionnez *Ajouter des informations d'identification NSS* et suivez l'invite authentification du site de support NetApp (NSS).</block>
-  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">Pour confirmer que le processus d'enregistrement a réussi, cliquez sur l'icône aide et sélectionnez *support*.</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">La page *Ressources* doit indiquer que votre compte est enregistré pour le support.</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">Capture d'écran affichant un numéro de série de compte, une case à cocher verte et le texte enregistré pour le support.</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -1837,7 +1733,6 @@
   <block id="fe59670d5deda9cb753645f774a47c00" category="list-text">Dans le *Tableau de bord*, naviguez jusqu'à la relation de synchronisation et sélectionnez <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b838fb1a6e3a063ff847ead6c680b63b" category="section-title">Option 2 : supprimez plusieurs relations synchronisées</block>
   <block id="e228b5490db647150a658ff97a26549c" category="list-text">Dans le *Tableau de bord*, naviguez jusqu'au bouton « Créer une nouvelle synchronisation » et sélectionnez <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="17ae36fbbd79b2ff16d4f9f68caeb794" category="list-text">Sélectionnez les relations de synchronisation que vous souhaitez supprimer, cliquez sur *Supprimer*, puis cliquez de nouveau sur *Supprimer* pour confirmer.</block>
   <block id="8c2d829bea49e9a2588d62f78f366000" category="paragraph">La copie et la synchronisation BlueXP suppriment les relations synchronisées.</block>
   <block id="744c3e2d9eefd2af0d741a4bdf013531" category="section-title">9 juillet 2023</block>
   <block id="0d31f76acc0f0585c0ce6603aae95bf9" category="section-title">Supprimez plusieurs relations de synchronisation à la fois</block>
@@ -1850,4 +1745,107 @@
   <block id="f14be32be1b0e46b478529e782afc130" category="paragraph"><block ref="f14be32be1b0e46b478529e782afc130" category="inline-link-rx"></block></block>
   <block id="c3605c10e6753f736b31bbe56975b312" category="section-title">Mise à jour vers Node.js 20</block>
   <block id="62ace2991e0846010d9d30c14cb37645" category="paragraph">La copie et la synchronisation ont été mises à jour vers Node.js 20. Tous les courtiers de données disponibles seront mis à jour. Les systèmes d'exploitation incompatibles avec cette mise à jour ne peuvent pas être installés et les systèmes existants incompatibles peuvent rencontrer des problèmes de performances.</block>
+  <block id="9c493a2645deede7e1d634171451c869" category="paragraph">Vous pouvez trouver le rôle ARN en accédant à la console EC2, en sélectionnant l'instance du courtier de données, puis en sélectionnant le rôle IAM dans l'onglet Description. La page Résumé de la console IAM qui contient le numéro de référence du rôle doit apparaître.</block>
+  <block id="d7c075ca906ce69195757260c375322d" category="inline-image-macro">Affiche une chaîne de connexion, disponible sur le portail Azure en sélectionnant un compte de stockage, puis en sélectionnant clés d'accès.</block>
+  <block id="f73a08b9d40527fb034e3b8e5aea291e" category="paragraph"><block ref="f73a08b9d40527fb034e3b8e5aea291e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="974e187af76d9bdb79160a1747a99efd" category="inline-image-macro">Affiche une signature d'accès partagé, disponible depuis le portail Azure en sélectionnant un compte de stockage, puis signature d'accès partagée.</block>
+  <block id="440e14da8980c937115a1654cb964bce" category="paragraph"><block ref="440e14da8980c937115a1654cb964bce" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">Dans le coin supérieur droit de la console BlueXP, sélectionnez l'icône Paramètres, puis sélectionnez *informations d'identification*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Sélectionnez *informations d'identification utilisateur*.</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Pour confirmer que le processus d'enregistrement a réussi, sélectionnez l'icône aide et sélectionnez *support*.</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">Dans le coin supérieur droit de la console BlueXP, sélectionnez l'icône aide, puis sélectionnez *support*.</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Sélectionnez *gestion NSS &gt; Ajouter un compte NSS*.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Lorsque vous y êtes invité, sélectionnez *Continuer* pour être redirigé vers une page de connexion Microsoft.</block>
+  <block id="a7cf68034bb0427f14ac8f27b6befc6e" category="list-text">Faites glisser un serveur SMB ou un stockage objet comme source et un serveur SMB ou un stockage objet comme cible, puis sélectionnez *Continuer*.</block>
+  <block id="07fd1a9bba5ed1d65155cb7196d9fff7" category="cell">Pour contacter la classification BlueXP lorsque vous sélectionnez les fichiers source d'une nouvelle relation de synchronisation à l'aide de la classification.</block>
+  <block id="b23f7626598790c5bc3f3411ca8bc647" category="list-text">Sélectionnez *Créer une nouvelle synchronisation*.</block>
+  <block id="a98b7b8c1513bf265104275f8483ba4d" category="list-text">Sur la page *Define Sync Relationship*, choisissez une source et une cible, puis sélectionnez *continue*.</block>
+  <block id="bb85773e2c6a87875a9bb0f89efa1fab" category="list-text">Sur la page *Data Broker Group*, sélectionnez *Create Data Broker*, puis *Google Cloud Platform*.</block>
+  <block id="768a76795adb85fe8b2001a0f399abf2" category="list-text">Entrez un nom pour le courtier de données et sélectionnez *Continuer*.</block>
+  <block id="5cb5a4f4fe6d4cbbe707e63a954ad57b" category="list-text">Une fois le courtier en données disponible, sélectionnez *Continuer* dans la copie et la synchronisation BlueXP.</block>
+  <block id="2367a082ae2ae448b941e4f4c2dabed4" category="list-text">Sélectionnez le nom du compartiment que vous souhaitez utiliser comme source ou cible dans une relation de synchronisation.</block>
+  <block id="70d2a1a4dce0d4601d9d7ccb4730c171" category="list-text">Sélectionnez *autorisations*.</block>
+  <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">Sélectionnez *Ajouter*.</block>
+  <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">Sélectionnez *Enregistrer*.</block>
+  <block id="b3475f82bce5cbf95b975ed65e3d258e" category="paragraph">Pour plus de facilité d'utilisation, nous avons repensé la vue des tableaux de bord. Si vous sélectionnez *plus d'infos*, Cloud Sync filtre le tableau de bord pour vous afficher plus d'informations sur cette relation spécifique.</block>
+  <block id="5850da1fc8b844460820f41143c14a5d" category="list-text">Dans la page *gérer les courtiers de données*, sélectionnez *Ajouter un nouveau courtier de données* qui crée le courtier de données dans un nouveau groupe</block>
+  <block id="3f2a5c8d39fecd79e3a2a67e27c89975" category="list-text">Sélectionnez *Sync &gt; gérer les courtiers de données*.</block>
+  <block id="052d8bf5e14a8c511479470d76567896" category="list-text">Sélectionnez *Ajouter un nouveau Data Broker*.</block>
+  <block id="5062224ebe3fee3febcb171546faa6fb" category="list-text">Sélectionnez le menu d'action et sélectionnez *Ajouter un courtier de données*.</block>
+  <block id="d7b7562790ff23b3cf69ff2d8e2c9135" category="list-text">Sélectionnez le menu d'action et sélectionnez *Modifier le nom du groupe*.</block>
+  <block id="981a53d41f58197b983935d8515a8a1b" category="list-text">Entrez un nouveau nom et sélectionnez *Enregistrer*.</block>
+  <block id="67633f6453e939bb031824371e27e55f" category="list-text">Sélectionnez *gérer les courtiers de données*.</block>
+  <block id="b61fc711bd2997eb8dddcfe1c68f52d8" category="list-text">Sélectionnez l'icône Paramètres d'un groupe de courtiers de données.</block>
+  <block id="9c5b22f4eb3a2a84d6f78993d40e5e11" category="list-text">Modifiez les paramètres selon vos besoins, puis sélectionnez *Unify Configuration*.</block>
+  <block id="0fa553ef384c02c0ed69820824979c65" category="list-text">Sélectionnez <block ref="787db84ec9404328cdc4a6264b9959c1" category="inline-image-macro-rx" type="image"></block> pour développer la liste des courtiers de données d'un groupe.</block>
+  <block id="68a0287ebcc4f6e28023462e570b7b3e" category="list-text">Sélectionnez le menu d'action d'un courtier de données et sélectionnez *déplacer Data Broker*.</block>
+  <block id="c3eb9435da3ee7c0ac02ef30983ba9d2" category="list-text">Sélectionnez *déplacer*.</block>
+  <block id="84efe326528fa8de6894af686c9ad4a6" category="list-text">Sélectionnez le menu d'action d'un courtier de données et sélectionnez *Modifier la configuration du proxy*.</block>
+  <block id="35165f9b14f6cde03fa7f6f9b03732ba" category="list-text">Sélectionnez *mettre à jour*.</block>
+  <block id="0b84899995529839327fe3051a5f13b0" category="list-text">Sélectionnez <block ref="470bfce73839324984be8a7b9dbc97eb" category="inline-image-macro-rx" type="image"></block> pour afficher les détails d'un courtier de données.</block>
+  <block id="0500ac872687a21fa42b7c0274a1b4b2" category="list-text">Sélectionnez le menu d'action d'un courtier de données et sélectionnez *Supprimer le courtier de données*.</block>
+  <block id="af625aac66960e71c291115cae745a4e" category="list-text">Sélectionnez *Supprimer Data Broker*.</block>
+  <block id="ada3f05f232feeed1dfb7c4afcdffe6a" category="list-text">Sélectionnez le menu d'action et sélectionnez *Supprimer le groupe*.</block>
+  <block id="826f8292d9dd1df0d5e3440a37c5015b" category="list-text">Pour confirmer, entrez le nom du groupe et sélectionnez *Supprimer le groupe*.</block>
+  <block id="563b9ebf5f1676e7c73351df0df68d70" category="paragraph">Connectez-vous à<block ref="a52ee1b87e73428b189d0907dc7fe59b" category="inline-link-rx"></block>, Sélectionnez *Sync*, puis faites glisser et déposez vos sélections pour la source et la cible. Suivez les invites pour terminer la configuration. <block ref="484d4f19cf4f8d33cb3a1a91aa23f363" category="inline-link-macro-rx"></block>.</block>
+  <block id="46ea05c6ec616f5482a6ae7265cb289a" category="list-text">Sélectionnez *Canvas*.</block>
+  <block id="846c0cd63135bcbdaa57f314f9667667" category="list-text">Dans BlueXP, sélectionnez *Sync*.</block>
+  <block id="0389f118b4a12f879dace09873bfe8d5" category="list-text">Après avoir installé le courtier de données, sélectionnez *Continuer*.</block>
+  <block id="2940f879485a90e38c70bad277e952bc" category="paragraph">Si la copie et la synchronisation BlueXP ne peuvent pas récupérer les exportations, sélectionnez *Ajouter une exportation manuelle* et entrez le nom d'une exportation NFS.</block>
+  <block id="d3b515ad997487682cabad8cc3037528" category="list-text">Sélectionnez *Ajouter à la liste* pour sélectionner un compartiment S3 qui n'est pas associé à votre compte AWS. <block ref="772fe08f8ccc4de2babce33261957aed" category="inline-link-macro-rx"></block>.</block>
+  <block id="d4882dc545d7780382888fbbe7a423de" category="list-text">Passez en revue les détails de la relation de synchronisation, puis sélectionnez *Créer une relation*.</block>
+  <block id="ccb8e8d162cd0852214f94317fe9ff12" category="section-title">Créez des relations de synchronisation à partir de la classification BlueXP</block>
+  <block id="80bf5b29f498d053d7445284d3d93ca5" category="paragraph">La copie et la synchronisation BlueXP sont intégrées à la classification BlueXP. Dans la classification BlueXP, vous pouvez sélectionner les fichiers source que vous souhaitez synchroniser vers un emplacement cible à l'aide de la copie et de la synchronisation BlueXP.</block>
+  <block id="539e8564a4ed161824dff3b7104b2470" category="paragraph">Après avoir lancé la synchronisation des données à partir de la classification BlueXP, toutes les informations source sont contenues dans une seule étape et vous devez saisir uniquement quelques informations clés. Choisissez ensuite l'emplacement cible de la nouvelle relation de synchronisation.</block>
+  <block id="42d50bbcb3b366a20657a24b7644e345" category="inline-image-macro">Capture d'écran de la page intégration de classification BlueXP qui s'affiche après le démarrage d'une nouvelle synchronisation directement à partir de la classification BlueXP.</block>
+  <block id="d849d90980b2ab0f9613bf772807378f" category="paragraph"><block ref="d849d90980b2ab0f9613bf772807378f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf2270b456b1dc7f69b6efb8903adb83" category="inline-link">Découvrez comment démarrer une relation de synchronisation à partir de la classification BlueXP</block>
+  <block id="1139a253d171a7969c094e38ba8066d8" category="paragraph"><block ref="c65a8202f1a26826d29063b255b385d3" category="inline-link-rx"></block>.</block>
+  <block id="0479f6fe1008f761c6bd228300072a66" category="list-text">Sur la page *Data Broker Group*, sélectionnez *Create Data Broker*, puis *Microsoft Azure*.</block>
+  <block id="f8149e5272474293b308b5387c6e0eab" category="list-text">Si vous y êtes invité, connectez-vous à votre compte Microsoft. Si vous n'êtes pas invité, sélectionnez *se connecter à Azure*.</block>
+  <block id="62aca030fc0ae0886728293f4df155b2" category="list-text">Sélectionnez *Continuer* et gardez la page ouverte jusqu'à ce que le déploiement soit terminé.</block>
+  <block id="ad16396812bea804a1980d079b968f53" category="list-text">Dans le cadre de la copie et de la synchronisation BlueXP, sélectionnez *Continuer* une fois le courtier de données disponible.</block>
+  <block id="b9c67bb0bae9993217d3413e493a9d52" category="list-text">Sélectionnez *Sync &gt; licences*.</block>
+  <block id="a5fb6f9fbd972c02e5329e1ff986d9d5" category="list-text">Sélectionnez *s'abonner*, puis *Continuer*.</block>
+  <block id="9afef6b2e6bfae3c1516f6a5615e147a" category="list-text">Sélectionnez *Continuer pour s'inscrire*.</block>
+  <block id="7d5dc2ab8bafad8f8a587f44b30dc6f0" category="list-text">Sélectionnez vos options de contrat, puis sélectionnez *Créer un contrat*.</block>
+  <block id="8bf624ad0ff2e9fd580f8cf2ccbfb01b" category="list-text">Dans le portail Azure, sélectionnez *Créer*, sélectionnez vos options, puis *s'abonner*.</block>
+  <block id="50663aa7afb45a9a800941c0bc89dcf1" category="list-text">Une fois le déploiement terminé, sélectionnez le nom de la ressource SaaS dans la fenêtre contextuelle de notification.</block>
+  <block id="610e8ce14d61f13ee15be5f296487890" category="list-text">Sélectionnez *configurer le compte* pour revenir à la copie et à la synchronisation BlueXP.</block>
+  <block id="8a16f41efcb781e6645783df6cb0e97b" category="list-text">Dans BlueXP, sélectionnez *Sync &gt; licences*.</block>
+  <block id="0be0367eff89e989e3751d45bd6caf93" category="list-text">Sélectionnez *Ajouter une licence* et ajoutez les informations requises :</block>
+  <block id="46d344ee2c7e916b914b2b031a79a880" category="list-text">Si votre compte n'a pas encore été ajouté, sélectionnez *Ajouter les informations d'identification NSS*, entrez le nom d'utilisateur et le mot de passe, sélectionnez *s'inscrire*, puis sélectionnez-le dans la liste déroulante.</block>
+  <block id="6a44822bf57bcae55604cb610b227f67" category="paragraph">Sélectionnez *Filtrer les objets source* pour modifier les paramètres qui définissent la façon dont les fichiers et dossiers source sont synchronisés et gérés à l'emplacement cible.</block>
+  <block id="1aca046f97c331e986d5fab61366a4e6" category="list-text">*Revue* : passez en revue les détails de la relation de synchronisation, puis sélectionnez *Créer une relation*.</block>
+  <block id="579c21a9a30c92f081aafc35f6788b43" category="paragraph">La copie et la synchronisation BlueXP commencent à créer la nouvelle relation de synchronisation. Lorsque vous avez terminé, sélectionnez *Afficher dans le tableau de bord* pour afficher les détails de la nouvelle relation.</block>
+  <block id="5eab603ec483095f3786c2e47537d800" category="list-text">Sélectionnez *Sync Now*, puis *Sync* pour confirmer.</block>
+  <block id="3d18303a8bc1b24ad7263bcc9797e5b5" category="list-text">Sélectionnez *accélérer*.</block>
+  <block id="89fd3d02840a539075c4235f4b211573" category="list-text">Dans le *Tableau de bord de synchronisation*, accédez à une relation de synchronisation qui nécessite des informations d'identification, puis sélectionnez *mettre à jour les informations d'identification*.</block>
+  <block id="206f666b19f13f25bad53b2109edacb4" category="list-text">Entrez les informations d'identification et sélectionnez *mettre à jour*.</block>
+  <block id="448fe9f410fc86c359b1bf31ac68cd9f" category="list-text">Sélectionnez *Paramètres &gt; Paramètres d'alertes et de notifications*.</block>
+  <block id="24347b3ddf5a25cc9c27e54ae285ade1" category="list-text">Sélectionnez *appliquer*.</block>
+  <block id="774b7bb8cc1adb7cb5b5605c3d53249f" category="list-text">Sélectionnez *Supprimer*, puis sélectionnez de nouveau *Supprimer* pour confirmer.</block>
+  <block id="a06cbdd471532709a20804cd9a60cf7b" category="list-text">Sélectionnez les relations de synchronisation que vous souhaitez supprimer, sélectionnez *Supprimer*, puis cliquez de nouveau sur *Supprimer* pour confirmer.</block>
+  <block id="6ffcf259f9af8546dcdf4daad239e89b" category="list-text">Sélectionnez *Sync &gt; Rapports*.</block>
+  <block id="7caff74e8ad612143e6505e42c480693" category="list-text">Dans la colonne *actions de rapports*, accédez à un chemin spécifique et sélectionnez *Créer*, ou sélectionnez le menu d'action et sélectionnez *Créer*.</block>
+  <block id="034ebe64c95d6881f42b9860db62257a" category="list-text">Lorsque le rapport est prêt, sélectionnez le menu d'action et sélectionnez *Afficher*.</block>
+  <block id="c3e2319c8f33283f02e4d18078c3e026" category="list-text">Dans la colonne *actions de rapports*, sélectionnez le menu d'action et sélectionnez *Afficher*.</block>
+  <block id="b6b1c484e920a4cebbc7cdf2ac43d7ef" category="list-text">Dans le coin supérieur droit du rapport, sélectionnez le menu d'action et sélectionnez *Télécharger PDF*.</block>
+  <block id="8bd64cd944e930439dfc9b8d32597010" category="inline-image-macro">Capture d'écran de l'option Télécharger le PDF qui apparaît après avoir sélectionné le menu d'action dans un rapport.</block>
+  <block id="1a9d7b3b25da6533268f3139437f4d3d" category="paragraph"><block ref="1a9d7b3b25da6533268f3139437f4d3d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bf6097b869b6cd694d1a22235d83341d" category="list-text">Si des erreurs sont présentes, sélectionner la flèche en regard du nombre d'erreurs.</block>
+  <block id="8f678ca452a56dc17c7c9fc13e2e5f36" category="list-text">Dans la colonne *actions de rapports*, sélectionnez le menu d'action d'un chemin et sélectionnez *Supprimer le dernier rapport* ou *Supprimer tous les rapports*.</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">Dans BlueXP, sélectionnez *aide &gt; support*.</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Sélectionnez *appelez-nous* si vous souhaitez parler avec quelqu'un au téléphone. Vous serez dirigé vers une page netapp.com qui répertorie les numéros de téléphone que vous pouvez appeler.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Sélectionnez *Créer un cas* pour ouvrir un ticket avec un spécialiste du support NetApp :</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">Pour un historique de vos dossiers de support, vous pouvez sélectionner *Paramètres &gt; Chronologie* et rechercher les actions nommées "Créer un dossier de support". Un bouton situé à l'extrême droite vous permet de développer l'action pour afficher les détails.</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">Sélectionnez *case Management* et si vous y êtes invité, ajoutez votre compte NSS à BlueXP.</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">Sous *cas de l'organisation*, sélectionnez *Afficher* pour afficher tous les cas associés à votre société.</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">Modifiez les colonnes qui apparaissent dans le tableau en sélectionnant <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> puis choisissez les colonnes que vous souhaitez afficher.</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">Gérer un dossier existant en sélectionnant <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> et en sélectionnant l'une des options disponibles :</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Fermer le cas* : fournissez des détails sur la raison pour laquelle vous fermez le cas et sélectionnez *Fermer le cas*.</block>
+  <block id="4efee990fd4b83dc06a00811bfa7e55d" category="list-text">Sur la page *Data Broker Group*, sélectionnez *Create Data Broker*, puis *Amazon Web Services*.</block>
+  <block id="4f63dcacb975691fb706f866f5467707" category="paragraph">Si vous préférez ne pas fournir de clés d'accès, sélectionnez le lien en bas de la page pour utiliser un modèle CloudFormation. Lorsque vous utilisez cette option, vous n'avez pas besoin de fournir des identifiants, car vous vous connectez directement à AWS.</block>
+  <block id="417a67ddf3f7a9afe391dcd0968ded03" category="list-text">Une fois le courtier en données disponible, sélectionnez *Continuer* dans la copie et la synchronisation BlueXP.</block>
+  <block id="8f1cf53c93c91532c10f4779cc067c94" category="list-text">Sur la page *Data Broker Group*, sélectionnez *Create Data Broker*, puis *On-Prem Data Broker*.</block>
 </blocks>

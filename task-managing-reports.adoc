@@ -28,12 +28,12 @@ Chaque rapport fournit des détails détaillés sur un chemin dans une relation 
 Chaque fois que vous créez un rapport, la copie et la synchronisation BlueXP analysent le chemin d'accès, puis compile les détails dans un rapport.
 
 .Étapes
-. Cliquez sur *Sync > Rapports*.
+. Sélectionnez *Sync > Rapports*.
 +
 Les chemins (source ou cible) de chacune de vos relations de synchronisation s'affichent dans une table.
 
-. Dans la colonne *Rapports actions*, allez à un chemin spécifique et cliquez sur *Créer*, ou cliquez sur le menu d'action et sélectionnez *Créer nouveau*.
-. Lorsque le rapport est prêt, cliquez sur le menu d'action et sélectionnez *Affichage*.
+. Dans la colonne *actions de rapports*, accédez à un chemin spécifique et sélectionnez *Créer*, ou sélectionnez le menu d'action et sélectionnez *Créer*.
+. Lorsque le rapport est prêt, sélectionnez le menu d'action et sélectionnez *Afficher*.
 +
 Voici un exemple de rapport pour un chemin de système de fichiers.
 
@@ -55,11 +55,11 @@ image:screenshot_sync_report_object.gif["Rapport indiquant le nombre d'élément
 Vous pouvez télécharger un rapport au format PDF pour le visualiser hors ligne ou le partager.
 
 .Étapes
-. Cliquez sur *Sync > Rapports*.
-. Dans la colonne *Rapports actions*, cliquez sur le menu d'action et sélectionnez *Affichage*.
-. Dans le coin supérieur droit du rapport, cliquez sur le menu d'action et sélectionnez *Télécharger PDF*.
+. Sélectionnez *Sync > Rapports*.
+. Dans la colonne *actions de rapports*, sélectionnez le menu d'action et sélectionnez *Afficher*.
+. Dans le coin supérieur droit du rapport, sélectionnez le menu d'action et sélectionnez *Télécharger PDF*.
 +
-image:screenshot-sync-download-report.png["Capture d'écran de l'option Télécharger PDF qui s'affiche après avoir cliqué sur le menu d'action dans un rapport."]
+image:screenshot-sync-download-report.png["Capture d'écran de l'option Télécharger le PDF qui apparaît après avoir sélectionné le menu d'action dans un rapport."]
 
 
 
@@ -74,9 +74,9 @@ Par exemple, un rapport peut contenir des erreurs d'autorisation refusée. Ce ty
 Après avoir vu la liste des erreurs, vous pouvez résoudre les problèmes et exécuter à nouveau le rapport.
 
 .Étapes
-. Cliquez sur *Sync > Rapports*.
+. Sélectionnez *Sync > Rapports*.
 . Dans la colonne *erreurs*, identifiez si des erreurs sont présentes dans un rapport.
-. Si des erreurs sont présentes, cliquez sur la flèche en regard du nombre d'erreurs.
+. Si des erreurs sont présentes, sélectionner la flèche en regard du nombre d'erreurs.
 +
 image:screenshot_sync_report_errors.gif["Capture d'écran de la table Paths indiquant le nombre d'erreurs et une petite flèche cliquable dans la colonne Errors."]
 
@@ -93,7 +93,7 @@ Après avoir résolu le problème, l'erreur ne devrait pas apparaître lors de l
 Vous pouvez supprimer un rapport contenant une erreur que vous avez corrigée ou si le rapport est associé à une relation de synchronisation que vous avez supprimée.
 
 .Étapes
-. Cliquez sur *Sync > Rapports*.
-. Dans la colonne *Rapports actions*, cliquez sur le menu d'action d'un chemin et sélectionnez *Supprimer le dernier rapport* ou *Supprimer tous les rapports*.
+. Sélectionnez *Sync > Rapports*.
+. Dans la colonne *actions de rapports*, sélectionnez le menu d'action d'un chemin et sélectionnez *Supprimer le dernier rapport* ou *Supprimer tous les rapports*.
 . Confirmez que vous souhaitez supprimer le ou les rapports.
 

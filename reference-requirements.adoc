@@ -92,7 +92,7 @@ Notez les informations suivantes sur les autorisations incluses dans le fichier 
 ** Si un courtier de données a été installé manuellement sur un hôte Linux, _RoleARN_ doit être l'ARN de l'utilisateur AWS pour lequel vous avez fourni des informations d'identification AWS lors du déploiement d'un courtier de données.
 ** Si un courtier de données a été déployé dans AWS à l'aide du modèle CloudFormation, _RoleARN_ doit être l'ARN du rôle IAM créé par le modèle.
 +
-Vous pouvez trouver le nom ARN du rôle en accédant à la console EC2, en sélectionnant l'instance du courtier de données et en cliquant sur le rôle IAM dans l'onglet Description. La page Résumé de la console IAM qui contient le numéro de référence du rôle doit apparaître.
+Vous pouvez trouver le rôle ARN en accédant à la console EC2, en sélectionnant l'instance du courtier de données, puis en sélectionnant le rôle IAM dans l'onglet Description. La page Résumé de la console IAM qui contient le numéro de référence du rôle doit apparaître.
 
 +
 image:screenshot_iam_role_arn.gif["Capture d'écran de la console AWS IAM affichant un numéro d'identification de rôle."]
@@ -125,7 +125,7 @@ Toutes les régions sont prises en charge à l'exception des régions China, US 
 
 Lors de la création d'une relation de synchronisation entre un conteneur Azure Blob et un serveur NFS ou SMB, vous devez fournir une copie BlueXP et la synchroniser avec la chaîne de connexion du compte de stockage :
 
-image:screenshot_connection_string.gif["Affiche une chaîne de connexion, disponible sur le portail Azure en sélectionnant un compte de stockage, puis en cliquant sur touches d'accès."]
+image:screenshot_connection_string.gif["Affiche une chaîne de connexion, disponible sur le portail Azure en sélectionnant un compte de stockage, puis en sélectionnant clés d'accès."]
 
 Pour synchroniser les données entre deux conteneurs Azure Blob, la chaîne de connexion doit inclure une https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1["signature d'accès partagé"^] (SAS). Vous avez également la possibilité d'utiliser un SAS lors de la synchronisation entre un conteneur Blob et un serveur NFS ou SMB.
 
@@ -135,7 +135,7 @@ Le SAS doit autoriser l'accès au service Blob et à tous les types de ressource
 * Pour le conteneur Blob cible : lecture, écriture, liste, ajout et création
 
 
-image:screenshot_connection_string_sas.gif["Affiche une signature d'accès partagé, disponible sur le portail Azure en sélectionnant un compte de stockage, puis en cliquant sur signature d'accès partagé."]
+image:screenshot_connection_string_sas.gif["Affiche une signature d'accès partagé, disponible depuis le portail Azure en sélectionnant un compte de stockage, puis signature d'accès partagée."]
 
 
 NOTE: Si vous choisissez d'implémenter une relation de synchronisation continue qui inclut un conteneur Azure Blob, vous pouvez utiliser une chaîne de connexion standard ou une chaîne de connexion SAS. Si vous utilisez une chaîne de connexion SAS, elle ne doit pas être définie pour expirer dans un futur proche.

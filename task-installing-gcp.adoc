@@ -103,16 +103,16 @@ Remarques :
 Il existe plusieurs façons de créer un nouveau courtier de données. Lors de la création d'une relation de synchronisation, procédez comme suit pour installer un courtier de données dans Google Cloud.
 
 .Étapes
-. Cliquez sur *Créer une nouvelle synchronisation*.
-. Sur la page *Define Sync Relationship*, choisissez une source et une cible et cliquez sur *Continuer*.
+. Sélectionnez *Créer une nouvelle synchronisation*.
+. Sur la page *Define Sync Relationship*, choisissez une source et une cible, puis sélectionnez *continue*.
 +
 Suivez les étapes jusqu'à ce que vous atteiez la page *Groupe de courtiers de données*.
 
-. Sur la page *Groupe de courtiers de données*, cliquez sur *Créer courtier de données*, puis sélectionnez *Google Cloud Platform*.
+. Sur la page *Data Broker Group*, sélectionnez *Create Data Broker*, puis *Google Cloud Platform*.
 +
 image:screenshot-google.png["Capture d'écran de la page Data Broker qui vous permet de choisir entre AWS, Azure, Google Cloud et un courtier en données sur site."]
 
-. Entrez un nom pour le courtier de données et cliquez sur *Continuer*.
+. Entrez un nom pour le courtier de données et sélectionnez *Continuer*.
 . Si vous y êtes invité, connectez-vous à l'aide de votre compte Google.
 +
 Le formulaire est détenu et hébergé par Google. Vos identifiants ne sont pas fournis à NetApp.
@@ -128,7 +128,7 @@ image:screenshot_data_broker_gcp.png["Copie d'écran montrant les informations r
 +
 Si un proxy est requis pour l'accès Internet, il doit être dans Google Cloud et utiliser le même compte de service que le courtier de données.
 
-. Une fois le courtier en données disponible, cliquez sur *Continuer* dans la copie et la synchronisation BlueXP.
+. Une fois le courtier en données disponible, sélectionnez *Continuer* dans la copie et la synchronisation BlueXP.
 +
 Le déploiement de l'instance dure environ 5 à 10 minutes. Vous pouvez surveiller la progression à partir du service de copie et de synchronisation BlueXP, qui se met automatiquement à jour lorsque l'instance est disponible.
 
@@ -146,12 +146,12 @@ Lorsque vous créez une relation de synchronisation et que vous choisissez Googl
 
 .Étapes
 . Ouvrez la console Google Cloud Platform et chargez le service Cloud Storage.
-. Cliquez sur le nom du compartiment à utiliser en tant que source ou cible dans une relation de synchronisation.
-. Cliquez sur *autorisations*.
-. Cliquez sur *Ajouter*.
+. Sélectionnez le nom du compartiment que vous souhaitez utiliser comme source ou cible dans une relation de synchronisation.
+. Sélectionnez *autorisations*.
+. Sélectionnez *Ajouter*.
 . Entrez le nom du compte de service du courtier de données.
 . Sélectionnez un rôle <<Autorisations requises pour le compte de service,les mêmes autorisations que celles indiquées ci-dessus>>.
-. Cliquez sur *Enregistrer*.
+. Sélectionnez *Enregistrer*.
 
 
 .Résultat

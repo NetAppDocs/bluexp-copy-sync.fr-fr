@@ -32,7 +32,7 @@ Cette fonctionnalité fonctionne avec _tout_ type de courtier en données : AWS,
 
 .Étapes d'une nouvelle relation
 . Depuis la copie et la synchronisation BlueXP, sélectionnez *Créer une nouvelle synchronisation*.
-. Faites glisser un serveur SMB ou un stockage objet en tant que source et un serveur SMB ou un stockage objet en tant que cible, puis cliquez sur *Continuer*.
+. Faites glisser un serveur SMB ou un stockage objet comme source et un serveur SMB ou un stockage objet comme cible, puis sélectionnez *Continuer*.
 . Sur la page *SMB Server* :
 +
 .. Entrez un nouveau serveur SMB ou sélectionnez un serveur existant et sélectionnez *Continuer*.

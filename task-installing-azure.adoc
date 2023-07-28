@@ -149,17 +149,17 @@ Pour obtenir de l'aide sur la création d'une paire de clés, reportez-vous à l
 Il existe plusieurs façons de créer un nouveau courtier de données. Lors de la création d'une relation de synchronisation, procédez comme suit pour installer un courtier de données dans Azure.
 
 .Étapes
-. Cliquez sur *Créer une nouvelle synchronisation*.
-. Sur la page *Define Sync Relationship*, choisissez une source et une cible et cliquez sur *Continuer*.
+. Sélectionnez *Créer une nouvelle synchronisation*.
+. Sur la page *Define Sync Relationship*, choisissez une source et une cible, puis sélectionnez *continue*.
 +
 Suivez les étapes jusqu'à ce que vous atteiez la page *Groupe de courtiers de données*.
 
-. Sur la page *Groupe de courtiers de données*, cliquez sur *Créer courtier de données*, puis sélectionnez *Microsoft Azure*.
+. Sur la page *Data Broker Group*, sélectionnez *Create Data Broker*, puis *Microsoft Azure*.
 +
 image:screenshot-azure.png["Capture d'écran de la page Data Broker qui vous permet de choisir entre AWS, Azure, Google Cloud et un courtier en données sur site."]
 
-. Entrez un nom pour le courtier de données et cliquez sur *Continuer*.
-. Si vous y êtes invité, connectez-vous à votre compte Microsoft. Si vous n'êtes pas invité, cliquez sur *connexion à Azure*.
+. Entrez un nom pour le courtier de données et sélectionnez *Continuer*.
+. Si vous y êtes invité, connectez-vous à votre compte Microsoft. Si vous n'êtes pas invité, sélectionnez *se connecter à Azure*.
 +
 Ce formulaire est détenu et hébergé par Microsoft. Vos identifiants ne sont pas fournis à NetApp.
 
@@ -172,11 +172,11 @@ image:screenshot_azure_data_broker.gif["Capture d'écran de la page de déploiem
 NOTE: Si vous prévoyez d'implémenter une relation de synchronisation continue, vous devez attribuer un rôle personnalisé à votre courtier de données. Cela peut également être effectué manuellement après la création du courtier.
 
 . Spécifiez une configuration proxy, si un proxy est requis pour l'accès Internet dans le vnet.
-. Cliquez sur *Continuer* et maintenez la page ouverte jusqu'à ce que le déploiement soit terminé.
+. Sélectionnez *Continuer* et gardez la page ouverte jusqu'à ce que le déploiement soit terminé.
 +
 Ce processus peut prendre jusqu'à 7 minutes.
 
-. Dans la copie et la synchronisation BlueXP, cliquez sur *Continuer* une fois le courtier en données disponible.
+. Dans le cadre de la copie et de la synchronisation BlueXP, sélectionnez *Continuer* une fois le courtier de données disponible.
 . Complétez les pages de l'assistant pour créer la nouvelle relation de synchronisation.
 
 

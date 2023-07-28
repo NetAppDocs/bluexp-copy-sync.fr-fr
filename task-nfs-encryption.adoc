@@ -89,7 +89,7 @@ Si vous n'avez pas encore déployé de courtier de données, consultez les exige
 Créez une nouvelle relation de synchronisation entre deux serveurs NFS ou entre Azure NetApp Files, activez l'option de chiffrement à la volée et suivez les invites.
 
 .Étapes
-. Cliquez sur *Créer une nouvelle synchronisation*.
+. Sélectionnez *Créer une nouvelle synchronisation*.
 . Faites glisser *serveur NFS* vers les emplacements source et cible ou *Azure NetApp Files* vers les emplacements source et cible et sélectionnez *Oui* pour activer le cryptage des données en transit.
 . Suivez les invites pour créer la relation :
 +
@@ -107,7 +107,7 @@ Notez ce qui suit :
 
 .. *Répertoires* : Choisissez les répertoires que vous souhaitez synchroniser en sélectionnant tous les répertoires ou en descendant et en sélectionnant un sous-répertoire.
 +
-Cliquez sur *Filtrer les objets source* pour modifier les paramètres qui définissent la synchronisation et la gestion des fichiers et dossiers source à l'emplacement cible.
+Sélectionnez *Filtrer les objets source* pour modifier les paramètres qui définissent la façon dont les fichiers et dossiers source sont synchronisés et gérés à l'emplacement cible.
 
 +
 image:screenshot_directories.gif["Capture d'écran montrant l'option de sélection d'un répertoire de premier niveau, recherche de détails et sélection de l'option Filtrer les objets source."]
@@ -125,7 +125,7 @@ image:screenshot_nfs_encryption_listener.gif["Capture d'écran montrant l'option
 
 .. *Répertoires cibles* : sélectionnez un répertoire de niveau supérieur ou accédez à la recherche pour sélectionner un sous-répertoire existant ou créer un nouveau dossier à l'intérieur d'une exportation.
 .. *Paramètres* : définissez comment les fichiers et dossiers source sont synchronisés et gérés à l'emplacement cible.
-.. *Revue* : consultez les détails de la relation de synchronisation, puis cliquez sur *Créer une relation*.
+.. *Revue* : passez en revue les détails de la relation de synchronisation, puis sélectionnez *Créer une relation*.
 +
 image:screenshot_nfs_encryption_review.gif["Capture d'écran affichant l'écran de révision. Il présente les serveurs NFS, les courtiers de données et les informations de mise en réseau sur chacun d'entre eux."]
 
@@ -134,4 +134,4 @@ image:screenshot_nfs_encryption_review.gif["Capture d'écran affichant l'écran 
 
 
 .Résultat
-La copie et la synchronisation BlueXP commencent à créer la nouvelle relation de synchronisation. Lorsque vous avez terminé, cliquez sur *Afficher dans le tableau de bord* pour afficher les détails de la nouvelle relation.
+La copie et la synchronisation BlueXP commencent à créer la nouvelle relation de synchronisation. Lorsque vous avez terminé, sélectionnez *Afficher dans le tableau de bord* pour afficher les détails de la nouvelle relation.

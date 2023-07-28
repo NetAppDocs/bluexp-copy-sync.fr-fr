@@ -71,22 +71,22 @@ Suivez les étapes ci-dessous pour spécifier le rôle IAM lors du déploiement 
 Il existe plusieurs façons de créer un nouveau courtier de données. Décrivez comment installer un courtier de données dans AWS lors de la création d'une relation de synchronisation.
 
 .Étapes
-. Cliquez sur *Créer une nouvelle synchronisation*.
-. Sur la page *Define Sync Relationship*, choisissez une source et une cible et cliquez sur *Continuer*.
+. Sélectionnez *Créer une nouvelle synchronisation*.
+. Sur la page *Define Sync Relationship*, choisissez une source et une cible, puis sélectionnez *continue*.
 +
 Suivez les étapes jusqu'à ce que vous atteiez la page *Groupe de courtiers de données*.
 
-. Sur la page *Groupe de courtiers de données*, cliquez sur *Créer courtier de données*, puis sélectionnez *Amazon Web Services*.
+. Sur la page *Data Broker Group*, sélectionnez *Create Data Broker*, puis *Amazon Web Services*.
 +
 image:screenshot-aws.png["Capture d'écran de la page Data Broker qui vous permet de choisir entre AWS, Azure, Google Cloud et un courtier en données sur site."]
 
-. Entrez un nom pour le courtier de données et cliquez sur *Continuer*.
+. Entrez un nom pour le courtier de données et sélectionnez *Continuer*.
 . Entrez une clé d'accès AWS pour que la copie et la synchronisation BlueXP puissent créer le courtier en données dans AWS en votre nom.
 +
 Les touches ne sont pas enregistrées ou utilisées à d'autres fins.
 
 +
-Si vous préférez ne pas fournir de touches d'accès, cliquez sur le lien en bas de la page pour utiliser un modèle CloudFormation. Lorsque vous utilisez cette option, vous n'avez pas besoin de fournir des identifiants, car vous vous connectez directement à AWS.
+Si vous préférez ne pas fournir de clés d'accès, sélectionnez le lien en bas de la page pour utiliser un modèle CloudFormation. Lorsque vous utilisez cette option, vous n'avez pas besoin de fournir des identifiants, car vous vous connectez directement à AWS.
 
 +
 [[cft]]la vidéo suivante montre comment lancer l'instance de courtier de données à l'aide d'un modèle CloudFormation :
@@ -101,7 +101,7 @@ Si vous choisissez votre propre rôle IAM, <<iam,vous devrez fournir les autoris
 image:screenshot_aws_data_broker.png["Capture d'écran des informations dont vous avez besoin pour déployer un courtier de données dans AWS."]
 
 . Spécifiez une configuration proxy, si un proxy est requis pour l'accès Internet dans le VPC.
-. Une fois le courtier en données disponible, cliquez sur *Continuer* dans la copie et la synchronisation BlueXP.
+. Une fois le courtier en données disponible, sélectionnez *Continuer* dans la copie et la synchronisation BlueXP.
 +
 L'image suivante montre une instance déployée avec succès dans AWS :
 

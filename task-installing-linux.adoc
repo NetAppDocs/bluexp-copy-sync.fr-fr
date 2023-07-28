@@ -119,12 +119,12 @@ L'accès à Azure est défini par relation en fournissant un compte de stockage 
 Vous pouvez installer un courtier de données sur un hôte Linux lorsque vous créez une relation de synchronisation.
 
 .Étapes
-. Cliquez sur *Créer une nouvelle synchronisation*.
-. Sur la page *Define Sync Relationship*, choisissez une source et une cible et cliquez sur *Continuer*.
+. Sélectionnez *Créer une nouvelle synchronisation*.
+. Sur la page *Define Sync Relationship*, choisissez une source et une cible, puis sélectionnez *continue*.
 +
 Suivez les étapes jusqu'à ce que vous atteiez la page *Groupe de courtiers de données*.
 
-. Sur la page *Groupe de courtiers de données*, cliquez sur *Créer courtier de données*, puis sélectionnez *Agent de données sur site*.
+. Sur la page *Data Broker Group*, sélectionnez *Create Data Broker*, puis *On-Prem Data Broker*.
 +
 image:screenshot-on-prem.png["Capture d'écran de la page Data Broker qui vous permet de choisir entre AWS, Azure, Google Cloud et un courtier en données sur site."]
 
@@ -132,7 +132,7 @@ image:screenshot-on-prem.png["Capture d'écran de la page Data Broker qui vous p
 
 NOTE: Bien que cette option soit *_sur site_ Data Broker*, elle s'applique à un hôte Linux sur site ou dans le cloud.
 
-. Entrez un nom pour le courtier de données et cliquez sur *Continuer*.
+. Entrez un nom pour le courtier de données et sélectionnez *Continuer*.
 +
 La page d'instructions se charge sous peu. Vous devez suivre ces instructions --elles comprennent un lien unique pour télécharger le programme d'installation.
 
@@ -201,6 +201,6 @@ Fichier JSON:: Il s'agit du fichier JSON qui contient une clé de compte de serv
 
 
 
-. Une fois le courtier en données disponible, cliquez sur *Continuer* dans la copie et la synchronisation BlueXP.
+. Une fois le courtier en données disponible, sélectionnez *Continuer* dans la copie et la synchronisation BlueXP.
 . Complétez les pages de l'assistant pour créer la nouvelle relation de synchronisation.
 

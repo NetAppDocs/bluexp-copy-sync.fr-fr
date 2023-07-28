@@ -70,7 +70,7 @@ Il existe plusieurs façons de créer un nouveau courtier de données :
 +
 link:task-creating-relationships.html["Découvrez comment créer un nouveau courtier de données lors de la création d'une relation de synchronisation"].
 
-* Dans la page *gérer les courtiers de données* en cliquant sur *Ajouter un nouveau courtier de données* qui crée le courtier de données dans un nouveau groupe
+* Dans la page *gérer les courtiers de données*, sélectionnez *Ajouter un nouveau courtier de données* qui crée le courtier de données dans un nouveau groupe
 * À partir de la page *gérer les courtiers de données* en créant un nouveau courtier de données dans un groupe existant
 
 
@@ -83,8 +83,8 @@ Par exemple, si un groupe inclut un courtier en données AWS, vous pouvez créer
 
 
 .Étapes pour créer un courtier de données dans un nouveau groupe
-. Cliquez sur *Sync > gérer les courtiers de données*.
-. Cliquez sur *Ajouter un nouveau courtier de données*.
+. Sélectionnez *Sync > gérer les courtiers de données*.
+. Sélectionnez *Ajouter un nouveau Data Broker*.
 . Suivez les invites pour créer le courtier de données.
 +
 Pour obtenir de l'aide, reportez-vous aux pages suivantes :
@@ -99,8 +99,8 @@ Pour obtenir de l'aide, reportez-vous aux pages suivantes :
 
 
 .Étapes pour créer un courtier de données dans un groupe existant
-. Cliquez sur *Sync > gérer les courtiers de données*.
-. Cliquez sur le menu d'action et sélectionnez *Ajouter un courtier de données*.
+. Sélectionnez *Sync > gérer les courtiers de données*.
+. Sélectionnez le menu d'action et sélectionnez *Ajouter un courtier de données*.
 +
 image:screenshot_sync_group_add.png["Capture d'écran du menu d'action disponible pour chaque courtier de données individuel d'un groupe."]
 
@@ -124,12 +124,12 @@ Pour obtenir de l'aide, reportez-vous aux pages suivantes :
 Modifier le nom d'un groupe de courtiers de données à tout moment.
 
 .Étapes
-. Cliquez sur *Sync > gérer les courtiers de données*.
-. Cliquez sur le menu d'action et sélectionnez *Modifier le nom du groupe*.
+. Sélectionnez *Sync > gérer les courtiers de données*.
+. Sélectionnez le menu d'action et sélectionnez *Modifier le nom du groupe*.
 +
 image:screenshot_sync_group_edit.gif["Capture d'écran du menu d'action disponible pour chaque courtier de données individuel d'un groupe."]
 
-. Entrez un nouveau nom et cliquez sur *Enregistrer*.
+. Entrez un nouveau nom et sélectionnez *Enregistrer*.
 
 
 .Résultat
@@ -144,12 +144,12 @@ Si une relation de synchronisation rencontre des erreurs lors du processus de sy
 Nous ne recommandons pas de modifier par vous-même la configuration. Consultez NetApp pour savoir quand modifier la configuration et comment la modifier.
 
 .Étapes
-. Cliquez sur *gérer les courtiers de données*.
-. Cliquez sur l'icône Paramètres d'un groupe de courtiers de données.
+. Sélectionnez *gérer les courtiers de données*.
+. Sélectionnez l'icône Paramètres d'un groupe de courtiers de données.
 +
 image:screenshot_sync_group_settings.png["Capture d'écran affichant l'icône Paramètres d'un groupe de courtiers de données."]
 
-. Modifiez les paramètres selon vos besoins, puis cliquez sur *Unify Configuration*.
+. Modifiez les paramètres selon vos besoins, puis sélectionnez *Unify Configuration*.
 +
 Notez ce qui suit :
 
@@ -178,14 +178,14 @@ Par exemple, si un courtier de données ne gère plus une relation synchrone, vo
 
 
 .Étapes
-. Cliquez sur *Sync > gérer les courtiers de données*.
-. Cliquez sur image:screenshot_sync_group_expand.gif["Capture d'écran du bouton qui vous permet de développer la liste des courtiers de données d'un groupe."] pour développer la liste des courtiers de données d'un groupe.
-. Cliquez sur le menu d'action d'un courtier de données et sélectionnez *déplacer le courtier de données*.
+. Sélectionnez *Sync > gérer les courtiers de données*.
+. Sélectionnez image:screenshot_sync_group_expand.gif["Capture d'écran du bouton qui vous permet de développer la liste des courtiers de données d'un groupe."] pour développer la liste des courtiers de données d'un groupe.
+. Sélectionnez le menu d'action d'un courtier de données et sélectionnez *déplacer Data Broker*.
 +
 image:screenshot_sync_group_remove.png["Capture d'écran du menu d'action disponible pour chaque groupe de courtiers de données."]
 
 . Créez un nouveau groupe de courtiers de données ou sélectionnez un groupe de courtiers de données existant.
-. Cliquez sur *déplacer*.
+. Sélectionnez *déplacer*.
 
 
 .Résultat
@@ -198,11 +198,11 @@ La copie et la synchronisation BlueXP déplacent le courtier en données vers un
 Mettez à jour la configuration du proxy pour un courtier de données en ajoutant des détails sur une nouvelle configuration de proxy ou en modifiant la configuration de proxy existante.
 
 .Étapes
-. Cliquez sur *Sync > gérer les courtiers de données*.
-. Cliquez sur image:screenshot_sync_group_expand.gif["Capture d'écran du bouton qui vous permet de développer la liste des courtiers de données d'un groupe."] pour développer la liste des courtiers de données d'un groupe.
-. Cliquez sur le menu d'action d'un courtier de données et sélectionnez *Modifier la configuration du proxy*.
+. Sélectionnez *Sync > gérer les courtiers de données*.
+. Sélectionnez image:screenshot_sync_group_expand.gif["Capture d'écran du bouton qui vous permet de développer la liste des courtiers de données d'un groupe."] pour développer la liste des courtiers de données d'un groupe.
+. Sélectionnez le menu d'action d'un courtier de données et sélectionnez *Modifier la configuration du proxy*.
 . Spécifiez des détails sur le proxy : nom d'hôte, numéro de port, nom d'utilisateur et mot de passe.
-. Cliquez sur *mettre à jour*.
+. Sélectionnez *mettre à jour*.
 
 
 .Résultat
@@ -228,9 +228,9 @@ TIP: Le scanner numérise la source et la cible et décide de ce qui doit être 
 
 
 .Étapes
-. Cliquez sur *Sync > gérer les courtiers de données*.
-. Cliquez sur image:screenshot_sync_group_expand.gif["Capture d'écran du bouton qui vous permet de développer la liste des courtiers de données d'un groupe."] pour développer la liste des courtiers de données d'un groupe.
-. Cliquez sur image:screenshot_sync_group_expand.gif["Capture d'écran du bouton qui vous permet de développer les détails d'un courtier de données."] pour afficher les détails d'un courtier de données.
+. Sélectionnez *Sync > gérer les courtiers de données*.
+. Sélectionnez image:screenshot_sync_group_expand.gif["Capture d'écran du bouton qui vous permet de développer la liste des courtiers de données d'un groupe."] pour développer la liste des courtiers de données d'un groupe.
+. Sélectionnez image:screenshot_sync_group_expand.gif["Capture d'écran du bouton qui vous permet de développer les détails d'un courtier de données."] pour afficher les détails d'un courtier de données.
 +
 image:screenshot_sync_data_broker_details.gif["Capture d'écran des informations relatives à un courtier de données."]
 
@@ -266,13 +266,13 @@ Vous pouvez supprimer un courtier de données d'un groupe s'il n'est plus néces
 
 
 .Étapes
-. Cliquez sur *Sync > gérer les courtiers de données*.
-. Cliquez sur image:screenshot_sync_group_expand.gif["Capture d'écran du bouton qui vous permet de développer la liste des courtiers de données d'un groupe."] pour développer la liste des courtiers de données d'un groupe.
-. Cliquez sur le menu d'action d'un courtier de données et sélectionnez *Supprimer le courtier de données*.
+. Sélectionnez *Sync > gérer les courtiers de données*.
+. Sélectionnez image:screenshot_sync_group_expand.gif["Capture d'écran du bouton qui vous permet de développer la liste des courtiers de données d'un groupe."] pour développer la liste des courtiers de données d'un groupe.
+. Sélectionnez le menu d'action d'un courtier de données et sélectionnez *Supprimer le courtier de données*.
 +
 image:screenshot_sync_group_remove.gif["Capture d'écran du menu d'action disponible pour chaque groupe de courtiers de données."]
 
-. Cliquez sur *Supprimer le courtier de données*.
+. Sélectionnez *Supprimer Data Broker*.
 
 
 .Résultat
@@ -287,12 +287,12 @@ Si un groupe de courtiers de données ne gère plus de relations de synchronisat
 Les courtiers de données que les fonctions de copie et de synchronisation BlueXP suppriment uniquement des enregistrements de la copie et de la synchronisation BlueXP. Vous devrez supprimer manuellement l'instance de courtier en données de votre fournisseur de cloud, ainsi que toutes les ressources cloud supplémentaires.
 
 .Étapes
-. Cliquez sur *Sync > gérer les courtiers de données*.
-. Cliquez sur le menu d'action et sélectionnez *Supprimer le groupe*.
+. Sélectionnez *Sync > gérer les courtiers de données*.
+. Sélectionnez le menu d'action et sélectionnez *Supprimer le groupe*.
 +
 image:screenshot_sync_group_add.png["Capture d'écran du menu d'action disponible pour chaque courtier de données individuel d'un groupe."]
 
-. Pour confirmer, entrez le nom du groupe et cliquez sur *Supprimer le groupe*.
+. Pour confirmer, entrez le nom du groupe et sélectionnez *Supprimer le groupe*.
 
 
 .Résultat

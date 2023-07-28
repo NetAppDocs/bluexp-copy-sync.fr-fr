@@ -590,7 +590,7 @@ La création d'une relation de synchronisation entre SFTP et Amazon S3 est déso
 
 === Amélioration de la vue de tableau
 
-Pour plus de facilité d'utilisation, nous avons repensé la vue des tableaux de bord. Si vous cliquez sur *plus d'info*, Cloud Sync filtre le tableau de bord pour afficher plus d'informations sur cette relation spécifique.
+Pour plus de facilité d'utilisation, nous avons repensé la vue des tableaux de bord. Si vous sélectionnez *plus d'infos*, Cloud Sync filtre le tableau de bord pour vous afficher plus d'informations sur cette relation spécifique.
 
 image:screenshot-sync-table.png["Copie d'écran de la vue de tableau dans le Tableau de bord."]
 
