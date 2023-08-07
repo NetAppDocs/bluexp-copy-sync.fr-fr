@@ -169,6 +169,8 @@ Si vous activez cette option, vous devez également modifier un paramètre dans 
 }
 }
 ----
+Après la mise à jour du fichier local.json, vous devez redémarrer : `pm2 restart all`.
+
 --
 Supprimer des fichiers sur la cible:: Choisissez de supprimer des fichiers de l'emplacement cible, s'ils ont été supprimés de la source. La valeur par défaut est de ne jamais supprimer de fichiers de l'emplacement cible.
 Types de fichiers:: Définissez les types de fichiers à inclure dans chaque synchronisation : fichiers, répertoires, liens symboliques et liens physiques.

@@ -101,6 +101,8 @@ Assurez-vous que le compte utilisateur Azure que vous utilisez pour déployer le
                     "Microsoft.Storage/storageAccounts/write"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write"
+                    "Microsoft.Network/networkSecurityGroups/securityRules/read",
+        	        "Microsoft.Network/networkSecurityGroups/read",
 ----
 ....
     ],
@@ -112,7 +114,7 @@ Assurez-vous que le compte utilisateur Azure que vous utilisez pour déployer le
 ....
 Remarque :
 
-. Les autorisations suivantes sont uniquement nécessaires si vous prévoyez d'activer le paramètre de synchronisation continue d'une relation de synchronisation depuis Azure vers un autre emplacement de stockage cloud :
+. Les autorisations suivantes ne sont requises que si vous prévoyez d'activer le https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Réglage de la synchronisation continue"] Sur une relation de synchronisation entre Azure et un autre emplacement de stockage cloud :
 +
 ** « Microsoft.Storage/storageAccounts/read »,
 ** 'Microsoft.EventGrid/systemTopics/eventSubscriptions/write',
@@ -130,9 +132,13 @@ Remarque :
 +
 En outre, le périmètre attribuable doit être défini sur étendue de l'abonnement et *pas* étendue du groupe de ressources si vous prévoyez d'implémenter la synchronisation continue dans Azure.
 
+. Les autorisations suivantes ne sont requises que si vous prévoyez de choisir votre propre sécurité pour la création du courtier de données :
++
+** « Microsoft.Network/networkSecurityGroups/securityRules/read"
+** « Microsoft.Network/networkSecurityGroups/read"
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["En savoir plus sur le paramètre de synchronisation continue"].
+
 
 
 
@@ -165,7 +171,7 @@ Ce formulaire est détenu et hébergé par Microsoft. Vos identifiants ne sont p
 
 . Choisissez un emplacement pour le courtier de données et entrez les informations de base sur la machine virtuelle.
 +
-image:screenshot_azure_data_broker.gif["Capture d'écran de la page de déploiement Azure présentant les champs suivants : abonnement, région Azure, vnet, sous-réseau, nom de machine virtuelle, Nom d'utilisateur, méthode d'authentification et groupe de ressources."]
+image:screenshot_azure_data_broker.png["Capture d'écran de la page de déploiement Azure présentant les champs suivants : abonnement, région Azure, vnet, sous-réseau, nom de machine virtuelle, Nom d'utilisateur, méthode d'authentification et groupe de ressources."]
 
 +
 

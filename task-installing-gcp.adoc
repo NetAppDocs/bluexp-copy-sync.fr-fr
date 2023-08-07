@@ -89,11 +89,14 @@ Lorsque vous déployez le courtier de données, vous devez sélectionner un comp
 - pubsub.topics.list
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
+- cloudkms.cryptoKeys.list
+- cloudkms.keyRings.list
 ----
 Remarques :
 
 . L'autorisation "iam.serviceAccounts.signJwt" n'est requise que si vous prévoyez de configurer le courtier de données pour utiliser un coffre-fort externe HashiCorp.
 . Les autorisations « pubsub.* » et « Storage.seaux.update » sont uniquement requises si vous prévoyez d'activer le paramètre de synchronisation continue sur une relation de synchronisation depuis Google Cloud Storage vers un autre emplacement de stockage cloud. link:task-creating-relationships.html#settings["En savoir plus sur l'option de synchronisation continue"].
+. Les autorisations « cloudkms.cryptoKeys.list » et « cloudkms.keyrings.list » sont requises uniquement si vous prévoyez d'utiliser une clé KMS gérée par le client sur un compartiment Google Cloud Storage cible.
 
 
 

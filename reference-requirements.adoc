@@ -220,6 +220,14 @@ Si la source d'une relation de synchronisation est une destination SnapMirror (e
 
 
 
+=== Chiffrement d'un compartiment Google Cloud
+
+Vous pouvez chiffrer un compartiment Google Cloud cible avec une clé KMS gérée par le client ou la clé gérée par Google par défaut. Si un chiffrement KMS est déjà ajouté au compartiment, il remplace le chiffrement par défaut géré par Google.
+
+Pour ajouter une clé KMS gérée par le client, vous devez utiliser un courtier de données avec https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#permissions-required-for-the-service-account["corrigez les autorisations"], et la clé doit se trouver dans la même région que le compartiment.
+
+
+
 == Google Drive
 
 Lorsque vous configurez une relation de synchronisation incluant Google Drive, vous devez fournir les éléments suivants :

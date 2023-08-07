@@ -249,6 +249,7 @@ L'une de ces méthodes établit une connexion sécurisée entre vos serveurs NAS
 La copie et la synchronisation BlueXP ne peuvent pas chiffrer les données SMB eux-mêmes.
 
 * Lorsqu'un compartiment Amazon S3 est la cible d'une relation synchrone, vous pouvez choisir d'activer le chiffrement des données à l'aide du chiffrement AWS KMS ou AES-256.
+* Lorsqu'un compartiment Google Storage est la cible dans une relation de synchronisation, vous pouvez choisir d'utiliser la clé de chiffrement par défaut gérée par Google ou votre propre clé KMS.
 
 
 
