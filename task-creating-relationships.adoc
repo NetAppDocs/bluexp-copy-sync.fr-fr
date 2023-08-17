@@ -121,6 +121,37 @@ Si vous activez ce paramètre, il affecte d'autres fonctions comme suit :
 ** Les paramètres suivants sont rétablis à leurs valeurs par défaut : délai de synchronisation, fichiers récemment modifiés et Date de modification.
 ** Si S3 est la source, le filtre par taille sera actif uniquement lors des événements de copie (et non lors des événements de suppression).
 ** Une fois la relation créée, vous ne pouvez accélérer ou supprimer que la relation. Vous ne pouvez pas annuler les synchronisations, modifier les paramètres ou afficher les rapports.
++
+Il est possible de créer une relation de synchronisation continue avec un compartiment externe. Pour ce faire, procédez comme suit :
+
++
+... Accédez à la console Google Cloud pour le projet de compartiment externe.
+... Accédez à *Cloud Storage > Paramètres > compte de service de stockage cloud*.
+... Mettez à jour le fichier local.json :
++
+[source, json]
+----
+{
+"protocols": {
+    "gcp": {
+        "storage-account-email": <storage account email>
+}
+}
+}
+----
+... Redémarrez le courtier de données :
++
+.... sudo pm2 arrêter tout
+.... sudo pm2 démarrer tout
+
+
+... Créez une relation de synchronisation continue avec le compartiment externe approprié.
++
+
+NOTE: Le courtier en données utilisé pour créer une relation de synchronisation continue avec un compartiment externe ne pourra pas créer une autre relation de synchronisation continue avec un compartiment dans son projet.
+
+
+
 
 
 --
