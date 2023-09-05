@@ -85,7 +85,6 @@
   <block id="1c3e0d66ceb2ba1955fa5d6c931788cd" category="list-text">Choisissez de supprimer des fichiers de l'emplacement cible, s'ils ont été supprimés de la source. La valeur par défaut est de ne jamais supprimer de fichiers de l'emplacement cible.</block>
   <block id="f12b42eece54a56ffab836a42eb37488" category="list-text">Types de fichiers</block>
   <block id="ab02bb0c1a43b674af1de544e1af3831" category="list-text">Exclure les extensions de fichier</block>
-  <block id="3ac7c94d925c145faa4e821d6da327ac" category="list-text">Spécifiez les extensions de fichier à exclure de la synchronisation en tapant l'extension de fichier et en appuyant sur *entrée*. Par exemple, tapez _log_ ou _.log_ pour exclure les fichiers *.log. Un séparateur n'est pas nécessaire pour les extensions multiples. La vidéo suivante présente une courte démonstration :</block>
   <block id="a00fe904aecabd4bff74d8776e6da2c5" category="list-text">Taille du fichier</block>
   <block id="9c8cecb2075d9547b74e5e71bf16ab79" category="list-text">Choisissez de synchroniser tous les fichiers, quelle que soit leur taille ou uniquement les fichiers qui se trouvent dans une plage de taille spécifique.</block>
   <block id="80ccccd39ce6134340fccbf76eb379ae" category="list-text">Date de modification</block>
@@ -355,7 +354,6 @@
   <block id="c825d05ceebe5978107395d2dffdbcff" category="cell">Pour contacter le support NetApp lors de l'utilisation d'une licence BYOL pour les relations de synchronisation.</block>
   <block id="cabe1b04cc3c96ae849f8fd810dfecdb" category="cell">\https://fedoraproject.org</block>
   <block id="ebd974875888e4cb1567f55e3466cda1" category="cell">Pour installer 7z sur la machine virtuelle du courtier de données pendant l'installation et les mises à jour. 7z est nécessaire pour envoyer des messages AutoSupport au support technique NetApp.</block>
-  <block id="6af6c652626660023ec712f6c15bbc0a" category="cell">\https://sts.amazonaws.com</block>
   <block id="89100474e7faee0c34727c4b2b471007" category="cell">Pour vérifier les identifiants AWS lorsque le courtier est déployé dans AWS ou lorsqu'il est déployé sur vos sites et que les identifiants AWS sont fournis. Le courtier de données contacte ce point final pendant le déploiement, lorsqu'il est mis à jour et lorsqu'il est redémarré.</block>
   <block id="6a3cdc9a7bccf7b319d4cd575bb3b01f" category="section-title">Terminaux de navigateur Web</block>
   <block id="fd0cb271f0ac093ecb033a2bfea34fbd" category="paragraph">Votre navigateur Web doit accéder au point final suivant pour télécharger les journaux à des fins de dépannage :</block>
@@ -1884,4 +1882,17 @@
   <block id="04a9fd8958892dd025a4cc8dbf674cd3" category="list-text">sudo pm2 démarrer tout</block>
   <block id="536e5d919b8f1f2a0ce12ecc4d2a34c7" category="list-text">Créez une relation de synchronisation continue avec le compartiment externe approprié.</block>
   <block id="e08fb6f08b7850e04ea43026fc6e9def" category="admonition">Le courtier en données utilisé pour créer une relation de synchronisation continue avec un compartiment externe ne pourra pas créer une autre relation de synchronisation continue avec un compartiment dans son projet.</block>
+  <block id="feb32d3372b2c412782aaf89f4c3468c" category="list-text">Spécifiez les extensions de fichier ou de regex à exclure de la synchronisation en tapant l'extension de fichier et en appuyant sur *entrée*. Par exemple, tapez _log_ ou _.log_ pour exclure les fichiers *.log. Un séparateur n'est pas nécessaire pour les extensions multiples. La vidéo suivante présente une courte démonstration :</block>
+  <block id="e8896d6ca3648d230a610f352be679de" category="admonition">Les expressions regex ou régulières diffèrent des caractères génériques ou des expressions glob. Cette fonction *seulement* fonctionne avec regex.</block>
+  <block id="2869c1b7d6055fd39cb65435bce896fd" category="cell">\https://sts.amazonaws.com
+\https://sts.us-east-1.amazonaws.com</block>
+  <block id="3034670f33afeb69347c1f076680bc54" category="list-text">Sélectionnez *Continuer*. Si vous souhaitez ajouter des autorisations S3 à votre courtier de données, entrez vos clés d'accès et vos clés secrètes AWS.</block>
+  <block id="18cf4605db6670514e116119da7de0a0" category="section-title">3 septembre 2023</block>
+  <block id="84a4e9be01e1e0b2123f0992743bb3be" category="section-title">Exclure les fichiers par regex</block>
+  <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">Les utilisateurs ont désormais la possibilité d'exclure des fichiers à l'aide de regex.</block>
+  <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">En savoir plus sur la fonction *Exclude File Extensions*.</block>
+  <block id="8ca7330f80b3c6b405f94cdadf97a80c" category="paragraph"><block ref="8ca7330f80b3c6b405f94cdadf97a80c" category="inline-link-rx"></block></block>
+  <block id="f32e3be81b145c34740db00a44c46e93" category="section-title">Ajoutez des clés S3 lors de la création d'un courtier en données Azure</block>
+  <block id="7631c04fd88511e09fd26f0ce9f65ce1" category="paragraph">Lors de la création d'un courtier de données Azure, les utilisateurs peuvent désormais ajouter des clés d'accès AWS S3 et des clés secrètes.</block>
+  <block id="0aa08047034186671d34875b5617b057" category="paragraph"><block ref="0aa08047034186671d34875b5617b057" category="inline-link-rx"></block></block>
 </blocks>
