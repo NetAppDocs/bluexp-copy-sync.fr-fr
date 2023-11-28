@@ -18,6 +18,32 @@ Découvrez les nouveautés de la copie et de la synchronisation BlueXP.
 
 
 
+== 26 novembre 2023
+
+
+
+=== Prise en charge de la classe de stockage à froid pour Azure Blob
+
+Le Tier de stockage à froid Azure Blob est désormais disponible lors de la création d'une relation de synchronisation.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["En savoir plus sur la création d'une relation de synchronisation."]
+
+
+
+=== Prise en charge de la région de tel Aviv dans les courtiers de données AWS
+
+Tel Aviv est désormais prise en charge par une région lors de la création d'un courtier en données dans AWS.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["En savoir plus sur la création d'un courtier en données dans AWS"].
+
+
+
+=== Passez à la version du nœud pour les courtiers de données
+
+Tous les nouveaux courtiers de données utiliseront la version de nœud 21.2.0. Les courtiers de données non compatibles avec cette mise à jour, tels que CentOS 7.0 et Ubuntu Server 18.0, ne fonctionneront plus avec la copie et la synchronisation BlueXP.
+
+
+
 == 3 septembre 2023
 
 

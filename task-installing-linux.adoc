@@ -20,7 +20,7 @@ Lorsque vous créez un nouveau groupe de courtiers de données, choisissez l'opt
 
 == Configuration requise pour l'hôte Linux
 
-* *Compatibilité Node.js* : v20
+* *Compatibilité Node.js* : v21.2.0
 * *Système d'exploitation* :
 +
 ** CentOS 8.0 et 8.5

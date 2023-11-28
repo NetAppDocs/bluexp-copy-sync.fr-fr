@@ -1698,7 +1698,6 @@
   <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">En savoir plus sur le paramètre Copier pour objets</block>
   <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>.</block>
   <block id="b9a11b90960ff803269429887ab4cff3" category="admonition">L'utilisateur doit être un utilisateur local. Les utilisateurs du domaine ne sont pas pris en charge.</block>
-  <block id="c6d95123ce00e1d2940e9547ed9e800e" category="list-text">*Compatibilité Node.js* : v20</block>
   <block id="029bf19b5ab4e2409feefba3e8d94200" category="section-title">Configurez la copie et la synchronisation BlueXP pour copier les listes de contrôle d'accès</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Avant de commencer</block>
   <block id="31bea9e85b096361bd5e056000e559fa" category="list-text">Depuis la copie et la synchronisation BlueXP, sélectionnez *Créer une nouvelle synchronisation*.</block>
@@ -1711,7 +1710,6 @@
   <block id="7c2e6ea8a3aea68b51b8b85907eabea5" category="section-title">Copie manuelle des listes de contrôle d'accès entre partages SMB</block>
   <block id="59e767a49496d7be5777e4cf48d4105c" category="list-text">Copiez les listes de contrôle d’accès uniquement, les fichiers uniquement ou les listes de contrôle d’accès et les fichiers à partir d’un serveur SMB en activant un paramètre lors de la création d’une relation ou après la création d’une relation.</block>
   <block id="e0c7c4832f74beb01a9b0b7f4ceb62b9" category="list-text">Compatibilité Node.js</block>
-  <block id="8286e09aa759584d6fd8292ccdc241cc" category="list-text">v20</block>
   <block id="e0536b4ae9bb49a9633b77ce78d68e0a" category="section-title">Accélérez les performances de synchronisation</block>
   <block id="baf8ddab0e1f4d03b84d74129178e3e2" category="section-title">Mises à jour</block>
   <block id="11d4a32f12cfcb43ae53ae70017809c1" category="section-title">Configurez les notifications</block>
@@ -1897,4 +1895,15 @@
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Pour obtenir de l'aide concernant un service de fichiers d'un fournisseur cloud, son infrastructure ou toute solution utilisant le service, consultez la section « obtention d'aide » de la documentation BlueXP associée à ce produit.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Pour bénéficier du support technique spécifique à BlueXP et à ses solutions et services de stockage, utilisez les options de support décrites ci-dessous.</block>
   <block id="78e61c832f461b7daf55a1dcd92749e0" category="list-text">Red Hat Enterprise Linux 8.0, 8.5 et 8.8</block>
+  <block id="a76b69f0eac891a6dad210c8c894f70c" category="section-title">26 novembre 2023</block>
+  <block id="5dbbe39e8d4eedbcb5aafdf7e0e66a80" category="section-title">Prise en charge de la classe de stockage à froid pour Azure Blob</block>
+  <block id="2be7473e47d2102f9d51ff1a3cd36305" category="paragraph">Le Tier de stockage à froid Azure Blob est désormais disponible lors de la création d'une relation de synchronisation.</block>
+  <block id="6e90305f3ad22c32d20c662a0bb06726" category="inline-link">En savoir plus sur la création d'une relation de synchronisation.</block>
+  <block id="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="paragraph"><block ref="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="inline-link-rx"></block></block>
+  <block id="e35f035cdd0e53d6ac8e57e89c9a3994" category="section-title">Prise en charge de la région de tel Aviv dans les courtiers de données AWS</block>
+  <block id="bc601240bd77a257f82ad29245da02ee" category="paragraph">Tel Aviv est désormais prise en charge par une région lors de la création d'un courtier en données dans AWS.</block>
+  <block id="e24f754057dce2d0f9791240fec7d494" category="section-title">Passez à la version du nœud pour les courtiers de données</block>
+  <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">Tous les nouveaux courtiers de données utiliseront la version de nœud 21.2.0. Les courtiers de données non compatibles avec cette mise à jour, tels que CentOS 7.0 et Ubuntu Server 18.0, ne fonctionneront plus avec la copie et la synchronisation BlueXP.</block>
+  <block id="067302a61f4ac3cb10bab96cf4753092" category="list-text">v21.2.0</block>
+  <block id="3677e4449a81dc7f1c8db056eade76dd" category="list-text">*Compatibilité Node.js* : v21.2.0</block>
 </blocks>
