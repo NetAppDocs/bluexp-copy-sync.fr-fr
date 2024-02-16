@@ -18,6 +18,18 @@ Découvrez les nouveautés de la copie et de la synchronisation BlueXP.
 
 
 
+== 11 février 2024
+
+
+
+=== Filtrer les répertoires par regex
+
+Les utilisateurs ont désormais la possibilité de filtrer les répertoires à l'aide de regex.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["En savoir plus sur la fonction *exclure les répertoires*."]
+
+
+
 == 26 novembre 2023
 
 
