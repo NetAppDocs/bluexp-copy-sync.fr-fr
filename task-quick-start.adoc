@@ -13,6 +13,7 @@ summary: La mise en route du service de copie et de synchronisation BlueXP se fa
 :imagesdir: ./media/
 
 
+[role="lead"]
 La mise en route du service de copie et de synchronisation BlueXP se fait en quelques étapes.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Une seule"] Connectez-vous et configurez BlueXP

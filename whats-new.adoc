@@ -18,6 +18,18 @@ Découvrez les nouveautés de la copie et de la synchronisation BlueXP.
 
 
 
+== 8 avril 2024
+
+
+
+=== Prise en charge de RHEL 8.9
+
+Le courtier en données est désormais pris en charge sur les hôtes exécutant Red Hat Enterprise Linux 8.9.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["Afficher la configuration requise pour l'hôte Linux"].
+
+
+
 == 11 février 2024
 
 

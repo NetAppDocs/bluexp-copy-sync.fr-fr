@@ -27,7 +27,7 @@ Lorsque vous créez un nouveau groupe de courtiers de données, choisissez l'opt
 +
 CentOS Stream n'est pas pris en charge.
 
-** Red Hat Enterprise Linux 8.0, 8.5 et 8.8
+** Red Hat Enterprise Linux 8.5, 8.8 et 8.9
 ** Rocky Linux 9
 ** Ubuntu Server 20.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1

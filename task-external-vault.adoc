@@ -13,6 +13,7 @@ summary: 'Lorsque vous créez une relation de synchronisation qui nécessite des
 :imagesdir: ./media/
 
 
+[role="lead"]
 Lorsque vous créez une relation de synchronisation qui nécessite des informations d'identification Amazon S3, Azure ou Google Cloud, vous devez spécifier ces informations d'identification au moyen de l'interface utilisateur ou de l'API de copie et de synchronisation BlueXP. Une alternative consiste à configurer le groupe de courtiers de données pour accéder aux informations d'identification (ou _secrets_) directement à partir d'un coffre-fort externe HashiCorp.
 
 Cette fonctionnalité est prise en charge via l'API de copie et de synchronisation BlueXP avec des relations de synchronisation qui nécessitent des identifiants Amazon S3, Azure ou Google Cloud.
