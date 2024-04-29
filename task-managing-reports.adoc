@@ -5,21 +5,18 @@ keywords: reports, sync reports, BlueXP copy and sync reports, report errors, pa
 summary: 'Créez et consultez des rapports pour obtenir des informations utiles avec l"aide du personnel NetApp afin de régler la configuration d"un courtier de données et d"améliorer les performances.' 
 ---
 = Création et affichage de rapports pour ajuster votre configuration
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 Créez et consultez des rapports pour obtenir des informations utiles avec l'aide du personnel NetApp afin de régler la configuration d'un courtier de données et d'améliorer les performances.
 
-Chaque rapport fournit des détails détaillés sur un chemin dans une relation de synchronisation. Par exemple, le rapport d'un système de fichiers indique le nombre de répertoires et de fichiers qu'il y a, la répartition de la taille du fichier, la profondeur et la largeur des répertoires, et plus encore.
+Chaque rapport fournit des détails détaillés sur un chemin dans une relation de synchronisation. Il comprend le nombre de répertoires, de fichiers et de liens symboliques, la distribution de la taille des fichiers, la profondeur et la largeur des répertoires, le temps de modification et le temps d'accès. Ceci diffère des statistiques de synchronisation, qui sont disponibles à partir du tableau de bord après https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["création et synchronisation réussies"].
 
 
 

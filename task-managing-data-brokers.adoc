@@ -5,15 +5,12 @@ keywords: manage data brokers, manage data broker groups, data broker performanc
 summary: 'Un courtier en données synchronise les données d"un emplacement source vers un emplacement cible. Un courtier de données est requis pour chaque relation de synchronisation que vous créez. Gérer les courtiers de données en ajoutant un nouveau courtier de données à un groupe, en consultant les informations sur les courtiers de données, etc.' 
 ---
 = Gérez les groupes de courtiers de données
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -283,6 +283,10 @@ La copie et la synchronisation BlueXP copie automatiquement les autorisations NF
 
 == Métadonnées de stockage objet
 
+
+
+=== Quels types de relations de synchronisation préservent les métadonnées du stockage objet ?
+
 La copie et la synchronisation BlueXP copie les métadonnées de stockage objet de la source vers la cible pour les types de relations de synchronisation suivants :
 
 * Amazon S3 -> Amazon S3 ^1^
@@ -301,6 +305,12 @@ La copie et la synchronisation BlueXP copie les métadonnées de stockage objet 
 
 
 ^1^ pour ces relations de synchronisation, vous devez le faire link:task-creating-relationships.html["Activez le paramètre Copier pour les objets lorsque vous créez la relation de synchronisation"].
+
+
+
+=== Quels types de métadonnées sont répliquées lors des synchronisations et où NFS ou SMB sont la source ?
+
+Les métadonnées telles que l'ID utilisateur, l'heure de modification, le temps d'accès et le GID sont répliquées par défaut. Les utilisateurs peuvent choisir de répliquer une liste de contrôle d'accès à partir de CIFS en la marquant comme requis lors de la création d'une relation de synchronisation.
 
 
 

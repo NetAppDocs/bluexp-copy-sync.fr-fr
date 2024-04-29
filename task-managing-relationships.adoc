@@ -5,15 +5,12 @@ keywords: sync, immediate, now, schedule, minutes, hours, on, off, delete, group
 summary: Vous pouvez gérer les relations de synchronisation à tout moment en synchronisant immédiatement les données, en modifiant les horaires, etc. 
 ---
 = Gestion des relations de synchronisation
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

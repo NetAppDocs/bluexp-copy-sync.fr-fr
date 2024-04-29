@@ -245,7 +245,7 @@ TIP: Cette même fonctionnalité est disponible lors de la synchronisation de do
 
 *Résultat*
 
-La copie et la synchronisation BlueXP démarrent la synchronisation des données entre la source et la cible.
+La copie et la synchronisation BlueXP démarrent la synchronisation des données entre la source et la cible. Synchronisez les statistiques sur le temps de synchronisation, l'arrêt ou la disponibilité du nombre de fichiers copiés, numérisés ou supprimés. Vous pouvez ensuite gérer votre https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html["synchroniser les relations"], https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["gérez vos courtiers de données"], ou https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html#creating-reports["créez des rapports pour optimiser les performances et la configuration"].
 
 
 
