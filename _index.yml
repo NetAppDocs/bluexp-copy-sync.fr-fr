@@ -1,0 +1,35 @@
+---
+indexpage:
+  title: Documentation sur la copie et la synchronisation BlueXP
+  summary: La copie et la synchronisation BlueXP sont un service de réplication et
+    de synchronisation cloud qui permet de transférer des données NAS entre des référentiels
+    de stockage en mode objet sur site et dans le cloud.
+  keywords: bluexp-family, documentation, cloud
+  lead: La copie et la synchronisation BlueXP sont un service de réplication et de
+    synchronisation cloud qui permet de transférer des données NAS entre des référentiels
+    de stockage en mode objet sur site et dans le cloud.
+  tiles:
+  - title: Commencez
+    links:
+    - title: Présentation de la copie et de la synchronisation BlueXP
+      url: concept-cloud-sync.html
+    - title: Démarrage rapide
+      url: task-quick-start.html
+    - title: FAQ
+      url: faq.html
+  - title: Utilisez la copie et la synchronisation BlueXP
+    links:
+    - title: Création d'une relation synchrone
+      url: task-creating-relationships.html
+    - title: Configuration des licences
+      url: task-licensing.html
+    - title: Gérez les groupes de courtiers de données
+      url: task-managing-data-brokers.html
+  - title: Blogs et communauté
+    links:
+    - title: Communauté NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog BlueXP
+      url: https://cloud.netapp.com/blog
+    - title: Webinaires sur le cloud
+      url: https://cloud.netapp.com/events
