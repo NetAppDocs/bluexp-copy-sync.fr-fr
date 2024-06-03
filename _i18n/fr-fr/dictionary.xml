@@ -1920,4 +1920,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Communauté NetApp</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog BlueXP</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
+  <block id="6849ea484f5664c887acc6f1ff990dfd" category="section-title">2 juin 2024</block>
+  <block id="cfa477f3b89d95c12ff30d6390b89dd9" category="paragraph">Le service de copie et de synchronisation BlueXP a été mis à jour pour corriger quelques bugs. Le courtier en données a également été mis à jour pour appliquer des mises à jour de sécurité. La nouvelle version du courtier de données est 1.0.52.</block>
 </blocks>
