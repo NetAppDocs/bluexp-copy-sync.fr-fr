@@ -32,7 +32,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Serveur SMB
 * StorageGRID
 
@@ -51,7 +51,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Serveur SMB
 * StorageGRID
 
@@ -71,7 +71,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Stockage ONTAP S3
 * Serveur SMB
 * StorageGRID
@@ -90,7 +90,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Serveur SMB
 * StorageGRID
 
@@ -123,7 +123,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Serveur SMB
 * StorageGRID
 
@@ -155,7 +155,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Serveur SMB
 * StorageGRID
 
@@ -173,7 +173,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Serveur SMB
 * StorageGRID
 
@@ -191,7 +191,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Stockage ONTAP S3
 * Serveur SMB
 * StorageGRID
@@ -219,7 +219,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Serveur SMB
 * StorageGRID
 
@@ -239,7 +239,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Drive
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Stockage ONTAP S3
 * Serveur SMB
 * StorageGRID
@@ -247,7 +247,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 
 
 
-| Cluster ONTAP sur site  a| 
+| Cluster ONTAP sur site (NFS ou SMB)  a| 
 * Amazon EFS
 * Amazon FSX pour ONTAP
 * Amazon S3
@@ -259,7 +259,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Serveur SMB
 * StorageGRID
 
@@ -294,7 +294,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Drive
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Stockage ONTAP S3
 * Serveur SMB
 * StorageGRID
@@ -315,7 +315,7 @@ La copie et la synchronisation BlueXP vous permettent de synchroniser des donné
 * Google Cloud Storage
 * IBM Cloud Object Storage
 * Serveur NFS
-* Cluster ONTAP sur site
+* Cluster ONTAP sur site (NFS ou SMB)
 * Stockage ONTAP S3
 * Serveur SMB
 * StorageGRID

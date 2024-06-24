@@ -368,7 +368,6 @@
   <block id="c07503bbdaf42732886b6b9f136d9eb0" category="list-text">Case ^1^</block>
   <block id="a68d8b6ae92fdf98aa74ce8cfe41a27f" category="list-text">Stockage ONTAP S3</block>
   <block id="e0daf39823ec1a1a7878c9718f063d5f" category="cell">Google Drive</block>
-  <block id="c17ce6a7cdcb97581c6d5603ec7d447a" category="cell">Cluster ONTAP sur site</block>
   <block id="c01bb6a5867adae467a31539eda72b37" category="cell">SFTP ^2^</block>
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="cell">S3</block>
   <block id="2a01d572b1447155c310cabafac3fae9" category="paragraph">Remarques :</block>
@@ -1922,4 +1921,5 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
   <block id="6849ea484f5664c887acc6f1ff990dfd" category="section-title">2 juin 2024</block>
   <block id="cfa477f3b89d95c12ff30d6390b89dd9" category="paragraph">Le service de copie et de synchronisation BlueXP a été mis à jour pour corriger quelques bugs. Le courtier en données a également été mis à jour pour appliquer des mises à jour de sécurité. La nouvelle version du courtier de données est 1.0.52.</block>
+  <block id="8c5259dd9c9515862d9ef62edaaa899d" category="list-text">Cluster ONTAP sur site (NFS ou SMB)</block>
 </blocks>
