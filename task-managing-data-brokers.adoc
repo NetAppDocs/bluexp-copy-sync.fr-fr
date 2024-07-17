@@ -41,7 +41,7 @@ Vous voulez accélérer les performances de la relation 1 pour ajouter un nouvea
 
 === Nombre de courtiers de données dans un groupe
 
-Dans de nombreux cas, un seul courtier de données peut répondre aux exigences de performance d'une relation de synchronisation. Si ce n'est pas le cas, vous pouvez accélérer les performances de synchronisation en ajoutant des courtiers de données supplémentaires au groupe. Mais vous devez d'abord vérifier d'autres facteurs qui peuvent avoir un impact sur les performances de synchronisation. link:faq.html#how-many-data-brokers-are-required-in-a-group["En savoir plus sur la façon de déterminer si plusieurs courtiers de données sont nécessaires"].
+Dans de nombreux cas, un seul courtier de données peut répondre aux exigences de performance d'une relation de synchronisation. Si ce n'est pas le cas, vous pouvez accélérer la synchronisation en ajoutant des courtiers de données supplémentaires au groupe. Mais vous devez d'abord vérifier d'autres facteurs qui peuvent avoir un impact sur les performances de synchronisation. link:faq.html#how-many-data-brokers-are-required-in-a-group["En savoir plus sur la façon de déterminer si plusieurs courtiers de données sont nécessaires"].
 
 
 

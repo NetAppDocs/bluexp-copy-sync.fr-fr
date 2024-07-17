@@ -46,6 +46,9 @@ sidebar:
     entries:
     - title: Synchronisation des données entre une source et une cible
       entries:
+      - title: Préparez un courtier en données pour la synchronisation des données
+          entre le stockage objet
+        url: "/task-prepare-object-storage.html"
       - title: Création d'une relation synchrone
         url: "/task-creating-relationships.html"
       - title: Copie des listes de contrôle d'accès à partir d'un partage SMB

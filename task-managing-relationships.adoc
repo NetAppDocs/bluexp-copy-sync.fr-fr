@@ -60,7 +60,7 @@ La copie et la synchronisation BlueXP ajoutent le nouveau courtier en données a
 
 
 
-== Mises à jour
+== Mettre à jour les informations d'identification
 
 Vous pouvez mettre à jour le courtier de données avec les informations d'identification les plus récentes de la source ou de la cible dans une relation de synchronisation existante. La mise à jour des informations d'identification peut vous aider si vos stratégies de sécurité vous obligent à mettre à jour les informations d'identification de manière périodique.
 

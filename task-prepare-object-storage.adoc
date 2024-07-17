@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task-prepare-object-storage.html 
+keywords: prepare data broker, data broker, object storage, sync, scanner, configure scanner 
+summary: 'Si vous prévoyez de synchroniser les données entre le stockage objet et le stockage objet (par exemple, Amazon S3 vers Azure Blob), vous devez préparer le groupe de courtiers en données avant de créer la relation de synchronisation.' 
+---
+= Préparez un courtier en données pour la synchronisation des données entre le stockage objet
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si vous prévoyez de synchroniser les données entre le stockage objet et le stockage objet (par exemple, Amazon S3 vers Azure Blob), vous devez préparer le groupe de courtiers en données avant de créer la relation de synchronisation.
+
+.Description de la tâche
+Pour préparer le groupe de courtiers de données, vous devez modifier la configuration du scanner. Si vous ne modifiez pas la configuration, vous risquez de constater des problèmes de performances pour cette relation de synchronisation.
+
+.Avant de commencer
+Le groupe de courtiers en données que vous utilisez pour synchroniser les données entre le stockage objet et le stockage objet doit uniquement gérer ces types de relations de synchronisation. Si le groupe de courtiers en données gère un autre type de relation de synchronisation (par exemple, NFS vers NFS ou stockage objet vers SMB), les performances de ces relations de synchronisation peuvent être affectées de manière négative.
+
+.Étapes
+. Depuis la copie et la synchronisation BlueXP, sélectionnez *gérer les Data Brokers*.
+. Sélectionnez image:icon-settings.png["Capture d'écran de l'icône des paramètres"]
+. Mettez à jour la configuration du scanner :
++
+.. Remplacez *scanner Concurrency* par *1*.
+.. Remplacez *limite des processus du scanner* par *1*.
+
+
+. Sélectionnez *Unify Configuration*.
+
+
+.Résultat
+La copie et la synchronisation BlueXP mettent à jour la configuration du groupe de courtiers de données.
+
+.Et la suite ?
+Vous pouvez maintenant créer la relation de synchronisation entre le stockage objet à l'aide du groupe de courtiers de données que vous venez de configurer.
