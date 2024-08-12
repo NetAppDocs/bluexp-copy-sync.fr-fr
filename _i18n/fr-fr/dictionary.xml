@@ -120,7 +120,6 @@
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">En savoir plus &gt;&gt;</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link">BlueXP</block>
   <block id="3d4a1e312061c2a0e1171d137dc166dd" category="summary">Si nécessaire, exécutez un script de désinstallation pour supprimer le courtier de données, les packages et les répertoires créés lors de l'installation du courtier de données.</block>
-  <block id="e6f506127d5f6704ecc31da23c753df9" category="doc">Désinstallation du courtier de données</block>
   <block id="dd8a8a39c3cdcebc155728bf563bc1e1" category="paragraph">Si nécessaire, exécutez un script de désinstallation pour supprimer le courtier de données et les packages et répertoires créés lors de l'installation du courtier de données.</block>
   <block id="1216bef3d5a3c80340882e3c0b1b21f1" category="list-text">Connectez-vous à l'hôte du courtier de données.</block>
   <block id="c3007d2919ca918bead8275d47f7541a" category="list-text">Accédez au répertoire du courtier de données :<block ref="aa1f842da4e7092d77436fb9b206da9c" prefix=" " category="inline-code"></block></block>
@@ -193,7 +192,6 @@
   <block id="bdc71bda13a615bcc29169c368c82126" category="section-title">Le groupe de courtier de données est-il réessaie-t-il lorsqu'un fichier ne se synchronise pas ? Ou est-ce que ce délai ?</block>
   <block id="486538f3b2cf30dbac185ae48dbcd398" category="paragraph">Un groupe de courtiers de données n'expire pas lorsqu'un seul fichier ne parvient pas à être transféré. Le groupe de courtiers de données tente 3 fois de nouveau avant de sauter le fichier. La valeur de la nouvelle tentative est configurable dans les paramètres d'une relation de synchronisation.</block>
   <block id="16577fe9b5ad3fc74ec2a37327b4f98f" category="inline-link-macro">Découvrez comment modifier les paramètres d'une relation de synchronisation</block>
-  <block id="13b1f6a5b87aad329fe4a0f0b0a24671" category="paragraph"><block ref="4b47cfecc7a5fed36fcab91191b9686f" category="inline-link-macro-rx"></block>.</block>
   <block id="e7fc2a48e6896c10c00e2e0d0f42df0a" category="section-title">Que se passe-t-il si j'ai un très grand jeu de données ?</block>
   <block id="1a76a33306f63cd222193be36e2aab28" category="paragraph">Si un seul répertoire contient 600,000 fichiers ou plus, mailto:ng-cloudsync-support@netapp.com[contactez-nous] pour que nous puissions vous aider à configurer le groupe de courtiers de données pour gérer la charge utile. Il nous faudra peut-être ajouter de la mémoire au groupe de courtiers de données.</block>
   <block id="5272c1335a923889fee61138f9c644e0" category="paragraph">Notez que le nombre total de fichiers dans le point de montage n'est pas limité. La mémoire supplémentaire est requise pour les grands répertoires contenant 600,000 fichiers ou plus, quel que soit leur niveau dans la hiérarchie (répertoire supérieur ou sous-répertoire).</block>
@@ -246,7 +244,6 @@
   <block id="c6bdda7b88c4f51edb4d0ca671f8c528" category="paragraph">Plusieurs facteurs peuvent avoir un impact sur les performances de transfert de données. Les performances globales de la synchronisation peuvent être affectées en raison de la bande passante du réseau, de la latence et de la topologie du réseau, ainsi que des spécifications des VM du courtier de données et des performances du système de stockage. Par exemple, un seul courtier de données d'un groupe peut atteindre 100 Mo/s, tandis que le débit du disque sur la cible ne peut autoriser que 64 Mo/s. Par conséquent, le groupe de courtiers de données essaie toujours de copier les données, mais la cible ne peut pas répondre aux performances du groupe de courtiers de données.</block>
   <block id="7d222e095bb95fdb1e26be04106ab252" category="paragraph">Assurez-vous donc de vérifier les performances de votre réseau et le débit du disque sur la cible.</block>
   <block id="6f22195a8ef8575adc498fb44d8a075c" category="inline-link-macro">Découvrez comment accélérer les performances de synchronisation</block>
-  <block id="0154df452f9453f942ba55a04f2fdbee" category="paragraph">Vous pouvez alors envisager d'accélérer la synchronisation en ajoutant un courtier de données supplémentaire à un groupe pour partager la charge de cette relation. <block ref="355055ed36bda4d96dcf1f665e0d51c2" category="inline-link-macro-rx"></block>.</block>
   <block id="e5fbd5081321543a8bad7a8d1fea419c" category="section-title">Suppression de choses</block>
   <block id="1d341849ed5b4388c424bd97c39d9c07" category="paragraph">Les questions suivantes concernent la suppression des relations de synchronisation et des données des sources et des cibles.</block>
   <block id="0ddb89dbe2d4246b5b4b6dca2aa8a808" category="paragraph">La suppression d'une relation arrête toutes les synchronisations de données futures et met fin au paiement. Toutes les données synchronisées sur la cible restent en l'état.</block>
@@ -374,7 +371,6 @@
   <block id="520ec1c5a501051f1a5ba82433368fa8" category="list-text">La prise en charge de Box est disponible sous forme d'aperçu.</block>
   <block id="7d847e6bda48d46c1766fec4c5a94bcb" category="list-text">[[Storage-classes]]lorsque Amazon S3 est la cible, vous pouvez choisir une classe de stockage S3 spécifique :</block>
   <block id="95e5c9b9a242ae01ebbab296e59e2a68" category="list-text">Vous pouvez choisir une classe de stockage spécifique lorsqu'un compartiment Google Cloud Storage est la cible :</block>
-  <block id="bc3f4614483a5cee9737e251b527f30b" category="doc">Création d'un nouveau courtier en données dans Google Cloud</block>
   <block id="c43a6988e9fb943699097296d5eabba0" category="paragraph">Vous avez également la possibilité d'installer le courtier de données sur un hôte Linux existant dans le cloud ou sur votre site. <block ref="556c1c240ec0090f5d153e6b793bb5bc" category="inline-link-macro-rx"></block>.</block>
   <block id="bdbd44585d11046b8db390866b7172bb" category="section-title">Régions Google Cloud prises en charge</block>
   <block id="24935d18f8d82ccfcd2bd35b5d5d7a58" category="paragraph">Toutes les régions sont prises en charge.</block>
@@ -390,7 +386,6 @@
   <block id="10c5ef3d81c591aadadb7817f4e79de0" category="list-text">L'autorisation "iam.serviceAccounts.signJwt" n'est requise que si vous prévoyez de configurer le courtier de données pour utiliser un coffre-fort externe HashiCorp.</block>
   <block id="e83655905b13c4a3bc8d7de2a55ecea8" category="inline-link-macro">En savoir plus sur l'option de synchronisation continue</block>
   <block id="3fb0e4028062069b21887e1408a76464" category="list-text">Les autorisations « pubsub.* » et « Storage.seaux.update » sont uniquement requises si vous prévoyez d'activer le paramètre de synchronisation continue sur une relation de synchronisation depuis Google Cloud Storage vers un autre emplacement de stockage cloud. <block ref="5354423db3737fe63814ca7ea57f2c4c" category="inline-link-macro-rx"></block>.</block>
-  <block id="9727c41167b4d3a89168d9e2a6bf1fbe" category="section-title">Création du courtier de données</block>
   <block id="0fbb3a69ab0abf1cabee38002a3846f3" category="paragraph">Il existe plusieurs façons de créer un nouveau courtier de données. Lors de la création d'une relation de synchronisation, procédez comme suit pour installer un courtier de données dans Google Cloud.</block>
   <block id="f0fff4676c779987735fc7ee633da03c" category="paragraph">Suivez les étapes jusqu'à ce que vous atteiez la page *Groupe de courtiers de données*.</block>
   <block id="0fc6ea2f37f8948c8630ffb60d5e0265" category="inline-image-macro">Capture d'écran de la page Data Broker qui vous permet de choisir entre AWS, Azure, Google Cloud et un courtier en données sur site.</block>
@@ -405,7 +400,6 @@
   <block id="2a38666aae985ff4945ff1199551e9d0" category="paragraph">Si un proxy est requis pour l'accès Internet, il doit être dans Google Cloud et utiliser le même compte de service que le courtier de données.</block>
   <block id="d78ea8d5b2348d428c520d98d26204f1" category="list-text">Complétez les pages de l'assistant pour créer la nouvelle relation de synchronisation.</block>
   <block id="ed7160396fcfefca3c1997b02ccbe37c" category="paragraph">Vous avez déployé un courtier en données dans Google Cloud et créé une nouvelle relation synchrone. Vous pouvez utiliser ce data broker avec des relations de synchronisation supplémentaires.</block>
-  <block id="8743cf4fd5bd75723f626be1d4af6bb5" category="section-title">Fourniture d'autorisations d'utilisation de compartiments dans d'autres projets Google Cloud</block>
   <block id="6ab8649cc222312c90daa98ef292a592" category="list-text">Ouvrez la console Google Cloud Platform et chargez le service Cloud Storage.</block>
   <block id="75d2935b39ceeb13d10ba4ced792a75b" category="list-text">Entrez le nom du compte de service du courtier de données.</block>
   <block id="bee41d170929fb7fc4e79dde87e71a86" category="inline-xref">les mêmes autorisations que celles indiquées ci-dessus</block>
@@ -421,7 +415,6 @@
   <block id="696c660ff8d9323e55146a6dbd4e4088" category="list-text">Système d'exploitation</block>
   <block id="c03f3cc8275a0a87d7784cf12a264c0b" category="list-text">Taille et type de disque</block>
   <block id="f3796c63e27caa7881ad0844ee9e9544" category="list-text">Disque dur pd-standard 20 Go</block>
-  <block id="8268a9d045ec667e304233d6a99374e0" category="doc">Création d'un nouveau courtier en données dans AWS</block>
   <block id="af7680d24e7ce67fad6006c6fc467b53" category="section-title">Régions AWS prises en charge</block>
   <block id="f94a220e5e098d02bd2706d4a8e698bd" category="paragraph">Toutes les régions sont prises en charge, à l'exception des régions de Chine.</block>
   <block id="572539efea3b8fc37d4d9f01097ce1b1" category="section-title">Autorisations requises pour déployer le courtier de données dans AWS</block>
@@ -463,9 +456,7 @@
   <block id="6b130e03ee8c8d322a6174a591d2b774" category="inline-link-macro">Découvrez le fonctionnement des licences</block>
   <block id="3b1417e2cc8a651004ff0099ad870a73" category="paragraph"><block ref="e8ff8b95d6e71d0badc3862de8130ad6" category="inline-link-macro-rx"></block>.</block>
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">Créez et consultez des rapports pour obtenir des informations utiles avec l'aide du personnel NetApp afin de régler la configuration d'un courtier de données et d'améliorer les performances.</block>
-  <block id="66a57cf55e06ad77b01c27e38766b83a" category="doc">Création et affichage de rapports pour ajuster votre configuration</block>
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">Créez et consultez des rapports pour obtenir des informations utiles avec l'aide du personnel NetApp afin de régler la configuration d'un courtier de données et d'améliorer les performances.</block>
-  <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">Création de rapports</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">Les chemins (source ou cible) de chacune de vos relations de synchronisation s'affichent dans une table.</block>
   <block id="94954fba60bab7206fb4f66c4a7750cb" category="paragraph">Voici un exemple de rapport pour un chemin de système de fichiers.</block>
   <block id="3cd71212de067629b841a10ceaf4f32f" category="inline-image-macro">Un rapport indiquant la quantité d'éléments synchronisés, la taille du fichier, les valeurs maximales, le temps d'accès, le temps de modification, et modifier l'heure.</block>
@@ -473,22 +464,17 @@
   <block id="92e47f2f14756e088762306ae29dfb31" category="paragraph">Et voici un exemple de rapport sur le stockage objet.</block>
   <block id="321073ad07dd4a09f0eaadfb4561181a" category="inline-image-macro">Rapport indiquant le nombre d'éléments de chemin d'accès, la taille des objets, la durée de modification et la classe de stockage.</block>
   <block id="a9c50da4c27210dd95cbf6916b6c3b34" category="paragraph"><block ref="a9c50da4c27210dd95cbf6916b6c3b34" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="03901baec19e5e2a784f13acaa06127a" category="section-title">Téléchargement de rapports</block>
   <block id="f0d2e62b1c7572c743aab0d7c9b969c5" category="paragraph">Vous pouvez télécharger un rapport au format PDF pour le visualiser hors ligne ou le partager.</block>
-  <block id="90e1319509db72baceccb5d8f4c2c472" category="section-title">Affichage des erreurs de rapport</block>
   <block id="d86cb2fe66402168c1c894043151d228" category="paragraph">Après avoir vu la liste des erreurs, vous pouvez résoudre les problèmes et exécuter à nouveau le rapport.</block>
   <block id="57ba4added426d6aea423b1e70f1b94c" category="list-text">Dans la colonne *erreurs*, identifiez si des erreurs sont présentes dans un rapport.</block>
   <block id="d029ebc8f7b2e2aa789dc0e27797846f" category="inline-image-macro">Capture d'écran de la table Paths indiquant le nombre d'erreurs et une petite flèche cliquable dans la colonne Errors.</block>
   <block id="e01f862fe61f1c44179e61c69a18938d" category="paragraph"><block ref="e01f862fe61f1c44179e61c69a18938d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="591d860278697b4e6dbce26639961630" category="list-text">Utilisez les informations de l'erreur pour corriger le problème.</block>
   <block id="aa8765cc437da97ac36fcf5b9e8bd67c" category="paragraph">Après avoir résolu le problème, l'erreur ne devrait pas apparaître lors de la prochaine exécution du rapport.</block>
-  <block id="1b3463b3026822e4c8d6ad54c16a507a" category="section-title">Suppression de rapports</block>
   <block id="37100a26242d4deb28feac7db8d366de" category="paragraph">Vous pouvez supprimer un rapport contenant une erreur que vous avez corrigée ou si le rapport est associé à une relation de synchronisation que vous avez supprimée.</block>
   <block id="4051a60e091a5882a67c28985f8c22c7" category="list-text">Confirmez que vous souhaitez supprimer le ou les rapports.</block>
-  <block id="64d7746bed65d4dc86191fc514e7ebbf" category="doc">Copie des listes de contrôle d'accès à partir des partages SMB</block>
   <block id="6ef697f11922be2e4de0971f7d70997f" category="list-title">Choix</block>
   <block id="3ac19332a9012b7586dca2b8b7c57b58" category="inline-xref">Copiez manuellement les listes de contrôle d'accès entre les partages SMB</block>
-  <block id="6690de55a41e5eebc0f748de2f508fb2" category="list-text"><block ref="677048ca203ed360a1f7fefc6961b7a3" category="inline-xref-macro-rx"></block></block>
   <block id="c5c953c152db5adea8fcd2fc1ce5c904" category="paragraph">Copie de listes de contrôle d'accès entre les partages SMB et entre les partages SMB et le stockage objet en activant un paramètre lors de la création d'une relation ou après la création d'une relation.</block>
   <block id="e9e23d944b5ba04f7bd10800f3536393" category="inline-link-macro">tout système d'exploitation pris en charge</block>
   <block id="b82aab2ce8ba96a1adcef93a4d0f2e7a" category="paragraph">Cette fonctionnalité fonctionne avec _tout_ type de courtier en données : AWS, Azure, Google Cloud Platform ou comme courtier en données sur site. Le courtier en données sur site peut être exécuté <block ref="21c422ddfc59d696be9e90956009904f" category="inline-link-macro-rx"></block>.</block>
@@ -524,7 +510,6 @@
   <block id="a43f5cf69d6af0c6e17bed7ff726625e" category="list-text">L'hôte Linux doit être connecté à la source et à la cible.</block>
   <block id="e7b55bccb60334ca631527b050553022" category="list-text">Le serveur de fichiers doit autoriser l'hôte Linux à accéder aux exportations.</block>
   <block id="7bea0411e1c1d113bc62197206637112" category="list-text">Le port 443 doit être ouvert sur l'hôte Linux pour le trafic sortant vers AWS (le courtier communique en permanence avec le service Amazon SQS).</block>
-  <block id="c9e33dfa8b5904f2c5eeefbab35a3d9b" category="section-title">Activation de l'accès à AWS</block>
   <block id="21182c7c99920ebad46cc371d317499a" category="paragraph">Si vous prévoyez d'utiliser le courtier de données avec une relation de synchronisation incluant un compartiment S3, préparez l'hôte Linux pour l'accès AWS. Lorsque vous installez le courtier en données, vous devrez fournir les clés AWS pour un utilisateur AWS qui dispose d'un accès aux programmes et d'autorisations spécifiques.</block>
   <block id="8668bc285e00b6f9e578112045a4865d" category="list-text">Créer une règle IAM à l'aide de<block ref="6d7c79584b67fdfc254e7699a61c1e8d" category="inline-link-rx"></block></block>
   <block id="f9b866c4ff602b4a3215745c79cfe7e4" category="inline-link">Consultez les instructions AWS</block>
@@ -532,7 +517,6 @@
   <block id="b3c98a582bb953058ccaf9a71307fa93" category="list-text">Créez un utilisateur IAM disposant d'un accès programmatique.</block>
   <block id="dd9d9810864a1e7938f32b3eaa8dd049" category="paragraph"><block ref="dd9d9810864a1e7938f32b3eaa8dd049" category="inline-link-rx"></block></block>
   <block id="564482440eb08d11894ec114af427f21" category="paragraph">Assurez-vous de copier les clés AWS car vous devez les spécifier lors de l'installation du logiciel Data Broker.</block>
-  <block id="71921838fce69c9d045aeb2ad30c1eb5" category="section-title">Activation de l'accès à Google Cloud</block>
   <block id="9bb2d547aba26d64f54ee705473214d6" category="paragraph">Si vous prévoyez d'utiliser le courtier de données avec une relation de synchronisation incluant un compartiment Google Cloud Storage, préparez l'hôte Linux pour l'accès Google Cloud. Lorsque vous installez le courtier de données, vous devez fournir une clé pour un compte de service disposant d'autorisations spécifiques.</block>
   <block id="3c5f750427f50f4edf7cb574473c42a8" category="list-text">Créez un compte de service Google Cloud disposant des autorisations d'administrateur de stockage, si vous n'en avez pas encore.</block>
   <block id="6cb9b02ae49aa68f97de615d923b228a" category="list-text">Créez une clé de compte de service enregistrée au format JSON.</block>
@@ -541,9 +525,7 @@
   <block id="902d86db753e123639feaba47a0e34ff" category="paragraph">Le fichier doit contenir au moins les propriétés suivantes : "Project_ID", "Private_key" et "client_email"</block>
   <block id="a6c2835cfd7f21086d62be199ba39d44" category="admonition">Lorsque vous créez une clé, le fichier est généré et téléchargé sur votre machine.</block>
   <block id="be2c33a07b84816f411d04d45ac1e4a3" category="list-text">Enregistrez le fichier JSON sur l'hôte Linux.</block>
-  <block id="8269fd6e9d75dd954301e8ba35641805" category="section-title">Activation de l'accès à Microsoft Azure</block>
   <block id="7af7eb8440af6bb7f9ffd64569367b5b" category="paragraph">L'accès à Azure est défini par relation en fournissant un compte de stockage et une chaîne de connexion dans l'assistant de synchronisation.</block>
-  <block id="b6e5e048443785c8f424048cf1b9e40e" category="section-title">Installation du data broker</block>
   <block id="1944006c73d02c718c69408861e1307c" category="paragraph">Vous pouvez installer un courtier de données sur un hôte Linux lorsque vous créez une relation de synchronisation.</block>
   <block id="df89dda1d1c7ea3cd71a127402ea04d7" category="paragraph"><block ref="df89dda1d1c7ea3cd71a127402ea04d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8020038698547625e7abf1eda36c8877" category="admonition">Bien que cette option soit *_sur site_ Data Broker*, elle s'applique à un hôte Linux sur site ou dans le cloud.</block>
@@ -571,9 +553,7 @@
   <block id="2d9b81de771115c9968d6eabf73e8b3f" category="paragraph"><block ref="a11452dc07fc62bfb0d109a404da87bc" prefix="" category="inline-code"></block></block>
   <block id="e656cb1ebc2e559e3bcc2002585434ed" category="list-text">Clés AWS</block>
   <block id="18bbccaaba098ea1a676d4d7e5810ac9" category="inline-xref">voici la procédure à suivre</block>
-  <block id="d60ded7a040145d82fa326559c4753bf" category="list-text">Il s'agit des clés que vous devriez avoir préparées pour l'utilisateur <block ref="a969db4de6d1a440b2352a74869c6d78" category="inline-xref-macro-rx"></block>. Les clés AWS sont stockées sur le courtier en données, qui s'exécute sur votre réseau sur site ou dans le cloud. NetApp n'utilise pas les clés en dehors du courtier en données.</block>
   <block id="a6c9e3a7671c1fd9d7328c3be5d107b5" category="list-text">Fichier JSON</block>
-  <block id="40a402e2af1a2cefda63b0a1c268470d" category="list-text">Il s'agit du fichier JSON qui contient une clé de compte de service que vous devez avoir préparée <block ref="7d6ea8fc5746e04de57c4e2ea5f20d13" category="inline-xref-macro-rx"></block>.</block>
   <block id="97ff8a17f533b6d33b6dd9059ff062e9" category="summary">Il existe deux façons de payer les relations de synchronisation après la fin de votre essai gratuit de 14 jours. La première option consiste à vous abonner à AWS ou Azure pour payer à votre gré ou à payer annuellement. La deuxième option consiste à acheter des licences directement auprès de NetApp.</block>
   <block id="8efc36afc2e7202a9c9bda00b8e8a75d" category="doc">Présentation des licences</block>
   <block id="f856f3b97c80815883c23bfe0ce6d8c2" category="section-title">Abonnement Marketplace</block>
@@ -590,11 +570,9 @@
   <block id="ad375a9612a6b62204da454a8bce5008" category="list-text">Les clients ont le droit de tirer parti de la licence BYOL pour établir et ne pas dépasser un total de 20 connexions individuelles entre une source et une cible (chaque " relation de synchronisation ").</block>
   <block id="3926a9a20aef3d7c5c5d541fc8c0801a" category="list-text">Le droit d'un client expire à la fin de la période d'un an de licence, que le Client ait atteint la limite de 20 relations de synchronisation.</block>
   <block id="b199de846be581f6169592674966fad4" category="list-text">Si le Client choisit de renouveler sa licence, les relations de synchronisation non utilisées associées à l'octroi de licence précédent ne passent PAS au renouvellement de la licence.</block>
-  <block id="34a36f0a41c390743b7c28311304c570" category="doc">Configuration d'un groupe de courtier de données pour utiliser un coffre-fort externe HashiCorp</block>
   <block id="2428fdd39f5ab3cbda5b5bac12ab8f84" category="paragraph">Préparez le coffre-fort pour fournir les informations d'identification au groupe de courtiers de données en configurant les URL. Les URL des secrets dans le coffre-fort doivent se terminer par _creds_.</block>
   <block id="e0e88dfcd253d5d5ea89a9985f2101cf" category="paragraph">Préparez le groupe de courtier de données pour extraire les informations d'identification du coffre-fort externe en modifiant le fichier de configuration local de chaque courtier de données du groupe.</block>
   <block id="f3a79eb1d3d4b75537affb3a4efa8775" category="paragraph">Maintenant que tout est configuré, vous pouvez envoyer un appel API pour créer une relation de synchronisation qui utilise votre coffre-fort pour obtenir les secrets.</block>
-  <block id="7fe706ca34bea852c8a7b5a01aac8705" category="section-title">Préparation du coffre-fort</block>
   <block id="b97d94a4af6f2da3a68d05d4577e517f" category="paragraph">L'URL doit être configurée comme suit :</block>
   <block id="011dd3c441f07d89289a23db496f2046" category="paragraph"><block ref="c32e6c72f3e658282a4d5702bdbdb091" prefix="" category="inline-code"></block></block>
   <block id="ac70412e939d72a9234cdebb1af5867b" category="list-text">Chemin</block>
@@ -614,7 +592,6 @@
   <block id="01bcd05b36ee78f5e7558380e1c441c1" category="list-text">Exemple pour l'URL complète et le chemin des informations d'identification de la cible</block>
   <block id="2af8dca9bc89c0d31fe796e59b5f370e" category="list-text">\http://example.vault.com:8200/my-path/all-secrets/n32hcbnejk2/AZURECreds</block>
   <block id="3aefad44bc64b2ff412966cd4518c970" category="paragraph">Le chemin du préfixe est _/my-path/all-secrets/_, l'ID de la demande est _n32hcbnejk2_, et le noeud final cible est Azure.</block>
-  <block id="6bdc241f7d9a3a1b035cb0ebe9d563d1" category="section-title">Préparation du groupe de courtiers de données</block>
   <block id="e53c4e755ce10f21750aef31f9cb474c" category="list-text">SSH vers un courtier de données dans le groupe.</block>
   <block id="57e9628679cc186593a986def13cfc2b" category="list-text">Modifiez le fichier local.json qui se trouve dans /opt/netapp/Dataroker/config.</block>
   <block id="d04d9c6e802e9e399fbf311275a4e180" category="list-text">Définissez l'option enable sur *true* et définissez les champs des paramètres de configuration sous _external-intégrations.haschicorp_ comme suit :</block>
@@ -644,7 +621,6 @@
   <block id="1151673efbf1139445cf28b9c2a5e870" category="list-text">Répétez ces étapes pour tous les autres courtiers de données du groupe.</block>
   <block id="df538d67a969b99ad10c96736d0e3de8" category="section-title">Exemple d'authentification aws-role</block>
   <block id="7464ab636ff7b666832693357d2dae63" category="section-title">Exemple d'authentification gcp-iam</block>
-  <block id="c4e8f9bc954572562912e03c9f2fbe19" category="section-title">Configuration des autorisations lors de l'utilisation de l'authentification gcp-iam</block>
   <block id="e32a252e42df40beaff7e5a1ce821572" category="paragraph">Si vous utilisez la méthode d'authentification _gcp-iam_, le courtier de données doit disposer de l'autorisation GCP suivante :</block>
   <block id="b872e6417139366489f4ec46ed47e57d" category="inline-link-macro">En savoir plus sur les exigences d'autorisation GCP pour le courtier de données</block>
   <block id="6c6f477f7b70d038eaa27d83b51ba533" category="paragraph"><block ref="e85dc3fc664e427ab39e5c87730a03a3" category="inline-link-macro-rx"></block>.</block>
@@ -656,7 +632,6 @@
   <block id="0a52730597fb4ffa01fc117d9e71e3a9" category="section-title">Exemple</block>
   <block id="b8786298cd3539afe2429695af111104" category="paragraph">Exemple pour la demande POST :</block>
   <block id="febdb5376a041b31f655e631de8dd5d8" category="summary">Il existe deux façons de payer les relations de synchronisation après la fin de votre essai gratuit de 14 jours. La première option consiste à payer en fonction de l'utilisation. La deuxième option consiste à acheter des licences directement auprès de NetApp.</block>
-  <block id="4ecb33900aad1706afbc34f19bd2f2e9" category="doc">Payer pour la synchronisation après la fin de votre essai gratuit</block>
   <block id="97a214da03586723b3eda5c2057276c9" category="paragraph">Vous pouvez vous abonner à AWS Marketplace ou à Azure Marketplace. Vous ne pouvez pas vous abonner des deux.</block>
   <block id="55430fccd9c75a6ec1bc44bb1d637619" category="paragraph">Vous avez la possibilité d'utiliser les licences de NetApp avec un abonnement Marketplace. Par exemple, si vous disposez de 25 relations de synchronisation, vous pouvez payer les 20 premières relations de synchronisation à l'aide d'une licence, puis effectuer des opérations de paiement à la demande à partir d'AWS ou d'Azure avec les 5 autres relations de synchronisation.</block>
   <block id="eee2650e10b32734e3b3f1bc627337f5" category="inline-link-macro">En savoir plus sur le fonctionnement des licences</block>
@@ -677,10 +652,8 @@
   <block id="a7a65c558a31a52f3a2570581f5170c2" category="list-text">Saisissez le numéro de série.</block>
   <block id="441eaafe617acae90fac942cbac1d2a0" category="list-text">Sélectionnez le compte sur le site de support NetApp associé à la licence que vous ajoutez :</block>
   <block id="8d91fda63040409e75bebd4d14b9a825" category="list-text">Si votre compte a déjà été ajouté à BlueXP, sélectionnez-le dans la liste déroulante.</block>
-  <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">Mise à jour d'une licence</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">Sélectionnez le compte du site de support NetApp associé à la licence que vous ajoutez.</block>
   <block id="71904eaffc2ec470e49ce1a710f5e878" category="summary">Si votre entreprise dispose de règles de sécurité strictes, synchronisez les données entre les serveurs NFS de différents réseaux à l'aide du chiffrement des données en vol.</block>
-  <block id="8df3b832ae4d464c11ed34e0c6f3da2f" category="doc">Synchronisation des données NFS à l'aide du chiffrement des données à la volée</block>
   <block id="72bf4a1584bf5735615bab52725bb4a4" category="paragraph">Si votre entreprise dispose de règles de sécurité strictes, vous pouvez synchroniser les données NFS à l'aide du chiffrement des données à la volée. Cette fonctionnalité est prise en charge d'un serveur NFS vers un autre serveur NFS et de Azure NetApp Files vers Azure NetApp Files.</block>
   <block id="81c917d52736001d7efd43b0f0ddc92c" category="paragraph">Par exemple, vous pouvez synchroniser des données entre deux serveurs NFS situés sur des réseaux différents. Ou bien vous devrez peut-être transférer des données sur Azure NetApp Files de manière sécurisée entre plusieurs sous-réseaux ou régions.</block>
   <block id="d6dc650d0d220e29e9345f6a653d7ec3" category="section-title">Fonctionnement du chiffrement des données en vol.</block>
@@ -696,7 +669,6 @@
   <block id="9ebc239fb878b360de7460c36e393e15" category="list-text">Le courtier de données cible décrypte les données avant de les envoyer à la cible.</block>
   <block id="09cf96cd35454a72d72eda24f5a5324a" category="list-text">Après la copie initiale, le service synchronise les données modifiées toutes les 24 heures. S'il y a des données à synchroniser, le processus commence par l'initiateur qui ouvre une connexion chiffrée avec l'autre courtier de données.</block>
   <block id="aaf881bd7230ab8408f75fc7a5701e2e" category="inline-link-macro">vous pouvez modifier le planning après avoir créé la relation</block>
-  <block id="06a32f9c3008d75facbe41d9e59fdb13" category="paragraph">Si vous préférez synchroniser les données plus fréquemment, <block ref="8047278fff8ae1b9eca053a56dd7adfd" category="inline-link-macro-rx"></block>.</block>
   <block id="4f6582928260ec95d5382830f415104b" category="section-title">Versions NFS prises en charge</block>
   <block id="30fe527571ab3736d66f7bc649438aab" category="list-text">Pour les serveurs NFS, le chiffrement des données à la volée est pris en charge avec les versions 3, 4.0, 4.1 et 4.2 de NFS.</block>
   <block id="e58f770a9e62d5d72c5f922745500d31" category="list-text">Pour Azure NetApp Files, le chiffrement des données à la volée est pris en charge avec les versions 3 et 4.1 de NFS.</block>
@@ -731,17 +703,12 @@
   <block id="b1574b82988204b1ea2b4391bc2b62cc" category="list-text">*Paramètres* : définissez comment les fichiers et dossiers source sont synchronisés et gérés à l'emplacement cible.</block>
   <block id="31b876010e591a7e8b00068dcabd80b7" category="inline-image-macro">Capture d'écran affichant l'écran de révision. Il présente les serveurs NFS, les courtiers de données et les informations de mise en réseau sur chacun d'entre eux.</block>
   <block id="39cd9e3fa50eeb2b66a750a04c154460" category="paragraph"><block ref="39cd9e3fa50eeb2b66a750a04c154460" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b53e2cff9f1417fcc84365e2d567011e" category="list-text">Obtenez un jeton utilisateur auprès de NetApp BlueXP.</block>
-  <block id="415019870d0741b8c872f4ef1a528769" category="list-text">Obtenez votre identifiant de compte BlueXp.</block>
   <block id="eda59d7eb3739f93f444f0e8c16f18e5" category="paragraph">Cette API renvoie une réponse comme suit :</block>
   <block id="b4d5fd65d29290d42a4161d3362d1326" category="list-text">Ajoutez le jeton utilisateur et l'ID de compte dans l'en-tête autorisation de chaque appel d'API.</block>
   <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">*Exemple*</block>
   <block id="b55b4937f8ff2471222d040f06b7807e" category="paragraph">L'exemple suivant montre un appel API pour créer un courtier de données dans Microsoft Azure. Il vous suffit de remplacer &lt;user_token&gt; et &lt;AccountID&gt; par le jeton et l'ID obtenus lors des étapes précédentes.</block>
-  <block id="d6f4f4fada8d5c3952a90492c3138e97" category="sidebar-title">Que dois-je faire lorsque le jeton expire ?</block>
-  <block id="79eae7ffaa22e2815a503a0776cb13d0" category="paragraph">Le jeton utilisateur de NetApp BlueXp a une date d'expiration. Pour actualiser le jeton, vous devez à nouveau appeler l'API à partir de l'étape 1.</block>
   <block id="5c5cd253b66501facf455779c806ee88" category="paragraph">La réponse de l'API inclut un champ " expire_in " qui indique la date d'expiration du jeton.</block>
   <block id="19ec08da81a826d919d64ab860845c04" category="section-title">Référence API</block>
-  <block id="92e2b06a1709caf91e74da4a3fb021fe" category="section-title">Utilisation d'API de liste</block>
   <block id="89b39aae22e72765b6582ae0db1ba186" category="paragraph">Les API de liste sont des API asynchrones. Les résultats ne reviennent donc pas immédiatement (par exemple :<block ref="864d13ef380f3fcf3b49246b9c7bdaa7" prefix=" " category="inline-code"></block> et<block ref="1cbadbd550c11d29a3a6c7ea25987154" prefix=" " category="inline-code"></block>). La seule réponse du serveur est l'état HTTP 202. Pour obtenir le résultat réel, vous devez utiliser le<block ref="63d435ec5649100ee5f04824a6382226" prefix=" " category="inline-code"></block> API.</block>
   <block id="6d89cb53dacaf941bbf56d09d3dc21de" category="list-text">Appelez l'API de liste que vous souhaitez utiliser.</block>
   <block id="50879b5593dd20bf23b085383f4beb91" category="list-text">Utilisez le<block ref="63d435ec5649100ee5f04824a6382226" prefix=" " category="inline-code"></block> API pour afficher le résultat de l'opération.</block>
@@ -835,7 +802,6 @@
   <block id="86809a552db6628d8c5fdff212824259" category="list-text">Vous ne pouvez pas supprimer le dernier courtier de données d'un groupe s'il existe une relation utilisant ce groupe.</block>
   <block id="72d8c1c0fb68d009ccb1cae8adc51597" category="paragraph"><block ref="72d8c1c0fb68d009ccb1cae8adc51597" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2bbd7c4d9d525b0e8675bf3663179545" category="section-title">Supprimer un groupe de courtier de données</block>
-  <block id="540d36f51d945cde427519036203dde6" category="doc">Création d'un nouveau courtier en données dans Azure</block>
   <block id="455aadf3bd22f71973763b3cdc7db550" category="section-title">Régions Azure prises en charge</block>
   <block id="df8514e24a07bfd81c667163f17fbec0" category="paragraph">Toutes les régions sont prises en charge à l'exception des régions China, US Gov et US DoD.</block>
   <block id="c658fd4f091c10877f154fbf84fbee89" category="section-title">Autorisations requises pour déployer le courtier en données dans Azure</block>
@@ -936,7 +902,6 @@
   <block id="9ecbc2d9f6b6ab0392906cca0b95b920" category="list-text">Simultanéité de transfert</block>
   <block id="ac0fac9f0c454d2eb07769d1359bbe40" category="list-text">Limite des processus de transfert</block>
   <block id="ec7e38030033a02298c5a717c0397281" category="inline-link-macro">Découvrez comment définir une configuration unifiée pour un groupe de courtiers de données</block>
-  <block id="f34ca0a61f713db3f7223ea730746e00" category="paragraph"><block ref="76b1d1355d80ad25cf7c1c2af9610053" category="inline-link-macro-rx"></block>.</block>
   <block id="017c5900c1d43fddb24f60e2fcc3f6fc" category="paragraph">Assurez-vous que votre rayon de stockage Google Cloud Storage répond aux exigences suivantes.</block>
   <block id="e649787bac6e0b31cc56d488858d8e89" category="section-title">Emplacements des courtiers de données pris en charge pour Google Cloud Storage</block>
   <block id="31891805e49d1c8e637b40a3a036d1cd" category="inline-link-macro">Découvrez comment déployer le courtier en données Google Cloud</block>
@@ -1145,7 +1110,6 @@
   <block id="ba898f89df5c39db3aedca30b0dd9585" category="paragraph">Vous pouvez maintenant mettre à jour les licences Cloud Sync que vous avez étendues.</block>
   <block id="9c36a4a5f20a34725e3200409f20a65a" category="paragraph">Si vous avez prolongé une licence Cloud Sync que vous avez achetée auprès de NetApp, vous pouvez ajouter de nouveau la licence pour actualiser la date d'expiration.</block>
   <block id="e8b8928cc2b3188c3209a7c67ffeb87a" category="inline-link-macro">Découvrez comment mettre à jour une licence</block>
-  <block id="38e00e64912a31a6e9ba56d502615fce" category="paragraph"><block ref="c554cb9dd2842cfffcc3e3678513553a" category="inline-link-macro-rx"></block>.</block>
   <block id="625212f75a40ffe67e47fee287c2f6b1" category="section-title">Mettre à jour les informations d'identification de la</block>
   <block id="9b441f4afbb53f4c8d5b7fc8bc6b9301" category="paragraph">Vous pouvez maintenant mettre à jour les informations d'identification Box pour une relation de synchronisation existante.</block>
   <block id="b4ef038c5650fac60f2434cad75645e5" category="inline-link-macro">Découvrez comment mettre à jour les informations d'identification</block>
@@ -1222,7 +1186,6 @@
   <block id="d8ca60d2627899ef9a840f93d0a59cec" category="section-title">Comparer les attributs</block>
   <block id="3f31cdfbb217ec6fa9a858a46cfd3290" category="paragraph">Un nouveau paramètre *Comparer par* est maintenant disponible pour chaque relation de synchronisation.</block>
   <block id="dabc7e1b7880be887fd2898786c6c925" category="paragraph">Ce paramètre avancé vous permet de choisir si Cloud Sync doit comparer certains attributs lorsqu'il détermine si un fichier ou un répertoire a changé et doit être synchronisé à nouveau.</block>
-  <block id="1df5e86c2f922b55e7a126736aa3fdc8" category="paragraph"><block ref="4d121b48d2c287fff78a725ca3d42ec9" category="inline-link-macro-rx"></block>.</block>
   <block id="13c380d451c296cda1d1289b9dc25114" category="section-title">11 avril 2021</block>
   <block id="5e224a35cc2a8810465ced83c84d4a8b" category="section-title">Le service Cloud Sync autonome est retiré</block>
   <block id="e0c9c98f02dabde677a2634ba4ffa251" category="paragraph">Le service autonome Cloud Sync a été supprimé. Vous devez maintenant accéder à Cloud Sync directement à partir de BlueXP où toutes les mêmes fonctionnalités sont disponibles.</block>
@@ -1297,8 +1260,6 @@
   <block id="07c04fea0b1e27f12c0ac9f6c5f76af6" category="section-title">[[google]]exigences relatives au compartiment de stockage Google Cloud</block>
   <block id="9bbb347fbd183c9b759619011e925584" category="section-title">[[iam]]pour utiliser votre propre rôle IAM avec le courtier de données AWS</block>
   <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">Ce dont vous avez besoin</block>
-  <block id="ed14d70dad7ae627497350bc4e3868e5" category="section-title">[[aws]]abonnement d'AWS</block>
-  <block id="b6a5a78c3221a73b92bf2f602e64a9cc" category="section-title">[[Azure]]abonnement d'Azure</block>
   <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">11 décembre 2022</block>
   <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">Filtrez les répertoires par nom</block>
   <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">En savoir plus sur le paramètre exclure les noms de répertoire</block>
@@ -1503,10 +1464,8 @@
   <block id="52c793499d4fd02f2f2330b970f6162b" category="summary">Lorsque vous créez un nouveau courtier en données, choisissez l'option courtier en données sur site pour installer le logiciel de courtier en données sur un hôte Linux sur site ou sur un hôte Linux existant dans le cloud. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l'installation.</block>
   <block id="890130d57677e99876dfa01749264d4d" category="paragraph">Lorsque vous créez un nouveau groupe de courtiers de données, choisissez l'option courtier de données sur site pour installer le logiciel de courtier de données sur un hôte Linux sur site ou sur un hôte Linux existant dans le cloud. La copie et la synchronisation BlueXP vous guident tout au long du processus d'installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l'installation.</block>
   <block id="43fa66f5d7cb7b0c6940f346a2840e44" category="inline-xref">Procédez comme suit pour obtenir l'URI à partir de la copie et de la synchronisation BlueXP</block>
-  <block id="fdf038d5164429a9481528d1a4ae0b9a" category="list-text">La copie et la synchronisation BlueXP affichent l'URI du fichier d'installation sur la page d'instructions, qui se charge lorsque vous suivez les invites pour déployer le courtier de données sur site. Cet URI ne se répète pas ici car le lien est généré de manière dynamique et ne peut être utilisé qu'une seule fois. <block ref="0c33a94f9c890b9aae239faccb0a58b1" category="inline-xref-macro-rx"></block>.</block>
   <block id="d4dc0f2ea6e5e1538c8a19c6a4577fd8" category="summary">La copie et la synchronisation BlueXP peuvent copier des listes de contrôle d'accès (ACL) entre des partages SMB et entre un partage SMB et un stockage objet (à l'exception de ONTAP S3). Si nécessaire, vous avez également la possibilité de conserver manuellement des listes de contrôle d'accès entre les partages SMB à l'aide de robocopy.</block>
   <block id="81a977665d31d193ae870e9766c60880" category="inline-xref">Configurez la copie et la synchronisation BlueXP pour copier automatiquement les listes de contrôle d'accès</block>
-  <block id="d19dc7040ab8dc466773d35695363957" category="list-text"><block ref="55b2d1445c700d9bab1004cc9ff792c1" category="inline-xref-macro-rx"></block></block>
   <block id="25aad67dfa80ebe55925aa72bc94b583" category="paragraph">Lors de la synchronisation des données, la copie et la synchronisation BlueXP préservent les ACL entre la source et la cible.</block>
   <block id="40074d699c28eac9b0a231e26a10dbb8" category="list-text">À partir de la copie et de la synchronisation BlueXP, créez une nouvelle relation entre les partages SMB source et cible ou synchronisez une relation existante.</block>
   <block id="1c21a7ebb7b558a51c4ebb47b152cbeb" category="paragraph">La copie et la synchronisation BlueXP démarrent le processus de synchronisation des données pour la relation.</block>
@@ -1548,7 +1507,6 @@
   <block id="f34b6d76110ab7661039d45200f420f5" category="paragraph">La copie et la synchronisation BlueXP prennent en charge les types de stockage suivants :</block>
   <block id="a9645f9fd5c738babcb0a0b7564fafa8" category="paragraph">La copie et la synchronisation BlueXP sont associées à deux types de coûts : les frais de ressources et les frais de service.</block>
   <block id="6169c8d461dd7f9996b17fcf210180a3" category="list-text">Abonnez-vous à AWS Marketplace, puis reconnectez-vous au service de copie et de synchronisation BlueXP pour terminer l'enregistrement.</block>
-  <block id="b5ee50058b36eec1b9d5e452251d8123" category="section-title">[[licences]]achat de licences NetApp et ajout de licences à la copie et à la synchronisation BlueXP</block>
   <block id="a1c678174ddff43ed8cf229a96c7a003" category="paragraph">Pour payer vos relations de synchronisation au préalable, vous devez acheter une ou plusieurs licences et les ajouter au service de copie et de synchronisation BlueXP.</block>
   <block id="b69b60c6eae94cb020b628bd40e1db2a" category="paragraph">Si vous avez étendu une licence de copie et de synchronisation BlueXP que vous avez achetée auprès de NetApp, la nouvelle date d'expiration ne se mettra pas à jour automatiquement dans la copie et la synchronisation BlueXP. Vous devez ajouter de nouveau la licence pour actualiser la date d'expiration. Les licences doivent être gérées par le biais de la copie et de la synchronisation BlueXP ou du site web concerné et *non* par le biais d'un portefeuille digital.</block>
   <block id="a6aa4333de4bce96807c6d015f47bea5" category="paragraph">La copie et la synchronisation BlueXP mettent à jour la licence existante avec la nouvelle date d'expiration.</block>
@@ -1628,7 +1586,6 @@
   <block id="01523e5fc16052f503921585b0698ab3" category="paragraph"><block ref="ee9222b07587eb2c3ffe563d1a2c6106" category="inline-link-rx"></block>.</block>
   <block id="5272ee17dd9d75e3474f45c3e2ce72c0" category="paragraph"><block ref="5272ee17dd9d75e3474f45c3e2ce72c0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="404965498641a1a56cc0fa3373515d7a" category="paragraph"><block ref="404965498641a1a56cc0fa3373515d7a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="246b0e9609672cddcf038daaa946671b" category="paragraph"><block ref="bbd18c81f756c2aa65d18a49f39abc0e" category="inline-link-rx"></block>.</block>
   <block id="b4e33a0f7ed5ccdaa3ecce4c47daf31f" category="paragraph"><block ref="b4e33a0f7ed5ccdaa3ecce4c47daf31f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="858b6b26381ac0e28fd0ab2919dbe947" category="paragraph"><block ref="0e57eb14c04befe90ef141b40df96648" category="inline-link-rx"></block>.</block>
   <block id="607c524b181fcf51f1c3bf2bd8544f62" category="paragraph"><block ref="607c524b181fcf51f1c3bf2bd8544f62" category="inline-image-macro-rx" type="image"></block></block>
@@ -1938,4 +1895,47 @@
   <block id="c28d873efe941bde2e3f61ce0bfc122b" category="paragraph">Vous pouvez maintenant créer la relation de synchronisation entre le stockage objet à l'aide du groupe de courtiers de données que vous venez de configurer.</block>
   <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">14 juillet 2024</block>
   <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">Nous avons mis à jour le service de copie et de synchronisation BlueXP ainsi que le courtier en données pour corriger quelques bugs. La nouvelle version du courtier de données est 1.0.53.</block>
+  <block id="688afeddfca9191ad2c185d0d60558c9" category="list-text">Obtenez un jeton utilisateur auprès de BlueXP .</block>
+  <block id="8ce9552d4501ab462ee2bb5bc9e6477c" category="list-text">Obtenez votre identifiant de compte BlueXP.</block>
+  <block id="c9abe9ccf2c537d5ccca15e2909fe38c" category="paragraph">Le jeton utilisateur de BlueXP  a une date d'expiration. Pour actualiser le jeton, vous devez à nouveau appeler l'API à partir de l'étape 1.</block>
+  <block id="70eae86d00c0e60d5d2336fb08d92f98" category="section-title">Utilisez des API de liste</block>
+  <block id="0be41d4f1d149c5666f23118d262e4bf" category="paragraph"><block ref="aab50d0c938d39ea193b352a6eaceb1a" category="inline-link-macro-rx"></block>.</block>
+  <block id="b3df85a57daa191df008fcf99148c146" category="paragraph">Vous pouvez alors envisager d'accélérer la synchronisation en ajoutant un courtier de données supplémentaire à un groupe pour partager la charge de cette relation. <block ref="c6533be9d7045c2121f63bb9e696588d" category="inline-link-macro-rx"></block>.</block>
+  <block id="9e98e2282b4f1a041c72ac033de7f22a" category="paragraph"><block ref="abdcd6d0b6bdd2b55e8073eafc2a0a0e" category="inline-link-macro-rx"></block>.</block>
+  <block id="fae10cbd0637c2a3b4fb64d15eceda07" category="doc">Copie des listes de contrôle d'accès à partir des partages SMB</block>
+  <block id="9d0b349dc26d3347b52099aea6d0df8a" category="list-text"><block ref="88aa7b5029e91473e8ba3a71d0a852b3" category="inline-xref-macro-rx"></block></block>
+  <block id="980591db29a9690a93f634902684c663" category="list-text"><block ref="4bcbb68a064879ef2119198c0f50e143" category="inline-xref-macro-rx"></block></block>
+  <block id="b3f60c33ab58886b68b322d1b01f37bf" category="doc">Configurez un groupe de courtiers de données pour utiliser un coffre-fort externe HashiCorp</block>
+  <block id="1cecbb005f6de325852717fe83c80fd0" category="section-title">Préparez le coffre-fort</block>
+  <block id="ec6e3650e66c60637209ea5c501ac6fc" category="section-title">Préparer le groupe de courtiers de données</block>
+  <block id="10d5963a9f08d8ec5852d2bfb5d2b1b5" category="section-title">Configurez les autorisations lors de l'utilisation de l'authentification gcp-iam</block>
+  <block id="484f1332663a70bcce7f8a43073b4e93" category="doc">Créez un nouveau courtier en données dans AWS</block>
+  <block id="c40f18ad7e0d1fbd9bc3465015dbf13c" category="section-title">Créez le courtier de données</block>
+  <block id="1c87bfdc8a1515b9980559428b3741a1" category="doc">Créez un nouveau courtier en données dans Azure</block>
+  <block id="a2094db7080bd56823e029ea04ef4e75" category="doc">Créez un nouveau courtier en données dans Google Cloud</block>
+  <block id="f653c6f4c0e09b6ff0ca76fdc83f8972" category="section-title">Fournissez les autorisations d'utilisation des compartiments dans d'autres projets Google Cloud</block>
+  <block id="00ceb73d9f24801bad28c1c27a9659a3" category="doc">Installez le courtier de données sur un hôte Linux</block>
+  <block id="78d8524b476ff2ade5b94c9c29b7fb4f" category="section-title">Activez l'accès à AWS</block>
+  <block id="97cf58702dd7c3aca1a35f9563af69e3" category="section-title">Activez l'accès à Google Cloud</block>
+  <block id="294480d8cbf4410fbc88cfbb4e3ce0cd" category="section-title">Activez l'accès à Microsoft Azure</block>
+  <block id="dc06ddbd32d43560edacfaa29183ccbc" category="section-title">Installez le courtier de données</block>
+  <block id="85dd96f2329cfefba214bd7ea96ccfa4" category="list-text">La copie et la synchronisation BlueXP affichent l'URI du fichier d'installation sur la page d'instructions, qui se charge lorsque vous suivez les invites pour déployer le courtier de données sur site. Cet URI ne se répète pas ici car le lien est généré de manière dynamique et ne peut être utilisé qu'une seule fois. <block ref="0bcf9f6d0f5343297a10b1cf9ff5c95a" category="inline-xref-macro-rx"></block>.</block>
+  <block id="86e1fbfc21141a428e91434596659972" category="list-text">Ce sont les clés pour l'utilisateur que vous devriez avoir préparées <block ref="402ff04efabc9c4f56b72b684c2e10c6" category="inline-xref-macro-rx"></block>. Les clés AWS sont stockées sur le courtier en données, qui s'exécute sur votre réseau sur site ou dans le cloud. NetApp n'utilise pas les clés en dehors du courtier en données.</block>
+  <block id="da71e727ce602ce0df332bf7acd04f2b" category="list-text">Il s'agit du fichier JSON qui contient une clé de compte de service que vous devez avoir préparée <block ref="8e7eb0db1ee4fd6a97230ce733e6c0b1" category="inline-xref-macro-rx"></block>.</block>
+  <block id="5a0b6969e1a00c9d4229b18d599f709e" category="doc">Payez les relations synchronisées une fois votre essai gratuit terminé</block>
+  <block id="e028f7fc834047902996d4b3faec74ef" category="section-title">[[aws]]Abonnez-vous à AWS</block>
+  <block id="930f43b5351f67a33978fe5e38509494" category="section-title">[[Azure]]Abonnez-vous à Azure</block>
+  <block id="8b677a97b89f60dc6d50f9e94c7d249b" category="section-title">[[licenses]]Achetez des licences auprès de NetApp et ajoutez-les à la copie et à la synchronisation BlueXP </block>
+  <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="section-title">Mettre à jour une licence</block>
+  <block id="5a93bfc26914da58fc866410768013aa" category="doc">Créez et affichez des rapports pour régler votre configuration</block>
+  <block id="ef7a7b1bec08bef324977926c1fc910c" category="section-title">Créer des rapports</block>
+  <block id="df6e3c89245cdc5bf0a7191c642d6997" category="section-title">Télécharger des rapports</block>
+  <block id="4e81b9817b77a04417209233aa6770e7" category="section-title">Afficher les erreurs de rapport</block>
+  <block id="cbb776f3d96dc88fa5b9bf1fc5bdb830" category="section-title">Supprimer des rapports</block>
+  <block id="3a6eb754876597bc8ab6133e13e9140a" category="doc">Synchronisez les données NFS à l'aide du chiffrement des données à la volée</block>
+  <block id="5143828323383cafd31bc198ee983675" category="paragraph">Si vous préférez synchroniser les données plus fréquemment, <block ref="ab2166e3b7a3bfd46d319139e30ee953" category="inline-link-macro-rx"></block>.</block>
+  <block id="b82bc2fd6e7ab1667187072565c0de89" category="doc">Désinstaller le courtier de données</block>
+  <block id="5b34dda5c871fed8b9821e47e0d34ede" category="paragraph"><block ref="9ff383ddf2525d802b02fb0151232700" category="inline-link-rx"></block>.</block>
+  <block id="24410e37408a11f41e4c63fb9cc48dd1" category="paragraph"><block ref="25a5ae570a2c9cafee62695215e5e759" category="inline-link-macro-rx"></block>.</block>
+  <block id="cf2c9be412cc589b7ecf399ad3d2b5c5" category="paragraph"><block ref="ae034bb53c84075bda58d513fc152e63" category="inline-link-macro-rx"></block>.</block>
 </blocks>

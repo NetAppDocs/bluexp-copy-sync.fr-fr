@@ -561,7 +561,7 @@ Ces options sont prises en charge lorsque Azure Blob est la cible et que la sour
 
 Un nouveau paramètre *délai de synchronisation* est maintenant disponible pour les relations de synchronisation. Ce paramètre vous permet de définir si Cloud Sync doit annuler une synchronisation de données si la synchronisation n'a pas été effectuée dans le nombre d'heures ou de jours spécifié.
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["En savoir plus sur la modification des paramètres d'une relation de synchronisation"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["En savoir plus sur la modification des paramètres d'une relation de synchronisation"].
 
 
 
@@ -571,7 +571,7 @@ Un nouveau paramètre *Notifications* est désormais disponible pour les relatio
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["Capture d'écran qui montre le Centre de notification dans BlueXP."]
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["En savoir plus sur la modification des paramètres d'une relation de synchronisation"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["En savoir plus sur la modification des paramètres d'une relation de synchronisation"].
 
 
 
@@ -736,7 +736,7 @@ Vous pouvez maintenant mettre à jour les licences Cloud Sync que vous avez éte
 
 Si vous avez prolongé une licence Cloud Sync que vous avez achetée auprès de NetApp, vous pouvez ajouter de nouveau la licence pour actualiser la date d'expiration.
 
-link:task-licensing.html#update-a-license["Découvrez comment mettre à jour une licence"].
+link:task-licensing.html["Découvrez comment mettre à jour une licence"].
 
 
 
@@ -924,7 +924,7 @@ Un nouveau paramètre *Comparer par* est maintenant disponible pour chaque relat
 
 Ce paramètre avancé vous permet de choisir si Cloud Sync doit comparer certains attributs lorsqu'il détermine si un fichier ou un répertoire a changé et doit être synchronisé à nouveau.
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["En savoir plus sur la modification des paramètres d'une relation de synchronisation"].
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["En savoir plus sur la modification des paramètres d'une relation de synchronisation"].
 
 
 

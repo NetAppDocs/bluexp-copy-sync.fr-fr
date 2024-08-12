@@ -17,8 +17,8 @@ summary: 'La copie et la synchronisation BlueXP peuvent copier des listes de con
 La copie et la synchronisation BlueXP peuvent copier des listes de contrôle d'accès (ACL) entre des partages SMB et entre un partage SMB et un stockage objet (à l'exception de ONTAP S3). Si nécessaire, vous avez également la possibilité de conserver manuellement des listes de contrôle d'accès entre les partages SMB à l'aide de robocopy.
 
 .Choix
-* <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,Configurez la copie et la synchronisation BlueXP pour copier automatiquement les listes de contrôle d'accès>>
-* <<Manually copying ACLs between SMB shares,Copiez manuellement les listes de contrôle d'accès entre les partages SMB>>
+* <<Configurez la copie et la synchronisation BlueXP pour copier les listes de contrôle d'accès,Configurez la copie et la synchronisation BlueXP pour copier automatiquement les listes de contrôle d'accès>>
+* <<Copie manuelle des listes de contrôle d'accès entre partages SMB,Copiez manuellement les listes de contrôle d'accès entre les partages SMB>>
 
 
 

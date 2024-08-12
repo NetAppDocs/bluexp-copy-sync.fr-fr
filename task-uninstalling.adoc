@@ -4,7 +4,7 @@ permalink: task-uninstalling.html
 keywords: uninstall, uninstall data broker, remove data broker 
 summary: 'Si nécessaire, exécutez un script de désinstallation pour supprimer le courtier de données, les packages et les répertoires créés lors de l"installation du courtier de données.' 
 ---
-= Désinstallation du courtier de données
+= Désinstaller le courtier de données
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

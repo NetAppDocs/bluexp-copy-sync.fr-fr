@@ -4,7 +4,7 @@ permalink: task-managing-reports.html
 keywords: reports, sync reports, BlueXP copy and sync reports, report errors, path reports 
 summary: 'Créez et consultez des rapports pour obtenir des informations utiles avec l"aide du personnel NetApp afin de régler la configuration d"un courtier de données et d"améliorer les performances.' 
 ---
-= Création et affichage de rapports pour ajuster votre configuration
+= Créez et affichez des rapports pour régler votre configuration
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -20,7 +20,7 @@ Chaque rapport fournit des détails détaillés sur un chemin dans une relation 
 
 
 
-== Création de rapports
+== Créer des rapports
 
 Chaque fois que vous créez un rapport, la copie et la synchronisation BlueXP analysent le chemin d'accès, puis compile les détails dans un rapport.
 
@@ -47,7 +47,7 @@ image:screenshot_sync_report_object.gif["Rapport indiquant le nombre d'élément
 
 
 
-== Téléchargement de rapports
+== Télécharger des rapports
 
 Vous pouvez télécharger un rapport au format PDF pour le visualiser hors ligne ou le partager.
 
@@ -62,7 +62,7 @@ image:screenshot-sync-download-report.png["Capture d'écran de l'option Téléch
 
 
 
-== Affichage des erreurs de rapport
+== Afficher les erreurs de rapport
 
 Le tableau chemins identifie si des erreurs sont présentes dans le rapport le plus récent. Une erreur identifie un problème auquel la copie et la synchronisation BlueXP étaient confrontées lors de l'analyse du chemin.
 
@@ -85,7 +85,7 @@ Après avoir résolu le problème, l'erreur ne devrait pas apparaître lors de l
 
 
 
-== Suppression de rapports
+== Supprimer des rapports
 
 Vous pouvez supprimer un rapport contenant une erreur que vous avez corrigée ou si le rapport est associé à une relation de synchronisation que vous avez supprimée.
 

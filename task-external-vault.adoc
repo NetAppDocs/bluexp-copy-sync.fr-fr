@@ -4,7 +4,7 @@ permalink: task-external-vault.html
 keywords: hashicorp, vault, credentials, secrets, API 
 summary: 'Lorsque vous créez une relation de synchronisation qui nécessite des informations d"identification Amazon S3, Azure ou Google Cloud, vous devez spécifier ces informations d"identification au moyen de l"interface utilisateur ou de l"API de copie et de synchronisation BlueXP. Une alternative consiste à configurer le courtier de données pour accéder aux informations d"identification directement à partir d"un coffre-fort externe HashiCorp.' 
 ---
-= Configuration d'un groupe de courtier de données pour utiliser un coffre-fort externe HashiCorp
+= Configurez un groupe de courtiers de données pour utiliser un coffre-fort externe HashiCorp
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -32,7 +32,7 @@ Maintenant que tout est configuré, vous pouvez envoyer un appel API pour créer
 
 
 
-== Préparation du coffre-fort
+== Préparez le coffre-fort
 
 Vous devrez fournir une copie et une synchronisation BlueXP avec l'URL des secrets de votre coffre-fort. Préparez le coffre-fort en configurant ces URL. Vous devez configurer des URL pour les identifiants de chaque source et cible dans les relations de synchronisation que vous prévoyez de créer.
 
@@ -68,7 +68,7 @@ Le chemin du préfixe est _/my-path/all-secrets/_, l'ID de la demande est _n32hc
 
 
 
-== Préparation du groupe de courtiers de données
+== Préparer le groupe de courtiers de données
 
 Préparez le groupe de courtier de données pour extraire les informations d'identification du coffre-fort externe en modifiant le fichier de configuration local de chaque courtier de données du groupe.
 
@@ -202,7 +202,7 @@ Espace de noms::
 ----
 
 
-=== Configuration des autorisations lors de l'utilisation de l'authentification gcp-iam
+=== Configurez les autorisations lors de l'utilisation de l'authentification gcp-iam
 
 Si vous utilisez la méthode d'authentification _gcp-iam_, le courtier de données doit disposer de l'autorisation GCP suivante :
 

@@ -4,7 +4,7 @@ permalink: task-licensing.html
 keywords: license, subscription, registering, subscribing, subscribing in aws, subscribing in azure, subscribing to aws, subscribing to azure, aws marketplace, azure marketplace, netapp license, byol license, purchase a license, license settings, pay for relationships, paygo, annual, pay-as-you-go 
 summary: 'Il existe deux façons de payer les relations de synchronisation après la fin de votre essai gratuit de 14 jours. La première option consiste à payer en fonction de l"utilisation. La deuxième option consiste à acheter des licences directement auprès de NetApp.' 
 ---
-= Payer pour la synchronisation après la fin de votre essai gratuit
+= Payez les relations synchronisées une fois votre essai gratuit terminé
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -28,7 +28,7 @@ Les licences doivent être gérées par le biais de la copie et de la synchronis
 
 
 
-== [[aws]]abonnement d'AWS
+== [[aws]]Abonnez-vous à AWS
 
 AWS vous permet de payer à votre gré ou de payer chaque année.
 
@@ -52,7 +52,7 @@ video::video_cloud_sync_registering.mp4[width=848,height=480]
 
 
 
-== [[Azure]]abonnement d'Azure
+== [[Azure]]Abonnez-vous à Azure
 
 Azure vous permet de payer à votre gré ou de payer chaque année.
 
@@ -78,7 +78,7 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 
 
-== [[licences]]achat de licences NetApp et ajout de licences à la copie et à la synchronisation BlueXP
+== [[licenses]]Achetez des licences auprès de NetApp et ajoutez-les à la copie et à la synchronisation BlueXP 
 
 Pour payer vos relations de synchronisation au préalable, vous devez acheter une ou plusieurs licences et les ajouter au service de copie et de synchronisation BlueXP.
 
@@ -104,7 +104,7 @@ Vous devez disposer du numéro de série correspondant à votre licence, ainsi q
 
 
 
-== Mise à jour d'une licence
+== Mettre à jour une licence
 
 Si vous avez étendu une licence de copie et de synchronisation BlueXP que vous avez achetée auprès de NetApp, la nouvelle date d'expiration ne se mettra pas à jour automatiquement dans la copie et la synchronisation BlueXP. Vous devez ajouter de nouveau la licence pour actualiser la date d'expiration. Les licences doivent être gérées par le biais de la copie et de la synchronisation BlueXP ou du site web concerné et *non* par le biais d'un portefeuille digital.
 

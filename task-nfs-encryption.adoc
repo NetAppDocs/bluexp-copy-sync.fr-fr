@@ -4,7 +4,7 @@ permalink: task-nfs-encryption.html
 keywords: encryption, in flight, data in flight, in-flight, data-in-flight, nfs, initiator, listener, port 
 summary: 'Si votre entreprise dispose de règles de sécurité strictes, synchronisez les données entre les serveurs NFS de différents réseaux à l"aide du chiffrement des données en vol.' 
 ---
-= Synchronisation des données NFS à l'aide du chiffrement des données à la volée
+= Synchronisez les données NFS à l'aide du chiffrement des données à la volée
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -38,7 +38,7 @@ Voici le fonctionnement du chiffrement à la volée :
 . Le courtier de données cible décrypte les données avant de les envoyer à la cible.
 . Après la copie initiale, le service synchronise les données modifiées toutes les 24 heures. S'il y a des données à synchroniser, le processus commence par l'initiateur qui ouvre une connexion chiffrée avec l'autre courtier de données.
 +
-Si vous préférez synchroniser les données plus fréquemment, link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["vous pouvez modifier le planning après avoir créé la relation"].
+Si vous préférez synchroniser les données plus fréquemment, link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["vous pouvez modifier le planning après avoir créé la relation"].
 
 
 
@@ -85,7 +85,7 @@ Si vous n'avez pas encore déployé de courtier de données, consultez les exige
 
 
 
-== Synchronisation des données NFS à l'aide du chiffrement des données à la volée
+== Synchronisez les données NFS à l'aide du chiffrement des données à la volée
 
 Créez une nouvelle relation de synchronisation entre deux serveurs NFS ou entre Azure NetApp Files, activez l'option de chiffrement à la volée et suivez les invites.
 

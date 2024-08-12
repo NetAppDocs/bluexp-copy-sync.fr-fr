@@ -18,12 +18,12 @@ Les fonctionnalités de copie et de synchronisation BlueXP disponibles via l'int
 
 
 
-== Pour commencer
+== Commencez
 
 Pour commencer à utiliser la copie et l'API de synchronisation BlueXP, vous devez obtenir un jeton utilisateur et votre identifiant de compte BlueXP. Vous devrez ajouter le jeton et l'ID de compte à l'en-tête autorisation lorsque vous passez des appels API.
 
 .Étapes
-. Obtenez un jeton utilisateur auprès de NetApp BlueXP.
+. Obtenez un jeton utilisateur auprès de BlueXP .
 +
 [source, http]
 ----
@@ -39,12 +39,11 @@ Body:
               "password": "<user_password>"
 }
 ----
-
-
++
 
 NOTE: Si vous utilisez un compte de messagerie personnel sans ID client, vous pouvez utiliser l’ID client par défaut « QC3AgHk6qdbmC7Yyr82ApBwaaJLwRrNO ».
 
-. Obtenez votre identifiant de compte BlueXp.
+. Obtenez votre identifiant de compte BlueXP.
 +
 [source, http]
 ----
@@ -83,22 +82,14 @@ Body: { "name": "databroker1", "type": "AZURE" }
 ----
 
 
-.Que dois-je faire lorsque le jeton expire ?
-****
-Le jeton utilisateur de NetApp BlueXp a une date d'expiration. Pour actualiser le jeton, vous devez à nouveau appeler l'API à partir de l'étape 1.
+.Et la suite ?
+Le jeton utilisateur de BlueXP  a une date d'expiration. Pour actualiser le jeton, vous devez à nouveau appeler l'API à partir de l'étape 1.
 
 La réponse de l'API inclut un champ " expire_in " qui indique la date d'expiration du jeton.
 
-****
 
 
-== Référence API
-
-Vous trouverez la documentation de chaque copie BlueXP et de chaque API de synchronisation dans https://api.cloudsync.netapp.com/docs[].
-
-
-
-== Utilisation d'API de liste
+== Utilisez des API de liste
 
 Les API de liste sont des API asynchrones. Les résultats ne reviennent donc pas immédiatement (par exemple : `GET /data-brokers/{id}/list-nfs-export-folders` et `GET /data-brokers/{id}/list-s3-buckets`). La seule réponse du serveur est l'état HTTP 202. Pour obtenir le résultat réel, vous devez utiliser le `GET /messages/client` API.
 
@@ -192,3 +183,8 @@ Le résultat est un tableau de messages. Dans chaque message se trouve un objet 
     }
 ]
 ----
+
+
+== Référence API
+
+Vous trouverez la documentation de chaque copie BlueXP et de chaque API de synchronisation dans https://api.cloudsync.netapp.com/docs[].

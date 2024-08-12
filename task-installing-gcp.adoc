@@ -4,7 +4,7 @@ permalink: task-installing-gcp.html
 keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
 summary: 'Lorsque vous créez un nouveau courtier en données, choisissez l"option Google Cloud Data Broker pour déployer le logiciel de courtier en données sur une nouvelle instance de machine virtuelle dans un VPC. La copie et la synchronisation BlueXP vous guident tout au long du processus d"installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l"installation.' 
 ---
-= Création d'un nouveau courtier en données dans Google Cloud
+= Créez un nouveau courtier en données dans Google Cloud
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -101,7 +101,7 @@ Remarques :
 
 
 
-== Création du courtier de données
+== Créez le courtier de données
 
 Il existe plusieurs façons de créer un nouveau courtier de données. Lors de la création d'une relation de synchronisation, procédez comme suit pour installer un courtier de données dans Google Cloud.
 
@@ -143,7 +143,7 @@ Vous avez déployé un courtier en données dans Google Cloud et créé une nouv
 
 
 
-== Fourniture d'autorisations d'utilisation de compartiments dans d'autres projets Google Cloud
+== Fournissez les autorisations d'utilisation des compartiments dans d'autres projets Google Cloud
 
 Lorsque vous créez une relation de synchronisation et que vous choisissez Google Cloud Storage comme source ou cible, la copie et la synchronisation BlueXP vous permettent de choisir parmi les compartiments auxquels le compte de service du courtier de données est autorisé à utiliser. Par défaut, cela inclut les rubriques qui se trouvent dans le _same_ projet comme le compte de service du courtier de données. Mais vous pouvez choisir des compartiments dans _Other_ projets si vous fournissez les autorisations requises.
 

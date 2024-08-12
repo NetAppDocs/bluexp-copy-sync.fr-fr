@@ -4,7 +4,7 @@ permalink: task-installing-aws.html
 keywords: data broker, install, aws, networking, permissions, regions, install data broker in aws, install in aws, deploy in aws, deploy data broker in aws, cft, template, iam role, use your own iam role, regions, supported regions, networking requirements, port, ports, 443, port 443, ntp, network time protocol, permissions, iam role, iam permissions, aws data broker 
 summary: 'Lorsque vous créez un nouveau courtier en données, choisissez l"option AWS Data Broker pour déployer le logiciel de courtier en données sur une nouvelle instance EC2 dans un VPC. La copie et la synchronisation BlueXP vous guident tout au long du processus d"installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l"installation.' 
 ---
-= Création d'un nouveau courtier en données dans AWS
+= Créez un nouveau courtier en données dans AWS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -66,7 +66,7 @@ Suivez les étapes ci-dessous pour spécifier le rôle IAM lors du déploiement 
 
 
 
-== Création du courtier de données
+== Créez le courtier de données
 
 Il existe plusieurs façons de créer un nouveau courtier de données. Décrivez comment installer un courtier de données dans AWS lors de la création d'une relation de synchronisation.
 

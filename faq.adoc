@@ -206,7 +206,7 @@ Vous pouvez planifier une relation pour synchroniser les données aussi souvent 
 
 Un groupe de courtiers de données n'expire pas lorsqu'un seul fichier ne parvient pas à être transféré. Le groupe de courtiers de données tente 3 fois de nouveau avant de sauter le fichier. La valeur de la nouvelle tentative est configurable dans les paramètres d'une relation de synchronisation.
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Découvrez comment modifier les paramètres d'une relation de synchronisation"].
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Découvrez comment modifier les paramètres d'une relation de synchronisation"].
 
 
 
@@ -360,7 +360,7 @@ Plusieurs facteurs peuvent avoir un impact sur les performances de transfert de 
 
 Assurez-vous donc de vérifier les performances de votre réseau et le débit du disque sur la cible.
 
-Vous pouvez alors envisager d'accélérer la synchronisation en ajoutant un courtier de données supplémentaire à un groupe pour partager la charge de cette relation. link:task-managing-relationships.html#accelerating-sync-performance["Découvrez comment accélérer les performances de synchronisation"].
+Vous pouvez alors envisager d'accélérer la synchronisation en ajoutant un courtier de données supplémentaire à un groupe pour partager la charge de cette relation. link:task-managing-relationships.html#accelerate-sync-performance["Découvrez comment accélérer les performances de synchronisation"].
 
 
 
@@ -380,7 +380,7 @@ La suppression d'une relation arrête toutes les synchronisations de données fu
 
 Par défaut, si vous disposez d'une relation de synchronisation active, l'élément supprimé sur le serveur source n'est pas supprimé de la cible lors de la prochaine synchronisation. Toutefois, il existe une option dans les paramètres de synchronisation pour chaque relation. Vous pouvez définir que la copie et la synchronisation BlueXP suppriment les fichiers à l'emplacement cible s'ils ont été supprimés de la source.
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Découvrez comment modifier les paramètres d'une relation de synchronisation"].
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Découvrez comment modifier les paramètres d'une relation de synchronisation"].
 
 
 

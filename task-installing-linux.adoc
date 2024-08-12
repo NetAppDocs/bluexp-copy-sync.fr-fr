@@ -4,7 +4,7 @@ permalink: task-installing-linux.html
 keywords: data broker, install, linux, on-prem data broker, on-prem, on prem, on premises, networking, permissions, os, operating system, rhel, red hat, ram, cpu, disk space, install data broker, installing data broker, install a data broker, data broker installation, linux installation, linux operating system, aws access, aws keys, keys, gcp access, aws permissions, gcp permissions, google permissions 
 summary: 'Lorsque vous créez un nouveau courtier en données, choisissez l"option courtier en données sur site pour installer le logiciel de courtier en données sur un hôte Linux sur site ou sur un hôte Linux existant dans le cloud. La copie et la synchronisation BlueXP vous guident tout au long du processus d"installation, mais les exigences et les étapes sont répétées sur cette page pour vous aider à préparer l"installation.' 
 ---
-= Installation du data broker sur un hôte Linux
+= Installez le courtier de données sur un hôte Linux
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -66,7 +66,7 @@ Le logiciel de courtier de données s'exécute automatiquement en tant que root 
 
 
 
-== Activation de l'accès à AWS
+== Activez l'accès à AWS
 
 Si vous prévoyez d'utiliser le courtier de données avec une relation de synchronisation incluant un compartiment S3, préparez l'hôte Linux pour l'accès AWS. Lorsque vous installez le courtier en données, vous devrez fournir les clés AWS pour un utilisateur AWS qui dispose d'un accès aux programmes et d'autorisations spécifiques.
 
@@ -86,7 +86,7 @@ Assurez-vous de copier les clés AWS car vous devez les spécifier lors de l'ins
 
 
 
-== Activation de l'accès à Google Cloud
+== Activez l'accès à Google Cloud
 
 Si vous prévoyez d'utiliser le courtier de données avec une relation de synchronisation incluant un compartiment Google Cloud Storage, préparez l'hôte Linux pour l'accès Google Cloud. Lorsque vous installez le courtier de données, vous devez fournir une clé pour un compte de service disposant d'autorisations spécifiques.
 
@@ -108,13 +108,13 @@ NOTE: Lorsque vous créez une clé, le fichier est généré et téléchargé su
 
 
 
-== Activation de l'accès à Microsoft Azure
+== Activez l'accès à Microsoft Azure
 
 L'accès à Azure est défini par relation en fournissant un compte de stockage et une chaîne de connexion dans l'assistant de synchronisation.
 
 
 
-== Installation du data broker
+== Installez le courtier de données
 
 Vous pouvez installer un courtier de données sur un hôte Linux lorsque vous créez une relation de synchronisation.
 
@@ -163,7 +163,7 @@ Les étapes suivantes fournissent des détails sur chaque option d'installation 
 `curl <URI> -o data_broker_installer.sh -x <proxy_username>:<proxy_password>@<proxy_host>:<proxy_port>`
 
 +
-URI:: La copie et la synchronisation BlueXP affichent l'URI du fichier d'installation sur la page d'instructions, qui se charge lorsque vous suivez les invites pour déployer le courtier de données sur site. Cet URI ne se répète pas ici car le lien est généré de manière dynamique et ne peut être utilisé qu'une seule fois. <<Installation du data broker,Procédez comme suit pour obtenir l'URI à partir de la copie et de la synchronisation BlueXP>>.
+URI:: La copie et la synchronisation BlueXP affichent l'URI du fichier d'installation sur la page d'instructions, qui se charge lorsque vous suivez les invites pour déployer le courtier de données sur site. Cet URI ne se répète pas ici car le lien est généré de manière dynamique et ne peut être utilisé qu'une seule fois. <<Installez le courtier de données,Procédez comme suit pour obtenir l'URI à partir de la copie et de la synchronisation BlueXP>>.
 
 
 
@@ -193,8 +193,8 @@ chmod +x data_broker_installer.sh
 ./data_broker_installer.sh -a <aws_access_key> -s <aws_secret_key> -g <absolute_path_to_the_json_file> -h <proxy_host> -p <proxy_port> -u <proxy_username> -w <proxy_password>`
 
 +
-Clés AWS:: Il s'agit des clés que vous devriez avoir préparées pour l'utilisateur <<Activation de l'accès à AWS,voici la procédure à suivre>>. Les clés AWS sont stockées sur le courtier en données, qui s'exécute sur votre réseau sur site ou dans le cloud. NetApp n'utilise pas les clés en dehors du courtier en données.
-Fichier JSON:: Il s'agit du fichier JSON qui contient une clé de compte de service que vous devez avoir préparée <<Activation de l'accès à Google Cloud,voici la procédure à suivre>>.
+Clés AWS:: Ce sont les clés pour l'utilisateur que vous devriez avoir préparées <<Activez l'accès à AWS,voici la procédure à suivre>>. Les clés AWS sont stockées sur le courtier en données, qui s'exécute sur votre réseau sur site ou dans le cloud. NetApp n'utilise pas les clés en dehors du courtier en données.
+Fichier JSON:: Il s'agit du fichier JSON qui contient une clé de compte de service que vous devez avoir préparée <<Activez l'accès à Google Cloud,voici la procédure à suivre>>.
 
 
 
