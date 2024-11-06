@@ -1,0 +1,9 @@
+= Correctifs de bogues
+:allow-uri-read: 
+
+
+
+
+=== Correctifs de bogues
+
+Nous avons mis à jour le service de copie et de synchronisation BlueXP ainsi que le courtier en données pour corriger quelques bugs. La nouvelle version du courtier de données est 1.0.55.
