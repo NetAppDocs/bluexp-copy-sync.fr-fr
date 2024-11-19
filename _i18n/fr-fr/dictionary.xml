@@ -502,8 +502,6 @@
   <block id="b4951d06315b1f9ffb6d04ceb4346101" category="list-text">*RAM* : 16 GO</block>
   <block id="53a3e84f8dd7775216fa9eaac8d2ba6d" category="list-text">*CPU* : 4 cœurs</block>
   <block id="1187c6e89712492c48d5d9a1e68f3b42" category="list-text">*Espace disque disponible*: 10 Go</block>
-  <block id="1a3d8802d280d4ec910f54042cd62998" category="inline-link">SELinux</block>
-  <block id="6388693da9b6d4d4012711303b71d780" category="list-text">*SELinux*: Nous vous recommandons de désactiver<block ref="59f91e142e660e7d393df4005d7488a3" category="inline-link-rx"></block> sur l'hôte.</block>
   <block id="3d64791fb8102a78b642b754f758f4b9" category="paragraph">SELinux applique une stratégie qui bloque les mises à jour logicielles des courtiers de données et peut empêcher le courtier de données de contacter les terminaux requis pour un fonctionnement normal.</block>
   <block id="a43f5cf69d6af0c6e17bed7ff726625e" category="list-text">L'hôte Linux doit être connecté à la source et à la cible.</block>
   <block id="e7b55bccb60334ca631527b050553022" category="list-text">Le serveur de fichiers doit autoriser l'hôte Linux à accéder aux exportations.</block>
@@ -1236,7 +1234,6 @@
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="sidebar">Licences</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">FAQ</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Connaissances et support</block>
-  <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">\https://console.bluexp.netapp.com/ \https://netapp-cloud-account.auth0.com</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si vous avez un compte partenaire ou revendeur, vous pouvez ajouter un ou plusieurs comptes NSS, mais ils ne peuvent pas être ajoutés en même temps que les comptes au niveau du client.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Recherchez le numéro de série de l'ID de compte sur la page d'inscription au support.</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copiez le numéro de série de votre compte à l'étape 2 ci-dessus, vérifiez sa sécurité, puis lisez la Déclaration de confidentialité des données NetApp.</block>
@@ -1943,4 +1940,6 @@
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">L'association des informations d'identification NSS à votre organisation BlueXP  est différente du compte NSS associé à une connexion utilisateur BlueXP .</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Ces informations d'identification NSS sont associées à votre identifiant d'organisation BlueXP  spécifique. Les utilisateurs qui appartiennent à l'organisation BlueXP  peuvent accéder à ces informations d'identification à partir de *support &gt; gestion NSS*.</block>
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="doc">Correctifs de bogues</block>
+  <block id="60b6724cc91011c88aedcdfe5a1554f0" category="cell">\https://api.BlueXP .NetApp.com \https://NetApp-cloud-account.auth0.com</block>
+  <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">*SELinux*: Nous vous recommandons de désactiver SELinux sur l'hôte.</block>
 </blocks>

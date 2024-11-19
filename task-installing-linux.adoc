@@ -42,7 +42,7 @@ Un système Red Hat Enterprise Linux doit être enregistré avec Red Hat Subscri
 * *RAM* : 16 GO
 * *CPU* : 4 cœurs
 * *Espace disque disponible*: 10 Go
-* *SELinux*: Nous vous recommandons de désactiver https://selinuxproject.org/["SELinux"^] sur l'hôte.
+* *SELinux*: Nous vous recommandons de désactiver SELinux sur l'hôte.
 +
 SELinux applique une stratégie qui bloque les mises à jour logicielles des courtiers de données et peut empêcher le courtier de données de contacter les terminaux requis pour un fonctionnement normal.
 
