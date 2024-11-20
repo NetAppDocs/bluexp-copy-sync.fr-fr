@@ -1942,4 +1942,6 @@
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="doc">Correctifs de bogues</block>
   <block id="60b6724cc91011c88aedcdfe5a1554f0" category="cell">\https://api.BlueXP .NetApp.com \https://NetApp-cloud-account.auth0.com</block>
   <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">*SELinux*: Nous vous recommandons de désactiver SELinux sur l'hôte.</block>
+  <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">Nous avons mis à jour le service de copie et de synchronisation BlueXP ainsi que le courtier en données pour corriger quelques bugs. La nouvelle version du courtier de données est 1.0.56.</block>
+  <block id="b6eaf938209a57174cf0c8478fbb177d" category="section-title">27 octobre 2024</block>
 </blocks>

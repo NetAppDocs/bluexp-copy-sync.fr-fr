@@ -18,6 +18,16 @@ Découvrez les nouveautés de la copie et de la synchronisation BlueXP.
 
 
 
+== 27 octobre 2024
+
+
+
+=== Correctifs de bogues
+
+Nous avons mis à jour le service de copie et de synchronisation BlueXP ainsi que le courtier en données pour corriger quelques bugs. La nouvelle version du courtier de données est 1.0.56.
+
+
+
 == 16 septembre 2024
 
 
