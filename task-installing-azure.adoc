@@ -155,6 +155,7 @@ Pour obtenir de l'aide sur la création d'une paire de clés, reportez-vous à l
 Il existe plusieurs façons de créer un nouveau courtier de données. Lors de la création d'une relation de synchronisation, procédez comme suit pour installer un courtier de données dans Azure.
 
 .Étapes
+. Dans le menu de navigation BlueXP , sélectionnez *mobilité > Copier et synchroniser*.
 . Sélectionnez *Créer une nouvelle synchronisation*.
 . Sur la page *Define Sync Relationship*, choisissez une source et une cible, puis sélectionnez *continue*.
 +

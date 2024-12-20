@@ -119,6 +119,7 @@ L'accès à Azure est défini par relation en fournissant un compte de stockage 
 Vous pouvez installer un courtier de données sur un hôte Linux lorsque vous créez une relation de synchronisation.
 
 .Étapes
+. Dans le menu de navigation BlueXP , sélectionnez *mobilité > Copier et synchroniser*.
 . Sélectionnez *Créer une nouvelle synchronisation*.
 . Sur la page *Define Sync Relationship*, choisissez une source et une cible, puis sélectionnez *continue*.
 +

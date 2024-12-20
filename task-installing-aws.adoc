@@ -71,6 +71,7 @@ Suivez les étapes ci-dessous pour spécifier le rôle IAM lors du déploiement 
 Il existe plusieurs façons de créer un nouveau courtier de données. Décrivez comment installer un courtier de données dans AWS lors de la création d'une relation de synchronisation.
 
 .Étapes
+. Dans le menu de navigation BlueXP , sélectionnez *mobilité > Copier et synchroniser*.
 . Sélectionnez *Créer une nouvelle synchronisation*.
 . Sur la page *Define Sync Relationship*, choisissez une source et une cible, puis sélectionnez *continue*.
 +
@@ -92,7 +93,8 @@ Si vous préférez ne pas fournir de clés d'accès, sélectionnez le lien en ba
 [[cft]]la vidéo suivante montre comment lancer l'instance de courtier de données à l'aide d'un modèle CloudFormation :
 
 +
-video::video_cloud_sync.mp4[width=848,height=480]
+.Lancez un courtier en données à partir d'un modèle AWS CloudFormation
+video::abaf0898-ea15-4f84-938e-b24c010b21e8[panopto]
 . Si vous avez saisi une clé d'accès AWS, sélectionnez un emplacement pour l'instance, sélectionnez une paire de clés, activez ou non une adresse IP publique, puis sélectionnez un rôle IAM existant ou laissez le champ vide pour que la copie et la synchronisation BlueXP crée le rôle pour vous. Vous avez également la possibilité de chiffrer votre courtier de données à l'aide d'une clé KMS.
 +
 Si vous choisissez votre propre rôle IAM, <<iam,vous devrez fournir les autorisations requises>>.

@@ -634,7 +634,6 @@
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>.</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS vous permet de payer à votre gré ou de payer chaque année.</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">Les étapes à payer en tant que vous-même</block>
-  <block id="af3298973678fbb2b80974a8030f07ac" category="list-text">Sélectionnez *AWS*</block>
   <block id="03909f0465e674709c33e446a2657166" category="paragraph">La vidéo suivante montre le processus :</block>
   <block id="d95d2545b9702aaa44811f90fd798b70" category="list-title">Étapes à payer annuellement</block>
   <block id="b857da0ad28712a25e73c0907a2b3740" category="inline-link">Accédez à la page AWS Marketplace</block>
@@ -1721,14 +1720,12 @@
   <block id="f8149e5272474293b308b5387c6e0eab" category="list-text">Si vous y êtes invité, connectez-vous à votre compte Microsoft. Si vous n'êtes pas invité, sélectionnez *se connecter à Azure*.</block>
   <block id="62aca030fc0ae0886728293f4df155b2" category="list-text">Sélectionnez *Continuer* et gardez la page ouverte jusqu'à ce que le déploiement soit terminé.</block>
   <block id="ad16396812bea804a1980d079b968f53" category="list-text">Dans le cadre de la copie et de la synchronisation BlueXP, sélectionnez *Continuer* une fois le courtier de données disponible.</block>
-  <block id="b9c67bb0bae9993217d3413e493a9d52" category="list-text">Sélectionnez *Sync &gt; licences*.</block>
   <block id="a5fb6f9fbd972c02e5329e1ff986d9d5" category="list-text">Sélectionnez *s'abonner*, puis *Continuer*.</block>
   <block id="9afef6b2e6bfae3c1516f6a5615e147a" category="list-text">Sélectionnez *Continuer pour s'inscrire*.</block>
   <block id="7d5dc2ab8bafad8f8a587f44b30dc6f0" category="list-text">Sélectionnez vos options de contrat, puis sélectionnez *Créer un contrat*.</block>
   <block id="8bf624ad0ff2e9fd580f8cf2ccbfb01b" category="list-text">Dans le portail Azure, sélectionnez *Créer*, sélectionnez vos options, puis *s'abonner*.</block>
   <block id="50663aa7afb45a9a800941c0bc89dcf1" category="list-text">Une fois le déploiement terminé, sélectionnez le nom de la ressource SaaS dans la fenêtre contextuelle de notification.</block>
   <block id="610e8ce14d61f13ee15be5f296487890" category="list-text">Sélectionnez *configurer le compte* pour revenir à la copie et à la synchronisation BlueXP.</block>
-  <block id="8a16f41efcb781e6645783df6cb0e97b" category="list-text">Dans BlueXP, sélectionnez *Sync &gt; licences*.</block>
   <block id="0be0367eff89e989e3751d45bd6caf93" category="list-text">Sélectionnez *Ajouter une licence* et ajoutez les informations requises :</block>
   <block id="46d344ee2c7e916b914b2b031a79a880" category="list-text">Si votre compte n'a pas encore été ajouté, sélectionnez *Ajouter les informations d'identification NSS*, entrez le nom d'utilisateur et le mot de passe, sélectionnez *s'inscrire*, puis sélectionnez-le dans la liste déroulante.</block>
   <block id="6a44822bf57bcae55604cb610b227f67" category="paragraph">Sélectionnez *Filtrer les objets source* pour modifier les paramètres qui définissent la façon dont les fichiers et dossiers source sont synchronisés et gérés à l'emplacement cible.</block>
@@ -1944,4 +1941,11 @@
   <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">*SELinux*: Nous vous recommandons de désactiver SELinux sur l'hôte.</block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">Nous avons mis à jour le service de copie et de synchronisation BlueXP ainsi que le courtier en données pour corriger quelques bugs. La nouvelle version du courtier de données est 1.0.56.</block>
   <block id="b6eaf938209a57174cf0c8478fbb177d" category="section-title">27 octobre 2024</block>
+  <block id="4fa4cb31b90bbe492aedd2e14cab7850" category="video-title">Exclure les extensions de fichier pour une relation de synchronisation</block>
+  <block id="befcd22ee9f31ea0976355003e77715b" category="list-text">Dans le menu de navigation BlueXP , sélectionnez *mobilité &gt; Copier et synchroniser*.</block>
+  <block id="f8b6a77f9bfe4363519793574823fcdf" category="video-title">Lancez un courtier en données à partir d'un modèle AWS CloudFormation</block>
+  <block id="fdd0629e14af63efd824f165e5349337" category="list-text">Sélectionnez *Licence*.</block>
+  <block id="734a65eeb41483b7a636c9cf13e4aad7" category="list-text">Sélectionnez *AWS*.</block>
+  <block id="045842584f2fd61a80d6c55f49bd1f4f" category="video-title">Abonnez-vous à la copie et à la synchronisation BlueXP  depuis AWS Marketplace</block>
+  <block id="09cf0bd8febab038e59733b8d4ac6505" category="video-title">Abonnez-vous à la copie et à la synchronisation BlueXP  depuis Azure Marketplace</block>
 </blocks>
