@@ -58,7 +58,7 @@ Les licences de copie et de synchronisation BlueXP sont également disponibles a
 link:concept-licensing.html["En savoir plus sur les licences"].
 
 
-NOTE: Les relations de copie et de synchronisation BlueXP sont gratuites pour Cloud Volumes Service et Azure NetApp Files.
+NOTE: Les relations de copie et de synchronisation BlueXP  sont gratuites pour Azure NetApp Files.
 
 *Frais de ressources*
 
@@ -341,14 +341,6 @@ Lorsque vous synchronisez les données depuis ou vers Azure NetApp Files, vous r
 Définissez le niveau de service sur Premium ou Ultra pour améliorer les performances de synchronisation.
 
 https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels#throughput-limits["En savoir plus sur le débit et les niveaux de service de Azure NetApp Files"^].
-
-
-
-=== Pourquoi est-ce que j'ai de faibles performances avec Cloud Volumes Service pour AWS ?
-
-Lorsque vous synchronisez des données vers ou à partir d'un volume cloud, vous risquez de rencontrer des problèmes de performances et de panne si le niveau de performance du volume cloud est Standard.
-
-Définissez le niveau de service sur Premium ou Extreme pour améliorer les performances de synchronisation.
 
 
 

@@ -52,7 +52,6 @@ La copie et la synchronisation BlueXP prennent en charge les types de stockage s
 * Azure Data Lake Storage Gen2
 * Azure NetApp Files
 * (Disponible en tant qu'aperçu)
-* Cloud Volumes Service
 * Cloud Volumes ONTAP
 * Google Cloud Storage
 * Google Drive
