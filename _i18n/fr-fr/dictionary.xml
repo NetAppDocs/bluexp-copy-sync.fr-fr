@@ -1276,7 +1276,6 @@
   <block id="69e30db11dbff8b5efd6091166af232f" category="paragraph">Le système d'exploitation des courtiers de données d'Azure et de Google Cloud a été mis à niveau vers Rocky Linux 9.0.</block>
   <block id="1c01c907ca0a713df58ba8f4b21fd39c" category="inline-link">En savoir plus sur l'instance de courtier de données dans Azure</block>
   <block id="648e059d69339d82d82738abf0bd4016" category="inline-link">En savoir plus sur l'instance de courtier en données dans Google Cloud</block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service pour Google Cloud</block>
   <block id="55157331e0485d25f0d603400a66335e" category="section-title">5 février 2023</block>
   <block id="761cba7c96f916f975634bfd465401cb" category="section-title">Prise en charge supplémentaire d'Azure Data Lake Storage Gen2, ONTAP S3 Storage et NFS</block>
   <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">Cloud Sync prend désormais en charge des relations de synchronisation supplémentaires pour le stockage ONTAP S3 et NFS :</block>
@@ -1548,7 +1547,6 @@
   <block id="106c2bd3e07db354c45924d6acfb06d3" category="sidebar">Utilisez la copie et la synchronisation BlueXP</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Il s'agit d'un ID généré par le système qui correspond à votre courrier électronique. Sur la page *NSS Management*, vous pouvez afficher votre courriel à partir du <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *mettre à jour les informations d'identification* dans le <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
@@ -1947,4 +1945,6 @@
   <block id="62c1014736e4269f295e55cd59d3a0ec" category="list-text">Ubuntu Server 20.04 LTS, 23.04 LTS et 24.04 LTS</block>
   <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2 février 2025</block>
   <block id="3de4ee14f1b1d0abe0ecac5872f26c6c" category="admonition">Les relations de copie et de synchronisation BlueXP  sont gratuites pour Azure NetApp Files.</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
 </blocks>
