@@ -212,7 +212,7 @@ link:task-managing-relationships.html#change-the-settings-for-a-sync-relationshi
 
 === Que se passe-t-il si j'ai un très grand jeu de données ?
 
-Si un seul répertoire contient 600,000 fichiers ou plus, mailto:ng-cloudsync-support@netapp.com[contactez-nous] pour que nous puissions vous aider à configurer le groupe de courtiers de données pour gérer la charge utile. Il nous faudra peut-être ajouter de la mémoire au groupe de courtiers de données.
+Si un seul répertoire contient 600 000 fichiers ou plus,link:task-get-help.html["Contactez-nous"] afin que nous puissions vous aider à configurer le groupe de courtiers de données pour gérer la charge utile.  Nous devrons peut-être ajouter de la mémoire supplémentaire au groupe de courtiers de données.
 
 Notez que le nombre total de fichiers dans le point de montage n'est pas limité. La mémoire supplémentaire est requise pour les grands répertoires contenant 600,000 fichiers ou plus, quel que soit leur niveau dans la hiérarchie (répertoire supérieur ou sous-répertoire).
 
