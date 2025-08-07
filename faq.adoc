@@ -330,7 +330,7 @@ La relation de synchronisation indique le débit de la carte réseau du groupe d
 
 Si vous avez des fichiers très volumineux (plusieurs Tbs chacun), le processus de transfert peut prendre beaucoup de temps et les performances peuvent être affectées.
 
-Limiter le nombre de transferts simultanés peut vous aider. Mailto:ng-cloudsync-support@netapp.com[Contactez-nous pour obtenir de l'aide].
+Limiter le nombre de transferts simultanés peut être utile. link:task-get-help.html["Contactez-nous pour obtenir de l'aide"] .
 
 
 

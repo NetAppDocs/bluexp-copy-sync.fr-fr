@@ -229,7 +229,6 @@
   <block id="678b59fd02ed47602217c203bce0f237" category="section-title">Que représente l'indicateur de progression d'une relation de synchronisation ?</block>
   <block id="b41bc6e5da0a5cad4d5bfa701428c3e0" category="paragraph">La relation de synchronisation indique le débit de la carte réseau du groupe de courtiers de données. Si vous accélérez les performances de synchronisation en utilisant plusieurs courtiers de données, le débit est la somme de tout le trafic. Ce débit est actualisé toutes les 20 secondes.</block>
   <block id="8d15ff4ba9a03adef433f8aaa3d53c02" category="paragraph">Si vous avez des fichiers très volumineux (plusieurs Tbs chacun), le processus de transfert peut prendre beaucoup de temps et les performances peuvent être affectées.</block>
-  <block id="753322bfc209704e3ab17c5cfe5d42d0" category="paragraph">Limiter le nombre de transferts simultanés peut vous aider. Mailto:ng-cloudsync-support@netapp.com[Contactez-nous pour obtenir de l'aide].</block>
   <block id="161df7898613d68dd3106bed369ab957" category="section-title">Pourquoi les performances avec Azure NetApp Files sont-elles faibles ?</block>
   <block id="a92bf49aada81ee55543aa6bf897787c" category="paragraph">Lorsque vous synchronisez les données depuis ou vers Azure NetApp Files, vous risquez de subir des défaillances et des problèmes de performances si le niveau de service des disques est Standard.</block>
   <block id="9812e4bcf0263cfa80fdd8c8a789a255" category="paragraph">Définissez le niveau de service sur Premium ou Ultra pour améliorer les performances de synchronisation.</block>
@@ -1948,4 +1947,6 @@
   <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp propose une assistance pour BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24h/24 et 7j/7, telles que des articles de la base de connaissances et un forum communautaire. Votre inscription au support inclut une assistance technique à distance via un ticket web.</block>
   <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">Une capture d'écran qui montre un numéro de série de compte, une case à cocher verte et le texte Enregistré pour l'assistance.</block>
   <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="656b89ee78bf0f5d86e1d47b787e9a60" category="inline-link-macro">Contactez-nous pour obtenir de l'aide</block>
+  <block id="bd67e4b9339ac4760a6a5f6fd860226c" category="paragraph">Limiter le nombre de transferts simultanés peut être utile. <block ref="f54ed00dadfde0b599d50812b2f35c51" category="inline-link-macro-rx"></block> .</block>
 </blocks>
